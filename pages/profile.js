@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Header from '../components//header/Header'
+import Feed from '../components/Feed'
 import Footer from '../components/Footer'
-import Herohome from '../components/Herohome'
+import Sidebar from '../components/Sidebar'
 
-export default function Home() {
+export default function Profile() {
   return (
     <div>
       
@@ -14,8 +15,12 @@ export default function Home() {
       </Head>
       <Header /> 
       
-      <main className="">
-        <Herohome /> 
+      <main className="flex flex-row m-0">
+        <Sidebar />
+        
+        <Feed />
+        
+        {/* Widgets */}
 
       </main>
       <footer>
