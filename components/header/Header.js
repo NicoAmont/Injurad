@@ -1,4 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
+
+
 function Header() {
     return (
         <nav className="flex fixed top-0 left-0 items-center justify-between w-screen bg-bl h-50shadow-lg z-50 ">
@@ -29,10 +32,13 @@ function Header() {
                     {/* Center */}
                     <div className="flex justify-center flex-grow font-heads font-light ">
                         <div className="flex space-x-3 lg:space-x-10 cursor-pointer lg:px-10 uppercase text-white transition-colors ">
-                            <a className="hover:text-bd transition-colors delay-150 hover:font-normal" href="/">inicio</a>
-                            <a className="hover:text-bd transition-colors delay-150 hover:font-normal" href="/profile">perfil</a>
-                            <a className="hover:text-bd transition-colors delay-150 hover:font-normal" href="#">red</a>
-                            <a className="hover:text-bd transition-colors delay-150 hover:font-normal" href="#">soporte</a>
+                            <Link  href="/"><a className="hover:text-bd transition-colors delay-150 hover:font-normal">inicio</a></Link>
+                            <Link href="/profile"><a className="hover:text-bd transition-colors delay-150 hover:font-normal" >perfil</a></Link>
+                            <Link href="#"><a className="hover:text-bd transition-colors delay-150 hover:font-normal" >red</a></Link>
+                            <Link href="#"><a className="hover:text-bd transition-colors delay-150 hover:font-normal" >soporte</a></Link>
+                            
+                            
+                            
                         </div>
                     </div>
                     
