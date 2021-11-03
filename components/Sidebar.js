@@ -8,7 +8,7 @@ export default function Sidebar() {
 
             {/* PHOTO & DESCRIPTION */}
             <div className="h-20 md:h-40 grid grid-cols-1 md:grid-cols-2 text-xs items-center text-center justify-center">
-                <div className="absolute w-8 h-8 left-6 animate-ping rounded-full md:ml-10 border-2 border-bd bg-rb items-center justify-center  ">    
+                <div className="absolute w-8 h-8 md:w-28 md:h-28 left-6 animate-ping transition-all rounded-full duration-1000 md:ml-10 border-2 border-bd bg-rb items-center justify-center  ">    
                 </div>
 
                 <div className="flex w-12 h-12 md:w-28 md:h-28 rounded-full ml-2 md:ml-10 border-2 border-bl bg-bl items-center justify-center z-10">

@@ -2,7 +2,7 @@ export default function Herohome() {
     return (
         <div className="w-screen h-screen flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-x-hidden">
 
-            <svg className="absolute top-5" width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="absolute top-5 mt-40" width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M648.752 350.865C343.491 311.51 95.6904 480.464 0 453.486L6.39515 828H2050V46.1763C1994.81 18.4933 1855.02 -25.6584 1737.35 19.1986C1590.26 75.2698 1583.86 124.464 1433.22 258.824C1282.58 393.183 1030.33 400.06 648.752 350.865Z" fill="url(#paint0_linear_4:674)"/>
                 <defs>
                 <linearGradient id="paint0_linear_4:674" x1="1025" y1="0" x2="1025" y2="828" gradientUnits="userSpaceOnUse">
@@ -11,14 +11,16 @@ export default function Herohome() {
                 </linearGradient>
                 </defs>
             </svg>
+            <div className="bg-bl w-screen h-32">
 
+            </div>
             <div className="mt-36 max-w-7xl px-3 md:mx-auto ">
                 
 
                 <h1 className="text-6xl md:text-7xl">Encuentra</h1>
                 <div className="flex items-center text-xl md:text-5xl">
                 <div className="invisible md:visible ">
-                    <svg className="absolute right-40 top-32" width="203" height="71" viewBox="0 0 203 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="absolute right-40 top-72" width="203" height="71" viewBox="0 0 203 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <ellipse cx="43" cy="37" rx="41" ry="8" fill="white"/>
                         <ellipse cx="60" cy="29" rx="25" ry="8" fill="white"/>
                         <ellipse cx="113" cy="34" rx="25" ry="8" fill="white"/>
@@ -59,7 +61,7 @@ export default function Herohome() {
                     </svg>
                         
                         
-                    <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-32"></div>
+                    <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-64"></div>
                 </div>
                     <h2 className="mr-2">tu casa ideal</h2>
                     <svg className="mr-2" width="41" height="59" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,14 +91,11 @@ export default function Herohome() {
                 
             </div>
             <div className="flex flex-col items-center justify-center">
-                    <h1 className=" ml-4 mt-40 mb-7 text-bd">Únete a esta gran comunidad , has parte de BUSKAMOS.</h1>
+                    <h1 className=" ml-4 mt-28 mb-10 text-bd">Únete a esta gran comunidad , has parte de BUSKAMOS.</h1>
                     <button className="bg-rb rounded-full px-8 py-2 shadow-lg uppercase mb-7">registrate</button>
             </div>
             
-            <div className="flex justify-center">
-                <div className="w-96 h-96 bg-bd"></div>
-                <div className="w-96 h-96 bg-bd"></div>
-            </div>
+           
 
 
         </div>
