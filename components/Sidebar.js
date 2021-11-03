@@ -17,7 +17,7 @@ export default function Sidebar() {
                 
                 <div className="hidden md:block">
                     <h1 className="text-lg">Sandra Conor</h1>
-                    <h2 className="font-light">'Compradora'</h2>
+                    <h2 className="font-light italic">Compradora</h2>
                     <p className="font-extralight">Añade <span className="underline">suscripción</span> para descripción detallada </p>
                 </div>    
             </div>
