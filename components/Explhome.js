@@ -1,23 +1,57 @@
+import { motion } from "framer-motion"
+import {useInView} from 'react-intersection-observer'
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
+
+
 export default function Explhome() {
+
+    const {ref, inView} = useInView({
+        threshold: 0.5
+    });
+    const animation = useAnimation();
+
+    useEffect(() =>{
+        console.log("use effect hook, inView = ", inView);
+
+            if(inView){
+                animation.start({
+                    display:"visible",
+                    scale:1 , 
+                    opacity: 1,
+                    transition: {
+                        type: 'spring', duration:2, bounce: 0.3, 
+                    }
+                });
+            }
+                if(!inView){
+                    animation.start({
+                        display:"hidden",
+                        scale: 0.4,
+                        opacity: 0
+                    })
+                }
+    }, [inView]);
+
     return (
-        <div className="bg-bgr">
+        <div className="bg-bgr ">
             
             <div className="max-w-6xl mx-auto px-6 pt-10 xl:pt-20">
                 <h1 className="text-bl text-lg font-medium">BUSKAMOS</h1>
                 <h2 className="font-normal text-sm">The community for home sellers and buyers</h2>
                 <div className="grid sm:grid-cols-2 gap-20 mt-10">
-                    <p className="font-normal mb-4"> <span className="text-3xl text-bl font-semibold">Compradores que buscan seriamente pronto descubren las deficiencias de los portales </span> <br /> <br /><br /> Anuncios duplicados, viviendas que ya se han vendido, información incorrecta, etc. Y la ubicación? Casi nunca se sabe, a pesar de qué es tan importante. Y lo que casi nadie sabe es que en los portales solo se encuentra una parte de la oferta. Siendo así no debe ser el comprador lo que tiene que buscar.</p>
-                    <p className="mb-4"><span className="text-3xl text-bl font-semibold">Los vendedores conocen su propiedad mejor que nadie</span> <br /><br /><br />
+                    <p className="font-normal mb-4 text-justify"> <span className="text-3xl text-bl font-semibold">Compradores que buscan seriamente pronto descubren las deficiencias de los portales </span> <br /> <br /><br /> Anuncios duplicados, viviendas que ya se han vendido, información incorrecta, etc. Y la ubicación? Casi nunca se sabe, a pesar de qué es tan importante. Y lo que casi nadie sabe es que en los portales solo se encuentra una parte de la oferta. Siendo así no debe ser el comprador lo que tiene que buscar.</p>
+                    <p className="mb-4 text-justify"><span className="text-3xl text-bl font-semibold">Los vendedores conocen su propiedad mejor que nadie</span> <br /><br /><br />
                     Hacerlo al revés es mucho más lógico y eficiente. Sí ellos conocieran los deseos y demandas de los compradores vender y comprar sería más fácil. Y esto es justamente lo que hace la aplicación inteligente de BUSKAMOS; la comunidad que conecta compradores y vendedores de propiedades.
                         Solo tienes que registrarte y te llegaran las coincidencias que encuentra el sistema. <span className="text-bl font-semibold">El resto lo haces  tú.</span> </p>
                 </div>
             </div>
             
-            <div className="max-w-5xl mx-auto mt-20 px-6">
-                <h1 className="text-bd font-semibold text-3xl mb-20">Encontrar un vendedor es fácil </h1>
-                <div className="grid sm:grid-cols-3 place-center gap-10 max-w-5xl mx-auto">
-                    <div className="flex flex-col items-center ">
-                        <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div  className="max-w-5xl mx-auto mt-20 px-6 h-full">
+                <h1   className="text-bd font-semibold text-3xl mb-20">Encontrar un vendedor es fácil </h1>
+                <div ref={ref} animate={animation} className="grid sm:grid-cols-3 place-center gap-10 max-w-5xl mx-auto">
+                    <div  className="flex flex-col items-center ">
+                        <svg className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                             <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                             <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -38,7 +72,7 @@ export default function Explhome() {
                     </div>
 
                     <div className="flex flex-col items-center">
-                    <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                         <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                         <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -115,7 +149,7 @@ export default function Explhome() {
                     </div>
 
                     <div className="flex flex-col items-center">
-                        <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                             <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                             <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -199,8 +233,8 @@ export default function Explhome() {
                     </div>
 
                 </div>
-                <div className="w-screen flex  place-content-center h-full">
-                <button className="bg-bd text-white mt-20 rounded-lg px-8 py-2 shadow-lg uppercase mb-7  hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
+                <div className="w-full flex  place-content-center h-full">
+                <button className="w-32 font-semibold bg-bd text-white mt-20 rounded-lg px-8 py-2 shadow-lg uppercase mb-7  hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
 
                 </div>
             </div>
@@ -210,7 +244,7 @@ export default function Explhome() {
 
                 <div className="grid sm:grid-cols-3 place-center gap-10 max-w-5xl mx-auto">
                     <div className="flex flex-col items-center ">
-                        <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg animate={animation} className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                             <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                             <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -295,7 +329,7 @@ export default function Explhome() {
                     </div>
 
                     <div className="flex flex-col items-center">
-                    <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg animate={animation} className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                         <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                         <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -390,7 +424,7 @@ export default function Explhome() {
                     </div>
  
                     <div className="flex flex-col items-center">
-                    <svg className="w-60" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg animate={animation} className="w-60 hover:animate-jello" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                         <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                         <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -429,10 +463,14 @@ export default function Explhome() {
                     </div>
 
                 </div>
-                <div className="w-screen flex  place-content-center h-full">
-                <button className="bg-bd text-white rounded-lg px-8 py-2 shadow-lg uppercase mb-7 mt-20 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
-
+                <div className="w-full flex relative z-20  place-content-center h-7 ">
+                <button className=" font-semibold w-32 bg-bgr sm:bg-bd h-7 text-bd sm:text-white rounded-lg px-8 py-2 shadow-lg uppercase mb-7 mt-20 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
                 </div>
+            </div>
+            <div className="h-full">
+            <svg className="w-full  left-0 sm:bottom-0 bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1E1F6F" fillOpacity="1" d="M0,256L120,250.7C240,245,480,235,720,197.3C960,160,1200,96,1320,64L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+            </svg>    
             </div>
         </div>
     )

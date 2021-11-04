@@ -1,3 +1,4 @@
+import 'animate.css';
 import styles from "../styles/Post.module.css"
 
 export default function Post() {
@@ -9,7 +10,7 @@ export default function Post() {
 
             <div className={styles.post_container}>
                 
-                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer">
+                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer animate__animated animate__bounceIn">
                         {/* Image container */}
                         <div className={styles.post_image}>
                             <img className={styles.post_image} src="/image 17.png" alt="" />
@@ -37,7 +38,7 @@ export default function Post() {
                         </div>
                     </div>
 
-                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer">
+                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer animate__animated animate__bounceIn">
                         {/* Image container */}
                         <div className={styles.post_image}>
                             <img className={styles.post_image} src="/image 20.png" alt="" />
@@ -65,7 +66,7 @@ export default function Post() {
                         </div>
                     </div>
                 
-                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer">
+                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer animate__animated animate__bounceIn">
                         {/* Image container */}
                         <div className={styles.post_image}>
                             <img className={styles.post_image} src="/image 22.png" alt="" />
@@ -93,7 +94,7 @@ export default function Post() {
                         </div>
                     </div>
 
-                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer">
+                    <div className="block w-60 h-56 md:w-72 md:h-64 mr-4 relative hover:scale-105 transition-all duration-150 cursor-pointer animate__animated animate__bounceIn">
                         {/* Image container */}
                         <div className={styles.post_image}>
                             <img className={styles.post_image} src="/image 28.png" alt="" />

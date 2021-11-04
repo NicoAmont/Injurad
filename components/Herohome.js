@@ -1,4 +1,8 @@
+import 'animate.css';
+import {motion} from 'framer-motion'
+
 export default function Herohome() {
+   
     return (
         <div className="w-screen h-full flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-hidden">
 
@@ -14,57 +18,58 @@ export default function Herohome() {
             <div className="bg-bl w-screen h-32">
 
             </div>
-            <div className="mt-36 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start">
+            <div className="mt-36 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start ">
                 
 
-                <h1 className="text-6xl md:text-7xl">Encuentra</h1>
-                <div className="flex items-center text-xl md:text-5xl">
-                <div className="invisible md:visible ">
-                    <svg className="absolute right-40 top-72" width="203" height="71" viewBox="0 0 203 71" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="43" cy="37" rx="41" ry="8" fill="white"/>
-                        <ellipse cx="60" cy="29" rx="25" ry="8" fill="white"/>
-                        <ellipse cx="113" cy="34" rx="25" ry="8" fill="white"/>
-                        <ellipse cx="109" cy="37" rx="41" ry="8" fill="white"/>
-                        <ellipse cx="134" cy="45" rx="41" ry="8" fill="white"/>
-                        <ellipse cx="97" cy="38" rx="41" ry="8" fill="white"/>
-                        <ellipse cx="12.8125" cy="5" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="22.5" cy="7.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="18.125" cy="2.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="34.6875" cy="4.0625" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="33.4375" cy="5" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="25.7812" cy="4.0625" rx="12.9688" ry="2.5" fill="white"/>
-                        <ellipse cx="41.25" cy="7.5" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="160.812" cy="66" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="170.5" cy="68.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="166.125" cy="63.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="182.688" cy="65.0625" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="181.438" cy="66" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="173.781" cy="65.0625" rx="12.9688" ry="2.5" fill="white"/>
-                        <ellipse cx="189.25" cy="68.5" rx="12.8125" ry="2.5" fill="white"/>
-                    </svg>
+                <h1 className="text-6xl md:text-7xl animate__animated animate__fadeInLeft ">Encuentra</h1>
+                <div className="flex items-center text-2xl md:text-5xl">
+                    <div className="invisible md:visible ">
+                        <svg className="absolute right-40 top-72 animate__animated animate__fadeInRight" width="203" height="71" viewBox="0 0 203 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="43" cy="37" rx="41" ry="8" fill="white"/>
+                            <ellipse cx="60" cy="29" rx="25" ry="8" fill="white"/>
+                            <ellipse cx="113" cy="34" rx="25" ry="8" fill="white"/>
+                            <ellipse cx="109" cy="37" rx="41" ry="8" fill="white"/>
+                            <ellipse cx="134" cy="45" rx="41" ry="8" fill="white"/>
+                            <ellipse cx="97" cy="38" rx="41" ry="8" fill="white"/>
+                            <ellipse cx="12.8125" cy="5" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="22.5" cy="7.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="18.125" cy="2.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="34.6875" cy="4.0625" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="33.4375" cy="5" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="25.7812" cy="4.0625" rx="12.9688" ry="2.5" fill="white"/>
+                            <ellipse cx="41.25" cy="7.5" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="160.812" cy="66" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="170.5" cy="68.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="166.125" cy="63.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="182.688" cy="65.0625" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="181.438" cy="66" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="173.781" cy="65.0625" rx="12.9688" ry="2.5" fill="white"/>
+                            <ellipse cx="189.25" cy="68.5" rx="12.8125" ry="2.5" fill="white"/>
+                        </svg>
+                    
+                        <svg className="absolute left-2/4 bottom-400 animate__animated animate__fadeInRight" width="258" height="45" viewBox="0 0 258 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="52.5" cy="20" rx="52.5" ry="10" fill="white"/>
+                            <ellipse cx="92" cy="30" rx="32" ry="10" fill="white"/>
+                            <ellipse cx="74" cy="10" rx="32" ry="10" fill="white"/>
+                            <ellipse cx="142" cy="16" rx="32" ry="10" fill="white"/>
+                            <ellipse cx="136.5" cy="20" rx="52.5" ry="10" fill="white"/>
+                            <ellipse cx="105.5" cy="16" rx="52.5" ry="10" fill="white"/>
+                            <ellipse cx="168.5" cy="30" rx="52.5" ry="10" fill="white"/>
+                            <ellipse cx="215.812" cy="40" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="225.5" cy="42.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="221.125" cy="37.5" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="237.688" cy="39.0625" rx="7.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="236.438" cy="40" rx="12.8125" ry="2.5" fill="white"/>
+                            <ellipse cx="228.781" cy="39.0625" rx="12.9688" ry="2.5" fill="white"/>
+                            <ellipse cx="244.25" cy="42.5" rx="12.8125" ry="2.5" fill="white"/>
+                        </svg>
+                            
+                            
+                        <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-64 animate__animated animate__fadeInRight"></div>
+                    </div>
                 
-                    <svg className="absolute left-2/4 bottom-400" width="258" height="45" viewBox="0 0 258 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="52.5" cy="20" rx="52.5" ry="10" fill="white"/>
-                        <ellipse cx="92" cy="30" rx="32" ry="10" fill="white"/>
-                        <ellipse cx="74" cy="10" rx="32" ry="10" fill="white"/>
-                        <ellipse cx="142" cy="16" rx="32" ry="10" fill="white"/>
-                        <ellipse cx="136.5" cy="20" rx="52.5" ry="10" fill="white"/>
-                        <ellipse cx="105.5" cy="16" rx="52.5" ry="10" fill="white"/>
-                        <ellipse cx="168.5" cy="30" rx="52.5" ry="10" fill="white"/>
-                        <ellipse cx="215.812" cy="40" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="225.5" cy="42.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="221.125" cy="37.5" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="237.688" cy="39.0625" rx="7.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="236.438" cy="40" rx="12.8125" ry="2.5" fill="white"/>
-                        <ellipse cx="228.781" cy="39.0625" rx="12.9688" ry="2.5" fill="white"/>
-                        <ellipse cx="244.25" cy="42.5" rx="12.8125" ry="2.5" fill="white"/>
-                    </svg>
-                        
-                        
-                    <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-64"></div>
-                </div>
-                    <h2 className="mr-2">tu casa ideal</h2>
-                    <svg className="relative mt-7 mr-3 ml-2 " width="41" height="59" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h2 className="mr-2 animate__animated animate__fadeInLeft">tu casa ideal</h2>
+                    <svg className="relative mt-7 mr-3 ml-2 animate__animated animate__jackInTheBox transition-all delay-1000 duration-1000" width="41" height="59" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="11.0293" y="14.7061" width="5.5147" height="11.0294" fill="#DC0000"/>
                         <rect x="26.3994" y="14.6934" width="4.26117" height="15.3696" transform="rotate(89.8332 26.3994 14.6934)" fill="#DC0000"/>
                         <rect x="21.5625" y="14.375" width="5.5147" height="11.0294" fill="#DC0000"/>
@@ -80,19 +85,21 @@ export default function Herohome() {
                         <path d="M37.0102 57.1226L37.6602 58.4093L35.8457 58.0884L37.0102 57.1226Z" fill="white"/>
                         <path d="M38.9875 56.1982L40.6249 55.6986L40.2572 57.1692L38.9875 56.1982Z" fill="white"/>
                     </svg>
-                    <h2>vendela</h2>
+                    <h2 className="animate__animated animate__fadeInLeft">vendela</h2>
                 </div>
                 
-                <div className="mt-7 w-72 sm:w-96 text-base italic font-light"> 
+                <div className="mt-7 w-72 sm:w-96 text-base italic font-light animate__animated animate__fadeInLeft"> 
                     ¡ Descubre la forma más fácil de comprar o vender tu propiedad !
                 </div>
                 
                 
                 
             </div>
-            <div className="flex flex-col items-center justify-center relative z-10">
-                    <h1 className=" ml-4 mt-28 mb-5 text-white">Únete a esta gran comunidad</h1>
-                    <button className="bg-rb rounded-lg px-8 py-2 shadow-lg uppercase mb-7 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
+            <div className="flex flex-col items-center justify-center relative z-10 left-0"
+                initial={{x:-800}}
+                >
+                    <h1 className=" mt-28 mb-5 text-bl font-medium" >Únete a esta gran comunidad</h1>
+                    <button className="w-32 font-semibold bg-bd rounded-lg px-8 py-2 shadow-lg uppercase mb-7 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
             </div>
             
            
