@@ -10,7 +10,10 @@ module.exports = {
       bd: '#1E1F6F',
       rb: '#DC0000',
       white: '#FFFFFF',
-      gwhite: '#B0C0CF'
+      gwhite: '#B0C0CF',
+      thome: '#E0E7FF',
+      thome2:'#DEE6FF',
+      explhome:'#D5E1FC',
     },
     screens: {
       sm: "640px",

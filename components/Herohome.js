@@ -1,8 +1,8 @@
 export default function Herohome() {
     return (
-        <div className="w-screen h-screen flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-x-hidden">
+        <div className="w-screen h-full flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-hidden">
 
-            <svg className="absolute top-5 mt-40" width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="absolute top-5 mt-40 opacity-50" width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M648.752 350.865C343.491 311.51 95.6904 480.464 0 453.486L6.39515 828H2050V46.1763C1994.81 18.4933 1855.02 -25.6584 1737.35 19.1986C1590.26 75.2698 1583.86 124.464 1433.22 258.824C1282.58 393.183 1030.33 400.06 648.752 350.865Z" fill="url(#paint0_linear_4:674)"/>
                 <defs>
                 <linearGradient id="paint0_linear_4:674" x1="1025" y1="0" x2="1025" y2="828" gradientUnits="userSpaceOnUse">
@@ -14,7 +14,7 @@ export default function Herohome() {
             <div className="bg-bl w-screen h-32">
 
             </div>
-            <div className="mt-36 max-w-7xl px-3 md:mx-auto ">
+            <div className="mt-36 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start">
                 
 
                 <h1 className="text-6xl md:text-7xl">Encuentra</h1>
@@ -64,7 +64,7 @@ export default function Herohome() {
                     <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-64"></div>
                 </div>
                     <h2 className="mr-2">tu casa ideal</h2>
-                    <svg className="mr-2" width="41" height="59" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="relative mt-7 mr-3 ml-2 " width="41" height="59" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="11.0293" y="14.7061" width="5.5147" height="11.0294" fill="#DC0000"/>
                         <rect x="26.3994" y="14.6934" width="4.26117" height="15.3696" transform="rotate(89.8332 26.3994 14.6934)" fill="#DC0000"/>
                         <rect x="21.5625" y="14.375" width="5.5147" height="11.0294" fill="#DC0000"/>
@@ -83,16 +83,16 @@ export default function Herohome() {
                     <h2>vendela</h2>
                 </div>
                 
-                <div className="mt-12 w-96 text-l"> 
+                <div className="mt-7 w-72 sm:w-96 text-base italic font-light"> 
                     ¡ Descubre la forma más fácil de comprar o vender tu propiedad !
                 </div>
                 
                 
                 
             </div>
-            <div className="flex flex-col items-center justify-center">
-                    <h1 className=" ml-4 mt-28 mb-10 text-bd">Únete a esta gran comunidad , has parte de BUSKAMOS.</h1>
-                    <button className="bg-rb rounded-full px-8 py-2 shadow-lg uppercase mb-7">registrate</button>
+            <div className="flex flex-col items-center justify-center relative z-10">
+                    <h1 className=" ml-4 mt-28 mb-5 text-white">Únete a esta gran comunidad</h1>
+                    <button className="bg-rb rounded-lg px-8 py-2 shadow-lg uppercase mb-7 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
             </div>
             
            
