@@ -5,6 +5,7 @@
     grid-auto-rows: 240px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     z-index: 10000;
+    padding-left: 20px;
 }
 .post_image{
     position: relative;
