@@ -4,7 +4,7 @@ import Explhome from '../components/Explhome'
 import Footer from '../components/Footer'
 import Herohome from '../components/Herohome'
 import Infohome from '../components/Infohome'
-import Rol from '../components/rol'
+import Rol from '../components/Rol'
 import Subscribe from '../components/Subscribe'
 
 export default function Home() {
