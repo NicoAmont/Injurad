@@ -24,7 +24,7 @@ export default function Sidebar() {
 
             {/* App Nav */}
 
-            <div className=" hidden sm:block  bg-bd text-white w-20 md:h-full  md:w-72 absolute left-0 border-r-8 pl-2 md:pl-11  rounded-tr-3xl md:rounded-br-none rounded-br-3xl border-none">
+            <div className="  sm:block  bg-bd text-white w-20 md:h-full  md:w-72 absolute left-0 border-r-8 pl-2 md:pl-11  rounded-tr-3xl md:rounded-br-none rounded-br-3xl border-none">
                 <div className="uppercase">
 
                     <h1 className="mt-5 mb-6 text-xl font-medium hidden md:block">menu</h1>

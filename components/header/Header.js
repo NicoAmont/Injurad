@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Header() {
     return (
-        <nav className="flex fixed top-0 left-0 items-center justify-between w-screen bg-bl h-50shadow-lg z-50 ">
+        <nav className=" flex fixed top-0 left-0 items-center justify-between w-screen bg-bl h-50shadow-lg z-50 ">
             <div className="flex items-center text-base w-full px-5 lg:px-20 justify-between">
 
                 {/* Left */}
@@ -30,7 +30,7 @@ function Header() {
                 <div className="hidden md:inline-flex w-full text-sm lg:text-base">
 
                     {/* Center */}
-                    <div className="flex justify-center flex-grow font-heads font-light ">
+                    <div className="flex justify-center flex-grow font-heads font-normal hover:font-medium ">
                         <div className="flex space-x-3 lg:space-x-10 cursor-pointer lg:px-10 uppercase text-white transition-colors ">
                             <Link  href="/"><a className="hover:text-bd transition-colors delay-150 hover:font-normal">inicio</a></Link>
                             <Link href="/profile"><a className="hover:text-bd transition-colors delay-150 hover:font-normal" >perfil</a></Link>

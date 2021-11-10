@@ -31,12 +31,11 @@ export default function Footer() {
 
                 <div className="max-w-7xl mx-auto mt-40 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-items-center">
                     <div className="mb-10 cursor-pointer ">
-                        <h4 className="mb-10 uppercase text-xl font-medium">Servicios</h4>
+                        <h4 className="mb-10 uppercase text-xl font-medium">Enlaces</h4>
                         <ul className=" text-base upp font-light w-60   ">
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Contrato de reserva</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Inspeccion de compra igp p.m</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Chequeo documentos de la propiedad</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">CUP (Control Urbanistico de la propiedad)</li>
+                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Chequeo de documentos</li>
+                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4  ">INJURAD</li>
+                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Casa Propia</li>
                         </ul>
                         
                     </div>

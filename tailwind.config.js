@@ -25,16 +25,18 @@ module.exports = {
     },
     colors: {
       bgr: '#DEE6FF',
-      bl: '#6C86E0',
+      bttl: '#DC0000',
+      bl: '#628ddf',
       bd: '#1E1F6F',
-      rb: '#DC0000',
+      rb: '#C51414',
       white: '#FFFFFF',
       gwhite: '#B0C0CF',
       thome: '#E0E7FF',
       thome2:'#DEE6FF',
-      explhome:'#D5E1FC',
-      subs1:'#345B82',
-      subs2:'#EA7911'
+      explhome:'#FFF5EC',
+      subs1:'#4B4D94',
+      subs2:'#37497b',
+      orange:'#E7B42E'
 
     },
     screens: {
