@@ -117,7 +117,7 @@ export default function Subscribe() {
                                     <Image className="border-2 border-bgr" src="/sellersub.png" width="116" height="116" alt="" />
                                 </div>
                                 <div className="  bg-none transition-all duration-200 ease-linear cursor-pointer border-bgr border-4  ml-2 hover: h-28 w-full rounded-full flex place-content-center ">
-                                    <h1 className=" font-bold uppercase text-xl text-bd text-center ml-28 mt-10">Vendedor</h1>
+                                    <h1 className=" font-bold uppercase text-xl text-bd text-center ml-28 mt-10">Inmobiliaria </h1>
                                     <div className="ml-4">
                                         
                                     </div>
@@ -153,7 +153,7 @@ export default function Subscribe() {
                                     <Image className="border-2 border-bgr" src="/sellersub.png" width="116" height="116" alt="" />
                                 </div>
                                 <div className="  bg-none transition-all duration-200 ease-linear cursor-pointer border-bgr border-4  ml-2 hover: h-28 w-full rounded-full flex place-content-center ">
-                                    <h1 className=" font-bold uppercase text-xl text-bd text-center ml-28 mt-10">Inmobiliaria</h1>
+                                    <h1 className=" font-bold uppercase text-xl text-bd text-center ml-28 mt-10">Vendedor</h1>
                                     <div className="ml-4">
                                         
                                     </div>
