@@ -229,14 +229,10 @@ export default function Expl2() {
                 <button className="w-42 font-semibold bg-bd text-white mt-1 rounded-lg px-8 py-2 shadow-lg uppercase mb-7  hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
 
                 </div>
-                <img className=" w-3/5 h-full" src="/pexels-mart-production-7415015.jpg" alt="" />
+                
             </motion.div>
             
-            <div className="h-full">
-                <svg className="w-full  left-0 sm:bottom-0 bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fillOpacity="1" d="M0,256L120,250.7C240,245,480,235,720,197.3C960,160,1200,96,1320,64L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-            </svg>    
-            </div>
+            
         </div>
     )
 }
