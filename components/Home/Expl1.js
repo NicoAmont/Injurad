@@ -67,7 +67,7 @@ export default function Expl1() {
                             
                             <div className="w-12/12">
                                 <h1 className="text-3xl font-semibold text-white mt-10">1. Registrate</h1>
-                                <h2 className="mt-3 font-body">Describe las casas que quieras ver y las que se podran publicar en tu perfil.</h2>
+                                <h2 className="mt-3 font-body">Regístrate y describe tu casa ideal.</h2>
                             </div>
                             
                         </div>

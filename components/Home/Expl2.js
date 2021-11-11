@@ -122,7 +122,7 @@ export default function Expl2() {
                             </div>
                         
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-bd mt-10">2.Recibe y analiza</h1>
+                                <h1 className="text-3xl font-semibold text-bd mt-10">2. Recibe y analiza</h1>
                                 <h2 className="mt-3 font-body">Recibe perfiles de compradores pre-seleccionados por el sistema, analízalos y verifica que tu propiedad coincide con el máximo de requisitos del comprador.</h2>
                             </div>
                         </div>
@@ -219,7 +219,7 @@ export default function Expl2() {
                             </div>
                             <div className="w-12/12">
                                 <h1 className="text-3xl font-semibold text-bd mt-10">3. Ofrece y espera</h1>
-                                <h2 className="mt-3 font-body">Ofrece tu propiedad. Te llegarán solicitudes para más información o una visita.</h2>
+                                <h2 className="mt-3 font-body">Ofrece tu propiedad a los " perfiles en verde " . Te llegarán solicitudes para más información o una visita.</h2>
                             </div>
                         </div>
 

@@ -34,11 +34,11 @@ export default function Infohome1() {
                 <h1 className="text-3xl font-semibold text-">Descubre la forma más <span className="text-bttl">logica</span>  para comprar y vender una propiedad en España</h1>
                 <div className="grid sm:grid-cols-2 max-w-4xl mt-10 gap-10">
                     <div>
-                        <h2 className="text- mt-10  font-body text-subs1 max-w-lg mb-10">Compradores que<span className="text-bttl font-semibold"> buscan seriamente,</span>  pronto ven las deficiencias de los portales de viviendas. Anuncios duplicados, viviendas que ya se han vendido, información incorrecta, etc. Y la ubicación? Casi nunca se sabe, a pesar de qué es tan importante. Y lo que casi nadie sabe es que en los portales solo se encuentra una parte de la oferta. Por eso no es solo para el comprador la búsqueda, sino para el comprador y el vendedor. </h2>
+                        <h2 className="text-left mt-10  font-body text-subs1 max-w-lg mb-10">Compradores que<span className="text-bttl font-semibold"> buscan seriamente,</span>  pronto ven las deficiencias de los portales de viviendas. Anuncios duplicados, viviendas que ya se han vendido, información incorrecta, etc. Y la ubicación? Casi nunca se sabe, a pesar de qué es tan importante. Y lo que casi nadie sabe es que en los portales solo se encuentra una parte de la oferta. Por eso no es solo para el comprador la búsqueda, sino para el comprador y el vendedor. </h2>
 
                     </div>
                     <div>
-                        <h2 className="text- mt-10  font-body text-subs1 max-w-lg mb-10">Creamos una <span className="text-bttl">comunidad,</span> conectando compradores y vendedores. Son los vendedores que conocen su propiedad mejor que nadie. Si ellos podían conocer los deseos y demandas de los compradores, vender y comprar sería mucho más rápido y eficiente. <br /><br /> Y esto es justamente lo que hace <span className="text-bttl font-bold">BUSKAMOS.</span></h2>
+                        <h2 className="text-left mt-10  font-body text-subs1 max-w-lg mb-10">Creamos una <span className="text-bttl">comunidad,</span> conectando compradores y vendedores. Son los vendedores que conocen su propiedad mejor que nadie. Si ellos podían conocer los deseos y demandas de los compradores, vender y comprar sería mucho más rápido y eficiente. <br /><br /> Y esto es justamente lo que hace <span className="text-bttl font-bold">BUSKAMOS.</span></h2>
                     </div>
                 </div>
                 

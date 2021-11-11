@@ -22,19 +22,16 @@ export default function Herohome() {
                 });
             }
                 if(!inView){
-                    animation.start({x:'-100vw'})
+                    animation.start({x:'0'})
                 }
     }, [inView]);
 
     return (
-        <div className="font-heads font-medium w-screen h-full flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-hidden">
+        <div className="font-heads font-medium w-screen h-screen flex-row bg-gradient-to-b from-bl via-bl to-bgr text-white tracking-widest relative overflow-hidden">
 
-                <video className="w-96 absolute top-20 sm:left-1/3 hidden" autoPlay muted playsInline >
-                    <source  src="/video/WhatsApp Video 2021-11-07 at 10.45.09 PM.mp4" type="video/mp4"/>
-                    Your Browser does not support mp4 videos, change browser!
-                </video>
+                
 
-            <svg className="absolute top-5 mt-40 opacity-50 " width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="absolute top-5 mt-60 opacity-50 " width="2050" height="828" viewBox="0 0 2050 828" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M648.752 350.865C343.491 311.51 95.6904 480.464 0 453.486L6.39515 828H2050V46.1763C1994.81 18.4933 1855.02 -25.6584 1737.35 19.1986C1590.26 75.2698 1583.86 124.464 1433.22 258.824C1282.58 393.183 1030.33 400.06 648.752 350.865Z" fill="url(#paint0_linear_4:674)"/>
                 <defs>
                 <linearGradient id="paint0_linear_4:674" x1="1025" y1="0" x2="1025" y2="828" gradientUnits="userSpaceOnUse">
@@ -43,18 +40,18 @@ export default function Herohome() {
                 </linearGradient>
                 </defs>
             </svg>
-            <div className="bg-bl w-screen h-32">
+            <div className=" w-screen h-32">
 
             </div>
-            <div className="mt-36 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start ">
+            <div className="mt-52 sm:mt-48 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start ">
                 
                 
-                {/* <video className="w-96 absolute top-20 left-20" autoplay muted loop aplaysInline controls id="videoHero">
-                    <source  src="/video/WhatsApp Video 2021-11-07 at 10.45.09 PM.mp4" type="video/mp4"/>
-                    Your Browser does not support mp4 videos, change browser!
-                </video> */}
+                    <video className="w-96 absolute top-20 sm:left-20" autoPlay muted  id="videoHero">
+                        <source  src="/video/WhatsApp Video 2021-11-07 at 10.45.09 PM.mp4" type="video/mp4"/>
+                        Your Browser does not support mp4 videos, change browser!
+                    </video>
 
-                <h1 className="text-5xl md:text-6xl animate__animated animate__fadeInLeft leading-relaxed ml-2 text-center"> Encuentra tu <span className="hover:text-rb sm:text-6xl hover: transition-all duration-1000 ease-out ">casa ideal</span></h1>
+                <h1 className="text-5xl md:text-6xl  leading-relaxed ml-2 text-left"> Encuentra tu <span className="hover:text-rb sm:text-6xl hover: transition-all duration-1000 ease-out ">casa ideal</span></h1>
                 <div className="flex items-center text-2xl md:text-5xl">
                     <div className="invisible md:visible ">
                         <svg animate=" x:3000" className="absolute right-40 top-72 animate__animated animate__fadeInRight duration-1000 " width="203" height="71" viewBox="0 0 203 71" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,11 +95,11 @@ export default function Herohome() {
                         </svg>
                             
                             
-                        <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-64 animate__animated animate__zoomInDown  sm:mt-20 xl:mt-0 transition-all ease-linear"></div>
+                        <div className="w-40 h-40 bg-white rounded-full absolute right-1/4 z-10 top-80 animate__animated animate__zoomInDown  sm:mt-20 xl:mt-0 transition-all ease-linear"></div>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-left h-full w-full absolute left-6 mg:left-6 sm:left-44 lg:left-6 xl:left-32 top-3/4 sm:top-96 mg:top-96 lg:top-96">
 
-                        <svg className=" hover:animate-wiggle relative mt-1 sm:mt-1 mr-3 animate__animated animate__jackInTheBox transition-all delay-1000 duration-1000 infinite w-13 sm:w-14 mb-3" width="42" height="60" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="mt-2 lg:mt-7 hover:animate-wiggle absolute  sm:mt-8 animate__animated animate__jackInTheBox transition-all delay-1000 duration-1000 infinite w-13 sm:w-14 mb-3" width="42" height="60" viewBox="0 0 41 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="11.0293" y="14.7061" width="5.5147" height="11.0294" fill="#DC0000"/>
                             <rect x="26.3994" y="14.6934" width="4.26117" height="15.3696" transform="rotate(89.8332 26.3994 14.6934)" fill="#DC0000"/>
                             <rect x="21.5625" y="14.375" width="5.5147" height="11.0294" fill="#DC0000"/>
@@ -118,7 +115,7 @@ export default function Herohome() {
                             <path d="M37.0102 57.1226L37.6602 58.4093L35.8457 58.0884L37.0102 57.1226Z" fill="white"/>
                             <path d="M38.9875 56.1982L40.6249 55.6986L40.2572 57.1692L38.9875 56.1982Z" fill="white"/>
                         </svg>
-                        <h2 className=" text-5xl sm:text-6xl animate__animated animate__fadeInLeft pb-10">vendela</h2>
+                        <h2 className=" text-5xl ml-14 sm:text-6xl sm:mt-4 pb-10">vendela</h2>
                     </div>
                 </div>
                 
@@ -132,8 +129,6 @@ export default function Herohome() {
             <div className="flex flex-col items-center justify-center relative z-10 left-0 "
                 initial={{x:-800}}
                 >
-                    <h1 className="font-body mt-24 sm:mt-36 mb-5 text-bd  font-base" >Únete a esta gran <span className="text-rb">comunidad</span> </h1>
-                    <button className="w-32 font-semibold bg-bd rounded-lg px-8 py-2 shadow-lg uppercase mb-20 hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">registrate</button>
             </div>
             
            
