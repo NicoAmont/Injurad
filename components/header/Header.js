@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Header() {
     return (
-        <nav className=" flex fixed top-0 left-0 items-center justify-between w-screen bg-bl shadow-lg z-50 ">
+        <nav className=" flex fixed top-0 left-0 items-center justify-between w-screen bg-bl z-50 ">
             <div className="flex items-center text-base w-full h-14 px-5 lg:px-20 justify-between">
 
                 {/* Left */}
