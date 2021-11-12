@@ -301,9 +301,9 @@ export default function Infohome2() {
             <div className="h-full pb-40">
             
                 <svg className="w-full  left-0 sm:bottom-0 bottom-0 absolute" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="1440" height="300" preserveAspectRatio="none" viewBox="0 0 1440 560">
-                    <g mask="url(&quot;#SvgjsMask1102&quot;)" fill="none">
+                    
                         <path d="M 0,259 C 144,276.2 432,347.6 720,345 C 1008,342.4 1296,265.8 1440,246L1440 560L0 560z" fill="#4B4D94"></path>
-                    </g>
+                    
                 </svg>    
             </div>
         </div>
