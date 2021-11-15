@@ -95,7 +95,7 @@ function Leftside() {
                         <rect x="697.457" y="41.9982" width="12.1798" height="43.9314" transform="rotate(89.8332 697.457 41.9982)" fill="#DC0000"/>
                         <rect x="683.631" y="41.0879" width="15.7628" height="31.5257" fill="#DC0000"/>
                         <path d="M675.592 27.3225L697.66 42.0345H653.524L675.592 27.3225Z" fill="#DC0000"/>
-                        <circle cx="675.594" cy="53.5937" r="50.0937" stroke="white" stroke-width="7"/>
+                        <circle cx="675.594" cy="53.5937" r="50.0937" stroke="white" strokeWidth="7"/>
                         <rect x="697.663" y="100.664" width="4.20343" height="18.9154" transform="rotate(-26.6177 697.663 100.664)" fill="white"/>
                         <rect x="701.043" y="119.629" width="16.18" height="52.204" transform="rotate(-26.6177 701.043 119.629)" fill="white"/>
                         <path d="M704.732 113.398L707.007 117.339L701.054 119.703L704.732 113.398Z" fill="white"/>

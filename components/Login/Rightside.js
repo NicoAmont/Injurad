@@ -15,7 +15,7 @@ export default function Rightside() {
                             </div>
                     
                             <div className="mt-4">
-                                <input type="password" name="" id="" placeholder="Password" minlength="6" className="text-bd w-full px-4 py-2 rounded-lg mt-2 border opacity-30 focus:opacity-100 focus:border-blue-500
+                                <input type="password" name="" id="" placeholder="Password" minLength="6" className="text-bd w-full px-4 py-2 rounded-lg mt-2 border opacity-30 focus:opacity-100 focus:border-blue-500
                                     focus:bg-white focus:outline-none" required />
                                     <i className=" "> <svg width="19" height="8" viewBox="0 0 19 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1C1 1 3.91667 4.33333 9.33333 4.33333C14.75 4.33333 17.6667 1 17.6667 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

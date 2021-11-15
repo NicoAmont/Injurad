@@ -19,7 +19,7 @@ function Header() {
                     {/* Center */}
                     <div className="flex justify-center flex-grow font-heads font-normal   ">
                         <div className="flex place-items-center  cursor-pointer lg:px-10 uppercase text-bl transition-colors ">
-                            <Link  href="/"><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
+                            <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
                                 <svg className="" width="23" height="20" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M25.3191 12.2193V25.0798H17.378V17.2842H12.9729V25.0798H4.68164V12.2193L15.0004 4.28223L25.3191 12.2193Z" fill="#628ddf"/>
                                 <path d="M25.7511 8.27086V2.83166H21.4054V4.92768L15 0L0 11.5395L3.14256 15.6242L15 6.50273L26.8574 15.6241L30 11.5395L25.7511 8.27086Z" fill="#628ddf"/>
@@ -28,7 +28,7 @@ function Header() {
                                 </svg>
                                 <a className=" transition-colors delay-150 text-sm font-normal">inicio</a>
                             </div></Link>
-                            <Link  href="/profile"><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
+                            <Link  href="/profile" passHref><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
                                 <svg className="" width="23" height="20" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.17188 4.65517C5.17188 7.22623 7.25599 9.31034 9.82705 9.31034V0C7.25599 0 5.17188 2.08412 5.17188 4.65517Z" fill="#628ddf"/>
                                     <path d="M9.82715 0V9.31034C12.3982 9.31034 14.4823 7.22623 14.4823 4.65517C14.4823 2.08412 12.3982 0 9.82715 0Z" fill="#628ddf"/>
@@ -38,7 +38,7 @@ function Header() {
                                 <a className=" transition-colors delay-150 text-sm font-normal
                                  ">perfil</a>
                             </div></Link>
-                            <Link  href="/"><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
+                            <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
                                 <svg width="23" height="20" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M29.2742 5.32818C28.8087 4.28552 28.1376 3.34067 27.2983 2.54652C26.4584 1.75 25.4681 1.11702 24.3813 0.682001C23.2543 0.229118 22.0456 -0.0026936 20.8253 2.36135e-05C19.1133 2.36135e-05 17.443 0.453555 15.9914 1.31023C15.6442 1.51516 15.3143 1.74024 15.0017 1.98549C14.6892 1.74024 14.3593 1.51516 14.012 1.31023C12.5605 0.453555 10.8901 2.36135e-05 9.17813 2.36135e-05C7.94535 2.36135e-05 6.75077 0.228469 5.62217 0.682001C4.53177 1.11874 3.54902 1.74696 2.70517 2.54652C1.86479 3.33977 1.19346 4.28485 0.72925 5.32818C0.246556 6.4133 0 7.56561 0 8.75151C0 9.87022 0.236138 11.036 0.704942 12.2219C1.09735 13.2129 1.65991 14.2409 2.37874 15.279C3.51776 16.9218 5.08392 18.6351 7.02858 20.372C10.2512 23.2511 13.4425 25.2399 13.5779 25.3205L14.401 25.8312C14.7656 26.0563 15.2344 26.0563 15.599 25.8312L16.422 25.3205C16.5575 25.2366 19.7453 23.2511 22.9714 20.372C24.916 18.6351 26.4822 16.9218 27.6212 15.279C28.3401 14.2409 28.9061 13.2129 29.295 12.2219C29.7638 11.036 30 9.87022 30 8.75151C30.0034 7.56561 29.7569 6.4133 29.2742 5.32818Z" fill="#628ddf"/>
                                     <rect x="8.53125" y="9.64307" width="4.5" height="8" fill="#fff"/>
@@ -50,7 +50,7 @@ function Header() {
 
                                 <a className=" transition-colors delay-150 text-sm font-normal ">red</a>
                             </div></Link>
-                            <Link  href="/"><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
+                            <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-24 h-28 hover:bg-thome2">
                                 <svg width="23" height="20" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                  <path d="M22.8536 9.77121H15.7286V12.6152C15.7286 14.6314 14.2145 16.2718 12.3536 16.2718C10.4927 16.2718 8.97859 14.6314 8.97859 12.6152V6.43968L5.93641 8.42031C5.03172 9.00435 4.4786 10.0658 4.4786 11.2034V13.6055L0.728607 15.9518C0.0114206 16.3987 -0.237016 17.3941 0.18017 18.1711L3.93016 25.21C4.34266 25.987 5.26141 26.2511 5.9786 25.8042L10.8255 22.7723H17.2286C18.8833 22.7723 20.2286 21.3148 20.2286 19.522H20.9786C21.8083 19.522 22.4786 18.7958 22.4786 17.8969V14.6466H22.8536C23.477 14.6466 23.9786 14.1032 23.9786 13.4278V10.9901C23.9786 10.3146 23.477 9.77121 22.8536 9.77121ZM29.777 7.87183L26.027 0.832954C25.6145 0.0559356 24.6958 -0.208149 23.9786 0.238764L19.1317 3.27066H14.3411C13.7786 3.27066 13.2301 3.44333 12.752 3.76328L11.1817 4.8247C10.7411 5.11925 10.4786 5.64234 10.4786 6.20099V12.6152C10.4786 13.7376 11.3176 14.6466 12.3536 14.6466C13.3895 14.6466 14.2286 13.7376 14.2286 12.6152V8.14607H22.8536C24.302 8.14607 25.4786 9.42079 25.4786 10.9901V12.4374L29.2286 10.0912C29.9457 9.63917 30.1895 8.64885 29.777 7.87183V7.87183Z" fill="#628ddf"/>
                                 </svg>
