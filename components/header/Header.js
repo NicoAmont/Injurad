@@ -10,7 +10,7 @@ function Header() {
                 {/* Left */}
                 <div className="flex items-center  lg:ml-44">
                     <video className="w-48 absolute  sm:left-20" autoPlay muted id="videoHero">
-                        <source  src="/video/WhatsApp Video 2021-11-12 at 11.25.33 PM.mp4" type="video/mp4"/>
+                        <source  src="/video/logovideo.mp4" type="video/mp4"/>
                         Your Browser does not support mp4 videos, change browser!
                     </video>
                 </div>
