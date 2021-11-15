@@ -40,17 +40,17 @@ export default function Expl1() {
     return (
         <div ref={ref} className="bg-subs1 text-white">
             <div  className="w-full mx-auto h-ful">
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-6xl mx-auto pl-3">
                     
-                    <h1   className="text-white font-semibold text-3xl mb-10 px-2 "><span className="text-5xl"> Compradores!</span> <br /> Encontrar un vendedor es <span className="text-bttl text-4xl">fácil</span>  </h1>
+                    <h1   className="text-white font-semibold text-2xl mb-10 px-2 "><span className="text-4xl"> Compradores!</span> <br /> Encontrar vendedores ya es <span className="text-bttl text-3xl">fácil</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center ">
 
                     <motion.div animate={animation} className="grid sm:grid-cols-3 place-center gap-10 max-w-6xl mx-auto">
                         
-                        <div  className="flex flex-col items-center rounded-3xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full">
-                                <svg className="w-60 hover:animate-wiggle " viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div  className="flex flex-col items-left rounded-3xl p-6">
+                            <div className="bg-bl w-56 h-52 flex place-content-center ml-10 sm:ml-0 rounded-full">
+                                <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                                     <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                                     <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -65,16 +65,16 @@ export default function Expl1() {
                                 </svg>
                             </div>
                             
-                            <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-white mt-10">1. Registrate</h1>
+                            <div className="w-12/12 ">
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">1. Registrate</h1>
                                 <h2 className="mt-3 font-body">Regístrate y describe tu casa ideal.</h2>
                             </div>
                             
                         </div>
 
-                        <div className="flex flex-col items-center rounded-xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full">
-                                <svg className="w-60 hover:animate-wiggle" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div className="flex flex-col items-center rounded-3xl p-6">
+                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full">
+                                <svg className="w-48 hover:animate-wiggle" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                                     <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
                                     <path d="M269.5 182.5L434.574 39.1352C448.816 26.7664 471 36.8823 471 55.7454V335H77L269.5 182.5Z" fill="#98C7EB"/>
@@ -159,14 +159,14 @@ export default function Expl1() {
                             </div>
                         
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-white mt-10">2. Recibe ofertas</h1>
-                                <h2 className="mt-3 font-body">Los vendedores te ofrezcan sus propiedades después haber analizado tu perfil.</h2>
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">2. Recibe ofertas</h1>
+                                <h2 className="mt-3 font-body">Los vendedores te ofrecerán sus propiedades después haber analizado tu perfil.</h2>
                             </div>
                         </div>
 
                         <div className="flex flex-col items-center  rounded-xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full" >
-                                <svg className="w-60 hover:animate-wiggle" viewBox="0 0 548 387" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full" >
+                                <svg className="w-48 hover:animate-wiggle" viewBox="0 0 548 387" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44.0308 22C44.0308 9.84973 53.8805 0 66.0308 0H482.355C494.505 0 504.355 9.84974 504.355 22V335.236H44.0308V22Z" fill="#3269A1"/>
                                     <path d="M77.0533 56.0247C77.0533 43.8744 86.9031 34.0247 99.0533 34.0247H449.331C461.481 34.0247 471.331 43.8744 471.331 56.0247V335.237H77.0533V56.0247Z" fill="#3E8CC7"/>
                                     <path d="M269.689 182.629L434.905 39.1414C449.147 26.7725 471.331 36.8884 471.331 55.7515V335.237H77.0533L269.689 182.629Z" fill="#98C7EB"/>
@@ -262,21 +262,21 @@ export default function Expl1() {
 
                             </div>
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-white mt-10">3. Elige a tu gusto</h1>
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">3. Elige a tu gusto</h1>
                                 <h2 className="mt-3 font-body">De las ofertas que te lleguen podrás decidir con cuales vendedores estar en contacto para más información o una visita.</h2>
                             </div>
                         </div>
 
                     </motion.div>
                 </div>
-                <div className="w-full flex  place-content-center h-full">
-                <button className="w-42 font-semibold bg-white text-subs1 mt-1 rounded-lg px-8 py-2 shadow-lg uppercase mb-7  hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
+                <div className="w-full flex  place-content-center">
+                <button className="w-42 font-semibold bg-white text-subs1 mt-1 rounded-lg px-8 py-2 shadow-lg uppercase hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
 
                 </div>
             </div>
-            <div className="h-full">
+            <div className="">
             
-                <svg className="w-full  left-0 sm:bottom-0 bottom-0" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="1440" height="300" preserveAspectRatio="none" viewBox="0 0 1440 560">
+                <svg className="w-full  left-0 sm:bottom-0 bottom-0" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="1440" height="200" preserveAspectRatio="none" viewBox="0 0 1440 560">
                     
                         <path d="M 0,259 C 144,276.2 432,347.6 720,345 C 1008,342.4 1296,265.8 1440,246L1440 560L0 560z" fill="#DEE6FF"></path>
                     

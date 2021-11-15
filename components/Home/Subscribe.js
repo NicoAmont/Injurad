@@ -29,7 +29,7 @@ export default function Subscribe() {
     
     
     return (
-        <div className="bg-bgr flex-col place-content-center pb-14">
+        <div className="bg-bgr flex-col place-content-center pb-14 pt-10">
 
             <div ref={ref} className="bg-bgr max-w-4xl mx-auto">
                 <div animate={animation} className="flex flex-col sm:flex-row place-content-center px-5 ">
@@ -57,7 +57,7 @@ export default function Subscribe() {
 
                 
 
-                <div className="flex-col mt-40">
+                <div className="flex-col mt-32">
                     <div className="flex flex-col sm:flex-row  h-full ">
                         <div className="max-w-lg mt-5 h-40 w-80 rounded-full flex place-content-center px-4">
                             <div className="h-28 w-80 flex items-center pt-6 relative">
@@ -90,7 +90,7 @@ export default function Subscribe() {
 
                         </div>
                     </div>
-                    <div className="flex flex-col sm:flex-row mt-20  h-full pb-10">
+                    <div className="flex flex-col-reverse sm:flex-row mt-20  h-full pb-10">
                         <div className="max-w-md sm:ml-20 mt-4 sm:mt-0 px-6">
                                 <ul>
                                     
@@ -112,24 +112,22 @@ export default function Subscribe() {
 
                                 </div>
                         </div>
-                        <div className="max-w-lg mt-5 h-40 w-80 rounded-full flex place-content-center px-4">
-                            <div className="h-28 w-80 flex items-center pt-20 relative sm:pr-10">
-                                <div className="border-8 border-bgr w-28 h-28 rounded-full absolute z-20 left-24 top-36">
+                        <div className="max-w-lg mt-5 h-40 w-80 rounded-full flex flex-col px-4">
+                            <div className="h-28 w-80 flex items-center pt-0 sm:pt-20 relative sm:pr-10">
+                                <div className="border-8 border-bgr w-28 h-28 rounded-full absolute z-20 left-24 top-16 sm:top-36">
                                     <Image className="border-2 border-bgr" src="/sellersub.png" width="116" height="116" alt="" />
                                 </div>
                                 <div className="  bg-none transition-all duration-200 ease-linear cursor-pointer border-bgr border-4  ml-2 hover: h-28 w-full rounded-full flex place-content-center ">
                                     <h1 className=" font-bold uppercase text-4xl text-bd text-center ml-28 mt-3">Inmobiliaria </h1>
-                                    <div className="ml-32">
-                                        
-                                    </div>
-                                    
+                                    <div className="ml-32"> 
+                                    </div>   
                                 </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div className="flex flex-col sm:flex-row mt-20 ">
-                        <div className="max-w-md sm:ml-20 mt-4 sm:mt-0 px-6">
+                    <div className="flex flex-col-reverse sm:flex-row mt-20 ">
+                        <div className="max-w-md sm:ml-20 mt-12 sm:mt-0 px-6">
                                 <ul>
 
                                 <li className="mt-9">Poder ver cuales perfiles son <span className="text-subs2 font-bold">hot leads</span></li>

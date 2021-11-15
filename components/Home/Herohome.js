@@ -46,10 +46,10 @@ export default function Herohome() {
             <div className="mt-52 sm:mt-48 max-w-7xl px-3 md:mx-auto flex flex-col items-center sm:items-start ">
                 
                 
-                    <video className="w-96 absolute top-20 sm:left-20" autoPlay muted  id="videoHero">
-                        <source  src="/video/WhatsApp Video 2021-11-07 at 10.45.09 PM.mp4" type="video/mp4"/>
+                    {/* <video className="w-96 absolute top-20 sm:left-20" autoPlay muted  id="videoHero">
+                        <source  src="/video/WhatsApp Video 2021-11-12 at 9.51.35 AM.mp4" type="video/mp4"/>
                         Your Browser does not support mp4 videos, change browser!
-                    </video>
+                    </video> */}
                 <div className="relative h-96">
                     <h1 className="text-5xl md:text-6xl  leading-relaxed ml-2 text-left"> Encuentra tu <span className="hover:text-rb sm:text-6xl hover: transition-all duration-1000 ease-out ">casa ideal</span></h1>
                     <div className="flex items-left h-full w-full relative left-2">

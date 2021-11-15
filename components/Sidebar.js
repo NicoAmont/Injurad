@@ -47,7 +47,7 @@ export default function Sidebar() {
                                 <path d="M6.2069 11.3799C2.77891 11.3799 0 14.1588 0 17.5868V22.1902C2.72284 24.5645 6.21498 25.8695 9.82758 25.8626V11.3799H6.2069Z" fill="#2B3990"/>
                                 <path d="M13.4478 11.3799H9.82715V25.8626C13.4398 25.8695 16.9319 24.5645 19.6547 22.1902V17.5868C19.6547 14.1588 16.8758 11.3799 13.4478 11.3799Z" fill="#434F9C"/>
                             </svg>
-                            <h2 className="pl-3 hidden md:block">perfil</h2>
+                            <h2 className="pl-3 hidden md:block">preferencias</h2>
                         </div>
                         <div className="flex px-4 items-center h-12 border-b-2 border-gwhite opacity-30">
                             <svg width="30" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

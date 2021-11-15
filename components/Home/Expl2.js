@@ -36,8 +36,8 @@ export default function Expl2() {
     
     
     return (
-        <div ref={ref}  className="bg-thome2 h-full text-bd">
-            <motion.div animate={animation} className="w-full mx-auto h-full pt-10">
+        <div ref={ref}  className="bg-thome2 h-full text-bd ">
+            <motion.div animate={animation} className="w-full mx-auto h-full">
                 <div className="max-w-6xl mx-auto">
                     
                     <h1   className="text-bd font-semibold text-3xl mb-10 px-2 "><span className="text-5xl"> Vendedores!</span> <br /> Encontrar compradores es <span className="text-bttl text-4xl ">fácil</span>  </h1>

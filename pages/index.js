@@ -12,10 +12,10 @@ export default function Home() {
     <div>
 
       <main className="">
-        <Herohome />
+        <Rol />
+        {/* <Herohome /> */}
         <Infohome />
         <Explhome />
-        <Rol />
         <Subscribe />
       </main>
       

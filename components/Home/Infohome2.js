@@ -229,65 +229,65 @@ export default function Infohome2() {
                 animate={animation}
                 
                 >
-                <h1 className="text-5xl font-semibold text-bd pt-10 text-center">Unete a esta <span className="text-bttl">comunidad,</span> y aprovecha sus ventajas.</h1>
+                <h1 className="text-4xl font-semibold text-bd pt-10 text-center">Unete a nuestra <span className="text-bttl">comunidad,</span> y aprovecha sus ventajas.</h1>
                 
                 <div className="grid sm:grid-cols-3  mt-20 gap-20 ">
-                    <div className="border-r pr-4" >
-                        <h1 className="mb-4 font-semibold text-bttl uppercase text-xl ">Compradores</h1>
-                            <ul className=" max-w-sm list-none"  >
+                    <div className="flex flex-col place-items-center md:place-items-start text-left border-b sm:border-none mg:border-b-none mg:border-r pr-4" >
+                        <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">Compradores</h1>
+                            <ul className=" max-w-sm list-none "  >
                                 <div className="flex flex-row  relative mb-3 list-none">
-                                    <h2 className="text-sm "><span className="text-bd font-semibold uppercase">Oferta mas ajustada</span>. <br /> El vendedor tiene más capacidad para ver que su casa cumple tu perfil, no pierdes tiempo</h2>
+                                    <h2 className="text-lg "><span className="text-bd font-semibold ">Oferta mas ajustada</span>. <br /> El vendedor tiene más capacidad para ver que su casa cumple tu perfil, no pierdes tiempo</h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Más oferta</span>. <br />Te pueden llegar propiedades que no están publicadas en portales</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Más oferta</span>. <br />Te pueden llegar propiedades que no están publicadas en portales</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Información correcta</span>. <br />Las inmobiliarias y vendedores deben tener la información al dia bajo pena de exclusión</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Información correcta</span>. <br />Las inmobiliarias y vendedores deben tener la información al dia bajo pena de exclusión</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">La ubicación</span>. <br />Siendo miembros de la comunidad es mas lógico que te dirán la ubicación</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">La ubicación</span>. <br />Siendo miembros de la comunidad es mas lógico que te dirán la ubicación</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">Anónimo</span>. <br />Vendedores no pueden ver tus datos. Eres tu quien decide con quien contactar por una cita o pedir más información</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">Anónimo</span>. <br />Vendedores no pueden ver tus datos. Eres tu quien decide con quien contactar por una cita o pedir más información</h2>
                                 </div>
                             </ul>
-                        
+                            <button className=" border-none w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-9 mb-14 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
                     </div>
-                    <div className="border-r pr-4" >
-                        <h1 className="mb-4 font-semibold text-bttl uppercase text-xl ">Inmobiliarias</h1>
+                    <div className="flex flex-col place-items-center md:place-items-start text-left border-b sm:border-none md:border pr-4" >
+                        <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">Inmobiliarias</h1>
                             <ul className=" max-w-sm ">
                                 <div className="flex flex-row  relative mb-3 ">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">Exclusividad </span>. <br /> Los propiedades se publica una sola vez, lo tienes en exclusiva, así reduces la competencia</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">Exclusividad </span>. <br /> Los propiedades se publica una sola vez, lo tienes en exclusiva, así reduces la competencia</h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Profesional </span>. <br />Como inmobiliaria puedes cumplir tu papel de encontrar un comprador de manera más eficiente, más eficiente significa casi siempre más facturación</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Profesional </span>. <br />Como inmobiliaria puedes cumplir tu papel de encontrar un comprador de manera más eficiente, más eficiente significa casi siempre más facturación</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Distinguirte de la fuerte competencia</span>. <br />Siendo parte de esta comunidad te distingues de la enorme cantidad de inmobiliarias</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Distinguirte de la fuerte competencia</span>. <br />Siendo parte de esta comunidad te distingues de la enorme cantidad de inmobiliarias</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">Compradores más seguros</span>. <br />No pierdes más tiempo con compradores que solo se están orientando o realmente no van a comprar</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">Compradores más seguros</span>. <br />No pierdes más tiempo con compradores que solo se están orientando o realmente no van a comprar</h2>
                                 </div>
                             </ul>
-                        
+                            <button className=" w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-12 mb-14 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
                     </div>
-                    <div>
-                        <h1 className="mb-4 font-semibold text-bttl uppercase text-xl ">Vendedores</h1>
+                    <div className=" flex flex-col place-items-center md:place-items-start text-left   ">
+                        <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">Vendedores</h1>
                             <ul className=" max-w-sm ">
                                 <div className="flex flex-row  relative mb-3 ">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">Conseguir compradores</span>. <br /> Al contrario de portales con Buscamos puedes buscar el comprador tu mismo para no perder opciones</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">Conseguir compradores</span>. <br /> Al contrario de portales con Buscamos puedes buscar el comprador tu mismo para no perder opciones</h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Compradores más seguros</span>. <br />Siendo miembro de esta comunidad se puede deducir que se trata de compradores que ya están listos para comprar</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Compradores más seguros</span>. <br />Siendo miembro de esta comunidad se puede deducir que se trata de compradores que ya están listos para comprar</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-sm"><span className="text-bd font-semibold uppercase">Vender más rápido</span>. <br />Poder encontrar compradores de forma pro activo puede resultar en una venta más rápida</h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">Vender más rápido</span>. <br />Poder encontrar compradores de forma pro activo puede resultar en una venta más rápida</h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-sm"><span className="text-bd font-semibold uppercase">Posibilidad de vender con o sin intermediarios</span>. <br />El vendedor elige si quiere la intermediación de un profesional o no.</h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">Posibilidad de vender con o sin intermediarios</span>. <br />El vendedor elige si quiere la intermediación de un profesional o no.</h2>
                                 </div>
                             </ul>
-                        
+                            <button className="w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-32 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
                     </div>
                     
                     
@@ -295,7 +295,7 @@ export default function Infohome2() {
                 </div>
                 
 
-                <button className="w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
+                
 
             </div>
             <div className="h-full pb-40">

@@ -3,7 +3,7 @@ import styles from "../styles/Post.module.css"
 
 export default function Post() {
     return (
-        <div className="ml-10 col-span-2 overflow-x-hidden">
+        <div className="realtive z-30 ml-10 col-span-2 overflow-x-hidden overflow-y-scroll">
             <div className="h-20">
                 <h1 className="font-normal text-lg uppercase border-l-2 tracking-widest px-3">home</h1>
             </div>
@@ -129,7 +129,7 @@ export default function Post() {
             </div>
             
 
-
+            
         </div>
     )
 }

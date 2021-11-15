@@ -29,7 +29,7 @@ module.exports = {
       bl: '#628ddf',
       bd: '#1E1F6F',
       rb: '#C51414',
-      white: '#FFFFFF',
+      white: '#FDFEFD',
       gwhite: '#B0C0CF',
       thome: '#E0E7FF',
       thome2:'#DEE6FF',
