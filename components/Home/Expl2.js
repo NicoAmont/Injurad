@@ -2,9 +2,13 @@ import { motion } from "framer-motion"
 import {useInView} from 'react-intersection-observer'
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
+import { useTranslation } from "react-i18next";
+
 
 export default function Expl2() {
-    
+
+    const { t } = useTranslation('common');
+
     const {ref, inView} = useInView({
         threshold: 0.1
     });
@@ -40,7 +44,7 @@ export default function Expl2() {
             <motion.div animate={animation} className="w-full mx-auto h-full">
                 <div className="max-w-6xl mx-auto">
                     
-                    <h1   className="text-bd font-semibold text-3xl mb-10 px-2 "><span className="text-5xl"> Vendedores!</span> <br /> Encontrar compradores es <span className="text-bttl text-4xl ">fácil</span>  </h1>
+                    <h1   className="text-bd font-semibold text-3xl mb-10 px-2 "><span className="text-5xl"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-4xl ">{t('adv_subtitleb2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center relative z-20 ">
 
@@ -65,8 +69,8 @@ export default function Expl2() {
                             </div>
                             
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-bd mt-10">1. Registrate</h1>
-                                <h2 className="mt-3 font-body">Regístrate y agrega la propiedad que quieres vender.</h2>
+                                <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb1')}</h1>
+                                <h2 className="mt-3 font-body">{t('adv_infostepsb1')}</h2>
                             </div>
                             
                         </div>
@@ -122,8 +126,8 @@ export default function Expl2() {
                             </div>
                         
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-bd mt-10">2. Recibe y analiza</h1>
-                                <h2 className="mt-3 font-body">Recibe perfiles de compradores pre-seleccionados por el sistema, analízalos y verifica que tu propiedad coincide con el máximo de requisitos del comprador.</h2>
+                                <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb2')}</h1>
+                                <h2 className="mt-3 font-body">{t('adv_infostepsb2')}</h2>
                             </div>
                         </div>
 
@@ -218,8 +222,8 @@ export default function Expl2() {
                                 </svg>
                             </div>
                             <div className="w-12/12">
-                                <h1 className="text-3xl font-semibold text-bd mt-10">3. Ofrece y espera</h1>
-                                <h2 className="mt-3 font-body">Ofrece tu propiedad a los `perfiles en verde`. Te llegarán solicitudes para más información o una visita.</h2>
+                                <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb3')}</h1>
+                                <h2 className="mt-3 font-body">{t('adv_infostepsb3')}</h2>
                             </div>
                         </div>
 

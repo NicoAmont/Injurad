@@ -31,6 +31,8 @@ module.exports = {
       rb: '#C51414',
       white: '#FDFEFD',
       gwhite: '#B0C0CF',
+      gblue: 'rgba(135, 156, 230, 0.45)',
+      gw: 'rgba(135, 156, 230, 0.45)',
       thome: '#E0E7FF',
       thome2:'#DEE6FF',
       explhome:'#FFF5EC',

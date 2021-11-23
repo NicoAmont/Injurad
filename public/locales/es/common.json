@@ -1,0 +1,74 @@
+{
+    "title" : "El sueño para los compradores y la solución para los vendedores.",
+    "subtitle" : "El lugar donde los vendedores de viviendas encuentran compradores serios",
+
+    "title2" : "Descubre la forma lógica de comprar y vender en España",
+
+    "desc1_title" : "El problema",
+    "desc1_text1" : "Todo el mundo lo sabe. En portales de viviendas se ofrecen varias veces las mismas propiedades con diferentes precios, superficies, ya vendidas, etc. ¿Y la ubicación? Casi nunca se menciona, aun cuando es muy importante.",
+    "desc1_text2" : "Por cierto, ¿sabías que no todos los vendedores e inmobiliarias venden a través de portales? Como consecuencia, los compradores pierden una gran cantidad de oferta y la venta de las casas tarda innecesariamente. ",
+    "desc1_text2a" : "Seamos realistas, ¿que sentido tiene que los compradores busquen casas con información poco clara, y cuya ubicación ni siquiera se conoce?",
+
+    "desc2_title" : "LA SOLUCIÓN",
+    "desc2_text1" : "Los portales de vivienda en realidad funcionan al revés. Dale la vuelta y de repente tiene mucho sentido. Nos aseguramos de que los vendedores puedan encontrar al comprador de su casa. Después de todo los vendedores conocen su hogar mejor que nadie. Y si supieran exactamente lo que buscan los compradores, realmente solo tenemos que ponerlos en contacto.",
+    "desc2_text2a" : "Eso es exactamente lo que hace BUSKAMOS, conectamos vendedores con compradores.",
+
+    "rol_titlea": "Vamos! Unete a nuestra ",
+    "rol_titleb": "comunidad, ",
+    "rol_titlec": "y aprovecha sus ventajas. ",
+
+    "rol_subtitlea":"COMPRADORES",
+    "rol_subtitlea_infotitle1":"Oferta más ajustada",
+    "rol_subtitlea_infodesc1":"Es el vendedor que determina si la casa cumple con tu perfil",
+    "rol_subtitlea_infotitle2":"Propiedades desconocidas",
+    "rol_subtitlea_infodesc2":"Llegar a propiedades que no se encuentran en los portales ",
+    "rol_subtitlea_infotitle3":"Información correcta",
+    "rol_subtitlea_infodesc3":"Vigilamos que la información esté actualizada y correcta bajo pena de exclusión. ",
+    "rol_subtitlea_infotitle4":"Localización",
+    "rol_subtitlea_infodesc4":"Tratándose de ser miembros es mas probable que se comparta la ubicación contigo.",
+    "rol_subtitlea_infotitle5":"Anónimamente",
+    "rol_subtitlea_infodesc5":"Tus datos nunca se publicarán. Trabajamos permanentemente en la protección de tus datos",
+
+
+    "rol_subtitleb":"INMOBILIARIAS",
+    "rol_subtitleb_infotitle1":"Exclusividad",
+    "rol_subtitleb_infodesc1":"Cada propiedad se publica solo una vez",
+    "rol_subtitleb_infotitle2":"Mas ventas ",
+    "rol_subtitleb_infodesc2":"Trabajar más eficientemente resulta en más ventas",
+    "rol_subtitleb_infotitle3":"Destaca de la competencia",
+    "rol_subtitleb_infodesc3":"Ser parte de la comunidad te distingue de la massa ",
+    "rol_subtitleb_infotitle4":"Llegar a compradores serios",
+    "rol_subtitleb_infodesc4":"Optimiza la venta atendiendo compradores serios y no compradores que se están orientando o realmente no planean comprar",
+
+
+    "rol_subtitlec":"PROPIETARIOS",
+    "rol_subtitlec_infotitle1":"Encuentra compradores",
+    "rol_subtitlec_infodesc1":"A diferencia de los portales, con nosotros puedes tomar acciones para encontrar al comprador y no quedarte esperando.",
+    "rol_subtitlec_infotitle2":"Llegar a compradores serios ",
+    "rol_subtitlec_infodesc2":"Optimiza la venta atendiendo compradores serios y no compradores que se están orientando o realmente no planean comprar",
+    "rol_subtitlec_infotitle3":"Vende más rápido",
+    "rol_subtitlec_infodesc3":"Eres tú que tienes el control. Tomar acciones para encontrar compradores y después de encontrarlos también, te evitará competir con otras propiedades",
+    "rol_subtitlec_infotitle4":"Vender con o sin inmobiliaria",
+    "rol_subtitlec_infodesc4":"Como vendedor, puedes optar por vender tu mismo o remitir a una inmobiliaria",
+
+    "adv_subtitlea":"Compradores !",
+    "adv_subtitlea2":"Encontrar un vendedor ya es ",
+    "adv_subtitlea2b":"fácil ",
+    "adv_titlestepsa1":"1. Regístrate",
+    "adv_infostepsa1":"Describe tus deseos y requisitos para tu vivienda",
+    "adv_titlestepsa2":"2. Recibe ofertas",
+    "adv_infostepsa2":"Tendrás una selección de propiedades",
+    "adv_titlestepsa3":"3. Elije y responde",
+    "adv_infostepsa3":"Determina con cuales vendedores deseas ponerte en contacto",
+
+    "adv_subtitleb":"Vendedores !",
+    "adv_subtitleb2":"Encontrar un comprador ahora es muy ",
+    "adv_subtitleb2b":"fácil ",
+    "adv_titlestepsb1":"1. Regístrate",
+    "adv_infostepsb1":"Agrega la propiedad que quieres vender",
+    "adv_titlestepsb2":"2. Recibe y analiza",
+    "adv_infostepsb2":"Analiza perfiles de los compradores interesados",
+    "adv_titlestepsb3":"3. Responde",
+    "adv_infostepsb3":"Responde al comprador"
+
+}

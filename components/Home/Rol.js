@@ -1,11 +1,14 @@
-import Image from "next/image"
+import { useTranslation } from "next-i18next";
 
 
-export default function Rol() {
+
+export default  function Rol(props) {
+    const { t } = useTranslation('common');
+
     return (
     <div className="bg-white w-full z-30 h-full  top-20 sm:mb-0 relative overflow-hidden "  >
             
-            <div className="absolute w-full h-full z-30 md:bottom-0 xl:top-64 left-20 ">
+            {/* <div className="absolute w-full h-full z-30 md:bottom-0 xl:top-64 left-20 ">
                 <h1 className="text-xl md:text-6xl  leading-relaxed ml-2 mt-44 text-left text-white"> Encuentra tu <span className="text-xl hover:text-rb md:text-6xl hover: transition-all duration-1000 ease-out ">casa ideal</span></h1>
                 <div className="flex items-left h-full w-full relative left-2">
 
@@ -27,11 +30,16 @@ export default function Rol() {
                     </svg>
                     <h2 className=" text-5xl ml-14 sm:text-6xl sm:mt-4 pb-10 text-white">vendela</h2>
                 </div>
+            </div> */}
+            <div className="absolute w-full h-full z-30 md:bottom-0 xl:top-72 ">
+                <h1 className="bg-gblue text-xl md:text-4xl  leading-relaxed max-w-2xl h-24 pl-28 mt-44 text-left text-white">{t('title')}</h1>
+                <h1 className="bg-white text-xl md:text-xl  leading-relaxed max-w-2xl h-8 pl-28  text-left text-bl">{t('subtitle')}</h1>
+                
+                
             </div>
-            <div className="w-screen pt-4">
-
-            <Image className="w-full h-96 object-contain" src="/pexels-mart-production-7415015.jpg" width="1661" height="767.15" alt="" />
-            </div>
+            
+            <img className="w-full h-full object-contain" src="/foto-portada-buskamos.jpg" width="1661" height="767.15" alt="" />
+            
     </div>
             
             

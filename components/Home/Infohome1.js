@@ -2,8 +2,12 @@ import { motion } from "framer-motion"
 import {useInView} from 'react-intersection-observer'
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
+import { useTranslation } from "next-i18next";
+
+
 
 export default function Infohome1() {
+    const { t } = useTranslation('common');
     const {ref, inView} = useInView({
         threshold: 0.3
     });
@@ -30,21 +34,28 @@ export default function Infohome1() {
     return (
         <div ref={ref} className=" font-heads bg-gradient-to-b from-thome to-thome2 w-full relative z-10 h-full flex flex-col place-content-center" >
             <div className="bg-white h-16 sm:h-32  w-screen  mt-20 flex place-content-center">
-                <h1 className="font-heads text-bd text-xl sm:text-2xl md:text-4xl md:mt-10 ml-2">Meeting Point for property buyers and sellers</h1>
+                <h1 className="font-heads text-bd text-xl sm:text-2xl md:text-4xl md:mt-10 ml-2">{t('title2')}</h1>
             </div>  
             <div className="flex flex-col max-w-4xl mx-auto text-center pt-0 items-center  relative z-10 px-4 text-bd "  
                 >
                 
-                <h1 className="text-3xl font-semibold mt-20 ">Descubre la forma más <span className="text-bttl">logica</span>  para comprar y vender una propiedad en España</h1>
-                <div className="grid sm:grid-cols-2 max-w-4xl mt-10 gap-10 text-lg">
+                
+                <div className="grid sm:grid-cols-2 max-w-7xl mt-10 gap-10 text-lg">
+                
                     <div>
-                        <h2 className="text-left   font-body text-subs1 max-w-lg mb-10">Compradores que<span className="text-bttl font-semibold"> buscan seriamente,</span>  pronto ven las deficiencias de los portales de viviendas. Anuncios duplicados, viviendas que ya se han vendido, información incorrecta, etc. Y la ubicación? Casi nunca se sabe, a pesar de qué es tan importante. Y lo que casi nadie sabe es que en los portales solo se encuentra una parte de la oferta. Por eso no es solo para el comprador la búsqueda, sino para el comprador y el vendedor. </h2>
+                        <h1 className="text-3xl font-semibold mt-20 uppercase mb-10 text-bttl ">{t('desc1_title')}</h1>
+                        <h2 className="text-left   font-body text-subs1 max-w-lg ">{t('desc1_text1')}</h2>
+                        <h2 className="text-left mt-0  font-body text-subs1 max-w-lg mb-10">{t('desc1_text2')}</h2>
+                        <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc1_text2a')}</h2>
 
                     </div>
                     <div>
-                        <h2 className="text-left mt-0  font-body text-subs1 max-w-lg mb-10">Creamos una <span className="text-bttl">comunidad,</span> conectando compradores y vendedores. Son los vendedores que conocen su propiedad mejor que nadie. Si ellos podían conocer los deseos y demandas de los compradores, vender y comprar sería mucho más rápido y eficiente. <br /><br /> Y esto es justamente lo que hace <span className="text-bttl font-bold">BUSKAMOS.</span></h2>
+                        <h1 className="text-3xl font-semibold mt-20 uppercase mb-10 text-bttl ">{t('desc2_title')}</h1>
+                        <h2 className="text-left   font-body text-subs1 max-w-lg mb-10">{t('desc2_text1')}</h2>
+                        <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc2_text2a')}</h2>
                     </div>
                 </div>
+                        
                 
 
             </div>

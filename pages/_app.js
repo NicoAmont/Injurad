@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import '../styles/globals.css';
 import { AnimateSharedLayout } from "framer-motion";
+import {appWithTranslation} from 'next-i18next';
 
 function MyApp({ Component, pageProps }) {
   
@@ -21,4 +22,4 @@ function MyApp({ Component, pageProps }) {
   ) 
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)
