@@ -32,25 +32,29 @@ export default function Infohome1() {
     }, [inView]);
 
     return (
-        <div ref={ref} className=" font-heads bg-gradient-to-b from-thome to-thome2 w-full relative z-10 h-full flex flex-col place-content-center" >
-            <div className="bg-white h-16 sm:h-32  w-screen  text-center flex place-content-center">
-                <h1 className="font-heads text-bd text-xl sm:text-2xl md:te t-4xl md:mt-10 ml-2">{t('title2')}</h1>
-            </div>  
-            <div className="flex flex-col max-w-4xl mx-auto text-center pt-0 items-center  relative z-10 px-4 text-bd "  
+        <div ref={ref} className=" font-heads bg-gradient-to-b bg-white w-full relative z-10 h-full flex flex-col place-content-center" >
+            <div className=" flex w-full m-auto place-content-center">
+                <img className="w-8/12 " src="/testvideo.png" alt="" />
+            </div>
+            
+            {/* <div className="bg-white h-16 sm:h-32  w-screen  flex  max-w-4xl m-auto uppercase">
+                <h1 className="font-semibold font-heads text-bd text-xl sm:text-5xl md:te t-4xl md:mt-10 ml-2">{t('title2')}</h1>
+            </div>   */}
+            <div className="flex flex-col max-w-4xl mx-auto  pt-0 items-center mt-20  relative z-10 px-4 text-bd "  
                 >
                 
                 
-                <div className="grid sm:grid-cols-2 max-w-7xl mt-10 gap-10 text-lg">
+                <div className="grid sm:grid-cols-2 max-w-7xl  gap-10 text-lg">
                 
                     <div>
-                        <h1 className="text-3xl font-semibold mt-20 uppercase mb-10 text-bttl ">{t('desc1_title')}</h1>
+                        <h1 className="text-3xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc1_title')}</h1>
                         <h2 className="text-left   font-body text-subs1 max-w-lg ">{t('desc1_text1')}</h2>
                         <h2 className="text-left mt-0  font-body text-subs1 max-w-lg mb-10">{t('desc1_text2')}</h2>
                         <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc1_text2a')}</h2>
 
                     </div>
                     <div>
-                        <h1 className="text-3xl font-semibold mt-20 uppercase mb-10 text-bttl ">{t('desc2_title')}</h1>
+                        <h1 className="text-3xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc2_title')}</h1>
                         <h2 className="text-left   font-body text-subs1 max-w-lg mb-10">{t('desc2_text1')}</h2>
                         <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc2_text2a')}</h2>
                     </div>

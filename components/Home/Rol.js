@@ -31,10 +31,10 @@ export default  function Rol(props) {
                 onSlideChange={() => console.log('slide change')}
                 >
             <SwiperSlide className="text-bd w-screen h-screen ">
-            <div className="block justify-center items-center mt-32 m-auto relative max-w-6xl  px-4">
+            <div className="block justify-center items-center mt-10 sm:mt-20 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 lg:z-0">
-                    <h1 className="text-bd text-5xl lg:text-6xl font-bold font-heads  ">SOMOS <br />LA COMUNIDAD <br />BUSKAMOS</h1>
-                    <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h1 className="text-bd text-5xl lg:text-6xl font-bold font-heads">SOMOS <br />LA COMUNIDAD <br />BUSKAMOS</h1>
+                    <p className="mt-4">El lugar donde los vendedores de viviendas <br /> encuentran compradores serios.</p>
                 </div>
 
                 <div className="relative mt-10 h-full"> 
@@ -359,8 +359,7 @@ export default  function Rol(props) {
             <div className="block justify-center items-center mt-24 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 ">
                     <h1 className="text-bd text-4xl lg:text-6xl font-bold font-heads  ">SOMOS <br />UN SUEÑO  <br />PARA <br /> COMPRADORES</h1>
-                    <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="flex place-content-center w-11/12 sm:w-96">
+                    <div className=" w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
                             unete
@@ -1036,8 +1035,7 @@ export default  function Rol(props) {
                 <div className="block justify-center items-center mt-24 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 ">
                     <h1 className="text-bd text-4xl lg:text-6xl font-bold font-heads  ">SOMOS <br />LA SOLUCIÓN   <br />PARA <br /> VENDEDORES</h1>
-                    <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="flex place-content-center w-11/12 sm:w-96">
+                    <div className="w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
                             unete
