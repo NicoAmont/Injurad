@@ -19,7 +19,6 @@ export default function Home() {
         {/* <Herohome /> */}
         <Infohome />
         <Explhome />
-        <Subscribe />
       </main>
       
     </div>

@@ -33,8 +33,8 @@ export default function Infohome1() {
 
     return (
         <div ref={ref} className=" font-heads bg-gradient-to-b from-thome to-thome2 w-full relative z-10 h-full flex flex-col place-content-center" >
-            <div className="bg-white h-16 sm:h-32  w-screen  mt-20 flex place-content-center">
-                <h1 className="font-heads text-bd text-xl sm:text-2xl md:text-4xl md:mt-10 ml-2">{t('title2')}</h1>
+            <div className="bg-white h-16 sm:h-32  w-screen  text-center flex place-content-center">
+                <h1 className="font-heads text-bd text-xl sm:text-2xl md:te t-4xl md:mt-10 ml-2">{t('title2')}</h1>
             </div>  
             <div className="flex flex-col max-w-4xl mx-auto text-center pt-0 items-center  relative z-10 px-4 text-bd "  
                 >

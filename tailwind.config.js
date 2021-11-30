@@ -26,7 +26,7 @@ module.exports = {
     colors: {
       bgr: '#DEE6FF',
       bttl: '#DC0000',
-      bl: '#628ddf',
+      bl: '#628dad',
       bd: '#1E1F6F',
       rb: '#C51414',
       white: '#FDFEFD',
