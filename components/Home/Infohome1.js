@@ -34,7 +34,7 @@ export default function Infohome1() {
     return (
         <div ref={ref} className=" font-heads bg-gradient-to-b bg-white w-full relative z-10 h-full flex flex-col place-content-center" >
             <div className=" flex w-full m-auto place-content-center">
-                <img className="w-8/12 " src="/testvideo.png" alt="" />
+                <img className="sm:w-8/12 w-11/12 " src="/testvideo.png" alt="" />
             </div>
             
             {/* <div className="bg-white h-16 sm:h-32  w-screen  flex  max-w-4xl m-auto uppercase">
