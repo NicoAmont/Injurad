@@ -32,8 +32,8 @@ export default  function Rol(props) {
                 >
             <SwiperSlide className="text-bd w-screen h-screen ">
             <div className="block justify-center items-center mt-10 sm:mt-20 m-auto relative max-w-6xl  px-4">
-                <div className="absolute w-full z-20 lg:z-0">
-                    <h1 className="text-bd text-5xl lg:text-6xl font-bold font-heads">SOMOS <br />LA COMUNIDAD <br />BUSKAMOS</h1>
+                <div className="absolute w-full z-20 lg:z-10">
+                    <h1 className="text-bd text-5xl lg:text-7xl font-bold font-heads">SOMOS <br /><span className="text-bttl">LA COMUNIDAD </span> <br />BUSKAMOS</h1>
                     <p className="mt-4">El lugar donde los vendedores de viviendas <br /> encuentran compradores serios.</p>
                 </div>
 
@@ -356,9 +356,9 @@ export default  function Rol(props) {
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="block justify-center items-center mt-24 m-auto relative max-w-6xl  px-4">
+            <div className="block justify-center items-center sm:mt-20 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 ">
-                    <h1 className="text-bd text-4xl lg:text-6xl font-bold font-heads  ">SOMOS <br />UN SUEÑO  <br />PARA <br /> COMPRADORES</h1>
+                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">SOMOS <br /><span className="text-bttl">UN SUEÑO </span> <br />PARA <br /> COMPRADORES</h1>
                     <div className=" w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
@@ -370,7 +370,7 @@ export default  function Rol(props) {
 
                 <div className="relative mt-10 h-full"> 
                 
-                    <svg className="mt-80 sm:mt-56 md:mt-10 md:w-3/6 absolute right-0 px-4 "  viewBox="0 0 646 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="mt-72 sm:mt-56 md:mt-10 md:w-3/6 absolute right-0 px-4 "  viewBox="0 0 646 453" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <ellipse cx="299" cy="226.5" rx="299" ry="226.5" fill="#E6EBFF"/>
                         <circle cx="357" cy="243" r="2" fill="#F4F8FF"/>
                         <circle cx="365" cy="234" r="4" fill="#F4F8FF"/>
@@ -1032,9 +1032,9 @@ export default  function Rol(props) {
             </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="block justify-center items-center mt-24 m-auto relative max-w-6xl  px-4">
+                <div className="block justify-center items-center m-auto relative max-w-6xl sm:mt-20 px-4">
                 <div className="absolute w-full z-20 ">
-                    <h1 className="text-bd text-4xl lg:text-6xl font-bold font-heads  ">SOMOS <br />LA SOLUCIÓN   <br />PARA <br /> VENDEDORES</h1>
+                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">SOMOS <br /><span className="text-bttl">LA SOLUCIÓN</span>    <br />PARA <br /> VENDEDORES</h1>
                     <div className="w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
@@ -1046,7 +1046,7 @@ export default  function Rol(props) {
 
                 <div className="relative mt-10 h-full"> 
                 
-                    <svg className="mt-80 sm:mt-56 md:mt-10 md:w-3/6 absolute right-0 px-4 " viewBox="0 0 612 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="mt-72 sm:mt-56 md:mt-10 md:w-3/6 absolute right-0 px-4 " viewBox="0 0 612 453" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="313" cy="226.5" rx="299" ry="226.5" fill="#E6EBFF"/>
                 <path d="M263.306 190.233C262.866 192.078 260.556 193.845 258.704 194.013H257.937C257.937 194.013 256.404 196.281 257.17 197.037C257.937 197.793 255.636 200.061 255.636 200.061L258.704 206.865L251.801 219.718H242.598C240.297 219.718 237.228 218.206 235.695 216.694C234.161 215.182 234.355 213.347 231.86 212.158C231.86 212.158 230.326 211.402 230.326 209.89C230.326 208.377 231.86 207.622 231.86 206.109C231.86 204.597 231.093 203.841 230.326 203.085C229.559 202.329 229.559 197.037 231.86 195.525C234.161 194.013 235.695 195.525 237.229 194.013C238.763 192.501 237.229 190.989 237.229 189.477C237.229 187.965 238.763 185.697 240.297 184.941C241.831 184.185 245.614 185.632 247.967 184.941C249.481 179.042 251.558 178.619 256.688 178.87C260.174 179.542 260.926 182.923 262.824 183.406C264.722 183.89 263.746 188.388 263.306 190.233Z" fill="#999FB6"/>
                 <path d="M182.533 234.866H212.456V250.015C213.412 262.837 212.835 282.973 213.203 318.94H210.21C203.953 279.855 200.647 265.787 195.25 254.559C191.886 271.867 190.251 286.047 187.021 318.94H184.029C181.21 284.847 180.551 266.258 182.533 234.866Z" fill="#999FB6"/>

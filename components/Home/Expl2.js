@@ -40,19 +40,19 @@ export default function Expl2() {
     
     
     return (
-        <div ref={ref}  className="bg-thome2 h-full text-bd ">
+        <div ref={ref}  className="bg-thome2 h-full text-bd pb-20">
             <motion.div animate={animation} className="w-full mx-auto h-full">
                 <div className="max-w-6xl mx-auto">
                     
-                    <h1   className="text-bd font-semibold text-3xl mb-10 px-2 "><span className="text-5xl"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-4xl ">{t('adv_subtitleb2b')}</span>  </h1>
+                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-4xl"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-5xl ">{t('adv_subtitleb2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center relative z-20 ">
 
                     <div   className="grid sm:grid-cols-2 lg:grid-cols-3  place-center gap-10 max-w-6xl mx-auto">
                         
                         <div  className="flex flex-col items-center rounded-3xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full">
-                                <svg className="w-60 hover:animate-wiggle " viewBox="0 0 547 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full">
+                                <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 453" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22 135C22 122.85 31.8497 113 44 113H503C515.15 113 525 122.85 525 135V403H22V135Z" fill="#3269A1"/>
                                     <rect y="402" width="547" height="51" rx="23" fill="#D0D4D6"/>
                                     <path d="M76 55C76 42.8497 85.8497 33 98 33H448C460.15 33 470 42.8497 470 55V402H76V55Z" fill="#3E8CC7"/>
@@ -76,8 +76,8 @@ export default function Expl2() {
                         </div>
 
                         <div className="flex flex-col items-center rounded-xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full">
-                                <svg className="w-60 hover:animate-wiggle " viewBox="0 0 547 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full">
+                                <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 453" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22 135C22 122.85 31.8497 113 44 113H503C515.15 113 525 122.85 525 135V403H22V135Z" fill="#3269A1"/>
                                     <rect y="402" width="547" height="51" rx="23" fill="#D0D4D6"/>
                                     <path d="M76 55C76 42.8497 85.8497 33 98 33H448C460.15 33 470 42.8497 470 55V402H76V55Z" fill="#3E8CC7"/>
@@ -132,8 +132,8 @@ export default function Expl2() {
                         </div>
 
                         <div className="flex flex-col items-center  rounded-xl p-6">
-                            <div className="bg-bl w-64 h-52 flex place-content-center rounded-full" >
-                                <svg className="w-60 hover:animate-wiggle " viewBox="0 0 547 485" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full" >
+                                <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 485" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 135C22 122.85 31.8497 113 44 113H503C515.15 113 525 122.85 525 135V403H22V135Z" fill="#3269A1"/>
                                         <rect y="402" width="547" height="51" rx="23" fill="#D0D4D6"/>
                                         <path d="M76 55C76 42.8497 85.8497 33 98 33H448C460.15 33 470 42.8497 470 55V402H76V55Z" fill="#3E8CC7"/>
@@ -229,7 +229,7 @@ export default function Expl2() {
 
                     </div>
                 </div>
-                <div className="w-full flex  place-content-center h-full">
+                <div className="w-full flex mt-10 place-content-center h-full">
                 <button className="w-42 font-semibold bg-bd text-white mt-1 rounded-lg px-8 py-2 shadow-lg uppercase mb-7  hover:bg-bd hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
 
                 </div>

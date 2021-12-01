@@ -40,11 +40,11 @@ export default function Expl1() {
 
 
     return (
-        <div ref={ref} className="bg-subs1 text-white">
+        <div ref={ref} className="bg-white text-subs1">
             <div  className="w-full mx-auto h-ful">
                 <div className="max-w-6xl mx-auto pl-3">
                     
-                    <h1   className="text-white font-semibold text-2xl mb-10 px-2 "><span className="text-4xl">{t('adv_subtitlea')}</span> <br /> {t('adv_subtitlea2')} <span className="text-bttl text-3xl">{t('adv_subtitlea2b')}</span>  </h1>
+                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-4xl">{t('adv_subtitlea')}</span> <br /> {t('adv_subtitlea2')} <span className="text-bttl text-5xl">{t('adv_subtitlea2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center ">
 
@@ -68,8 +68,8 @@ export default function Expl1() {
                             </div>
                             
                             <div className="w-12/12 ">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">{t('adv_titlestepsa1')}</h1>
-                                <h2 className="mt-3 font-body">{t('adv_infostepsa1')}</h2>
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa1')}</h1>
+                                <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa1')}</h2>
                             </div>
                             
                         </div>
@@ -161,8 +161,8 @@ export default function Expl1() {
                             </div>
                         
                             <div className="w-12/12">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">{t('adv_titlestepsa2')}</h1>
-                                <h2 className="mt-3 font-body">{t('adv_infostepsa2')}</h2>
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa2')}</h1>
+                                <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa2')}</h2>
                             </div>
                         </div>
 
@@ -264,15 +264,15 @@ export default function Expl1() {
 
                             </div>
                             <div className="w-12/12">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-white mt-10">{t('adv_titlestepsa3')}</h1>
-                                <h2 className="mt-3 font-body">{t('adv_infostepsa3')}</h2>
+                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa3')}</h1>
+                                <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa3')}</h2>
                             </div>
                         </div>
 
                     </motion.div>
                 </div>
-                <div className="w-full flex  place-content-center">
-                <button className="w-42 font-semibold bg-white text-subs1 mt-1 rounded-lg px-8 py-2 shadow-lg uppercase hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
+                <div className="w-full flex mt-10  place-content-center">
+                <button  className="w-42 font-semibold bg-white border text-subs1 mt-1 rounded-lg px-8 py-2  uppercase hover:scale-105 transition-all duration-1000 ease-out">Unete gratis</button>
 
                 </div>
             </div>

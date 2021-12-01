@@ -232,62 +232,62 @@ export default function Infohome2() {
                 animate={animation}
                 
                 >
-                <h1 className="text-4xl font-semibold text-bd pt-10 text-center">{t('rol_titlea')} <span className="text-bttl">{t('rol_titleb')}</span> {t('rol_titlec')}</h1>
+                <h1 style={{'line-height': 0.8}}  className=" px-5 leading-none text-5xl md:text-8xl font-bold text-bd pt-10 uppercase ">{t('rol_titlea')} <br /> <span className="text-bttl text-4xl md:text-8xl">{t('rol_titleb')}</span> <br /> <span className=" text-4xl md:text-7xl">{t('rol_titlec')}</span> </h1>
                 
                 <div className="grid sm:grid-cols-3  mt-20 gap-20 ">
-                    <div className="flex flex-col place-items-center md:place-items-start text-left border-b sm:border-none mg:border-b-none mg:border-r pr-4" >
+                    <div className="flex flex-col  md:place-items-start text-left border-b sm:border-none mg:border-b-none mg:border-r " >
                         <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">{t('rol_subtitlea')}</h1>
                             <ul className=" max-w-sm list-none "  >
                                 <div className="flex flex-row  relative mb-3 list-none">
-                                    <h2 className="text-lg "><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle1')}</span>. <br /> </h2>
+                                    <h2 className="text-lg "><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle1')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle2')}</span>. <br /> </h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle2')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle3')}</span>. <br /> </h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle3')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle4')}</span>. <br /> </h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle4')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle5')}</span>. <br /> </h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlea_infotitle5')}</span> <br /> </h2>
                                 </div>
                             </ul>
                             <button className=" sm:hidden border-none w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-8 mb-14 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
                     </div>
-                    <div className="flex flex-col place-items-center md:place-items-start text-left border-b sm:border-none md:border pr-4" >
+                    <div className="flex flex-col  md:place-items-start text-left border-b sm:border-none md:border pr-4" >
                         <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">{t('rol_subtitleb')}</h1>
                             <ul className=" max-w-sm ">
                                 <div className="flex flex-row  relative mb-3 ">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle1')}</span>. <br /> </h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle1')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle2')}</span>. <br /></h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle2')}</span> <br /></h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle3')}</span>. <br /></h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle3')}</span> <br /></h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle4')}</span>. <br /></h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitleb_infotitle4')}</span> <br /></h2>
                                 </div>
                             </ul>
-                            <button className=" w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-60 mb-14 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
+                            <button className=" w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-20 mb-14 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
                     </div>
-                    <div className=" flex flex-col place-items-center md:place-items-start text-left   ">
+                    <div className=" flex flex-col  md:place-items-start text-left   ">
                         <h1 className="mb-4 font-semibold text-bttl uppercase text-2xl ">{t('rol_subtitlec')}</h1>
                             <ul className=" max-w-sm ">
                                 <div className="flex flex-row  relative mb-3 ">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle1')}</span>. <br /> </h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle1')}</span> <br /> </h2>
                                 </div>
                                 <div className="flex flex-row  relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle2')}</span>. <br /></h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle2')}</span> <br /></h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle3')}</span>. <br /></h2>
+                                    <h2  className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle3')}</span> <br /></h2>
                                 </div>
                                 <div className="flex flex-row text- relative mb-3">
-                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle4')}</span>. <br /></h2>
+                                    <h2 className="text-lg"><span className="text-bd font-semibold ">{t('rol_subtitlec_infotitle4')}</span> <br /></h2>
                                 </div>
                             </ul>
                             <button className=" sm:hidden w-32 font-semibold rounded-lg px-8 py-2 shadow-lg uppercase mt-10 sm:mt-32 md:text-white text-bgr md:bg-bd bg-bd hover:scale-105 transition-all duration-1000 ease-out">unete</button>
@@ -305,7 +305,7 @@ export default function Infohome2() {
             
                 <svg className="w-full  left-0 sm:bottom-0 bottom-0 absolute" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="1440" height="300" preserveAspectRatio="none" viewBox="0 0 1440 560">
                     
-                        <path d="M 0,259 C 144,276.2 432,347.6 720,345 C 1008,342.4 1296,265.8 1440,246L1440 560L0 560z" fill="#4B4D94"></path>
+                        <path d="M 0,259 C 144,276.2 432,347.6 720,345 C 1008,342.4 1296,265.8 1440,246L1440 560L0 560z" fill="#fff"></path>
                     
                 </svg>    
             </div>

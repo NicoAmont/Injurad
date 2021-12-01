@@ -19,6 +19,7 @@ export default function Home() {
         {/* <Herohome /> */}
         <Infohome />
         <Explhome />
+        
       </main>
       
     </div>

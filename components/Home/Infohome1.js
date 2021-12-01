@@ -47,14 +47,14 @@ export default function Infohome1() {
                 <div className="grid sm:grid-cols-2 max-w-7xl  gap-10 text-lg">
                 
                     <div>
-                        <h1 className="text-3xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc1_title')}</h1>
+                        <h1 className="text-5xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc1_title')}</h1>
                         <h2 className="text-left   font-body text-subs1 max-w-lg ">{t('desc1_text1')}</h2>
                         <h2 className="text-left mt-0  font-body text-subs1 max-w-lg mb-10">{t('desc1_text2')}</h2>
                         <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc1_text2a')}</h2>
 
                     </div>
                     <div>
-                        <h1 className="text-3xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc2_title')}</h1>
+                        <h1 className="text-5xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc2_title')}</h1>
                         <h2 className="text-left   font-body text-subs1 max-w-lg mb-10">{t('desc2_text1')}</h2>
                         <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc2_text2a')}</h2>
                     </div>
