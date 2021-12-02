@@ -49,7 +49,7 @@ export default function Infohome1() {
                     <div>
                         <h1 className="text-5xl font-semibold mt-10 uppercase mb-10 text-bttl ">{t('desc1_title')} <br /> {t('desc1_title2')}</h1>
                         <h2 className="text-left   font-body text-subs1 max-w-lg ">{t('desc1_text1')}</h2>
-                        <h2 className="text-left mt-0  font-body text-subs1 max-w-lg mb-10">{t('desc1_text2')}</h2>
+                        <h2 className="text-left font-body text-subs1 max-w-lg mb-10 mt-6">{t('desc1_text2')}</h2>
                         <h2 className="text-left  text-lg  font-body font-bold text-subs1 max-w-lg mb-16">{t('desc1_text2a')}</h2>
                     </div>
                     <div>
