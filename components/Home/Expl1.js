@@ -44,13 +44,13 @@ export default function Expl1() {
             <div  className="w-full mx-auto h-ful">
                 <div className="max-w-6xl mx-auto pl-3">
                     
-                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-4xl">{t('adv_subtitlea')}</span> <br /> {t('adv_subtitlea2')} <span className="text-bttl text-5xl">{t('adv_subtitlea2b')}</span>  </h1>
+                    <h1  className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-2xl text-bttl uppercase">{t('adv_subtitlea')}</span> <br /> {t('adv_subtitlea2')} <span className="text-bttl text-5xl">{t('adv_subtitlea2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center ">
 
                     <motion.div animate={animation} className="grid sm:grid-cols-3 place-center gap-10 max-w-6xl mx-auto">
                         
-                        <div  className="flex flex-col items-left rounded-3xl p-6">
+                        <div  className="flex flex-col items-center rounded-3xl p-6">
                             <div className="bg-bl w-56 h-52 flex place-content-center ml-10 sm:ml-0 rounded-full">
                                 <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>

@@ -44,7 +44,7 @@ export default function Expl2() {
             <motion.div animate={animation} className="w-full mx-auto h-full">
                 <div className="max-w-6xl mx-auto">
                     
-                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-4xl"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-5xl ">{t('adv_subtitleb2b')}</span>  </h1>
+                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-2xl text-bttl uppercase"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-5xl ">{t('adv_subtitleb2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center relative z-20 ">
 
@@ -221,7 +221,7 @@ export default function Expl2() {
                                         <path d="M349.611 428.601L362.62 417.593L372.627 407.086L400.556 381.067V477.135H260.457L300.076 461.624L321.091 450.116L335.601 440.609L349.611 428.601Z" fill="#FEC093"/>
                                 </svg>
                             </div>
-                            <div className="w-12/12">
+                            <div className="w-12/12 flex flex-col  text-left justify-start place-items-start">
                                 <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb3')}</h1>
                                 <h2 className="mt-3 font-body">{t('adv_infostepsb3')}</h2>
                             </div>

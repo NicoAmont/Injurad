@@ -11,6 +11,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { motion } from "framer-motion"
+import {useInView} from 'react-intersection-observer'
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
 
 
 
@@ -30,11 +34,12 @@ export default  function Rol(props) {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 >
+                {/* first slide */}
             <SwiperSlide className="text-bd w-screen h-screen ">
             <div className="block justify-center items-center mt-10 sm:mt-20 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 lg:z-10">
-                    <h1 className="text-bd text-5xl lg:text-7xl font-bold font-heads">SOMOS <br /><span className="text-bttl">LA COMUNIDAD </span> <br />BUSKAMOS</h1>
-                    <p className="mt-4">El lugar donde los vendedores de viviendas <br /> encuentran compradores serios.</p>
+                    <h1 className="text-bd text-5xl lg:text-7xl font-bold font-heads">{t('slider1_titlea')} <br /><span className="text-bttl">{t('slider1_titleb')}</span> <br />{t('slider1_titlec')}</h1>
+                    <p className="mt-4">{t('slider1_subtitle')} <br />{t('slider1_subtitleb')}</p>
                 </div>
 
                 <div className="relative mt-10 h-full"> 
@@ -355,10 +360,11 @@ export default  function Rol(props) {
                 </div>
             </div>
             </SwiperSlide>
+            {/* Second slide */}
             <SwiperSlide>
             <div className="block justify-center items-center sm:mt-20 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 ">
-                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">SOMOS <br /><span className="text-bttl">UN SUEÑO </span> <br />PARA <br /> COMPRADORES</h1>
+                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">{t('slider2_titlea')} <br /><span className="text-bttl">{t('slider2_titleb')} </span> <br />{t('slider2_titlec')} <br /> {t('slider2_titled')}</h1>
                     <div className=" w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
@@ -1031,10 +1037,11 @@ export default  function Rol(props) {
                 </div>
             </div>
             </SwiperSlide>
+            {/* Third slide */}
             <SwiperSlide>
                 <div className="block justify-center items-center m-auto relative max-w-6xl sm:mt-20 px-4">
                 <div className="absolute w-full z-20 ">
-                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">SOMOS <br /><span className="text-bttl">LA SOLUCIÓN</span>    <br />PARA <br /> VENDEDORES</h1>
+                    <h1 className="text-bd text-4xl lg:text-7xl font-bold font-heads  ">{t('slider3_titlea')} <br /><span className="text-bttl">{t('slider3_titleb')} </span> <br />{t('slider3_titlec')} <br /> {t('slider3_titled')}</h1>
                     <div className="w-11/12 sm:w-96">
                     <button className=" font-normal hover:bg-thome2 hover:border-thome2 transition-colors duration-1000  hover:animate-pulse flex uppercase border rounded px-10 py-1.5 w-154 text-subs2 mt-10">
                             
