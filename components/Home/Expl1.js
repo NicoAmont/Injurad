@@ -51,7 +51,7 @@ export default function Expl1() {
                     <motion.div animate={animation} className="grid sm:grid-cols-3 place-center gap-10 max-w-6xl mx-auto">
                         
                         <div  className="flex flex-col items-center rounded-3xl p-6">
-                            <div className="bg-bl w-56 h-52 flex place-content-center ml-10 sm:ml-0 rounded-full">
+                            <div className="bg-bl w-56 h-52 flex place-content-center  sm:ml-0 rounded-full">
                                 <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                                     <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
@@ -68,14 +68,16 @@ export default function Expl1() {
                             </div>
                             
                             <div className="w-64 sm:w-12/12">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa1')}</h1>
+                                <h1 className="text-3xl  sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa1')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa1')}</h2>
                             </div>
                             
                         </div>
 
                         <div className="flex flex-col items-center rounded-3xl p-6">
+
                             <div className="bg-bl w-56 h-52 flex place-content-center rounded-full">
+
                                 <svg className="w-48 hover:animate-wiggle" viewBox="0 0 547 386" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44 22C44 9.84973 53.8497 0 66 0H482C494.15 0 504 9.84974 504 22V335H44V22Z" fill="#3269A1"/>
                                     <path d="M77 56C77 43.8497 86.8497 34 99 34H449C461.15 34 471 43.8497 471 56V335H77V56Z" fill="#3E8CC7"/>
@@ -160,8 +162,8 @@ export default function Expl1() {
 
                             </div>
                         
-                            <div className="w-12/12">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa2')}</h1>
+                            <div className="w-12/12 ml-7">
+                                <h1 className="text-3xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa2')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa2')}</h2>
                             </div>
                         </div>
@@ -264,7 +266,7 @@ export default function Expl1() {
 
                             </div>
                             <div className="w-64 sm:w-12/12">
-                                <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa3')}</h1>
+                                <h1 className="text-3xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa3')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa3')}</h2>
                             </div>
                         </div>
