@@ -28,38 +28,38 @@ export default function Footer() {
                     <div className="mb-10 cursor-pointer ">
                         <h4 className="mb-10 uppercase text-xl font-medium">Enlaces</h4>
                         <ul className=" text-base upp font-light w-60 ">
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Chequeo de documentos</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4  ">INJURAD</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Casa Propia</li>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Chequeo de documentos</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4  ">INJURAD</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Casa Propia</div>
                         </ul>
                         
                     </div>
                     <div className="mb-10 cursor-pointer ">
                         <h4 className="mb-10 uppercase text-xl font-medium">Red</h4>
                         <ul className=" text-base upp font-light w-60">
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Perfil</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Publicaciones</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Reglas y Condiciones</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Politicas de Buskamos</li>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Perfil</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Publicaciones</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Reglas y Condiciones</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Politicas de Buskamos</div>
                         </ul>
                         
                     </div>
                     <div className="mb-10 cursor-pointer ">
                         <h4 className="mb-10 uppercase text-xl font-medium">Soporte</h4>
                         <ul className=" text-base upp font-light w-60">
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Contacto</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Preguntas Frecuentes</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Reportes</li>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Contacto</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Preguntas Frecuentes</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Reportes</div>
                         </ul>
                         
                     </div>
                     <div className="mb-10 cursor-pointer ">
                         <h4 className="mb-10 uppercase text-xl font-medium">Suscripciones</h4>
                         <ul className=" text-base upp font-light w-60">
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Comprador Jr</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Vendedor Jr</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Comprador Pro</li>
-                            <li className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Vendedor Pro</li>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4 ">Comprador Jr</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Vendedor Jr</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Comprador Pro</div>
+                            <div className="hover:ml-1 hover:text-rb transition-all duration-150 mb-4">Vendedor Pro</div>
                         </ul>
                     </div>
 

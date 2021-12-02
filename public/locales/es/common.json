@@ -4,12 +4,14 @@
 
     "title2" : "Descubre la forma lógica de comprar y vender en España",
 
-    "desc1_title" : "El problema",
+    "desc1_title" : "El ",
+    "desc1_title2" : "problema",
     "desc1_text1" : "Todo el mundo lo sabe. En portales de viviendas se ofrecen varias veces las mismas propiedades con diferentes precios, superficies, ya vendidas, etc. ¿Y la ubicación? Casi nunca se menciona, aun cuando es muy importante.",
     "desc1_text2" : "Por cierto, ¿sabías que no todos los vendedores e inmobiliarias venden a través de portales? Como consecuencia, los compradores pierden una gran cantidad de oferta y la venta de las casas tarda innecesariamente. ",
     "desc1_text2a" : "Seamos realistas, ¿que sentido tiene que los compradores busquen casas con información poco clara, y cuya ubicación ni siquiera se conoce?",
 
-    "desc2_title" : "LA SOLUCIÓN",
+    "desc2_title" : "LA ",
+    "desc2_title2" : "SOLUCIÓN",
     "desc2_text1" : "Los portales de vivienda en realidad funcionan al revés. Dale la vuelta y de repente tiene mucho sentido. Nos aseguramos de que los vendedores puedan encontrar al comprador de su casa. Después de todo los vendedores conocen su hogar mejor que nadie. Y si supieran exactamente lo que buscan los compradores, realmente solo tenemos que ponerlos en contacto.",
     "desc2_text2a" : "Eso es exactamente lo que hace BUSKAMOS, conectamos vendedores con compradores.",
 
