@@ -7,6 +7,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
+import 'animate.css';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -42,7 +44,7 @@ export default  function Rol(props) {
                     <p className="mt-4">{t('slider1_subtitle')} <br />{t('slider1_subtitleb')}</p>
                 </div>
 
-                <div className="relative mt-10 h-full"> 
+                <div className="relative mt-10 h-full animate__animated animate__slideInDown"> 
                 
                     
                     <svg className="mt-80 sm:mt-56 md:mt-10 lg:w-4/6 absolute right-0 px-4 "  viewBox="0 0 983 492" fill="none" xmlns="http://www.w3.org/2000/svg">

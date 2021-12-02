@@ -67,7 +67,7 @@ export default function Expl1() {
                                 </svg>
                             </div>
                             
-                            <div className="w-12/12 ">
+                            <div className="w-64 sm:w-12/12">
                                 <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa1')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa1')}</h2>
                             </div>
@@ -166,7 +166,7 @@ export default function Expl1() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center  rounded-xl p-6">
+                        <div className="flex flex-col items-center rounded-xl p-6">
                             <div className="bg-bl w-56 h-52 flex place-content-center rounded-full" >
                                 <svg className="w-48 hover:animate-wiggle" viewBox="0 0 548 387" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44.0308 22C44.0308 9.84973 53.8805 0 66.0308 0H482.355C494.505 0 504.355 9.84974 504.355 22V335.236H44.0308V22Z" fill="#3269A1"/>
@@ -263,7 +263,7 @@ export default function Expl1() {
                                 </svg>
 
                             </div>
-                            <div className="w-12/12">
+                            <div className="w-64 sm:w-12/12">
                                 <h1 className="text-2xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa3')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa3')}</h2>
                             </div>

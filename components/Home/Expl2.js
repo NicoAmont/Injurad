@@ -44,14 +44,16 @@ export default function Expl2() {
             <motion.div animate={animation} className="w-full mx-auto h-full">
                 <div className="max-w-6xl mx-auto">
                     
-                    <h1   className="text-bd font-bold text-5xl mb-10 px-2 "><span className="text-2xl text-bttl uppercase"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-5xl ">{t('adv_subtitleb2b')}</span>  </h1>
+                    <h1   className="text-bd font-bold text-5xl mb-10 px-6 "><span className="text-2xl text-bttl uppercase"> {t('adv_subtitleb')}</span> <br /> {t('adv_subtitleb2')} <span className="text-bttl text-5xl ">{t('adv_subtitleb2b')}</span>  </h1>
                 </div>
                 <div  className=" w-full h-full pt-5 pb-5 flex flex-col place-content-center relative z-20 ">
 
                     <div   className="grid sm:grid-cols-2 lg:grid-cols-3  place-center gap-10 max-w-6xl mx-auto">
                         
                         <div  className="flex flex-col items-center rounded-3xl p-6">
+
                             <div className="bg-bl w-56 h-52 flex place-content-center rounded-full">
+
                                 <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 453" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22 135C22 122.85 31.8497 113 44 113H503C515.15 113 525 122.85 525 135V403H22V135Z" fill="#3269A1"/>
                                     <rect y="402" width="547" height="51" rx="23" fill="#D0D4D6"/>
@@ -125,14 +127,14 @@ export default function Expl2() {
                                 </svg>
                             </div>
                         
-                            <div className="w-12/12">
+                            <div className=" w-64 sm:w-12/12">
                                 <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb2')}</h1>
                                 <h2 className="mt-3 font-body">{t('adv_infostepsb2')}</h2>
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center  rounded-xl p-6">
-                            <div className="bg-bl w-56 h-52 flex place-content-center rounded-full" >
+                        <div className="flex flex-col sm:items-center rounded-xl p-6 ">
+                            <div className="bg-bl w-56 h-52 flex place-content-center items-center justify-center ml-4 sm:ml-0 rounded-full" >
                                 <svg className="w-48 hover:animate-wiggle " viewBox="0 0 547 485" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 135C22 122.85 31.8497 113 44 113H503C515.15 113 525 122.85 525 135V403H22V135Z" fill="#3269A1"/>
                                         <rect y="402" width="547" height="51" rx="23" fill="#D0D4D6"/>
@@ -221,7 +223,7 @@ export default function Expl2() {
                                         <path d="M349.611 428.601L362.62 417.593L372.627 407.086L400.556 381.067V477.135H260.457L300.076 461.624L321.091 450.116L335.601 440.609L349.611 428.601Z" fill="#FEC093"/>
                                 </svg>
                             </div>
-                            <div className="w-12/12 flex flex-col  text-left justify-start place-items-start">
+                            <div className="w-12/12 flex flex-col text-left justify-start place-items-start">
                                 <h1 className="text-3xl font-semibold text-bd mt-10">{t('adv_titlestepsb3')}</h1>
                                 <h2 className="mt-3 font-body">{t('adv_infostepsb3')}</h2>
                             </div>
