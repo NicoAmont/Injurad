@@ -265,7 +265,7 @@ export default function Expl1() {
                                 </svg>
 
                             </div>
-                            <div className="w-64 sm:w-12/12">
+                            <div className="w-64 sm:w-72">
                                 <h1 className="text-3xl sm:text-3xl font-semibold text-subs1 mt-10">{t('adv_titlestepsa3')}</h1>
                                 <h2 className="mt-3 font-body text-lg">{t('adv_infostepsa3')}</h2>
                             </div>

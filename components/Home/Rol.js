@@ -40,7 +40,7 @@ export default  function Rol(props) {
             <SwiperSlide className="text-bd w-screen h-screen ">
             <div className="block justify-center items-center mt-10 sm:mt-20 m-auto relative max-w-6xl  px-4">
                 <div className="absolute w-full z-20 lg:z-10">
-                    <h1 className="text-bd text-5xl lg:text-7xl font-bold font-heads">{t('slider1_titlea')} <br /><span className="text-bttl">{t('slider1_titleb')}</span> <br />{t('slider1_titlec')}</h1>
+                    <h1 className="text-bd text-5xl lg:text-7xl font-bold font-heads">{t('slider1_titlea')} <br /><span className="text-bttl ">{t('slider1_titleb')}</span> <br />{t('slider1_titlec')}</h1>
                     <p className="mt-4">{t('slider1_subtitle')} <br />{t('slider1_subtitleb')}</p>
                 </div>
 
