@@ -2,17 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { useTranslation } from "next-i18next";
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'animate.css';
 
-import 'swiper/css';
+import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 import { motion } from "framer-motion"
 import {useInView} from 'react-intersection-observer'
 import { useEffect } from "react";
@@ -27,9 +28,12 @@ export default  function Rol(props) {
         <div className="bg-white w-full z-30   top-20 sm:mb-0 relative overflow-hidden text-bd swiper flex m-auto">
             <Swiper className="w-screen " style={{height: 750 + 'px'}}
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={500}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                spaceBetween={1000}
                 slidesPerView={1}
+                autoplay={true}
+                loop={true}
+                speed={300}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
