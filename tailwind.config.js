@@ -24,21 +24,14 @@ module.exports = {
       }
     },
     colors: {
-      bgr: '#DEE6FF',
-      bttl: '#DC0000',
-      bl: '#628dad',
-      bd: '#1E1F6F',
-      rb: '#C51414',
-      white: '#FDFEFD',
-      gwhite: '#B0C0CF',
-      gblue: 'rgba(135, 156, 230, 0.45)',
-      gw: 'rgba(135, 156, 230, 0.45)',
-      thome: '#E0E7FF',
-      thome2:'#DEE6FF',
-      explhome:'#FFF5EC',
-      subs1:'#4B4D94',
-      subs2:'#37497b',
-      orange:'#E7B42E'
+      bgr: '#FFFFFF',
+      bgr2: 'rgba(40, 225, 140, 0.1)',
+      bgrS: 'rgba(232, 236, 235, 1)',
+      sl: '#E5AE35',
+      gl: '#2EA153',
+      bg: '#203D46',
+      bg2: '#326754',
+      bg3: '#7A8A7C',
 
     },
     screens: {

@@ -1,13 +1,8 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-
-import Head from 'next/head'
-import Header from '../components//header/Header'
-import Explhome from '../components/Explhome'
-import Footer from '../components/Footer'
-import Herohome from '../components/Home/Herohome'
-import Infohome from '../components/Home/Infohome'
-import Rol from '../components/Home/Rol'
-import Subscribe from '../components/Home/Subscribe'
+import HeroSection from '../components/Home/HeroSection'
+import InfoSection from '../components/Home/InfoSection'
+import Slogan from '../components/Home/Slogan'
+import VideoSection from '../components/Home/VideoSection'
 
 
 export default function Home() {
@@ -15,10 +10,11 @@ export default function Home() {
     <div>
 
       <main className="">
-        <Rol />
-        {/* <Herohome /> */}
-        <Infohome />
-        <Explhome />
+        <HeroSection />
+        <Slogan />
+        <VideoSection />
+        <InfoSection />
+        
         
       </main>
       

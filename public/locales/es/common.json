@@ -1,105 +1,52 @@
 {
-
-
-    "slider1_titlea":"SOMOS",
-    "slider1_titleb":" LA COMUNIDAD ",
-    "slider1_titlec":"BUSKAMOS",
-    "slider1_subtitle":"El lugar donde los vendedores de viviendas",
-    "slider1_subtitleb":" encuentran compradores serios",
+    "navbtn_title": "Selecciona Idioma",
+    "navbtn_opt1": "Español",
+    "navbtn_opt2": "Holandes",
     
-    "slider2_titlea":"SOMOS",
-    "slider2_titleb":"EL SUEÑO ",
-    "slider2_titlec":"PARA",
-    "slider2_titled":"COMPRADORES",
+    "hero_title":"La itv para",
+    "hero_titleb":"propiedades",
+    "hero_titlec":"en",
+    "hero_titled":"españa",
+    "hero_subtitle":"Comprar con seguiridad comienza aquí",
+
+    "slogan":"es el único Supervisor de inspecciones de propiedades en España. Una organización independiente que tiene por objetivo hacer que las compras seguras sean accesibles para todos mediante una inspección nacional.",
+    "slogan2":"injurad",
+    "slogan3":"dinero",
+
+    "reason_tittle":"No es por nada que existe ",
+    "reason_tittlebold":"INJURAD",
+    "reason_1":"El alto porcentaje de propiedades en España sin Pasaporte de Inmueble (PDI) o con uno inválido. ",
+    "reason_2":"La falta de ética y profesionalidad entre los profesionales debe ser la major razón de porque aún se venden estas propiedades a pesar de que todo comprador declara que no las compraría si conocieron los posibles",
+
+
+    "info_title":"ITV para coches",
+    "info_title2":"IGP para propiedades",
+    "info_p":"La inspección obligatoria de vehículos (ITV) existe en el interés de la seguridad vial. Hasta ahora en el sector del mercado de viviendas la seguridad se ha dejado en manos de profesionales individuales. A juzgar por la cantidad de afectados, esa parece no ser la solución.",
+    "info_pb":"En la realidad por la falta de control del Estado y sus instituciones no hay suficiente supervisión en transacciones individuales, lo que expone a los compradores a aceptar riesgos o a tomarlos sin saberlo. Por lo tanto, tendría que existir una inspección estándar nacional para propiedades. Esto es lo que tú desde ahora podrás exigir.",
+    "info_pc":"El sello de calidad Injurad ofrece máxima seguridad.Infórmate y compra conscientemente.",
+
+    "pdisection_title":"Maxima seguridad",
+    "pdisection_titleb":"por 75 Euros",
+    "pdisection_titlec":"Injurad",
+    "pdisection_p":"En compraventas desde pequeños apartamentos hasta villas de lujo, las sorpresas desagradables posteriores pueden evitarse fácilmente mediante una inspección nacional supervisada basada en diez condiciones importantes.",
+    "contidion1":"Comprobación de la validez de los documentos esenciales, cluido el más importante de todos, el 'Pasaporte de la vivienda' (leer más aquí) por un arquitecto y un abogado",
+    "contidion2":"Pautas y protocolos fijos ponen fin a las interpretaciones libres de los profesionales individuales que pueden generar problemas posteriores.",
+    "contidion3":"Informe firmado, con el que los profesionales asumen su responsabilidad. Un documento que se puede presentar a terceros o al ayuntamiento para su verificación.",
+    "contidion4":"Actualización permanente, adaptando las inspecciones a la legislación en constante cambio.",
+    "contidion5":"Independientes, los profesionales no tienen ningún interés comercial en la transacción.",
+    "contidion6":"Declaración de integridad firmada por todos los profesionales en protección del cliente, no confundir con la declaración de una asociación profesional que protege a sus miembros.",
+    "contidion7":"Tener tú mismo el control, para que sepas lo que estás comprando y tomar una decisión consciente.",
+    "contidion8":"Comité de arbitraje formado por particulares y profesionales para mayor imparcialidad.",
+    "contidion9":"Posibilidad de reclamación contra un profesional que no ha cumplido.",
+    "contidion10":"Centro de conocimiento de INJURAD, del cual los profesionales forman parte, por lo tanto, están entre los profesionales más actualizados y trabajando 100% en interes del cliente.",
+
+
+    "conclution1":"Por el bajo costo INJURAD pone al alcance de cada comprador la posibilidad de optar por la maxima seguridad en una inversión tan importante.",
+    "conclution2":"Crea una cuenta y solicita a tu abogado y arquitecto que te asesoren bajo las pautas de INJURAD o elige un profesional directamente de nuestra lista, en ella están los que ya han declarado estar de acuerdo con el sistema y sus protocolos.",
+
+
+    "pdisection_btn":"Que es un pdi"
     
-    "slider3_titlea":"SOMOS",
-    "slider3_titleb":" LA SOLUCIÓN ",
-    "slider3_titlec":"PARA ",
-    "slider3_titled":"VENDEDORES",
+
     
-
-    "title" : "El sueño para los compradores y la solución para los vendedores.",
-    "subtitle" : "El lugar donde los vendedores de viviendas encuentran compradores serios",
-
-    "title2" : "Descubre la forma lógica de comprar y vender en España",
-
-    "desc1_title" : "El ",
-    "desc1_title2" : "problema",
-    "desc1_text1" : "Todo el mundo lo sabe. En portales de viviendas se ofrecen varias veces las mismas propiedades con diferentes precios, superficies, ya vendidas, etc. ¿Y la ubicación? Casi nunca se menciona, aun cuando es muy importante.",
-    "desc1_text2" : "Por cierto, ¿sabías que no todos los vendedores e inmobiliarias venden a través de portales? Como consecuencia, los compradores pierden una gran cantidad de oferta y la venta de las casas tarda innecesariamente. ",
-    "desc1_text2a" : "Seamos realistas, ¿que sentido tiene que los compradores busquen casas con información poco clara, y cuya ubicación ni siquiera se conoce?",
-
-    "desc2_title" : "LA ",
-    "desc2_title2" : "SOLUCIÓN",
-    "desc2_text1" : "Los portales de vivienda en realidad funcionan al revés. Dale la vuelta y de repente tiene mucho sentido. Nos aseguramos de que los vendedores puedan encontrar al comprador de su casa. Después de todo los vendedores conocen su hogar mejor que nadie. Y si supieran exactamente lo que buscan los compradores, realmente solo tenemos que ponerlos en contacto.",
-    "desc2_text2a" : "Eso es exactamente lo que hace BUSKAMOS, conectamos vendedores con compradores.",
-
-    "rol_titlea": "",
-    "rol_titleb": "Unete  ",
-    "rol_titlec": "y aprovecha las ventajas ",
-
-    "rol_subtitlea":"COMPRADORES",
-    "rol_subtitlea_infotitle1":"Oferta más ajustada ",
-    "rol_subtitlea_infodesc1":"",
-    "rol_subtitlea_infotitle2":"Sin oferta doble ",
-    "rol_subtitlea_infodesc2":"",
-    "rol_subtitlea_infotitle3":"Oferta faltante y venta silenciosa ",
-    "rol_subtitlea_infodesc3":"",
-    "rol_subtitlea_infotitle4":"No perder tiempo en la busqueda",
-    "rol_subtitlea_infodesc4":"",
-    "rol_subtitlea_infotitle5":"Información de vivienda correcta",
-    "rol_subtitlea_infodesc5":"",
-    "rol_subtitlea_infotitle6":"La ubicación exacta",
-    "rol_subtitlea_infodesc6":"",
-    "rol_subtitlea_infotitle7":"Participa de forma segura y privada sin publicar tus datos",
-    "rol_subtitlea_infodesc7":"",
-
-
-    "rol_subtitleb":"INMOBILIARIAS",
-    "rol_subtitleb_infotitle1":"Propiedades en exclusiva, eliminando la competencia",
-    "rol_subtitleb_infodesc1":"",
-    "rol_subtitleb_infotitle2":"Más eficiente, mas ventas ",
-    "rol_subtitleb_infodesc2":"",
-    "rol_subtitleb_infotitle3":"Destaca de la fuerte competencia",
-    "rol_subtitleb_infodesc3":"",
-    "rol_subtitleb_infotitle4":"Llegar a compradores serios",
-    "rol_subtitleb_infodesc4":"",
-    "rol_subtitleb_infotitle5":"Ideal para venta silenciosa",
-    "rol_subtitleb_infodesc5":"",
-
-
-    "rol_subtitlec":"PROPIETARIOS",
-    "rol_subtitlec_infotitle1":"Iniciativa propia",
-    "rol_subtitlec_infodesc1":"",
-    "rol_subtitlec_infotitle2":"Venta silenciosa ",
-    "rol_subtitlec_infodesc2":"",
-    "rol_subtitlec_infotitle3":"Compradores serios",
-    "rol_subtitlec_infodesc3":"",
-    "rol_subtitlec_infotitle4":"Vende más rápido",
-    "rol_subtitlec_infodesc4":"",
-    "rol_subtitlec_infotitle5":"Elección con o sin inmobiliaria",
-    "rol_subtitlec_infodesc5":"",
-    "rol_subtitlec_infotitle6":"Contacto directo con los compradores",
-    "rol_subtitlec_infodesc6":"",
-
-    "adv_subtitlea":"Compradores !",
-    "adv_subtitlea2":"Encontrar un vendedor es fácil  ",
-    "adv_subtitlea2b":"",
-    "adv_titlestepsa1":"1. Regístrate",
-    "adv_infostepsa1":"Describe tus deseos y requisitos para tu vivienda",
-    "adv_titlestepsa2":"2. Recibe ofertas",
-    "adv_infostepsa2":"Tendrás una selección de propiedades",
-    "adv_titlestepsa3":"3. Elije y responde",
-    "adv_infostepsa3":"Determina con cuales vendedores deseas ponerte en contacto",
-
-    "adv_subtitleb":"Vendedores !",
-    "adv_subtitleb2":"Encontrar un comprador es fácil",
-    "adv_subtitleb2b":"",
-    "adv_titlestepsb1":"1. Regístrate",
-    "adv_infostepsb1":"Agrega la propiedad que quieres vender",
-    "adv_titlestepsb2":"2. Recibe y analiza",
-    "adv_infostepsb2":"Analiza perfiles de los compradores interesados",
-    "adv_titlestepsb3":"3. Responde",
-    "adv_infostepsb3":"Responde al comprador"
-
 }
