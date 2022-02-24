@@ -48,3 +48,11 @@ ul {
     top:-30px;
 
   }
+  @media (min-width: 640px){    
+    .videof{
+      width: 596px;
+      height:296px;
+    }
+
+  }
+  

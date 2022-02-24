@@ -32,6 +32,8 @@ module.exports = {
       bg: '#203D46',
       bg2: '#326754',
       bg3: '#7A8A7C',
+      bg4: '#334F5F',
+      bgf: '#072317'
 
     },
     screens: {
@@ -62,3 +64,8 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+
+
+

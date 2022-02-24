@@ -20,7 +20,7 @@ function VideoSection() {
             </svg>
 
 
-            <div className="flex flex-col text-center justify-center m-auto max-w-7xl py-20 relative h-full">
+            <div className="flex flex-col text-center justify-center m-auto max-w-7xl py-20 px-4 relative h-full">
 
                     <svg className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-0 scale-150" width="415" height="400" viewBox="0 0 415 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.1">
@@ -36,7 +36,7 @@ function VideoSection() {
                 <div className="grid md:grid-cols-2 place-items-center m-auto gap-20 px-4">
                     <div className="flex flex-col md:flex-row align-text-top w-full h-full">
                         <h1 className="text-5xl md:text-7xl font-bold text-sl text-left mr-4">1</h1>
-                        <p className="w-80 text-xl text-left">{t('reason_1')}</p>
+                        <p className="w-80 text-2xl text-left">{t('reason_1')}</p>
                     </div>
                     <div className="flex flex-col md:flex-row align-text-top w-full h-full">
                         <h1 className="text-5xl md:text-7xl font-bold text-sl text-left mr-4">2</h1>
@@ -51,12 +51,12 @@ function VideoSection() {
 
             <div className="grid grid-cols-1 lg:grid-flow-col lg:grid-cols-2 max-w-6xl m-auto place-items-center gap-20">
                 
-                <div className="px-4" >
-                    <div className=" text-justify pt-24">
-                        <h1 className="font-bold text-5xl text-left text-bg2 uppercase">{t('info_title')} </h1>
-                        <h1 className="font-bold text-5xl mb-10 text-left text-sl uppercase">{t('info_title2')} </h1>
-                        <p className="mb-5 font-medium">{t('info_p')} </p>
-                        <p className="mb-10 font-medium">{t('info_pb')} </p>                    
+                <div className="w-4/5 md:w-full" >
+                    <div className=" text-justify pt-24 px-4">
+                        <h1 className="font-bold  text-4xl md:text-5xl text-left text-bg2 uppercase ">{t('info_title')} </h1>
+                        <h1 className="font-bold text-4xl md:text-5xl mb-10 text-left text-sl uppercase ">{t('info_title2')} </h1>
+                        <p className="mb-5  text-xl ">{t('info_p')} </p>
+                        <p className="mb-10 text-xl ">{t('info_pb')} </p>                    
                     </div>
                     <div className="flex ">
                         <svg className="w-28"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +69,8 @@ function VideoSection() {
                         <h1 className="pt-1 pl-2 font-bold underline text-bg uppercase ">{t('info_pc')}</h1>
                     </div>
                 </div>
-                <div className="w-full">
-                    <iframe className="w-full h-80" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <div className="flex m-auto h-80  videof">
+                    <iframe className="w-full h-full scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 
                 <div>
