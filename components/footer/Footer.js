@@ -73,8 +73,8 @@ function Footer() {
                     <path d="M5.86355 8.06C5.32355 8.06 4.84022 7.94333 4.41355 7.71C3.99355 7.47667 3.66355 7.15667 3.42355 6.75C3.18355 6.33667 3.06355 5.87 3.06355 5.35C3.06355 4.83 3.18355 4.36667 3.42355 3.96C3.66355 3.54667 3.99355 3.22667 4.41355 3C4.84022 2.76667 5.32355 2.65 5.86355 2.65C6.34355 2.65 6.77022 2.74667 7.14355 2.94C7.52355 3.13333 7.81689 3.41333 8.02356 3.78L7.29356 4.25C7.12689 3.99667 6.92022 3.80667 6.67355 3.68C6.42689 3.55333 6.15355 3.49 5.85355 3.49C5.50689 3.49 5.19355 3.56667 4.91355 3.72C4.64022 3.87333 4.42355 4.09333 4.26355 4.38C4.11022 4.66 4.03355 4.98333 4.03355 5.35C4.03355 5.72333 4.11022 6.05333 4.26355 6.34C4.42355 6.62 4.64022 6.83667 4.91355 6.99C5.19355 7.14333 5.50689 7.22 5.85355 7.22C6.15355 7.22 6.42689 7.15667 6.67355 7.03C6.92022 6.90333 7.12689 6.71333 7.29356 6.46L8.02356 6.92C7.81689 7.28667 7.52355 7.57 7.14355 7.77C6.77022 7.96333 6.34355 8.06 5.86355 8.06Z" fill="#072317"/>
                     </g>
                     <defs>
-                    <filter id="filter0_b_446_11" x="-0.936523" y="-1.34961" width="12.96" height="13.4102" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <filter id="filter0_b_446_11" x="-0.936523" y="-1.34961" width="12.96" height="13.4102" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                     <feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
                     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_446_11"/>
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_446_11" result="shape"/>
