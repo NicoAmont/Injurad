@@ -36,6 +36,7 @@ module.exports = {
       bg4: '#334F5F',
       bgf: '#072317',
       bgfva: '#8A3529',
+      b: '#000000'
 
     },
     screens: {

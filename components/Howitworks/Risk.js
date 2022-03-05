@@ -59,9 +59,9 @@ export default function Risk() {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row w-auto max-w-4xl m-auto h-auto border-bg  rounded-xl py-10 bg-bgf text-bgr shadow-xl mt-20 hover:scale-105">
-                <div className=" max-w-3xl mauto flex flex-col md:flex-row m-auto ">
-                    <div className="w-80 m-auto  md:mr-4">
+            <div className="flex flex-col md:flex-row w-auto max-w-4xl m-auto h-auto border-bg  rounded-xl py-10 bg-b text-bgr shadow-xl mt-20 hover:scale-105">
+                <div className="w-3/4 max-w-3xl mauto flex flex-col md:flex-row m-auto ">
+                    <div className=" w-40 md:w-80 m-auto  md:mr-4">
                         <Image className=""  src="/CP.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                     </div>
                     <div className="text-lg font-light text-center">
