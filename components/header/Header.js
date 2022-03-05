@@ -81,14 +81,14 @@ function Header() {
                                         </Popover.Panel>
                                     </Popover>
                             </div>
-                            <Link  href="/formdoc" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l">Chequeo de documentos</a>
                             </div></Link>
-                            <Link  href="/formreserva" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
-                                <a className=" transition-colors delay-150 font-normal">Contratos de reserva</a>
+                            <Link  href="/formreserva" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                                <a className=" transition-colors delay-150 font-normal">Contratos de reserva/compra</a>
                             </div></Link>
                             
-                            <Link  href="/formigp" passHref><div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
+                            <Link  href="/formigp" passHref><div className="flex px-4 flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal ">Inspección IGP</a>
                             </div></Link>
                             
