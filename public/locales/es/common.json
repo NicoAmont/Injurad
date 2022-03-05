@@ -15,37 +15,193 @@
 
     "reason_tittle":"No es por nada que existe ",
     "reason_tittlebold":"INJURAD",
-    "reason_1":"El alto porcentaje de propiedades en España sin Pasaporte de Inmueble (PDI) o con uno inválido. ",
-    "reason_2":"La falta de ética y profesionalidad entre los profesionales debe ser la major razón de porque aún se venden estas propiedades a pesar de que todo comprador declara que no las compraría si conocieron los posibles",
+    "reason_1a":"Nos enfrentamos con un ",
+    "reason_1b":" alto porcentaje de propiedades en España sin Pasaporte de Inmueble (PDI) ",
+    "reason_1c":"o con uno inválido con los posibles riesgos que conlleva.",
+    "reason_2a":"Nos enfrentamos con una",
+    "reason_2b":"falta de ética y profesionalidad entre los profesionales",
+    "reason_2c":", debe ser la major razón de porqué aún se venden propiedades problematicas a pesar de que todo comprador declara que no las compraría si conocieran los posibles riesgos.",
+    
+    "reason_question1":"¿ Ques es un pasaporte de inmueble ?",
+    "reason_qansw1a":" El ‘Pasaporte del inmueble’ es el documento más importante a la hora de comprar un inmueble en España. Una propiedad que no puede obtener uno no es legal. Injurad introduce deliberadamente el término ‘Pasaporte del inmueble’, porque cada municipio español llama al documento de manera diferente. También hay muchos documentos similares, como el Cédula de habitabilidad, documentos del Registro de la propiedad o Catastro. Esto es confuso y conduce a malentendidos.",
+    "reason_qansw1b":"Lo más IMPORTANTE en una compraventa es asegurarse si el PDI se ha consequido legalmente o es valido. Esta investigación solo pueden hacer profesionales especializados, que deben siguir protocoles claras para evitar interpretaciones libres cuales no son en el interes del comprador. ",
+    "reason_qansw1c":" Más información PDI",
+    "reason_question2":"¿ Que son los riesgos ?",
+    "reason_qansw2a":"Dificultad o no poder vender en el futuro.",
+    "reason_qansw2b":"Demolición de un parte de la propiedad o la propiedad entera, también los prescritos",
+    "reason_qansw2c":"No tener cobertura del seguro aun que esta pagando prima",
+    "reason_qansw2d":"Problemas con licencias de reforma, reconstrucción, alquilar etc.",
+    "reason_qansw2e":"Multas por obras realizadas sin permiso",
+    "reason_question3":"¿ Como me afecta a mí, la falata de ética ?",
+    "reason_qansw3a":"Existe un conflicto de interes entre el interes comercial de los asesores y el interes del comprador. Al exisitir tantas propiedades que no cumplen los requisitos legales el «custumbre» es no informar completo al comprador o dejar toda la responsabilidad al comprador. Esto ha resultado en tres pasos para comprar con máxima seguridad: ",
+    "reason_qansw3b":"Chequeo de documentos",
+    "reason_qansw3c":"Contratos de reserva y Opción de compra",
+    "reason_qansw3d":"Inspección nacional supervisada IGP",
+    
+    "announce":"Todo lo que cualquier comprador debe saber",
 
 
-    "info_title":"ITV para coches",
-    "info_title2":"IGP para propiedades",
-    "info_p":"La inspección obligatoria de vehículos (ITV) existe en el interés de la seguridad vial. Hasta ahora en el sector del mercado de viviendas la seguridad se ha dejado en manos de profesionales individuales. A juzgar por la cantidad de afectados, esa parece no ser la solución.",
-    "info_pb":"En la realidad por la falta de control del Estado y sus instituciones no hay suficiente supervisión en transacciones individuales, lo que expone a los compradores a aceptar riesgos o a tomarlos sin saberlo. Por lo tanto, tendría que existir una inspección estándar nacional para propiedades. Esto es lo que tú desde ahora podrás exigir.",
-    "info_pc":"El sello de calidad Injurad ofrece máxima seguridad.Infórmate y compra conscientemente.",
+
+
+
+
+    "info_title":"Obten el control sobre la compraventa",
+    "info_title2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Mejor que no!",
+    "info_pa":"Todo comienza tomando tú mismo el control, para poder hacer tu propio análisis y tomar una decisión consciente.",
+    "info_pb":"tomando tú mismo el control.",
+    "info_pc":"para poder hacer tu propio análisis y tomar una decisión consciente.",
+    "info_pd":"Estar informado es clave por lo cual",
+    "info_pe":"una inspección imparcial, clara y comprensible",
+    "info_pf":"realizada por profesionales idoneos seria suficiente.",
+    "info_pg":"Tener el control de la compra significa comprar conscientemente",
 
     "pdisection_title":"Apuesta por la",
     "pdisection_titleb":"maxima seguridad",
     "pdisection_titlec":"con profesionales de tu elección",
-    "pdisection_p":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Más bien no. Todo comienza teniendo tú mismo el control, para poder hacer tu propio análisis y tomar una decisión consciente. Por lo cual una inspección clara y comprensible es clave. Con profesionales que cumplen condiciones básicas consigues la seguridad que esperas en una compraventa.",
+    "pdisection_p2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Más bien no. Todo comienza teniendo tú mismo el control, para poder hacer tu propio análisis y tomar una decisión consciente.",
+    "pdisection_p":"Las herramientas de Injurad para que la inspeccion IGP le ofresca máxima seguridad y las medidas en prevención para evitar interpretaciones libres desfavorables para el comprador.",
     "condition_title1":"Condiciones",
     "condition_title":"Condicion",
-    "contidion1":"Utilizar y firmar los informes siguiendo los protocoles, con el que los profesionales asuman su responsabilidad. Los informes ponen fin a las interpretaciones libres de los profesionales, principal causa de estrés y problemas posteriores.",
-    "contidion2":"Aceptación del sistema de evaluación aleatoria, 1 de cada 10 informes se someterá a evaluación de forma y fondo.",
-    "contidion3":"Vincularse al Centro de conocimiento de INJURAD, actualización a nuevas leyes, respalda de especialistas en casos particulares, soluciones etc.",
-    "contidion4":"Aceptación del control del curriculum y trayectoria de los abogados y arquitectos para saber si no habrá quejas en su colegio contra el o ella.",
+    "contidion1_tittle":"Los profesionales firman la isnpeccion IGP siguiendo protocolos claros",
+    "contidion1":"En el que los profesionales asuman su responsabilidad. Los informes ponen fin a las interpretaciones libres de los profesionales, principal causa de estrés y problemas posteriores.",
+    "contidion2_tittle":"Los profesionales aceptan el sistema de evaluación aleatoria",
+    "contidion2":"1 de cada 10 informes se someterá a evaluación de forma y fondo.",
+    "contidion3_tittle":"Los profesionales se vinculan al Centro de conocimiento de INJURAD",
+    "contidion3":"Actualización a nuevas leyes, respaldo de especialistas en casos particulares, soluciones etc.",
+    "contidion4_tittle":"Los profesionales aceptación el control de su curriculum y trayectoria",
+    "contidion4":"De los abogados y arquitectos para saber si no habrá quejas en su colegio contra el o ella.",
+    "contidion5_tittle":"Los profesionales firman una declaración de integridad",
     "contidion5":" Firmar la declaración de integridad en protección del cliente, no debe confundirse con la declaración de una asociación profesional que protege a sus miembros.",
-    "contidion6":" Aceptación de pago seguro, el profesional quiere tener la seguridad de que cobrará por sus servicios y el comprador quiere la seguridad de recibir el servicio contratado. Injurad intermedia como depositario imparcial.",
-    "contidion7":"Firmar por la aceptación del sistema de reclamación para defender compradores en caso un profesional no ha cumplido los protocolos y pautas a naves de un comité de arbitraje compuesto por particulares y profesionales para garantizar imparcialidad.",
+    "contidion6_tittle":"Los profesionales aceptan el pago seguro",
+    "contidion6":"El profesional quiere tener la seguridad de que cobrará por sus servicios y el comprador quiere la seguridad de recibir el servicio contratado. Injurad intermedia como depositario imparcial.",
+    "contidion7_tittle":"Los profesionales firman por la aceptación de sistema de reclamación",
+    "contidion7":"Para defender compradores en caso un profesional no ha cumplido los protocolos y pautas a naves de un comité de arbitraje compuesto por particulares y profesionales para garantizar imparcialidad.",
     
 
     "conclution1":"Por el bajo costo INJURAD pone al alcance de cada comprador la posibilidad de optar por la maxima seguridad en una inversión tan importante.",
     "conclution2":"Crea una cuenta y solicita a tu abogado y arquitecto que te asesoren bajo las pautas de INJURAD o elige un profesional directamente de nuestra lista, en ella están los que ya han declarado estar de acuerdo con el sistema y sus protocolos.",
 
 
-    "pdisection_btn":"Que es un pdi"
+    "pdisection_btn":"Que es un pdi",
+    
+
+
+
+    "Howitworkssection":"start of how it works",
+
+    "how_tittle":"Nuestro procedimiento es",
+    "how_tittle2":"Claro",
+
+    "step":"Paso",
+    "how_dubstep1":"er",
+    "how_dubstep2":"do",
+    "how_dubstep3":"er",
+    
+    "how_stepinfo_tittle1":"Chuequeo de Documentos",
+    "how_stepinfo_descr1":"Lo normal es que una casa en venta tendra toda la documentación en regla y valida, sin embargo si no hay o no te dan los documentos necesarios, nuestra recomendacion es seguir al siguiente paso. ",
+    "how_stepinfo_tittle2":"Contrato de reserva",
+    "how_stepinfo_descr2":"No pierdas la oportunidad de comprar dando un tiempo investigar la propiedad a traves IGP. No firmes cualquier contrato de reserva, asegurate de tu intereses. ",
+    "how_stepinfo_tittle3":"Solicitud IGP",
+    "how_stepinfo_descr3":"Con un IGP tendras el control sobre la compra venta y sabes que hay riezgos",
+    
+
+    "passport_tittle":"¿Qué es un 'Pasaporte del inmueble' (PDI)?",
+    "passport_info":"El ‘Pasaporte del inmueble’ es el documento más importante a la hora de comprar un inmueble en España. Injurad introduce deliberadamente el término ‘Pasaporte del inmueble’, porque cada municipio español llama al documento de manera diferente. También hay muchos documentos similares, como el Cédula de habitabilidad, documentos del Registro de la propiedad o Catastro. Esto es confuso y conduce a malos entendidos. El ‘Pasaporte del inmueble’ es nuestro nombre para un documento oficial del gobierno local que confirma que la propiedad:",
+    "passport_logo":"Está construida de acuerdo con la ley y tiene autorización para ser habitada ",
+    
+    
+    "validity_tittle":"¿Y la ",
+    "validity_tittle2":"validez",
+    "validity_tittle3":"qué?",
+    "validity_info1":"En la compravente hay muchas cosas que puedes hacer tu mismo, quizas podrás (con un poco de experiencia) determinar que el documento aportado es el ‘PDI’. Tener el ‘PDI’ es muy importante pero lo más importante es determinar claramente su validez. Este paso si que no es recomendable intentar hacerlo solo, necesitas a profesionales especializados y sobre todo honestos.",
+    "validity_info2":"La validez de un ‘Pasaporte del inmueble’ depende de los cambios que se hayan producido en la propiedad, en la legislación y en el plan urbanístico. El ‘PDI’ puede estar vencido, ser inválido, obtenido ilegalmente o incluso no existir. Esta es la regla más que la excepción en España. Compra conscientemente y deja que Injurad investigue con la imparcialidad de sus especialistas en este campo.",
+
+
+    "risk_tittle":"¿Qué",
+    "risk_tittleB":"RIESGOS corro",
+    "risk_tittleC":"  sin un ‘Pasaporte del inmueble’ (válido)?",
+    "risk_1n":"No poder vender",
+    "risk_1info":" tu casa si un notario requiere un pasaporte válido para la venta y seguramente eso sucederá",
+    "risk_2n":"sin covertura.",
+    "risk_2info":"Tu compañía de seguros tiene derecho a no pagar los daños. Puedes estar",
+    "risk_3n":"problemas",
+    "risk_3info":"Puedes esperar ",
+    "risk_3infob":"con las licencias de reforma o reconstrucción",
+    "risk_4n":"demoler",
+    "risk_4info":"Puedes verte obligado a",
+    "risk_4infob":" total o parcialmente tu casa en caso de irregularidades graves.",
+    
+    "cp_slogan":"A pesar de la apariencia amigable de profesionales, mantén el control. La única garantía para disfrutar de la hermosa España sin estrés es saber exactamente lo que estás comprando",
+    "cp_nomber":" Consejos de Casa Propia, la comunidad de propietarios y compradores:",
+    
+
+
+
+    "inicio_nueva_seccion2":"inicio_trabajadores",
+
+
+    "work_zone_tittle":"Nuestra ",
+    "work_zone_tittle2":"zona de trabajo",
+    "work_zone_testi":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_quote1":"Inspector especializado en urbanismo.",
+    "work_zone_quote2":"Robert J. Yuning ",
+    
+
+    "work_zone_1":"equipo injurad",
+    "work_zone_2":"inspectores juridicos",
+    "work_zone_3":"inspectores de urbanismo",
+    "work_zone_4":"coordinadores",
+    "work_zone_equip1":"Formamos una",
+    "work_zone_equip2":" gran red",
+    "work_zone_equip3":" de",
+    "work_zone_equip4":" profesionales",
+    "work_zone_equipquote":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_juridicos":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_urbanismo":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_coordinadores":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    
+    
+    "work_zone_garantie_tittle":"GARANTIAS DE FORMA DE PAGO SEGURO",
+    "work_zone_garantie_info1":"Como cliente, quiere estar seguro de que el profesional realiza su trabajo. El profesional quiere asegurarse de que le paguen. Para salir de este impasse y ofrecer tanto seguridad, trabajamos con una cuenta transitoria como con la denominada liquidación. ",
+    "work_zone_garantie_info2":"El cliente deposita en la cuenta transitoria. Una vez finalizada la obra, el profesional factura al cliente y el pago se realiza desde la cuenta transitoria. De esta forma también ofrecemos la máxima seguridad en lo que respecta al pago. ",
+
+    
+    
+    "inicio_nueva_seccion":"inicio_trabajadores",
+    
+    
+    
+    "Contact_tittle":"Contactanos",
+    "Contact_subtitle":"Llena los siguientes campos",
+    "Contact_opt1":"Nombre",
+    "Contact_opt2":"Apellidos",
+    "Contact_opt3":"E-mail",
+    "Contact_opt4":"Telefono de contacto",
+    "Contact_opt5":"Etapa del porceso",
+    "Contact_opt6":"Mensaje",
+    "Contact_opt7":"Mensaje aclarando las durancion de las respuestas y agradeciendo por su aporte a INJURAD",
+    
+    
+    "form_igp_tittle":"SOLICITUD IGP",
+    "form_igp_info1":"Un Pre-scan determina si la casa no puede tener un PASAPORTE DEL INMUEBLE válido, basado en contrastar los documentos y el Plan de Ordenación Local. Este estudio preliminar evita que gastes dinero innecesariamente en más investigaciones. El Pre-scan es realizado por un inspector urbanístico y un inspector jurídico especializados en urbanismo. Sin estos especialistas, no puedes saber realmente lo que  estas comprando. Es por esta razón que la mayoría de las veces un comprador sale perjudicado. Recibirás un informe, firmado por ambos profesionales.",
+    "form_igp_info2":"¿Resultado positivo? Luego, tu decides si deseas que se lleve a cabo un IGP.",
+    "form_igp_info3":"¿Resultado negativo? Entonces la propiedad es ilegal. El depósito debe ser reembolsado y la venta no continuará.",
+    
+    "form_doc_tittle":"CHUEQUEO DE DOCUMENTOS ",
+    "form_doc_info1":"Es mejor hacer esto antes de firmar un contrato o hacer un pago inicial. Te indicamos qué documentos debes solicitar al vendedor o a la inmobiliaria. Verificamos que se han aportado todos los documentos necesarios y los analizamos. ¿No te los dan o estan incompletos? Eso no es una excepción en España. Se necesita más investigación. Redactamos un contrato de reserva y seguimos juntos los siguientes pasos hacia una compra segura.",
+    "form_doc_info2":"Si te proporcionan la documentación solicitada y esta en vigor, estas de suerte! Solo tendrías que ir al ayuntamiento para que te confirmen que no ha habido cambios en la ley así como comprobar que no hay obras ilegales realizadas. Esto lo puedes hacer tú con tu técnico y ahorar dinero en investigación. ",
+    
+    "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
+    "form_igp_tittle2":"¿¿Que contiene los documentos de IGP? ",
+    "form_doc_tittle2":"¿Que contiene los documentos de chequeo de documentos? ",
+    "form_igp_infot2":"Prime Documento ",
+    "form_igp_infot3":"Segundo Documento ",
+    "form_igp_infot4":"Tercer Documento ",
+
+    "form_reserva_tittle":"SOLICITUD CONTRATO DE RESERVA  ",
+    "form_reserva_info1":"Un buen contrato de reserva asegura que tu depósito sea reembolsado si la propiedad no cumple las condiciones previstas en el contrato o resulta que es ilegal. También nos da tiempo para investigar la legalidad del inmueble sin perder la oportunidad de comprarlo. Te ayudaremos con la redacción y en cuanto se haya firmado iniciaremos el Pre-scan.."
     
 
     
+
 }

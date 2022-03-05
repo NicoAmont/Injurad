@@ -36,22 +36,27 @@ function Footer() {
                         <rect x="132" y="34" width="7" height="49" fill="#072317"/>
                     </svg>
 
-                    <div className="w-full h-full mt-40 sm:mt-60 lg:mt-40 grid grid-cols-1 sm:grid-cols-2 place-items-center m-auto">
+                    <div className="w-full h-full mt-40 sm:mt-60 lg:mt-40 grid grid-cols-1 sm:grid-cols-3 place-items-center m-auto gap-4">
                         <div className="w-full h-full flex flex-col text-center sm:text-left ">
                             <h1 className="font-medium text-xl mb-4 hover:pl-1 transform transition-all duration-150 uppercase  text-sl ">Nosotros</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Home</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2  text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Como funciona</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Conóncenos</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Profesionales</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Contacto</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Home</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2  text-base hover:pl-5 transform transition-all duration-150  text-bgr ">Como funciona</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Conóncenos</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Profesionales</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Tarifas y Servicios</a></Link>
                         </div>
                         <div className="w-full h-full flex flex-col text-center sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4 hover:pl-1 transform transition-all duration-150 uppercase  text-sl">Servicios</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Chequeo de documentos</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Solicitud de contrato de reserva</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Solicitud IGP</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Terminos profesionales</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-lg hover:pl-5 transform transition-all duration-150  text-bgr">Protocolos</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-4 transform transition-all duration-150  text-bgr relative">Chequeo de documentos</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Contrato de reserva</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">IGP</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Terminos profesionales</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Protocolos</a></Link>
+                        </div>
+                        <div className="w-full h-full flex flex-col text-center sm:text-left mt-10 sm:mt-0">
+                            <h1 className="font-medium text-xl mb-4 hover:pl-1 transform transition-all duration-150 uppercase  text-sl">Contactanos</h1>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Contacto</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Preguntas frecuentes</a></Link>
                         </div>
                     </div>
                 </div>
@@ -59,7 +64,7 @@ function Footer() {
         </div>
         
         
-        <div className="w-full col-span-2 relative m-auto mt-20 bg-bgr flex">
+        <div className="w-full col-span-2 relative m-auto mt-40 bg-bgr flex">
             <div className="w-full h-auto py-2  flex flex-col sm:flex-row text-center items-center max-w-5xl gap-2 m-auto text-sm font-medium ">
                 <h1 className="w-full">Politicas de privacidad</h1>
                 <h1 className="w-full">Terminos y condiciones</h1>
@@ -67,20 +72,7 @@ function Footer() {
                     
 
                     <h1 className="flex m-auto text-center items-center gap-1 w-96 text-xs">
-                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="5.5" cy="5.5" r="5" stroke="black"/>
-                    <g filter="url(#filter0_b_446_11)">
-                    <path d="M5.86355 8.06C5.32355 8.06 4.84022 7.94333 4.41355 7.71C3.99355 7.47667 3.66355 7.15667 3.42355 6.75C3.18355 6.33667 3.06355 5.87 3.06355 5.35C3.06355 4.83 3.18355 4.36667 3.42355 3.96C3.66355 3.54667 3.99355 3.22667 4.41355 3C4.84022 2.76667 5.32355 2.65 5.86355 2.65C6.34355 2.65 6.77022 2.74667 7.14355 2.94C7.52355 3.13333 7.81689 3.41333 8.02356 3.78L7.29356 4.25C7.12689 3.99667 6.92022 3.80667 6.67355 3.68C6.42689 3.55333 6.15355 3.49 5.85355 3.49C5.50689 3.49 5.19355 3.56667 4.91355 3.72C4.64022 3.87333 4.42355 4.09333 4.26355 4.38C4.11022 4.66 4.03355 4.98333 4.03355 5.35C4.03355 5.72333 4.11022 6.05333 4.26355 6.34C4.42355 6.62 4.64022 6.83667 4.91355 6.99C5.19355 7.14333 5.50689 7.22 5.85355 7.22C6.15355 7.22 6.42689 7.15667 6.67355 7.03C6.92022 6.90333 7.12689 6.71333 7.29356 6.46L8.02356 6.92C7.81689 7.28667 7.52355 7.57 7.14355 7.77C6.77022 7.96333 6.34355 8.06 5.86355 8.06Z" fill="#072317"/>
-                    </g>
-                    <defs>
-                    <filter id="filter0_b_446_11" x="-0.936523" y="-1.34961" width="12.96" height="13.4102" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                    <feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
-                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_446_11"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_446_11" result="shape"/>
-                    </filter>
-                    </defs>
-                    </svg>COPYRIGHT. INJURAD 2022 TODOS LOS DERECHOS RESERVADOS</h1>
+                    &copy; COPYRIGHT. INJURAD 2022 TODOS LOS DERECHOS RESERVADOS</h1>
 
                 </div>
             </div>

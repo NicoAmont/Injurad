@@ -47,7 +47,7 @@ function Header() {
                             <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l">Home</a>
                             </div></Link>
-                            <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/howitworks" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 font-normal">Como Funciona</a>
                             </div></Link>
                             <div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
@@ -63,8 +63,8 @@ function Header() {
                                                 </div>
                                                 <div className=" flex flex-col text-left ">
                                                     <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">Conócenos</a></Link>    
-                                                    <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Profesionales</a></Link>    
-                                                    <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Contacto</a></Link>    
+                                                    <Link href="/workers" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Profesionales</a></Link>    
+                                                    <Link href="/contact" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Contacto</a></Link>    
                                                 </div>
 
                                             </div> 
@@ -86,7 +86,7 @@ function Header() {
                                     </Popover.Panel>
                                 </Popover>
                             </div>
-                            <Link  href="/" passHref><div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
+                            <Link  href="/tys" passHref><div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal ">Tarifas y Servicios</a>
                             </div></Link>
                             
@@ -188,7 +188,7 @@ function Header() {
                             <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l">Home</a>
                             </div></Link>
-                            <Link  href="/" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/howitworks" passHref><div className="flex flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 font-normal">Como Funciona</a>
                             </div></Link>
                             <div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">

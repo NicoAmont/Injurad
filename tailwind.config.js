@@ -27,13 +27,15 @@ module.exports = {
       bgr: '#FFFFFF',
       bgr2: 'rgba(40, 225, 140, 0.1)',
       bgrS: 'rgba(232, 236, 235, 1)',
+      bgrS2: '#C4C4C4',
       sl: '#E5AE35',
-      gl: '#2EA153',
+      gl: '#2A614D',
       bg: '#203D46',
       bg2: '#326754',
       bg3: '#7A8A7C',
       bg4: '#334F5F',
-      bgf: '#072317'
+      bgf: '#072317',
+      bgfva: '#8A3529',
 
     },
     screens: {
@@ -64,6 +66,9 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+
 
 
 
