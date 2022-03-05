@@ -18,12 +18,12 @@ function OurProcess() {
         <div className="w-full h-full z-0 absolute hidden">
             <Image className='z-0 brightness-90 opacity-90 '  src="/howimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
-        <div className="w-full h-full max-w-6xl m-auto flex-row">
+        <div className="w-full h-full max-w-4xl m-auto flex-row">
             <div className="w-full h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
-                <h1 className="text-bl font-medium text-5xl md:text-5xl text-bg2 uppercase">
+                <h1 className="text-bl font-medium text-4xl md:text-4xl text-bg2 uppercase">
                 {t('how_tittle')}
                 </h1>
-                <h1 className="text-5xl md:text-6xl uppercase text-sl font-bold ">
+                <h1 className="text-4xl md:text-4xl uppercase text-sl font-bold ">
                 {t('how_tittle2')}
                 </h1>
                 
@@ -36,18 +36,18 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-40 py-2   text-sm leading-5 font-medium text-sl flex h-10 border-l-2 border-r-2 border-t-2  border-bgf ' : 'bg-b rounded-t-lg w-24 h-10 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex '
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto mr-11  px-3">
 
-                                    <h1 className="text-4xl md:text-6xl font-bold relative z-10">1</h1> 
+                                    <h1 className="text-4xl md:text-4xl font-bold relative z-10">1</h1> 
                                     <h2>
                                         {t('how_dubstep1')}
                                     </h2>
-                                    <div className="w-full h-full relative z-0 ">
+                                    <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-3xl absolute bottom-5 md:bottom-1">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
                                     </div>
                                 </div>
                                 
@@ -59,18 +59,18 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf  ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-40 py-2   text-sm leading-5 font-medium text-sl flex h-10 border-l-2 border-r-2 border-t-2  border-bgf ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 h-10 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex '
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-2">
 
-                                    <h1 className="text-4xl md:text-6xl font-bold relative z-10 ">2</h1> 
+                                    <h1 className="text-4xl md:text-4xl font-bold relative z-10 ">2</h1> 
                                     <h2>
                                         {t('how_dubstep2')}
                                     </h2>
-                                    <div className="w-full h-full relative ">
+                                    <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-3xl absolute bottom-5 md:bottom-1">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
                                 </div>
                                 </div>
                                 
@@ -82,18 +82,18 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf  ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-40 py-2   text-sm leading-5 font-medium text-sl flex h-10 border-l-2 border-r-2 border-t-2  border-bgf ' : 'bg-b rounded-t-lg w-24 h-10 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex '
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-3">
 
-                                    <h1 className="text-4xl md:text-6xl font-bold relative z-10 ">3</h1> 
+                                    <h1 className="text-4xl md:text-4xl font-bold relative z-10 ">3</h1> 
                                     <h2>
                                         {t('how_dubstep3')}
                                     </h2>
-                                    <div className="w-full h-full relative ">
+                                    <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-3xl absolute bottom-5 md:bottom-1">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
                                 </div>
                                 </div>
                                 
@@ -101,7 +101,7 @@ function OurProcess() {
                             )}
                             </Tab>
                         </Tab.List>
-                        <Tab.Panels className=" h-auto  p-8 md:p-16 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
+                        <Tab.Panels className=" h-auto  p-8 md:p-10 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
                         <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
@@ -110,18 +110,17 @@ function OurProcess() {
                         </svg>
                             <Tab.Panel>
 
-                                <div className="text-5xl md:text-5xl font-bold text-bg2 m-auto flex">
+                                <div className="text-4xl md:text-4xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle1')}
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr1')}
                                     <h1 className="font-medium mt-2 ml-2">Precio: 75 &euro; </h1>
-                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
 
                                 <Link  href="/formdoc" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
-                                    Solicitar
+                                    Leer más
                                     <svg className="pl-2 hover:ml-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="white"/>
                                     </svg>
@@ -132,13 +131,12 @@ function OurProcess() {
                             {/* ... */}
                             <Tab.Panel>
 
-                                <div className="text-5xl font-bold text-sl m-auto flex">
+                                <div className="text-4xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle2')}
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr2')}
                                     <h1 className="font-medium mt-2 ml-2">Costo: 363 &euro; </h1>
-                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
                                 <Link  href="/formreserva" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
@@ -153,14 +151,13 @@ function OurProcess() {
                             {/* ... */}
                             <Tab.Panel>
 
-                                <div className="text-5xl font-bold text-sl m-auto flex">
+                                <div className="text-4xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle3')}
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr3')}
                                     <h1 className="font-medium mt-2 ml-2">Costo Urbano: 532,40 &euro; </h1>
                                     <h1 className="font-medium ml-2">Costo Rústico: 665,50 &euro; </h1>
-                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
                                 <Link  href="/formigp" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">

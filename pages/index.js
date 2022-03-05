@@ -11,8 +11,8 @@ export default function Home() {
     <div>
 
       <main className="">
-        <HeroSection />
         <Slogan />
+        <HeroSection />
         <VideoSection />
         <OurProcess />
         <InfoSection />

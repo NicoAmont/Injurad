@@ -24,14 +24,7 @@ function VideoSection() {
 
             <div className="grid grid-cols-1  max-w-6xl m-auto place-items-center gap-20">
                 
-                <div className="w-4/5 md:w-full m-auto" >
-                    <div className=" pt-24 px-4  text-left mb-10">
-                        <h1 className="font-bold  text-4xl md:text-4xl ml-24  text-bg2  mb-10  ">{t('info_title')} </h1>
-                        <p className="mb-2 w-3/4 m-auto text-justify text-lg">{t('info_pa')}</p>
-                        <p className="mb-5 w-3/4 m-auto text-justify  text-lg">{t('info_pd')}</p>
-                        
-                    </div>
-                </div>
+                
             <div className="flex flex-col text-center justify-center m-auto max-w-7xl py-20 px-4 relative h-full">
 
                 <svg className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-0 scale-150" width="415" height="400" viewBox="0 0 415 400" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,8 +53,15 @@ function VideoSection() {
                     </div>
                     
                 </div>
-                
-                <div className="w-3/4 m-auto pr-8 ">
+                <div className="w-3/5 md:w-full m-auto pt-5" >
+                    <div className=" px-4  text-left mb-4">
+                        <h1 className="font-bold  text-3xl md:text-3xl ml-40  text-bg2  mb-10  ">{t('info_title')} </h1>
+                        <p className="mb-2 w-3/5 m-auto text-justify text-lg">{t('info_pa')}</p>
+                        <p className="mb-5 w-3/5 m-auto text-justify  text-lg">{t('info_pd')}</p>
+                        
+                    </div>
+                </div>
+                <div className="w-3/4 m-auto pr-8 mb-24 ">
                     <div className="w-full max-w-lg  m-auto bg-white rounded-2xl relative z-10">
                        
                         <Disclosure>
