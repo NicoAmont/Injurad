@@ -6,11 +6,11 @@ export default function Risk() {
     const { t } = useTranslation('common');
 
   return (
-    <div className="flex flex-col w-full h-full relative bg-bgr text- pb-20">
+    <div className="flex flex-col w-full h-full relative bg-bgr pb-20">
         
 
 
-        <div className="max-w-6xl w-full h-full relative z-10 m-auto md:px-4">       
+        <div className="max-w-6xl w-full h-full relative z-10 m-auto md:px-4 flex-col ">       
             <h1 className=" text-2xl md:text-4xl font-semibold px-6 justify-center text-left uppercase ">
                 {t("risk_tittle")} <span className="text-bgf  text-4xl md:text-4xl">{t("risk_tittleB")}</span> 
             </h1>
@@ -18,9 +18,9 @@ export default function Risk() {
                 {t("risk_tittleC")} 
             </h1>
 
-            <div className="w-3/4 md:w-full h-auto grid md:grid-cols-2">
+            <div className="w-full h-auto grid md:grid-cols-2">
 
-                <div className=" rounded-lg h-32 w-10/12 md:w-1/2 flex pr-8 mb-10 py-4 m-auto md:px-10 hover:scale-110 ">
+                <div className=" rounded-lg h-32 w-8/12 md:w-1/2 flex pr-8 mb-10 py-4 m-auto md:px-10 hover:scale-110 ">
                     <div className="w-72 m-auto  mr-4">
                     <Image className=""  src="/1VAL.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                     </div>
@@ -31,7 +31,7 @@ export default function Risk() {
 
                 
 
-                <div className=" rounded-xl h-32 w-10/12 md:w-1/2 flex pl-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
+                <div className=" rounded-xl h-32 w-8/12 md:w-1/2 flex md:pl-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
                     <div className="flex m-auto mr-4">
                         <h1 className="font-normal text-lg">{t("risk_2info")} <span className="font-bold">{t("risk_2n")}</span></h1>
                     </div>
@@ -40,7 +40,7 @@ export default function Risk() {
                     </div>
                 </div>
 
-                <div className=" rounded-full h-32 w-10/12 md:w-1/2 flex pr-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
+                <div className=" rounded-full h-32 w-8/12 md:w-1/2 flex pr-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
                     <div className="w-48 m-auto  mr-4">
                     <Image className=""  src="/3VAL.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                     </div>
@@ -49,7 +49,7 @@ export default function Risk() {
                     </div>
                 </div>
 
-                <div className=" rounded-full h-32 w-10/12 md:w-1/2 flex pl-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
+                <div className=" rounded-full h-32 w-8/12 md:w-1/2 flex md:pl-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
                     <div className="flex m-auto mr-4">
                         <h1 className="font-normal text-lg">{t("risk_4info")} <span className="font-bold">{t("risk_4n")}</span> {t("risk_4infob")}</h1>
                     </div>

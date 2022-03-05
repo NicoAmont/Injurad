@@ -4,13 +4,16 @@ import { useTranslation } from "next-i18next";
 
 export default function Doc() {
     const { t } = useTranslation('common');
+    const ytvideo = ["https://www.youtube.com/embed/dQw4w9WgXcQ", "https://www.youtube.com/watch?v=UKRY63Buv6A&t=56s",]
 
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20">
-        <div className="max-w-6xl m-auto px-8">
+        <div className="max-w-6xl m-auto px-8 ">
 
-        <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("form_doc_tittle")}</h1>
+        <h1 className="md:ml-10 text-4xl mb-10 md:text-4xl font-bold text-bg2 uppercase">{t("form_doc_tittle")}</h1>
         <div className="w-3/4 m-auto mb-20 text-base md:text-base ">
+            
+            <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <p className="mb-5">{t("form_doc_info1")}</p>
             <p className="">{t("form_doc_info2")}</p>
         </div>
