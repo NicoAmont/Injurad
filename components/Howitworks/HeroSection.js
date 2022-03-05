@@ -7,7 +7,7 @@ export default function HeroSection() {
     const { t } = useTranslation('common');
     return (
         
-        <div className="w-full h-screen font-heads bg-bgrS  realtive flex flex-col ">
+        <div className="w-full h-screen font-heads bg-bgf  realtive flex flex-col ">
 
             
             
