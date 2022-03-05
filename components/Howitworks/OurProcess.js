@@ -13,14 +13,14 @@ function OurProcess() {
     const { t } = useTranslation('common');
     
   return (
-    <div className="w-screen h-full relative flex flex-col bg-gl">
+    <div className="w-screen h-full relative flex flex-col bg-bgr">
 
-        <div className="w-full h-full z-0 absolute">
+        <div className="w-full h-full z-0 absolute hidden">
             <Image className='z-0 brightness-90 opacity-90 '  src="/howimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
         <div className="w-full h-full max-w-6xl m-auto flex-row">
             <div className="w-full h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
-                <h1 className="text-bgr font-medium text-5xl md:text-5xl">
+                <h1 className="text-bl font-medium text-5xl md:text-5xl text-bg2 uppercase">
                 {t('how_tittle')}
                 </h1>
                 <h1 className="text-5xl md:text-6xl uppercase text-sl font-bold ">
@@ -28,7 +28,7 @@ function OurProcess() {
                 </h1>
                 
             </div>
-            <div className=" w-11/12 px-2 sm:px-0 text-bgr m-auto md:pb-20">
+            <div className=" w-11/12 px-2 sm:px-0 text-bgr m-auto ">
                     <Tab.Group>
                         
                         <Tab.List className="flex  space-x-1 w-full md:w-4/5  relative  ">
@@ -36,7 +36,7 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto mr-11  px-3">
@@ -59,7 +59,7 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf  ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-2">
@@ -82,7 +82,7 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-l-2 border-r-2 border-t-2  border-bgf  ' : 'bg-b rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-3">
@@ -110,7 +110,7 @@ function OurProcess() {
                         </svg>
                             <Tab.Panel>
 
-                                <div className="text-5xl md:text-5xl font-bold text-sl m-auto flex">
+                                <div className="text-5xl md:text-5xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle1')}
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">

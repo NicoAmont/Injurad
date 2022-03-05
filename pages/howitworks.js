@@ -11,7 +11,6 @@ export default function howitworks() {
     <main>
 
     <HeroSection />
-    <OurProcess />
     <PassportPDI />
     <Validity />
     <Risk />

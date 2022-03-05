@@ -22,11 +22,20 @@ function VideoSection() {
             <path d="M254.905 413.738L0.731041 826.607L0.72636 0.87226L254.905 413.738Z" fill="#2A614D"/>
             </svg>
 
-
+            <div className="grid grid-cols-1  max-w-6xl m-auto place-items-center gap-20">
+                
+                <div className="w-4/5 md:w-full m-auto" >
+                    <div className=" pt-24 px-4  text-left mb-10">
+                        <h1 className="font-bold  text-4xl md:text-4xl ml-24  text-bg2  mb-10  ">{t('info_title')} </h1>
+                        <p className="mb-2 w-3/4 m-auto text-justify text-lg">{t('info_pa')}</p>
+                        <p className="mb-5 w-3/4 m-auto text-justify  text-lg">{t('info_pd')}</p>
+                        
+                    </div>
+                </div>
             <div className="flex flex-col text-center justify-center m-auto max-w-7xl py-20 px-4 relative h-full">
 
                 <svg className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-0 scale-150" width="415" height="400" viewBox="0 0 415 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.1">
+                    <g opacity="0.4">
                     <path d="M378.382 128.168L144.879 399.374L16.4392 215.391L144.879 312.588L378.382 128.168Z" fill="#3F8466" fillOpacity="0.2"/>
                     <path d="M378.382 128.168L144.879 399.374L16.4392 215.391L144.879 312.588L378.382 128.168Z" fill="#3F8466" fillOpacity="0.2"/>
                     <path d="M230.031 215.099L341.115 121.372L105.061 121.372L27.7719 208.157L115.475 138.73L230.031 215.099Z" fill="#3F8466" fillOpacity="0.2"/>
@@ -34,7 +43,7 @@ function VideoSection() {
                     </g>
                 </svg>
 
-                <h1 className="text-4xl text-bg2 sm:text-5xl uppercase font-bold mb-20">{t('reason_tittle')} <span className="text-sl">{t('reason_tittlebold')}</span> </h1>
+                <h1 className="text-4xl text-bg2 sm:text-5xl  font-bold mb-10">{t('reason_tittle')} <span className="text-sl">{t('reason_tittlebold')}</span> </h1>
                 
                 <div className="grid md:grid-cols-2 place-items-center m-auto gap-20 px-4">
                     <div className="flex flex-col md:flex-row align-text-top w-full h-full">
@@ -52,8 +61,8 @@ function VideoSection() {
                     
                 </div>
                 
-                <div className="w-3/4 m-auto pr-8 mt-14">
-                    <div className="w-full mt-10 max-w-lg  m-auto bg-white rounded-2xl relative z-10">
+                <div className="w-3/4 m-auto pr-8 ">
+                    <div className="w-full max-w-lg  m-auto bg-white rounded-2xl relative z-10">
                        
                         <Disclosure>
                         {({ open }) => (
@@ -191,12 +200,13 @@ function VideoSection() {
                 </div>
                     
             </div>
-                        
-            <div className="w-full m-auto border-2 border-bg2 bg-gradient-to-r from-bg2 via-bg2 h-auto relative text-bgr ">
-
-                <Image className='absolute h-full opacity-30 bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
-                <div className="flex flex-col m-auto relative w-3/4 py-20" >
-
+                
+            </div>            
+            <div className="w-full m-auto mt-24  h-auto relative text-bgr ">
+                <div className="w-full h-full bg-gradient-to-r from-bgr2 via-bgr2 bg-opacity-10 "></div>                     
+                <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
+                <div className="flex flex-col  relative w-2/4 py-20 bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
+                    <div className="max-w-6xl text-left ml-40">
                     <h1 className=" font-semibold text-4xl md:text-6xl  max-w-sm">
                         {t("announce")}
                     </h1>
@@ -206,36 +216,16 @@ function VideoSection() {
                         <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="white"/>
                     </svg>
                 </button>
-                </div>
-                
-            </div>
-
-            <div className="grid grid-cols-1  max-w-6xl m-auto place-items-center gap-20">
-                
-                <div className="w-4/5 md:w-full m-auto" >
-                    <div className=" pt-24 px-4  text-center mb-10">
-                        <h1 className="font-bold  text-4xl md:text-5xl  text-bg2 uppercase ">{t('info_title')} </h1>
-                        <h1 className="font-bold text-sm md:text-sm mb-10 text-center m-auto text-sl  w-3/4 mt-4 ">{t('info_title2')} </h1>
-                        <p className="mb-2 w-3/4 m-auto text-justify text-lg ">{t('info_pa')} <span className=" text-bg2">{t('info_pb')}</span>{t('info_pc')} </p>
-                        <p className="mb-5 w-3/4 m-auto text-justify  text-lg ">{t('info_pd')} <span className=" text-bg2">{t('info_pf')}</span>{t('info_pg')} </p>
-                        <div className="flex w-3/5 text-center mt-10 m-auto">
-                            <svg className="w-12"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
-                                <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
-                                <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#203D46"/>
-                                <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#203D46"/>
-                            </svg>
-
-                            <h1 className="pt-1 pl-2 font-bold underline text-bg uppercase text-base ">{t('info_pg')}</h1>
-                        </div>
                     </div>
-                </div>
-                
-                
-                <div>
                     
                 </div>
+                
             </div>
+
+            
+                
+                
+            
 
             
             
