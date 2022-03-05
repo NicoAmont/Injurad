@@ -48,7 +48,7 @@ function Footer() {
                         <div className="w-full h-full flex flex-col text-center sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4 hover:pl-1 transform transition-all duration-150 uppercase  text-sl">Servicios</h1>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-4 transform transition-all duration-150  text-bgr relative">Chequeo de documentos</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Contrato de reserva</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Contratos de reserva</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">IGP</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Terminos profesionales</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Protocolos</a></Link>

@@ -17,7 +17,7 @@ function OurProcess() {
             <Image className='z-0 brightness-90 opacity-90 '  src="/howimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
         <div className="w-full h-full max-w-6xl m-auto flex-row">
-            <div className="w-full h-full flex flex-col mt-32 md:mt-40  max-w-6xl mb-20 ml-8">
+            <div className="w-full h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
                 <h1 className="text-bgr font-medium text-5xl md:text-5xl">
                 {t('how_tittle')}
                 </h1>
@@ -29,12 +29,12 @@ function OurProcess() {
             <div className=" w-11/12 px-2 sm:px-0 text-bgr m-auto md:pb-20">
                     <Tab.Group>
                         
-                        <Tab.List className="flex  space-x-1 w-full md:w-4/5 m-auto relative  ">
+                        <Tab.List className="flex  space-x-1 w-full md:w-4/5  relative  ">
                             <Tab as={Fragment}>
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bg rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-bgr flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto mr-11  px-3">
@@ -57,7 +57,7 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bg rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-bgr flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-2">
@@ -80,7 +80,7 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bg rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-bgr flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-32  py-2.5 text-sm leading-5 font-medium text-sl flex h-auto border-sl border-b-4  ' : 'bg-bg4 rounded-t-lg w-24 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex h-16'
                                 }
                                 >
                                 <div className="flex w-full h-full m-auto  px-3">
@@ -99,7 +99,7 @@ function OurProcess() {
                             )}
                             </Tab>
                         </Tab.List>
-                        <Tab.Panels className=" h-auto md:ml-28 p-8 md:p-16 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
+                        <Tab.Panels className=" h-auto  p-8 md:p-16 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
                         <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
@@ -113,6 +113,7 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr1')}
+                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
@@ -130,6 +131,7 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr2')}
+                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
@@ -147,6 +149,7 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr3')}
+                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
