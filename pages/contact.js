@@ -1,7 +1,7 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Contact from '../components/contact/Contact'
 
-export default function workers() {
+export default function contact() {
   return (
     <div>
     <main>

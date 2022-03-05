@@ -59,6 +59,7 @@ function Header() {
                                                         <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">Conócenos</a></Link>    
                                                         <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Como funciona</a></Link>    
                                                         <Link href="/workers" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Profesionales</a></Link>    
+                                                        <Link href="/about" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Nosotros</a></Link>    
                                                         <Link href="/contact" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Contacto</a></Link>    
                                                     </div>
 
