@@ -47,7 +47,7 @@ function OurProcess() {
                                     </h2>
                                     <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-0 ">{t('step')}</h1>
                                     </div>
                                 </div>
                                 
@@ -70,7 +70,7 @@ function OurProcess() {
                                     </h2>
                                     <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-0">{t('step')}</h1>
                                 </div>
                                 </div>
                                 
@@ -93,7 +93,7 @@ function OurProcess() {
                                     </h2>
                                     <div className="w-full h-full relative z-10 ">
 
-                                        <h1 className="text-xl md:text-2xl absolute bottom-5 md:bottom-0">{t('step')}</h1>
+                                        <h1 className="text-xl md:text-2xl absolute bottom-0">{t('step')}</h1>
                                 </div>
                                 </div>
                                 
