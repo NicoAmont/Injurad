@@ -113,7 +113,8 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr1')}
-                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Precio: 75 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
@@ -131,7 +132,8 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr2')}
-                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Costo: 363 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
@@ -149,7 +151,9 @@ function OurProcess() {
                                 </div>
                                 <div className="text-xl font-normal text-bgf mt-10 w-4/5 ml-4">
                                     {t('how_stepinfo_descr3')}
-                                    <h1 className="font-medium mt-2">Costo: 191&euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Costo Urbano: 532,40 &euro; </h1>
+                                    <h1 className="font-medium ml-2">Costo Rústico: 665,50 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">Documentos necesarios: lorem ipsum, lorem ipsum, lorem ipsum.</h1>
                                 </div>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                                     Solicitar
