@@ -37,6 +37,11 @@ export default function Aboutus() {
             </div>
         </div>
 
+        <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">Todo surge por que...</h1>
+        <div className="w-3/4 m-auto mb-20 text-base md:text-lg ">
+            <p className="">lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum </p>
+        </div>
+
     </div>
   )
 }
