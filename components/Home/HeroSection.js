@@ -9,9 +9,7 @@ export default function HeroSection() {
     return (
         
         <div className="w-full h-screen font-heads bg-bgf  relative flex flex-col ">
-                <div>
-
-                </div>
+                
             
                 <iframe className="relative z-10 w-screen m-auto h-screen scale-100  rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="fullscreen; autoplay; clipboard-write; picture-in-picture" allowFullScreen></iframe>
                 <Image className='absolute h-full opacity-5 bottom-0 '  src="/heroimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />

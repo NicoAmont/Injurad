@@ -56,9 +56,9 @@ ul {
 
   }
   
-.segments{
+/* .segments{
   background-attachment: fixed;
-}
+} */
 .segment-1{
   background-image: url(../public/heroimg.png);
   background-repeat: no-repeat;

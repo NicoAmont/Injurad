@@ -45,7 +45,7 @@ function InfoSection() {
 
                     </div> 
                     
-                    <div className=" w-3/4 md:w-full grid place-items-center gap-4 lg:w-full mx-auto bg-white rounded-2xl mt-10 ">
+                    <div className=" w-3/4 md:w-full grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
                         <Disclosure>
                         {({ open }) => (
                             <>
@@ -57,7 +57,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
                                 <div className="flex m-auto w-full">
                                     <p className="mb-4 text-sm">  {t("contidion1")}</p>
                                 </div>
@@ -77,7 +77,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
                                 <div className="flex m-auto w-full">
                                     <p className="mb-4 text-sm">  {t("contidion2")}</p>
                                 </div>
@@ -97,7 +97,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
                                 <div className="flex m-auto w-full ">
                                     <p className="mb-4 text-sm">  {t("contidion3")}</p>
                                 </div>
@@ -117,7 +117,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
                                 <div className="flex m-auto w-full ">
                                     <p className="mb-4 text-sm">  {t("contidion4")}</p>
                                 </div>
@@ -139,7 +139,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
                                 <div className="flex m-auto w-full ">
                                     <p className="mb-4 text-sm">  {t("contidion7")}</p>
                                 </div>
