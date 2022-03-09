@@ -5,7 +5,7 @@ export default function Validity() {
     const { t } = useTranslation('common');
 
   return (
-    <div className="w-full h-full bg-bg2 flex flex-col relative">
+    <div className="w-full h-full bg-bg2 flex flex-col relative ">
         <svg className="w-10 md:w-20 absolute bottom-10 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>

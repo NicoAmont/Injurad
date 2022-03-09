@@ -38,6 +38,7 @@ function InfoSection() {
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
                         </div>
                         <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p')}</p>
+                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p22')}</p>
                         
                         <div className="w-full  pt-16">
                         </div>
@@ -125,26 +126,7 @@ function InfoSection() {
                             </>
                         )}
                         </Disclosure>
-                        <Disclosure>
-                        {({ open }) => (
-                            <>
-                            <Disclosure.Button className=" bg-bgr bg-opacity-90 shadow-2xl  rounded-lg flex justify-between w-full max-w-lg px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-bgr focus-visible:ring-opacity-75">
-                                <span className="text-normal font-normal text-bgf  ">{t("contidion5_tittle")}</span>
-                                <ChevronUpIcon
-                                className={`${
-                                    open ? 'transform rotate-180' : ''
-                                } w-5 h-5 text-bgf`}
-                                />
-                            </Disclosure.Button>
-                            <Disclosure.Panel className=" bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
-                                <div className="flex m-auto w-full ">
-                                    <p className="mb-4 text-sm">  {t("contidion5")}</p>
-                                </div>
-                                
-                            </Disclosure.Panel>
-                            </>
-                        )}
-                        </Disclosure>
+                        
                         
                         <Disclosure>
                         {({ open }) => (
@@ -177,8 +159,8 @@ function InfoSection() {
 
             
             <div className="flex flex-col md:flex-row w-auto max-w-6xl m-auto h-auto mb-20  rounded-xl p-5 bg-bgrS text-bgf shadow-xl mt-20">
-                <div className=" max-w-4xl flex flex-col md:flex-row m-auto ">
-                    <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-9 md:pl-10 m-auto flex ">
+                <div className=" max-w-3xl flex flex-col md:flex-row m-auto ">
+                    <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-2 md:pl-10 m-auto flex ">
                         <Image className=" m-auto"  src="/shield.png" layout='' width={136+'px'} height={136+'px'} alt="" quality={100} />
                     </div>
                     <div className="text-lg font-light text-center flex-col m-auto">

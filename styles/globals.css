@@ -56,4 +56,22 @@ ul {
 
   }
   
-  
+.segments{
+  background-attachment: fixed;
+}
+.segment-1{
+  background-image: url(../public/heroimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.segment-2{
+  background-image: url(../public/ronda-foto-300x190.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.segment-3{
+  background-image: url(../public/imgvald.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #326754;
+}

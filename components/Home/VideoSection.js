@@ -25,7 +25,7 @@ function VideoSection() {
             <div className="grid grid-cols-1 w-full max-w-6xl m-auto place-items-center gap-20">
                 
                 
-            <div className="flex flex-col text-center justify-center m-auto w-3/4 max-w-7xl py-20 px-4 relative h-full">
+            <div className="flex flex-col text-center justify-center m-auto w-3/4 md:w-full max-w-7xl py-20 px-4 relative h-full">
 
                 <svg className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-0 scale-150" width="415" height="400" viewBox="0 0 415 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.4">
@@ -38,17 +38,23 @@ function VideoSection() {
 
                 <h1 className="text-4xl text-bg2 sm:text-5xl  font-bold mb-10">{t('reason_tittle')} <span className="text-sl">{t('reason_tittlebold')}</span> </h1>
                 
-                <div className="grid md:grid-cols-2 place-items-center m-auto gap-20 md:px-4">
-                    <div className="flex flex-col md:flex-row align-text-top w-full h-full">
+                <div className="grid md:grid-cols-3 place-items-Left m-auto gap-30 ">
+                    <div className="flex flex-col md:flex-row align-text-top h-full w-full">
                         <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">1</h1>
                         <div className=" flex-col ">
-                            <p className="w-80 text-lg text-left">{t('reason_1a')} <span className="text-bg2 font-bold ">{t('reason_1b')}</span> <span>{t('reason_1c')}</span></p>
+                            <p className="w-72 text-lg text-left">{t('reason_1a')} <span className="text-bg2 font-bold ">{t('reason_1b')}</span> <span>{t('reason_1c')}</span></p>
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row align-text-top w-full h-full">
+                    <div className="flex flex-col md:flex-row align-text-top h-full w-full md:mr-4 ">
                         <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">2</h1>
                         <div className=" flex-col ">
-                            <p className="w-80 text-lg text-left">{t('reason_2a')} <span className="text-bg2 font-bold "> {t('reason_2b')}</span><span>{t('reason_2c')}</span></p>
+                            <p className="w-72 text-lg text-left">{t('reason_2a')} <span className="text-bg2 font-bold "> {t('reason_2b')}</span><span>{t('reason_2c')}</span></p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row align-text-top h-full w-full ">
+                        <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">3</h1>
+                        <div className=" flex-col">
+                            <p className="w-72 text-lg text-left">{t('reason_3a')} <span className="text-bg2 font-bold "> {t('reason_3b')}</span><span>{t('reason_3c')}</span></p>
                         </div>
                     </div>
                     
@@ -56,7 +62,7 @@ function VideoSection() {
                 <div className="w-full md:w-full pt-5" >
                     <div className=" px-4  text-left mb-4">
                         <h1 className="font-bold  text-3xl md:text-3xl md:ml-40  text-bg2  mb-10  ">{t('info_title')} </h1>
-                        <p className="mb-2 md:w-3/5 m-auto text-justify text-lg">{t('info_pa')}</p>
+                        <p className="mb-2 md:w-3/5 m-auto text-justify text-lg">{t('info_pa')} <span className="font-bold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
                         <p className="mb-5 md:w-3/5 m-auto text-justify  text-lg">{t('info_pd')}</p>
                         
                     </div>
@@ -80,7 +86,6 @@ function VideoSection() {
                             <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-left text-bg2 font-normal">
                                 <div className="w-full bg-bgr2 p-4">
                                     <p className="mb-2">{t("reason_qansw1a")}</p>
-                                    <p className="mb-2">{t("reason_qansw1b")}</p>
                                     <p>{t("reason_qansw1c")}</p>
                                 </div>
                             </Disclosure.Panel>
@@ -202,9 +207,9 @@ function VideoSection() {
             </div>
                 
             </div>            
-            <div className="w-full m-auto mt-24  h-auto relative text-bgr ">
+            <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-2 ">
                 <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
-                <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
+                {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 <div className="flex flex-col  relative w-full md:w-2/4 py-20 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
                     <div className="max-w-6xl text-center md:text-left md:ml-40">
                     <h1 className=" font-semibold text-4xl md:text-6xl  max-w-sm">

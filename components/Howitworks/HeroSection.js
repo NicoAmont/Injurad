@@ -7,7 +7,7 @@ export default function HeroSection() {
     const { t } = useTranslation('common');
     return (
         
-        <div className="w-full h-screen font-heads bg-bgf  realtive flex flex-col ">
+        <div className="w-screen h-screen font-heads bg-bgf  realtive flex flex-col segments segment-1">
 
             
             
@@ -24,9 +24,9 @@ export default function HeroSection() {
                 </button> */}
             </div>
             
-            <div className="w-full h-screen z-0 ">
+            <div className="w-full h-screen z-0">
                 
-                <Image className='absolute w-96 brightness-90 '  src="/heroimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
+                {/* <Image className='absolute w-96 brightness-90 '  src="/heroimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 
             </div>
             
