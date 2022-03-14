@@ -36,9 +36,10 @@ function InfoSection() {
                         <div className="grid w-full mb-14 m-auto">
                             <h1 className=" text-2xl md:text-4xl  font-bold">{t('pdisection_title')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
+                            <h1 className=" text-4xl md:text-4xl  text-bgr font-bold">{t('pdisection_titlec')}</h1>
                         </div>
                         <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p')}</p>
-                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p22')}</p>
+                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p22')}</p>
                         
                         <div className="w-full  pt-16">
                         </div>

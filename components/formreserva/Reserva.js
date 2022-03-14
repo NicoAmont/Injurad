@@ -9,47 +9,47 @@ export default function Reserva() {
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20">
         <div className="max-w-6xl m-auto px-8">
+        
+        <h1 className="md:ml-10 text-lg md:text-lg font-bold text-sl uppercase">{t("stepform2")}</h1>
+        <h1 className="md:ml-10 text-4xl md:text-4xl font-bold  text-bg2 uppercase">{t("form_reserva_tittle")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform2b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform2c")}</h1>
 
-        <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("form_reserva_tittle")}</h1>
-        <div className="w-3/4 m-auto mb-20 text-base md:text-lg ">
+        <div className="w-3/4 m-auto mb-10 text-base md:text-lg ">
             <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="">{t("form_reserva_info1")}</p>
+            <p className="mb-10 text-2xl md:text-4xl  font-medium text-bg2 mt-20">{t("form_reserva_tittle2b")}</p>
+            <p className="mb-2">{t("form_reserva_info1")}</p>
+            <p className="">{t("form_reserva_info1b")}</p>
         </div>
-        <div className="w-3/4 m-auto mb-20 text-xl">
-            <h1 className="text-2xl text-bg2 font-medium mb-10">{t("form_reserva_tittle2")}</h1>
-            <div className="w-full flex flex-wrap m-auto gap-20 items-center pl-6">
-                <div className="w-44 h-64 bg-gl relative items-end align-bottom">
-                    <svg className="opacity-5 w-44 absolute  top-7 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
-                    </svg>
-                    <h1 className=" text-bgr font-normal text-center text-sm pt-5 italic ">{t("form_igp_infot2")}</h1>
+        <div className="w-3/4 m-auto mb-20 text-xl flex flex-col">
+            <div className="w-full flex flex-col m-auto gap-20 items-center md:pl-6">
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-bg2">
+                    <p className="  text-base"> <span className="text-bg2 font-bold">{t("form_reserva_info1t")} </span>{t("form_reserva_info1tinfo")}</p>
                 </div>
-                <div className="w-44 h-64 bg-gl relative items-end align-bottom">
-                    <svg className="opacity-5 w-44 absolute  top-7 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
-                    </svg>
-                    <h1 className=" text-bgr font-normal text-center text-sm pt-5 italic ">{t("form_igp_infot3")}</h1>
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-bg2">
+                    <p className="  text-base"> <span className="text-bg2 font-bold">{t("form_reserva_info2t")} </span>{t("form_reserva_info2tinfo")}</p>
                 </div>
-                <div className="w-44 h-64 bg-gl relative items-end align-bottom">
-                    <svg className="opacity-5 w-44 absolute  top-7 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
+            
+                
+                <div className="w-full md:w-3/4 m-auto mt-10 py-6 px-4 h-auto md:h-auto shadow-2xl rounded-xl  relative items-end align-bottom overflow-hidden">
+                    
+                    <svg className="opacity-80 w-8 md:w-10  absolute  bottom-4 right-4 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
+                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
+                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
+                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
                     </svg>
-                    <h1 className=" text-bgr font-normal text-center text-sm pt-5 italic ">{t("form_igp_infot4")}</h1>
+                    <div className="w-full md:w-3/4 m-auto mb-8">
+                        <h2 className=" text-bg2 font-medium text-center text-lg pt-5 px-4 md:px-0 italic ">{t("form_reserva_quest1")}</h2>
+                        <p className=" text-bg2 font-normal text-left text-sm pt-5 italic px-4 md:px-0">{t("form_reserva_quest2")}</p>
+                    </div>
                 </div>
             </div>
         </div>
 
             <div className="max-w-2xl mx-auto ">
-                <h1 className="mb-10 text-lg text-bg2 font-medium ">{t("Contact_subtitle")} :</h1>
+                <h2 className="mb-10 text-3xl text-bg2 font-medium ">{t("form_reserva_quest3")}</h2>
+                <p className="mb-10 text-base text-bg2 font-normal ">{t("form_reserva_quest4")} :</p>
                 <htmlForm>
                     <div className="grid xl:grid-cols-2 xl:gap-6">
                         <div className="relative z-0 mb-6 w-full group">

@@ -60,26 +60,26 @@
 
     "pdisection_title":"Apuesta por la",
     "pdisection_titleb":"maxima seguridad",
-    "pdisection_titlec":"con profesionales de tu elección",
+    "pdisection_titlec":"si quiere evitar riesgos",
     "pdisection_p2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Más bien no. Todo comienza teniendo tú mismo el control, para poder hacer tu propio análisis y tomar una decisión consciente.",
     "pdisection_p":"Aqui marcamos la grande diferencia entre un inspección supervisada a un informe elaborado por un profesional individual.",
     "pdisection_p22":"Porque no es igual un profesional individual que inspecciona que el mismo profesional realizando la inspeccion con pautas claras y que sabe que esta bajo control.",
     "condition_title1":"Condiciones",
     "condition_title":"Condicion",
-    "contidion1_tittle":"Los profesionales firman la isnpeccion IGP siguiendo protocolos claros",
-    "contidion1":"Usted consulta a un profesional para que le asesore y no te imponga responsabilidades a través de cláusulas en los contratos. Los informes ponen fin a las interpretaciones libres de los profesionales, principal causa de problemas posteriores.",
+    "contidion1_tittle":"Los profesionales deben integrar un informe firmado resultado de la inspección IGP",
+    "contidion1":"La obligación para el profesional de entregar un informe escrito con el seguimiento estricto de reglas y protocolos, y además firmado, es la seguridad para usted de quedarse bien informado, con claridad de la situación del inmueble imprescindible para decidir. La existencia del documento firmado es la estrategia para dirijir a los profesionales hacia un trabajo comprometido y responsable.",
     "contidion2_tittle":"Los profesionales aceptan el sistema de evaluación aleatoria",
-    "contidion2":"1 de cada 10 informes se someterá a evaluación de forma y fondo. La idea detrás de este control es que exigimos la máxima atención y profesionalidad de cada profesional en cada inspección.",
+    "contidion2":"1 de cada 10 informes se someterá a evaluación de forma y fondo. La idea detrás de este control es que exigimos la máxima atención y profesionalidad de cada profesional en cada inspección. La consciencia de estar controlado mejora la calidad.",
     "contidion3_tittle":"Los profesionales se vinculan al Centro de conocimiento de INJURAD",
-    "contidion3":"Las leyes en España están en constante cambio. Gracias a nuestro Centro de conocimiento, los profesionales pueden encontrar una respuesta adecuada hasta a los problemas más complicados. Por lo tanto, el grupo está por delante de sus colegas y usted, como comprador, se beneficia de esto.",
+    "contidion3":"Las leyes en España están en constante cambio. Gracias a nuestro Centro de conocimiento, los profesionales pueden encontrar una respuesta adecuada incluso en los casos más complicados. La acumulación de multitud de experiencias, pues solo nos dedicamos a esto, solo tiene ventajas tanto para los profesionales como para usted.",
     "contidion4_tittle":"Los profesionales aceptan el control de su curriculum y trayectoria",
-    "contidion4":"Debido a que la ética es de suma importancia para nosotros, se verifica si habrá quejas contra los profesionales en su colegio contra el o ella.",
+    "contidion4":"Un profesional que tiene un antecedente de actuación impropio, quejas en el colegio contra el o ella es una señal importante, sobre todo para nosotros pues la ética es el pilar más importante a la hora de hacer nuestras inspecciones.",
     "contidion5_tittle":"Los profesionales firman una declaración de integridad",
-    "contidion5":"En protección del cliente cada profesional firma una declaración de integridad. No debe confundirse por la declaración de ser miembro de una asociación que defiende los intereses de los miembros.",
+    "contidion5":"En protección del cliente cada profesional firma una declaración de integridad que busca el compromiso de un trabajo ético y juicioso. No debe confundirse con la declaración de ser miembro de una asociación que defiende los intereses de los miembros.",
     "contidion6_tittle":"Los profesionales aceptan el pago seguro",
     "contidion6":"El profesional quiere tener la seguridad de que cobrará por sus servicios y el comprador quiere la seguridad de recibir el servicio contratado. Injurad intermedia como depositario imparcial.",
     "contidion7_tittle":"Los profesionales aceptan el sistema de reclamación",
-    "contidion7":"Para defender compradores en caso un profesional no ha cumplido los protocolos y pautas a naves de un comité de arbitraje compuesto por particulares y profesionales para garantizar imparcialidad.",
+    "contidion7":"Nuestra principal herramienta para defender compradores en caso de que un profesional no haya cumplido los protocolos y pautas dejando perjuicios al cliente. Un comité de arbitraje compuesto por particulares y profesionales evaluando para garantizar imparcialidad.",
     
 
     "conclution1":"Por el bajo costo INJURAD pone al alcance de cada comprador la posibilidad de optar por la maxima seguridad en una inversión tan importante.",
@@ -101,7 +101,7 @@
     "how_dubstep2":"do",
     "how_dubstep3":"er",
     
-    "how_stepinfo_tittle1":"Chuequeo de Documentos",
+    "how_stepinfo_tittle1":"Chequeo de Documentos",
     "how_stepinfo_descr1":"Lo primero que debe saber es si una vivienda tiene todos los documentos en regla. Si tiene todos los documentos, buen comienzo. No tiene por lo menos los documentos esenciales? Alerta!",
     "how_stepinfo_tittle2":"Contrato de reserva",
     "how_stepinfo_descr2":"Dependiendo de los documentos que haya recibido, elige un contrato de reserva o un contrato de opción. Ambos contratos deben ser muy bien redactados para defender sus intereses.",
@@ -165,7 +165,7 @@
     "work_zone_coordinadores":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
     
     
-    "work_zone_garantie_tittle":"GARANTIAS DE FORMA DE PAGO SEGURO",
+    "work_zone_garantie_tittle":"FORMA DE PAGO SEGURO",
     "work_zone_garantie_info1":"Como cliente, quiere estar seguro de que el profesional realiza su trabajo. El profesional quiere asegurarse de que le paguen. Para salir de este impasse y ofrecer seguridad a ambos cliente y profesional.",
     "work_zone_garantie_info2":" ",
 
@@ -187,25 +187,97 @@
     
     
     "form_igp_tittle":"SOLICITUD IGP",
-    "form_igp_info1":"Un Pre-scan determina si la casa no puede tener un PASAPORTE DEL INMUEBLE válido, basado en contrastar los documentos y el Plan de Ordenación Local. Este estudio preliminar evita que gastes dinero innecesariamente en más investigaciones. El Pre-scan es realizado por un inspector urbanístico y un inspector jurídico especializados en urbanismo. Sin estos especialistas, no puedes saber realmente lo que  estas comprando. Es por esta razón que la mayoría de las veces un comprador sale perjudicado. Recibirás un informe, firmado por ambos profesionales.",
-    "form_igp_info2":"¿Resultado positivo? Luego, tu decides si deseas que se lleve a cabo un IGP.",
-    "form_igp_info3":"¿Resultado negativo? Entonces la propiedad es ilegal. El depósito debe ser reembolsado y la venta no continuará.",
-    
-    "form_doc_tittle":"CHUEQUEO DE DOCUMENTOS ",
-    "form_doc_info1":"Es mejor hacer esto antes de firmar un contrato o hacer un pago inicial. Te indicamos qué documentos debes solicitar al vendedor o a la inmobiliaria. Verificamos que se han aportado todos los documentos necesarios y los analizamos. ¿No te los dan o estan incompletos? Eso no es una excepción en España. Se necesita más investigación. Redactamos un contrato de reserva y seguimos juntos los siguientes pasos hacia una compra segura.",
-    "form_doc_info2":"Si te proporcionan la documentación solicitada y esta en vigor, estas de suerte! Solo tendrías que ir al ayuntamiento para que te confirmen que no ha habido cambios en la ley así como comprobar que no hay obras ilegales realizadas. Esto lo puedes hacer tú con tu técnico y ahorar dinero en investigación. ",
-    
-    "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
-    "form_igp_tittle2":"¿¿Que contiene los documentos de IGP? ",
-    "form_doc_tittle2":"¿Que contiene los documentos de chequeo de documentos? ",
-    "form_igp_infot2":"Prime Documento ",
-    "form_igp_infot3":"Segundo Documento ",
+
+    "form_igp_info1":"La metodología de la inspección consistente en analizar los documentos y contrastarlos con la normativa vigente en los Planes Urbanísticos Locales, un arquitecto y un abogado podrán determinar si la propiedad y sus construcciones, aun cuando no tenga los documentos acreditativos, cumplen la normativa actual y por tanto esta en ordenación, que es casi el tópico más importante a la hora de determinar la legalidad de un inmueble.",
+    "form_igp_info2":"Según el informe, podrá tomar una decisión concsiente sea para continuar con la compra o no. El IGP intenta por ejemplo responder a las siguientes preguntas:",
+    "form_igp_info2b":"La casa es legal, legalizable o ilegal?",
+    "form_igp_info2c":"Hay riesgo de demolición?",
+    "form_igp_info2d":"Hay riesgos de multas?",
+    "form_igp_info2e":"Podría reformar?",
+    "form_igp_info2f":"Podría reconstruir en caso de un siniestro?",
+    "form_igp_info2g":"Tengo cobertura del seguro en caso de un incendio, inundación, etc?",
+    "form_igp_tit2a":"¿Quién hace el informe?",
+    "form_igp_tit2b":"Si hemos dicho que el aspecto más importante es el cumplimiento de la normativa urbanística, donde se establece lo que esta permitido y lo que no, corresponde primero que todo a un arquitecto especializado en urbanismo revisar si la casa cumple lo establecido en el ‘Plan de ordenación del territorio local’ y despues un abogado, también especializado, tendrá que determinar las consecuencias o riesgos derivados de la situación teniendo en cuenta la aplicación de las leyes.",
+    "form_igp_t2":"¿ Se necesita un abogado antes de un IGP ?",
+    "form_igp_t2b":"Excepto para redactar un contrato de reserva o de opción de compra (ver contratos) no hace falta gastar en contratar un abogado hasta que usted tenga los resultados del IGP. Primero debe saber que esta comprando, y que la propiedad cumple con sus requisitos. Si todo pinta bien en este momento sí es  recomendable consultar un abogado para guiarle hasta el notario. Por lo cual, un IGP no solo significa máxima seguridad sino también, normalmente, un ahorro.",
+    "form_igp_t22":"IGP como segunda opnión",
+    "form_igp_t2b2":"Aun cuando usted haya firmado un contrato, realizar un IGP puede ser una buena opción, antes de escriturar y pagar, para tener mayor tranquilidad si tiene la sensación de no estar bien informado. Un IGP se puede realizar sin ningún tipo de contacto con el vendedor o intermediarios y con total confidencialidad, sin embargo el informe, respaldado con la firma de los profesionales le servirá para su defensa en caso de ser necesario desistir del acuerdo.",
+
+
+    "form_igp_info3":"Cada inspección define una serie de conclusiones y recomendaciones. Con este dictamen usted estará en la posibilidad de mantener el control y tomar una decisión haciendo su propio análisis de riesgos. Así este informe le evitará que le confundan en los próximos pasos hasta llegar al notario .",
+    "form_doc_tittle":"CHEQUEO DE DOCUMENTOS ",
+    "form_doc_info1":"¿Conduciría un coche sin ITV y sin carnet?",
+    "form_doc_info2":"En caso de detención sigue una multa, en caso de colisión los daños no están asegurados y en caso de accidente los daños pueden ser incalculables. Al comprar un coche todos verficamos que tenga los documentos, no debe ser diferente con una propiedad (vea riesgos). ¿Están todos los documentos presentes? ¿Son los documentos correctos? Porque algunos documentos tienen un nombre similar pero tienen un función distinto. ",
+    "form_igp_tittle2":"Resultados de IGP",
+    "form_igp_tittle2B":"Los resultados del IGP definen tres situaciones: luz verde, luz amarilla o luz roja.",
+    "form_igp_tittle2B1":"Todo esta bien. Situación que requiere que le hayan entregado los documentos. Paso siguiente contactar un abogado para hacer las escrituras.",
+    "form_igp_tittle2B2":"Cosas para arreglar o a investigar más a profundidad o documentos a anexar. Contactar profesional idoneo para subsanar temas mencionados en el informe. El informe sugiere que profesional se requiere. Es posible que el vendedor se ocupe de la subsanación y usted quiere asegurarse que si esta todo arreglado puede pasar nuevamente por el IGP con un coste inferior.",
+    "form_igp_tittle2B3":"Generalmente no le han entregado los documentos. La inspección determina que la propiedad no cumple con los requisitos urbanísticos y es muy posible que sea ilegal. Si decide no continuar le deben devolver el deposito, reclamo que podrá respaldar con el informe firmado por los profesionales.",
+    "form_igp_infot2":"Porque el primer paso es un Chequeo de documentos?",
+    "form_igp_infot2P":"Es importante saber qué documentos están presentes para determinar qué tipo de contrato se debe firmar (paso 2) para luego iniciar la inspección IGP (paso 3). ",
+    "form_igp_infot3":"En que momento se pide un Chequeo de documentos? ",
+    "form_igp_infot3P":"En el momento que logre un acuerdo sobre el precio y entregan los documentos (esenciales). No firma nada ni realiza un pago sin el contrato (paso 2) ",
     "form_igp_infot4":"Tercer Documento ",
-
-    "form_reserva_tittle":"SOLICITUD CONTRATO DE RESERVA  ",
-    "form_reserva_info1":"Un buen contrato de reserva asegura que tu depósito sea reembolsado si la propiedad no cumple las condiciones previstas en el contrato o resulta que es ilegal. También nos da tiempo para investigar la legalidad del inmueble sin perder la oportunidad de comprarlo. Te ayudaremos con la redacción y en cuanto se haya firmado iniciaremos el Pre-scan.."
+    
+    
+    
+    
+    
+    
+    
+    
+    "form_doc_tittle2":"Pida al vendedor o su representante cuales de los siquientes documentos puede proporcionar: ",
+    "form_doc_tittle2p":"Dividimos los documentos en dos grupos ",
+    "form_doc_esT":"Esenciales:",
+    "form_doc_esT2":"Secundarios:",
+    "form_doc_esp1":"Nota simple (por lo menos debe saber que esta comprando y de quien)",
+    "form_doc_esp2":"Licencia de ocupación (nosotros llamamos Pasaporte del inmueble PDI porque el nombre cambia por cada ayuntamiento)",
+    "form_doc_esp3":"Licencias de obras de la propiedad y las reformas",
+    "form_doc_esp4":"Certificado catastral",
+    "form_doc_esp5":"Cédula de habitabilidad (depende el ayuntamiento)",
+    "form_doc_esp6":"Certificado energético",
+    "form_doc_esp7":"Boletin de electricidad, de agua y gas  (importante para cobertura seguro)",
+    "form_doc_esp8":"ITE (solo para apartamentos)",
+    "form_doc_esp9":"Reglamento de la comunidad de propetarios (solo para apartamentos)",
+    "form_doc_esp10":"División horizontal (solo para apartamentos)",
+    "form_doc_bt":"Tener los documentos no significa que la propiedad es legal",
+    "form_doc_bt2":"pero no tenerlos tampoco significa que es ilegal",
+    "form_doc_btb":"No entiende ? Le explicaremos",
+    "form_doc_":"aqui",
+    "form_doc_btbl":"Solicitar un chequeo es muy sencillo",
+    "form_doc_btbl2":"Solicite el servicio rellenando el formulario aquí debajo. Recibirá un correo electrónico con los datos de la tranferencia (pago seguro). Le contactaremos para enviarnos los documentos que ha recibido y los analizamos.",
+    "form_doc_btbl3":"PAGO SEGURO",
+    
+    
+    "form_reserva_tittle":"CONTRATOS  ",
+    "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
+    "form_reserva_tittle2b":"Después de un «Chequeo de documentos» sabemos cual contrato podrá firmar  ",
+    "form_reserva_info1":"Un buen contrato de reserva asegura que tu depósito sea reembolsado si la propiedad no cumple las condiciones previstas en el contrato o resulta que es ilegal. También nos da tiempo para investigar la legalidad del inmueble sin perder la oportunidad de comprarlo. Te ayudaremos con la redacción y en cuanto se haya firmado iniciaremos el Pre-scan..",
+    "form_reserva_info1b":"Hay muchos modelos de contrato. Los siguientes, se firman para preparar todo antes de firmar una escritura así como para realizar una inspección del estado urbanístico y jurídico del inmueble, la inspección IGP (Paso 3) ",
+    "form_reserva_info1t":"Contrato de reserva",
+    "form_reserva_info1tinfo":"pagando 1% del precio en caso el vendedor o su representante NO le hayan entregado documentos. Sin tener los documentos esenciales usted no sabe nada sobre el inmueble, por lo cual, la firma de un contrato de Reserva es el mecanismo más idoneo para que el comprador no pierda la oportunidad de comprar y el vendedor tener la certeza de que cumpliendo las condiciones puede dar por vendida la casa. En estos casos siempre será aconsejable firmar un contrato de reserva y no mover grandes cantidades de dinero que despues tendrá que reclamar en caso que la inspección revele que la propiedad no cumple sus requisitos.",
+    "form_reserva_info2t":"Contrato opción de compra",
+    "form_reserva_info2tinfo":"pagando 10% del precio en caso que el vendedor o su representante le han aportado todo los documentos esenciales.",
+    "form_reserva_quest1":"¿Cuáles son los requisitos de un buen contrato?",
+    "form_reserva_quest2":"El contrato especifica los acuerdos entre usted y el vendedor, el precio, la identificación del inmueble, el propietario, el plazo, condiciones como por ejemplo si la propiedad cumple las normas, si estan incluidos muebles, fecha de entrega, si hay cosas para arreglar, reparar, etc. Todo ello es importante, pero lo imprescindible es que esté bien redactado, que el depositario no tenga objeción para devolver la cantidad entregada en caso que la propiedad no cumpla sus requisitos. ",
+    "form_reserva_quest3":"El procedimiento es muy sencillo",
+    "form_reserva_quest4":"Solicite el servicio rellenando el formulario aquí debajo. Recibirá un correo electrónico con los datos de la tranferencia (pago seguro). Le contactaremos para los datos la redacción de las clausulas del contrato. A partir de alli todo queda en manos del abogado para su tranquilidad hasta que el contrato este listo para firmar.",
     
 
-    
 
+
+
+
+    "stepform1":"Paso 1",
+    "stepform1b":"Precio: 75€",
+    "stepform1c":"Tiempo entrega: 2 dias hábiles",
+    "stepform2":"Paso 2",
+    "stepform2b":"Precio: 363€",
+    "stepform2c":"Tiempo de entrega: max 3-5 días hábiles",
+    "stepform3":"Paso 3",
+    "stepform3b":"Precio urbano: 532,40 €",
+    "stepform3c":"Precio rústico: 665,50 €",
+    "stepform3d":"Tiempo entrega: 5-10 diás hábiles"
+    
+    
 }

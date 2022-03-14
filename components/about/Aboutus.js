@@ -90,8 +90,23 @@ export default function Aboutus() {
         
         <div className="max-w-6xl m-auto px-8 mt-20">
             <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">Cofundadores y Equipo</h1>
-            <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3">
+                <div className="">
+                <Image className=""  src="/men.jpg" layout='' width={300+'px'} height={400+'px'} alt="" objectFit="cover" quality={100} />
+                </div>
+                <div className="">
+                <Image className=""  src="/men2.jpg" layout='' width={300+'px'} height={400+'px'} alt=""  objectFit="cover" quality={100} />
+                </div>
+                <div className="">
+                <Image className=""  src="/men3.jpg" layout='' width={300+'px'} height={400+'px'} alt=""  objectFit="cover" quality={100} />
+                </div>
             </div>
+            <div className="md:w-3/4 m-auto mt-20 text-base md:text-lg ">
+                <p className="">lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum </p>
+            </div>
+            <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
+                Mira las preguntas mas frecuentes
+            </button>
         </div>
 
     </div>
