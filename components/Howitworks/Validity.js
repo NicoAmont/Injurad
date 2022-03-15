@@ -22,7 +22,17 @@ export default function Validity() {
             <div className="w-3/4 h-full flex-col ">
                 <h1 className=" font-semibold text-5xl mb-16 ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
                 <h1 className=" font-base text-lg text-justify mb-10 font-normal">{t("validity_info1")}</h1>
-                <h1 className=" font-base text-lg text-justify mb-5 ">{t("validity_info2")}</h1>
+                <h1 className=" font-base text-lg text-justify mb-5 ">{t("validity_info2_1")}</h1>
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-2 pl-4 border-bgr mb-2">
+                    <p className="  text-base">{t("validity_info2_2")}</p>
+                </div>
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-2 pl-4 border-bgr mb-2">
+                <p className="  text-base">{t("validity_info2_2")}</p>
+                </div>
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-2 pl-4 border-bgr">
+                <p className="  text-base">{t("validity_info2_3")}</p>
+                </div>
+                <h1 className=" font-base text-lg text-justify mt-5 ">{t("validity_info2_5")}</h1>
                 <div className="w-full grid place-content-center place-items-center">
                     <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
                         Sobre INJURAD

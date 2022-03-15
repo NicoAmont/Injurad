@@ -5,9 +5,9 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <div className="w-auto  flex flex-col m-auto items-center  bg-bgf pt-20 place-content-center relative ">
+    <div className="w-auto  flex flex-col m-auto items-center  bg-bgf pt-10 place-content-center relative ">
         <div className="flex flex-col lg:flex-row w-full m-auto items-center justify-evenly">
-            <div className="flex w-auto px-4 "> 
+            {/* <div className="flex w-auto px-4 "> 
                 <div className="w-full flex m-auto relative">
 
                     <div className=" flex m-auto h-80  videof">
@@ -20,12 +20,12 @@ function Footer() {
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div> */}
 
             <div className="flex w-auto">
                 <div className="w-full h-full flex flex-col m-auto relative">
 
-                    <svg className=" absolute top-0 left-2 scale-125 mt-20 lg:mt-0 sm:scale-75 hover:scale-95 transform transition-all duration-200" viewBox="0 0 436 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className=" absolute top-0 left-2 scale-125 mt-20 lg:mt-0 sm:scale-75 transform transition-all duration-200" viewBox="0 0 436 147" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
@@ -36,7 +36,7 @@ function Footer() {
                         <rect x="132" y="34" width="7" height="49" fill="#072317"/>
                     </svg>
 
-                    <div className="w-full h-full mt-40 sm:mt-60 lg:mt-40 grid grid-cols-1 sm:grid-cols-3 place-items-center m-auto gap-4">
+                    <div className="w-full h-full mt-40 sm:mt-40 lg:mt-40 grid grid-cols-1 sm:grid-cols-3 place-items-center m-auto gap-4">
                         <div className="w-full h-full flex flex-col text-center sm:text-left ">
                             <h1 className="font-medium text-xl mb-4 hover:pl-1 transform transition-all duration-150 uppercase  text-sl ">Nosotros</h1>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base hover:pl-5 transform transition-all duration-150  text-bgr">Home</a></Link>
@@ -64,7 +64,7 @@ function Footer() {
         </div>
         
         
-        <div className="w-full col-span-2 relative m-auto mt-40 bg-bgr flex">
+        <div className="w-full col-span-2 relative m-auto mt-20 bg-bgr flex">
             <div className="w-full h-auto py-2  flex flex-col sm:flex-row text-center items-center max-w-5xl gap-2 m-auto text-sm font-medium ">
                 <h1 className="w-full">Politicas de privacidad</h1>
                 <h1 className="w-full">Terminos y condiciones</h1>

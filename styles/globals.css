@@ -70,8 +70,50 @@ ul {
   background-size: cover;
 }
 .segment-3{
-  background-image: url(../public/imgvald.png);
+  background-image: url(../public/about2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #326754;
+  background-position: center;
 }
+
+
+
+.content-div{
+  background-image:url('/lawyers.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-div2{
+  background-image:url('/architect.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .content-div:hover{
+    background-image:
+    linear-gradient(to right,
+     rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801) ),
+     url('/lawyers2.jpg');
+    }
+  .content-div2:hover{
+    background-image:
+    linear-gradient(to right,
+     rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801) ),
+     url('/architects.jpg');
+    }
+
+    .image-cover  {
+      height:260px;
+    }
+  /*
+  -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+  -also remove the class from the html template
+  */
+    .content-div:hover .fd-cl{ 
+ opacity: 0.25;
+    }
+    .content-div:hover .fd-sh{ 
+ opacity: 1;
+    }

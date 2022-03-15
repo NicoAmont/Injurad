@@ -10,9 +10,9 @@ export default function Aboutus() {
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20">
         <div className="max-w-6xl m-auto px-8">
-            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">Todo surge por que...</h1>
+            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
             <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
-                <p className="">lorem impsum lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum </p>
+                <p className="">{t("About_tittle1_info")}</p>
             </div>
         </div>
             
@@ -36,61 +36,131 @@ export default function Aboutus() {
         </div>
 
         <div className="max-w-6xl m-auto px-8 mt-20">
-            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">La solucion al problema que injurad proporciona</h1>
-            <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
-                <p className="">lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum </p>
+            <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle2")}</h1>
+            <div className="md:w-3/4 md:ml-10 mb-20 text-base md:text-lg ">
+                <p className="">{t("About_tittle2_info")}</p>
             </div>
         </div>
-        <div className="w-full md:w-9/12 m-auto h-auto grid md:grid-cols-2 mb-20">
+        <div className="w-full md:w-9/12 m-auto h-auto grid md:grid-cols-2 mb-20 ">
 
-            <div className=" rounded-lg h-auto w-8/12 md:w-3/4 flex pr-8 mb-10 py-4 m-auto md:px-10 hover:scale-110 ">
+            <div className=" rounded-lg h-auto w-8/12 md:w-3/4 flex pr-8 mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/1n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex flex-col w-64 md:w-96 ">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">Nuestra etica ...</h1>
-                    <h1 className="font-normal text-base"> Mauris mattis turpis et facilisis interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent aliquet, urna sed vulputate rutrum, nisl eros placerat sem, in ultricies nunc nisi sit amet velit. Duis efficitur ac mi quis cursus. </h1>
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info1")}</h1>
+                    <h1 className="font-normal text-base">{t("About_tittle2_info1_1")}</h1>
                 </div>
             </div>
 
             
 
-            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-10 py-4 m-auto md:px-10 hover:scale-110">
+            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-5 py-4 m-auto md:px-10 hover:scale-110">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/2n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex  mr-4 flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">Seguridad al comprar ...</h1>
-                    <h1 className="font-normal text-base">Mauris mattis turpis et facilisis interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent aliquet, urna sed vulputate rutrum, nisl eros placerat sem, in ultricies nunc nisi sit amet velit. Duis efficitur ac mi quis cursus. </h1>
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info2")}</h1>
+                    <h1 className="font-normal text-base">{t("About_tittle2_info1_1")}</h1>
                 </div>
                 
             </div>
 
-            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex pr-8 mb-10 mt-10 py-4 m-auto md:px-10 hover:scale-110">
+            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex pr-8 mb-10 mt-5 py-4 m-auto md:px-10 hover:scale-110">
                 <div className="w-10   mr-4">
                 <Image className=""  src="/3n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex  flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">Trabajamos en toda España ...</h1>
-                    <h1 className="font-normal text-base">Mauris mattis turpis et facilisis interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent aliquet, urna sed vulputate rutrum, nisl eros placerat sem, in ultricies nunc nisi sit amet velit. Duis efficitur ac mi quis cursus. </h1>
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info3")}</h1>
+                    <h1 className="font-normal text-base">{t("About_tittle2_info3_1")}</h1>
                 </div>
             </div>
 
-            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex md:pl-8 mt-10 py-4 m-auto md:px-10 hover:scale-110">
+            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex md:pl-8 mt-5 py-4 m-auto md:px-10 hover:scale-110">
                 <div className="w-10 mr-4">
                 <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex  mr-4 flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">Todo el proceso juntos ...</h1>   
-                    <h1 className="font-normal text-base">Mauris mattis turpis et facilisis interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent aliquet, urna sed vulputate rutrum, nisl eros placerat sem, in ultricies nunc nisi sit amet velit. Duis efficitur ac mi quis cursus. </h1>
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info4")}</h1>   
+                    <h1 className="font-normal text-base">{t("About_tittle2_info4_1")}</h1>
+                </div>
+                
+            </div>
+            <div className=" rounded-full h-auto w-8/12 md:w-3/4  m-auto flex md:pl-8 mt-5 py-4 md:px-10 hover:scale-110">
+                <div className="w-10 mr-4">
+                <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                </div>
+                <div className="flex  mr-4 flex-col w-64 md:w-96">
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info5")}</h1>   
+                    <h1 className="font-normal text-base">{t("About_tittle2_info5_1")}</h1>
                 </div>
                 
             </div>
         </div>
-        
-        <div className="max-w-6xl m-auto px-8 mt-20">
-            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">Cofundadores y Equipo</h1>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3">
+        <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3 ">
+                <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
+                {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
+                <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
+                    <div className="max-w-xl w-3/4 m-auto  md:w-full text-center md:text-left md:ml-40">
+                    <h1 className=" font-semibold text-4xl md:text-6xl  max-w-sm mb-10">
+                        {t("About_tittle3")}
+                    </h1>
+                    <p>{t("About_tittle3_info")}</p>
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div className="max-w-5xl m-auto px-8 mt-20">
+                <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
+
+                <p className="w-3/4 text-lg">{t("About_tittle4_info")}</p>
+
+                <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
+
+                    <div className="shadow-lg mb-10 group border border-l-8 border-sl container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
+                        <div className="w-full flex flex-col ">
+                            <div  className="w-full image-cover rounded-t-md" >
+                                
+                            </div>
+                            <div className="py-8 bg-gradient-to-t from-bg2 via-bg2  bg-opacity-25 w-full flex flex-col rounded-b-md fd-cl group-hover:opacity-25">
+                                <span className="block text-xl m-auto pl-7 text-bgr w-full font-bold tracking-wide">{t("About_tittle4_tittle2")}</span>
+                                <button className="text-center font-thin rounded-md px-10 m-auto mt-4 border border-bgr text-bgr text-base">más info..</button>
+
+                            </div>
+                        </div>
+                        <div className="absolute opacity-0 fd-sh group-hover:opacity-100">
+                            <span className="text-base w-3/4 m-auto font-bold text-bgr tracking-wider  leading-relaxed ">{t("About_tittle4_tittle2_info")}</span> 
+                            <div className="pt-8 text-center">
+                        </div>
+                    </div>
+                    </div>
+                    <div className="shadow-lg mb-10 group border border-l-8 border-sl container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div2">
+                        <div className="w-full flex flex-col ">
+                            <div  className="w-full image-cover rounded-t-md" >
+                                
+                            </div>
+                            <div className="py-8 bg-gradient-to-t from-bg2 via-bg2  bg-opacity-25 w-full flex flex-col rounded-b-md fd-cl group-hover:opacity-25">
+                                <span className="block text-xl m-auto pl-7 text-bgr w-full font-bold tracking-wide">{t("About_tittle4_tittle1")}</span>
+                                <button className="text-center font-thin rounded-md px-10 m-auto mt-4 border border-bgr text-bgr text-base">más info..</button>
+
+                            </div>
+                        </div>
+                        <div className="absolute opacity-0 fd-sh group-hover:opacity-100">
+                            <span className="text-base w-3/4 m-auto font-bold text-bgr tracking-wider  leading-relaxed ">{t("About_tittle4_tittle1_info")}</span> 
+                            <div className="pt-8 text-center">
+                        </div>
+                    </div>
+                    </div>
+
+                    
+
+                </div>
+
+
+
+            {/* <div className="grid sm:grid-cols-2 md:grid-cols-3">
                 <div className="">
                 <Image className=""  src="/men.jpg" layout='' width={300+'px'} height={400+'px'} alt="" objectFit="cover" quality={100} />
                 </div>
@@ -100,13 +170,23 @@ export default function Aboutus() {
                 <div className="">
                 <Image className=""  src="/men3.jpg" layout='' width={300+'px'} height={400+'px'} alt=""  objectFit="cover" quality={100} />
                 </div>
-            </div>
+            </div> */}
+
+
+            
             <div className="md:w-3/4 m-auto mt-20 text-base md:text-lg ">
-                <p className="">lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum </p>
+                <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle6")}</h1>
+                <p className="">{t("About_tittle6_info")}</p>
             </div>
+            <div className="flex flex-wrap">
+
             <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
                 Mira las preguntas mas frecuentes
             </button>
+            <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
+                Conoce el mercado inmo españa
+            </button>
+            </div>
         </div>
 
     </div>

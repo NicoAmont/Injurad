@@ -43,40 +43,40 @@ function Header() {
                 <div className="bg-bgr hidden lg:visible  lg:inline-flex w-full lg:w-auto text-sm lg:text-base">
                     {/* Center */}
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
-                        <div className="flex flex-col lg:flex-row place-items-center w-full  cursor-pointer lg:px-10  text-bl transition-colors ">
+                        <div className="flex flex-col lg:flex-row place-items-center w-full  cursor-pointer lg:px-10  text-sm transition-colors ">
                             
                             <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l">Chequeo de documentos</a>
                             </div></Link>
                             <Link  href="/formreserva" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
-                                <a className=" transition-colors delay-150 font-normal">Contratos de reserva/opción</a>
+                                <a className=" transition-colors delay-150 font-normal">Contratos </a>
                             </div></Link>
                             
                             <Link  href="/formigp" passHref><div className="flex px-4 flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal ">Inspección IGP</a>
                             </div></Link>
-                            <div className="flex flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
+                            <div className="flex flex-col  text-center justify-center w-full lg:w-32 h-16   lg:h-28 hover:bg-bgr2    ">
                                     <Popover className="relative  ">
-                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">Sobre INJURAD </Popover.Button>
+                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full lg:w-32 h-16 lg:h-28 hover:bg-bgr2 ">Sobre INJURAD </Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
                                             <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 lg:w-max border-t-4 border-gl">
                                                 <div className="w-full h-full flex-column">
 
                                                     <div className=" flex flex-col text-left">
-                                                        <a className="font-medium text-gl text-left w-full h-full" >Empresa</a>
+                                                        <a className="font-medium text-gl text-left w-full h-full" ></a>
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">Conócenos</a></Link>    
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Como funciona</a></Link>    
-                                                        <Link href="/workers" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Profesionales</a></Link>    
-                                                        <Link href="/about" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Nosotros</a></Link>    
+                                                        <Link href="/about" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">Quienes somos</a></Link>    
                                                         <Link href="/contact" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Contacto</a></Link>    
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Politicas de privacidad</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Ajustes de cookies</a></Link>
                                                     </div>
 
                                                 </div> 
                                                 
-                                                <div className="w-full h-full flex-col mt-4">
+                                                {/* <div className="w-full h-full flex-col mt-4">
 
                                                     <div className=" flex flex-col text-left">
                                                         <a className="font-medium text-gl text-left w-full" >Politicas & Privacidad</a>
@@ -88,11 +88,14 @@ function Header() {
                                                         <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
                                                         <Link href="/" passHref><a className=" p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
                                                     </div>
-                                                </div> 
+                                                </div>  */}
                                             </div>
                                         </Popover.Panel>
                                     </Popover>
                             </div>
+                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                                <a className=" transition-colors delay-150 text-subs2l">Trabaja con nosotros</a>
+                            </div></Link>
                         </div>
                     </div>
                     

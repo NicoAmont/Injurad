@@ -118,22 +118,26 @@
     "validity_tittle2":"validez",
     "validity_tittle3":"qué?",
     "validity_info1":"En la compravente hay muchas cosas que puedes hacer tu mismo, quizas podrás (con un poco de experiencia) determinar que el documento aportado es el ‘PDI’. Tener el ‘PDI’ es muy importante pero lo más importante es determinar claramente su validez. Este paso si que no es recomendable intentar hacerlo solo, necesitas a profesionales especializados y sobre todo honestos.",
-    "validity_info2":"La validez de un ‘Pasaporte del inmueble’ depende de los cambios que se hayan producido en la propiedad, en la legislación y en el plan urbanístico. El ‘PDI’ puede estar vencido, ser inválido, obtenido ilegalmente o incluso no existir. Esta es la regla más que la excepción en España. Compra conscientemente y deja que Injurad investigue con la imparcialidad de sus especialistas en este campo.",
+    "validity_info2_1":"El ‘PDI’ puede estar:",
+    "validity_info2_2":"Vencido o caducado",
+    "validity_info2_3":"Inválido",
+    "validity_info2_4":"Obtenido ilegalmente",
+    "validity_info2_5":"No existir. Esta es la regla más que la excepción en España.",
 
 
     "risk_tittle":"¿Qué",
     "risk_tittleB":"RIESGOS corro",
     "risk_tittleC":"  sin un ‘Pasaporte del inmueble’ (válido)?",
     "risk_1n":"No poder vender",
-    "risk_1info":" tu casa si un notario requiere un pasaporte válido para la venta y seguramente eso sucederá",
+    "risk_1info":"si notarios requieren un pasaporte válido asi como compradores no van a optar mas por estas casas",
     "risk_2n":"sin covertura.",
-    "risk_2info":"Tu compañía de seguros tiene derecho a no pagar los daños. Puedes estar",
+    "risk_2info":"Pagando prima las compañías de seguros tienen derecho de no pagar los daños. La propiedad puede estar",
     "risk_3n":"problemas",
-    "risk_3info":"Puedes esperar ",
-    "risk_3infob":"con las licencias de reforma o reconstrucción",
+    "risk_3info":"Tener ",
+    "risk_3infob":"con las licencias de reformar, ampliar, reconstruir, alquilar, habitar etc.",
     "risk_4n":"demoler",
-    "risk_4info":"Puedes verte obligado a",
-    "risk_4infob":" total o parcialmente tu casa en caso de irregularidades graves.",
+    "risk_4info":"Obligación a",
+    "risk_4infob":" total o parcialmente en caso de irregularidades graves así como enfrentar multas.",
     
     "cp_slogan":"A pesar de la apariencia amigable de profesionales, mantén el control. La única garantía para disfrutar de la hermosa España sin estrés es saber exactamente lo que estás comprando",
     "cp_nomber":" Consejos de Casa Propia, la comunidad de propietarios y compradores:",
@@ -277,7 +281,37 @@
     "stepform3":"Paso 3",
     "stepform3b":"Precio urbano: 532,40 €",
     "stepform3c":"Precio rústico: 665,50 €",
-    "stepform3d":"Tiempo entrega: 5-10 diás hábiles"
+    "stepform3d":"Tiempo entrega: 5-10 diás hábiles",
     
     
+    "About_tittle1":"MISION INJURAD",
+    "About_tittle1_info":"Facilitar que la compra de una propiedad en españa sea segura para todos, independientemente que se trate de un piso pequeño o un chalet de lujo. Informar clara y honestamente sobre la situación del inmueble en cuanto al cumplimiento de las normas urbanísticas, y si es el caso, sobre las consecuencias que tendrá al no cumplirlas, información que es fundamental para tomar una decisión conciente.",
+    "About_tittle2":"Como conseguimos nuestro objetivo",
+    "About_tittle2_info":"Partimos de 5 principios basicos:",
+    "About_tittle2_info1":"Estandarización",
+    "About_tittle2_info1_1":"Este objetivo solo se consigue con el establecimiento de un procedimiento, con pautas y directrices claras a los profesionales que permita ejercer un control sobre sus actuaciones, así como tambien delimitando su trabajo en función de los intereses del cliente.",
+    "About_tittle2_info2":"Supervisión",
+    "About_tittle2_info2_1":"es pues, el elemento que introduce Injurad para marcar la diferencia entre un profesional que trabaja individualmente y uno que sigue protocolos y que sabe que esta bajo control.",
+    "About_tittle2_info3":"Responsabilidad",
+    "About_tittle2_info3_1":"Los resultados de la inspección plasmados en un informe claro y entendible, firmado por su autor le darán la confianza del respaldo de un profesional que quiere asumir su responsabilidad a la hora de informar.",
+    "About_tittle2_info4":" Permanente evaluación",
+    "About_tittle2_info4_1":"La evaluación a profundidad de un de cada diez informes, así como el establecimiento de un grupo control o arbitraje en los casos de informes que se remitan por causa de una queja o denuncia, tambien es una forma de control de la calidad del trabajo.",
+    "About_tittle2_info5":"Conocimiento colectivo",
+    "About_tittle2_info5_1":"La suma de las experiencias y de los esfuerzos individuales de los profesionales a la hora de hacer un dictamen, ofrece un valor agregado con especial importancia, teniendo en cuenta que la normativa urbanística española tiene una palneación, aplicación y regulación segmentada por cada municipio.",    
+    
+    "About_tittle3":"Profesionales",    
+    "About_tittle3_info":"Los profesionales que tienen la idoneidad para realizar las investigaciones sobre la situación de los inmuebles son arquitectos especializados en urbanismo y abogados que también tengan amplio conocimiento de las leyes urbanísticas. El sistema esta a disposición de cualquier profesional. Hay profesionales que ya han acceptado las pautas y protocolos de Injurad, por lo tanto, estarán incluidos en la base de datos para que les sea asignado aleatoriamente alguna solicitud y por otro lado, los profesionales que aun no conocen a Injurad, quienes tendrán que llevar a cabo el proceso de validación para darles acceso al sistema. Con esta metodología tambien sus actuales asesores podrán ofrecerle seguridad.", 
+    
+    "About_tittle4":"Equipo Injurad",
+    "About_tittle4_info":"Compuesto en primer lugar por los fundadores, personal administrativo e informático. Fundamentalmente trabaja para que el sistema funcione correctamente, la comunicación con el cliente sea oportuna, etc.",
+    "About_tittle4_tittle1":"Inspectores urbanísticos",
+    "About_tittle4_tittle1_info":"Con un equipo en casa compuesto por arquitectos especialistas en urbanismo quienes se ocupan de supervisar la forma y el fondo de las inspecciones y sus informes",
+    "About_tittle4_tittle2":"Inspectores Jurídicos",
+    "About_tittle4_tittle2_info":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
+    "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
+    "About_tittle6":"Area de trabajo",
+    "About_tittle6_info":"El alcance de las inspecciones de Injurad  debe ser nacional, si queremos cumplir nuestro objetivo. El sistema por supuesto contempla las leyes nacionales por ello permite su expansión sin embargo se debe someter a la contrastación de las normativas locales por ser a las localidades a quienes se les ha dado la competencia para planificar, regular y sancionar."
+    
+    
+
 }
