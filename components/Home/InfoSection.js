@@ -9,14 +9,7 @@ function InfoSection() {
     return (
         <div className="flex flex-col w-full h-full bg-bg2 text-bgr font-heads m-auto pb-10  relative">
         
-                <svg className="absolute w-full top-0 left-0"  viewBox="0 0 1440 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="557" height="55" fill="white"/>
-                <path d="M557 0H1443L557 55V0Z" fill="white"/>
-                <path d="M547 0H571L557 55H547V0Z" fill="white"/>
-                </svg>
-
-
-            
+                
                 <svg className=" absolute -top-96 scale-125 left-0  z-0 w-full opacity-5" viewBox="0 0 1573 1517" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1437.24 486.831L550.304 1516.97L62.4415 818.136L550.304 1187.33L1437.24 486.831Z" fill="white"/>
                     <path d="M1437.24 486.831L550.304 1516.97L62.4415 818.136L550.304 1187.33L1437.24 486.831Z" fill="white"/>
@@ -38,15 +31,15 @@ function InfoSection() {
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-bgr font-bold">{t('pdisection_titlec')}</h1>
                         </div>
-                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p')}</p>
-                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light text-lg md:text-xl   "> {t('pdisection_p22')}</p>
+                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-base   "> {t('pdisection_p')}</p>
+                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light text-lg md:text-base   "> {t('pdisection_p22')}</p>
                         
                         <div className="w-full  pt-16">
                         </div>
 
                     </div> 
                     
-                    <div className=" w-3/4 md:w-full grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
+                    <div className=" w-3/4 lg:w-full grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
                         <Disclosure>
                         {({ open }) => (
                             <>

@@ -38,7 +38,7 @@ function VideoSection() {
 
                 <h1 className="text-4xl text-bg2 sm:text-5xl  font-bold mb-10">{t('reason_tittle')} <span className="text-sl">{t('reason_tittlebold')}</span> </h1>
                 
-                <div className="grid md:grid-cols-3 place-items-Left m-auto gap-30 ">
+                <div className="grid lg:grid-cols-3 gap-20 place-items-Left m-auto gap-30 ">
                     <div className="flex flex-col md:flex-row align-text-top h-full w-full">
                         <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">1</h1>
                         <div className=" flex-col ">
@@ -59,9 +59,9 @@ function VideoSection() {
                     </div>
                     
                 </div>
-                <div className="w-full md:w-full pt-5" >
-                    <div className=" px-4  text-left mb-4">
-                        <h1 className="font-bold  text-3xl md:text-3xl md:ml-40  text-bg2  mb-10  ">{t('info_title')} </h1>
+                <div className="w-full md:w-full pt-5 m-auto" >
+                    <div className=" px-4  text-left mb-4 m-auto">
+                        <h1 className="font-bold  text-3xl md:text-3xl md:w-3/5 m-auto  text-bg2  mb-10  ">{t('info_title')} </h1>
                         <p className="mb-2 md:w-3/5 m-auto text-justify text-lg">{t('info_pa')} <span className="font-bold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
                         <p className="mb-5 md:w-3/5 m-auto text-justify  text-lg">{t('info_pd')}</p>
                         

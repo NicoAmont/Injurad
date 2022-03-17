@@ -103,7 +103,7 @@ export default function Igp() {
                         <path d="M66.0004 209.819C102.003 146.32 162.504 146.82 195 210.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
-                    <h1 className=" text-bgfva font-normal m-auto text-center text-sm pt-5 italic ">{t("form_igp_tittle2B3")}</h1>
+                    <h1 className=" text-bgfva font-normal m-auto text-left border-t-2 border-bgfva text-sm pt-5 italic ">{t("form_igp_tittle2B3")}</h1>
 
                 </div>
                 <div className="w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
@@ -129,8 +129,7 @@ export default function Igp() {
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
 
-
-                    <h1 className=" text-sl font-normal m-auto text-center text-sm pt-5 italic ">{t("form_igp_tittle2B2")}</h1>
+                    <h1 className=" text-sl font-normal m-auto text-sm border-t-2 pt-2 border-sl italic ">{t("form_igp_tittle2B2")}</h1>
                 </div>
                 <div className="w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
                     <svg className="opacity-5 w-10 absolute  bottom-0 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +153,7 @@ export default function Igp() {
                         <path d="M66.0004 209.819C102.003 146.32 162.504 146.82 195 210.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
-                    <h1 className=" text-bg2 font-normal m-auto text-center text-sm pt-5 italic ">{t("form_igp_tittle2B1")}</h1>
+                    <h1 className=" text-bg2 font-normal m-auto text-left border-t-2 border-bg2 text-sm pt-5 italic ">{t("form_igp_tittle2B1")}</h1>
 
                 </div>
                
