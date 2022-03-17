@@ -40,7 +40,7 @@ function Header() {
                 </Link>
                 {/* Navbar lg display */}
 
-                <div className="bg-bgr hidden lg:visible  lg:inline-flex w-full lg:w-auto text-sm lg:text-base">
+                <div className="bg-bgr hidden 2xl:visible  2xl:inline-flex w-full lg:w-auto text-sm lg:text-base">
                     {/* Center */}
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
                         <div className="flex flex-col lg:flex-row place-items-center w-full  cursor-pointer lg:px-10  text-sm transition-colors ">
@@ -130,7 +130,7 @@ function Header() {
                 </div> 
 
                 {/* Navbar less than lg display */}
-                <div className=" grid lg:hidden place-content-left place-items-end mr-4 w-full relative z-10 ">
+                <div className=" grid 2xl:hidden place-content-left place-items-end mr-4 w-full relative z-10 ">
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
