@@ -27,7 +27,7 @@ function InfoSection() {
                     
                     <div className=" md:ml-2 font-light w-4/5 mt-10">
                         <div className="grid w-full mb-14 m-auto">
-                            <h1 className=" text-2xl md:text-4xl  font-bold">{t('pdisection_title')}</h1>
+                            <h1 className=" text-4xl md:text-4xl  font-bold">{t('pdisection_title')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-bgr font-bold">{t('pdisection_titlec')}</h1>
                         </div>
@@ -39,7 +39,7 @@ function InfoSection() {
 
                     </div> 
                     
-                    <div className=" w-3/4 lg:w-full grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
+                    <div className=" w-3/4  grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
                         <Disclosure>
                         {({ open }) => (
                             <>
@@ -51,7 +51,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
                                 <div className="flex m-auto w-full">
                                     <p className="mb-4 text-sm">  {t("contidion1")}</p>
                                 </div>
@@ -71,7 +71,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
                                 <div className="flex m-auto w-full">
                                     <p className="mb-4 text-sm">  {t("contidion2")}</p>
                                 </div>
@@ -91,7 +91,7 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className=" m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
                                 <div className="flex m-auto w-full ">
                                     <p className="mb-4 text-sm">  {t("contidion3")}</p>
                                 </div>
@@ -100,6 +100,8 @@ function InfoSection() {
                             </>
                         )}
                         </Disclosure>
+                        
+                        
                         <Disclosure>
                         {({ open }) => (
                             <>
@@ -111,9 +113,29 @@ function InfoSection() {
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
                                 <div className="flex m-auto w-full ">
                                     <p className="mb-4 text-sm">  {t("contidion4")}</p>
+                                </div>
+                                
+                            </Disclosure.Panel>
+                            </>
+                        )}
+                        </Disclosure>
+                        <Disclosure>
+                        {({ open }) => (
+                            <>
+                            <Disclosure.Button className=" bg-bgr bg-opacity-90 shadow-2xl  rounded-lg flex justify-between w-full max-w-lg px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-bgr focus-visible:ring-opacity-75">
+                                <span className="text-normal font-normal text-bgf  ">{t("contidion5_tittle")}</span>
+                                <ChevronUpIcon
+                                className={`${
+                                    open ? 'transform rotate-180' : ''
+                                } w-5 h-5 text-bgf`}
+                                />
+                            </Disclosure.Button>
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
+                                <div className="flex m-auto w-full ">
+                                    <p className="mb-4 text-sm">  {t("contidion5")}</p>
                                 </div>
                                 
                             </Disclosure.Panel>
@@ -126,42 +148,38 @@ function InfoSection() {
                         {({ open }) => (
                             <>
                             <Disclosure.Button className=" bg-bgr bg-opacity-90 shadow-2xl  rounded-lg flex justify-between w-full max-w-lg px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-bgr focus-visible:ring-opacity-75">
-                                <span className="text-normal font-normal text-bgf  ">{t("contidion7_tittle")}</span>
+                                <span className="text-normal font-normal text-bgf  ">{t("contidion6_tittle")}</span>
                                 <ChevronUpIcon
                                 className={`${
                                     open ? 'transform rotate-180' : ''
                                 } w-5 h-5 text-bgf`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-3/4" >
+                            <Disclosure.Panel className="m-auto bg-bgr text-white font-medium bg-opacity-20  p-4 border- rounded-lg shadow-lg flex flex-col w-full" >
                                 <div className="flex m-auto w-full ">
-                                    <p className="mb-4 text-sm">  {t("contidion7")}</p>
+                                    <p className="mb-4 text-sm">  {t("contidion6")}</p>
                                 </div>
                                 
                             </Disclosure.Panel>
                             </>
                         )}
                         </Disclosure>
-
                 </div>
-
                 </div>
-
                 
                 
             </div>
 
             
-            <div className="flex flex-col md:flex-row w-auto max-w-6xl m-auto h-auto mb-20  rounded-xl p-5 bg-bgrS text-bgf shadow-xl mt-20">
-                <div className=" max-w-3xl flex flex-col md:flex-row m-auto ">
-                    <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-2 md:pl-10 m-auto flex ">
+            <div className="flex flex-col md:flex-row w-3/4 max-w-4xl m-auto h-auto mb-20  rounded-xl p-5 bg-bgrS text-bgf shadow-xl mt-20">
+                <div className=" max-w-4xl flex flex-col md:flex-row m-auto ">
+                    <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-7 md:pl-10 m-auto flex ">
                         <Image className=" m-auto"  src="/shield.png" layout='' width={136+'px'} height={136+'px'} alt="" quality={100} />
                     </div>
                     <div className="text-lg font-light text-center flex-col m-auto">
-                        <h1 className="text-2xl font-bold mb-4">{t("work_zone_garantie_tittle")}</h1>
-                        <p className="text-sm text-left w-3/4 m-auto ">{t("work_zone_garantie_info1")}</p>
+                        <h1 className="text-3xl font-bold mb-4">{t("work_zone_garantie_tittle")}</h1>
+                        <p className="text-sm text-left w-3/4 m-auto mb-2 ">{t("work_zone_garantie_info1")}</p>
                         <p className="text-sm text-left w-3/4 m-auto">{t("work_zone_garantie_info2")}</p>
-                        
                     </div>
                     
                 </div>

@@ -1,29 +1,362 @@
 {
-    "navbtn_title": "Selecteer taal",
-    "navbtn_opt1": "Spaans",
-    "navbtn_opt2": "Nederlands",
+    "navbtn_title": "Selecciona Idioma",
+    "navbtn_opt1": "Español",
+    "navbtn_opt2": "Holandes",
+    
+    "hero_title":"La itv para",
+    "hero_titleb":"propiedades",
+    "hero_titlec":"en",
+    "hero_titled":"españa",
+    "hero_subtitle":"Comprar con seguiridad comienza aquí",
 
-    "hero_title":"Comprar con",
-    "hero_titleb":"seguridad",
-    "hero_titlec":"comienza",
-    "hero_titled":"aqui",
-    "hero_subtitle":"Toma el control y compra conscientemente",
-
-    "slogan":"hacer realidad la casa de tus sueños",
-    "slogan2":"significa invertir",
+    "slogan":"In Spanje bestaat sinds 1987 de verplichte autokeuring (ITV) ten behoeve van de verkeersveiligheid. Voor de vastgoedmarkt is er IGP, een keuring onder toezicht van Injurad. De doelstelling van Injurad is om veilig kopen voor iedereen toegankelijk te maken ongeacht de waarde van het onroerend goed, zodat men zonder zorgen van dit prachtige land kan genieten.",
+    "slogan2":"DE WAAKHOND VOOR VASTGOEDINSPECTIES IN SPANJE",
     "slogan3":"dinero",
 
-    "info_title":"¿ Correr riesgos ? ! Mejor No ¡",
-    "info_p":"Sin embargo, si los estas corriendo. ¿ Porque ?, ¿ Qué tanto conoces el estado real de la casa que te interesa? ¿Es legal, se puede legalizar o es parcial o totalmente ilegal?.",
-    "info_pb":"Si no tiene sus documentos en orden, podrías tener serios problemas más adelante. ",
-    "info_pc":"El sello de calidad Injurad ofrece máxima seguridad.Infórmate y compra conscientemente.",
+    "reason_tittle":"INJURAD is er niet  ",
+    "reason_tittlebold":"voor niets",
+    "reason_1a":"Een bijzonder hoog percentage woningen heeft",
+    "reason_1b":" geen of een ongeldig ‘Vastgoedpaspoort’ (PDI) ",
+    "reason_1c":"en dat kan serieuze consequenties hebben, die soms pas jaren na de transactie aan het licht komen.",
+    "reason_2a":"Er is",
+    "reason_2b":"geen toezicht op individuele transacties",
+    "reason_2c":" waardoor probleemwoningen ondanks de tussenkomst van professionals worden gekocht, maar nooit zouden worden gekocht als kopers eerlijk op de hoogte waren gebracht van de risico’s.",
+    "reason_3a":"",
+    "reason_3b":"La desinformación es quizas la principal razon",
+    "reason_3c":" de porqué aún se venden propiedades problematicas a pesar de que todo comprador declara que no las compraría si conocieran los riesgos.",
+    
+    "reason_question1":"Wat is een Vastgoedpaspoort ?",
+    "reason_qansw1a":"Het Vastgoedpaspoort (Pasaporte del inmueble PDI) is het belangrijkste document bij het kopen van een woning in Spanje. Een woning die niet over een Vastgoedpaspoort kan beschikken, zal nooit legaal zijn. De praktijk leert dat alleen een gegarandeerd onafhankelijk onderzoek naar het Vastgoedpaspoort de koper goed beschermt.",
+    "reason_qansw1b":"Lo más IMPORTANTE en una compraventa es asegurarse si el PDI se ha consequido legalmente o es valido. Esta investigación solo pueden hacer profesionales especializados, que deben siguir protocoles claras para evitar interpretaciones libres cuales no son en el interes del comprador. ",
+    "reason_qansw1c":"Meer over het Vastgoedpaspoort",
+    "reason_question2":"Wat zijin de risico´s ?",
+    "reason_qansw2tit":"Het ontbreken van documenten of ongeldige documenten kan leiden tot :",
+    "reason_qansw2a":"Lastig of niet kunnen verkopen in de toekomst, uw vermogen zit vast",
+    "reason_qansw2b":"Devaluatie van de woning",
+    "reason_qansw2c":"Moeten afbreken van een deel of gehele woning",
+    "reason_qansw2d":"Een deel van de woning moeten slopen om de situatie te legaliseren, of leven met de illegale status",
+    "reason_qansw2e":"Geen gegarandeerde dekking van de verzekering ondanks dat u premie betaalt",
+    "reason_qansw2f":"Problemen met het verkrijgen of verlengen van vergunningen (verbouw, herbouw, verhuur, ect.)",
+    "reason_qansw2g":"Boetes voor werkzaamheden die zonder vergunning zijn uitgevoerd",
+    "reason_question3":"¿ Como me afecta a mí, la falata de ética ?",
+    "reason_qansw3a":"Existe un conflicto de interes entre el interes comercial de los asesores y el interes del comprador. Al exisitir tantas propiedades que no cumplen los requisitos legales el «custumbre» es no informar completo al comprador o dejar toda la responsabilidad al comprador. Esto ha resultado en tres pasos para comprar con máxima seguridad: ",
+    "reason_qansw3b":"Chequeo de documentos",
+    "reason_qansw3c":"Contratos de reserva y Opción de compra",
+    "reason_qansw3d":"Inspección nacional supervisada IGP",
+    
+    "announce":"WAT ELKE KOPER MOET WETEN",
 
 
-    "pdisection_title":"No es por nada que",
-    "pdisection_titleb":"existe",
-    "pdisection_titlec":"Injurad",
-    "pdisection_p":"La cantidad de propiedades en España que no tienen el ‘Pasaporte del inmueble’ (PDI) o que es invalido es enorme. También hay una falta de ética entre los profesionales, porque las propiedades con alto riesgo “simplemente” se compran y se venden a pesar de su intervención. Casi siempre porque no se informa las consecuencias de no tener el ‘PDI’. Esta es la causa de casi todos los problemas del mercado inmobiliario español.",
-    "pdisection_pb":"En última instancia,eres tú quien corre el riesgo sin darte cuenta, no tus asesores. Las consecuencias pueden ser grandes.",
-    "pdisection_btn":"Que es un pdi"
+
+
+
+
+    "info_title":"Hou zelf de controle!",
+    "info_title2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Mejor que no!",
+    "info_pa":"Het realiseren van uw droomhuis in Spanje betekent veel geld investeren. Risico’s nemen? Liever niet! Zorg daarom dat",
+    "info_pc":"u zelf de controle",
+    "info_pc2":"heeft over het koopproces.",
+    "info_pd":"Controle begint met goed op de hoogte zijn door een onafhankelijke inspectie, uitgevoerd en ondertekend door specialisten die strikte protocollen moeten naleven. Professionals die geen direct of indirect commercieel belang hebben bij uw beslissing om een woning al dan niet te kopen. Een inspectie in uw eigen taal met duidelijke conclusies en aanbevelingen.",
+    "info_pe":"",
+    "info_pf":"",
+    "info_pg":"Tener el control de la compra significa comprar conscientemente",
+
+    "pdisection_title":"Kies voor",
+    "pdisection_titleb":"maximale zekerheid",
+    "pdisection_titlec":"als u risico’s wilt vermijden",
+    "pdisection_p2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Más bien no. Todo comienza teniendo tú mismo el control, para poder hacer tu propio análisis y tomar una decisión consciente.",
+    "pdisection_p":"Met Injurad heeft u de controle en weerbaar tegen desinformatie en misleiding. Injurad stelt bovendien daarom strenge eisen aan professionals, zo markeren we het grote verschil met een individuele professional zonder enige controle.",
+    "pdisection_p22":"",
+    "condition_title1":"Condiciones",
+    "condition_title":"Condicion",
+    "contidion1_tittle":"Professionals moeten een inspectie volgens richtlijnen opstellen en tekenen",
+    "contidion1":"De professionals werken volgens de regels en protocollen van Injurad. U krijgt een zogenaand urbanistisch en een juridisch rapport, de IGP inspectie. Door ondertekening tonen professionals hun bertokkenheid. De IGP inspwectie is bedoeld om u duidelijkheid te verschaffen over de situatie van de woning en wat de te nemen vervolgstappen zijn.",
+    "contidion2_tittle":"Professionals moeten ons evaluatiesysteem accepteren",
+    "contidion2":"Een van onze controles is de evaluatie van de rapportages. 1 op 10 zal een evaluatie ondergaan, zowel naar vorm als inhoud. Op deze manier verifiëren we of de rapporten voldoen aan de kwaliteitsnormen, een effectieve maatregel voor professionals om bij elk rapport tot het uiterste te gaan.",
+    "contidion3_tittle":"De professionals maken deel uit van het INJURAD kenniscentrum",
+    "contidion3":"De wetten in Spanje veranderen voortdurend. Dankzij ons Kenniscentrum kunnen professionals zelfs in de meest gecompliceerde gevallen een passend antwoord vinden. Omdat Injurad zich volledig toelegt op vastgoedtransacties is deze schat aan ervaring, zowel voor u als de professionals van enorme toegevoegde waarde.",
+    "contidion4_tittle":"Selectie van professionals",
+    "contidion4":"Injurad werkt niet zomaar met iedereen samen. De professionals worden zowel geselecteerd op hun kennis als op hun professionele carrière. Om met Injurad samen te kunnen werken, is het van essentieel belang dat uit de antecedenten blijkt dat de professionals de normen en waarden van onze ethische code onderschrijven en accepeteren. ",
+    "contidion5_tittle":"Professionals tekenen onze integriteitscode",
+    "contidion5":"De drijfveer en het bestaan van Injurad zijn gebaseerd op zorgvuldig gedefinieerde waarden; onafhankelijkheid, onpartijdigheid, veiligheid, respect voor de wet, integriteit en arbeidsethos. Onze ethische code is een verplichte regel, die door alle professionals moet worden aanvaard, en daar heeft u profijt van.",
+    "contidion6_tittle":"Professionals moeten zich houden aan ons reglement",
+    "contidion6":"Elk ongepast gedrag of elk gedrag dat in strijd is met onze ethische code en gedrag, inclusief niet naleving van onze protocollen, zal worden bestraft in overeenstemming met onze interne regelgeving. Dit intern reglement dient door alle professionals te worden aanvaard. We hebben daarnaast nog een onafhankelijke arbitragecommissie die zonodig conflicten zal beoordelen en Injurad zal adviseren over te nemen maatregelen.",
+    "contidion7_tittle":"Professionals tekenen onze integriteitscode",
+    "contidion7":"Elk ongepast gedrag of elk gedrag dat in strijd is met onze ethische code en gedrag, inclusief niet naleving van onze protocollen, zal worden bestraft in overeenstemming met onze interne regelgeving. Dit intern reglement dient door alle professionals te worden aanvaard. We hebben daarnaast nog een onafhankelijke arbitragecommissie die zonodig conflicten zal beoordelen en Injurad zal adviseren over te nemen maatregelen.",
+    "contidion7_tittle-":"Ons reglement",
+    "contidion7-":"Elk ongepast gedrag of elk gedrag dat in strijd is met onze ethische code en gedrag, inclusief niet naleving van onze protocollen, zal worden bestraft in overeenstemming met onze interne regelgeving. Dit intern reglement dient door alle professionals te worden aanvaard. We hebben daarnaast nog een onafhankelijke arbitragecommissie die zonodig conflicten zal beoordelen en Injurad zal adviseren over te nemen maatregelen.",
+    
+    "conclution1":"Por el bajo costo INJURAD pone al alcance de cada comprador la posibilidad de optar por la maxima seguridad en una inversión tan importante.",
+    "conclution2":"Crea una cuenta y solicita a tu abogado y arquitecto que te asesoren bajo las pautas de INJURAD o elige un profesional directamente de nuestra lista, en ella están los que ya han declarado estar de acuerdo con el sistema y sus protocolos.",
+
+
+    "pdisection_btn":"Que es un pdi",
+    
+
+
+
+    "Howitworkssection":"start of how it works",
+
+    "how_tittle":"ONZE PROCEDURE IS",
+    "how_tittle2":"EENVOUDIG",
+
+    "step":"Stap",
+    "how_dubstep1":"",
+    "how_dubstep2":"",
+    "how_dubstep3":"",
+    
+    "how_flujo_1":"Prijsovereenkomst met verkoper",   
+    "how_flujo_2":"Vraag de documenten",   
+    "how_flujo_2info":" op bij de makelaar of verkoper",   
+    "how_flujo_2info2":"Licencia de ocupación (PDI)",   
+    "how_flujo_2info2a":"Licencia de obra",   
+    "how_flujo_2info2b":"Nota simple",   
+    "how_flujo_2info2c":"Certificado Catastra",   
+    "how_flujo_2info2d":"Certificado Catastral",   
+    "how_flujo_3":"U krijgt de documenten",   
+    "how_flujo_3-":"Goede start",   
+    "how_flujo_3b":"U krijgt geen documenten",   
+    "how_flujo_3b-":"Wees alert!",   
+    "how_flujo_4":"STAP 1",   
+    "how_flujo_4a":"Documenten check ",   
+    "how_flujo_5":"STAP 2",   
+    "how_flujo_5a":"Optiecontract",   
+    "how_flujo_5b":"Reserveringscontract",   
+    "how_flujo_5c":"STAP 3",   
+    "how_flujo_5d":"IGP inspectie",   
+    "how_flujo_5e":"IGP inspectie",   
+    
+    "how_flujo_b1":"Resultaat IGP groen",   
+    "how_flujo_b1-":"Geen onrechtmatigheden opgemerkt",   
+    "how_flujo_b2":"Resultaat IGP geel",   
+    "how_flujo_b3":"Zaken om uit te zoeken",   
+    "how_flujo_b4":"Resultaat IGP rood",   
+    "how_flujo_b5":"Woning illegaal / niet te legaliseren", 
+    "how_flujo_b6":"Contact met advocaat voor overdracht", 
+    "how_flujo_b7":"Afhankelijk van advies contact met juiste professional opnemen ", 
+    "how_flujo_b8":"Terugstorten deposito aan de koper", 
+    "how_flujo_b9":"2de revisie IGP ", 
+    "how_flujo_b10":"Resultaat onderzoek negatief", 
+    "how_flujo_b11":"Alles nu goed ", 
+    "how_flujo_b12":"Contact met advocaat voor overdracht", 
+    "how_flujo_b13":"Tekenen bij de notaris. Gefeliciteert u bent eigenaar",   
+
+    
+    "how_stepinfo_tittle1":"Documenten Check",
+    "how_stepinfo_descr1":"Het eerste dat u moet weten, is of de woning alle documenten in orde heeft. Als deze er zijn, goed begin. Zijn ze er niet of krijgt u ze niet, wees dan Alert!",
+    "how_stepinfo_tittle2":"Contracten",
+    "how_stepinfo_descr2":"Afhankelijk van de documenten die u heeft ontvangen, tekent u een optie- of een reserveringscontract. Een goed contract is essentieel.",
+    "how_stepinfo_tittle3":"IGP inspectie",
+    "how_stepinfo_descr3":"De derde stap is de IGP-inspectie. Met dit rapport kent u de situatie, heeft u veel meer zekerheid en bespaart u op de totale kosten.",
+    
+
+
+    "passport_tittle":"WAT IS EEN VASTGOEDPASPOORT (PDI)?",
+    "passport_info":"Het ‘Vastgoedpaspoort’ is het belangrijkste document bij het kopen van een woning in Spanje. Injurad introduceert de term ‘Vastgoedpaspoort’ (vertaald Pasaporte del inmueble PDI), omdat de naam per autonome regio kan verschillen. Er zijn namelijk documenten die door de naam suggereren dat het om een PDI gaat maar NIET zijn. Bijvoorbeeld een woonverguning, documenten van het Kadaster of het Woningregister. Vastgoedpaspoort is de beste naam en zou eigenlijk voor heel Spanje moeten worden geïntroduceerd om misverstanden en misleiding te voorkomen. Het ‘Vastgoedpaspoort’ is onze naam voor een officieel document van de lokale overheid dat bevestigt dat het onroerend goed:",
+    "passport_logo":"Is gebouwd in overeenstemming met de wet én toestemming heeft om te mogen worden bewoond.",
+    
+    
+    "validity_tittle":"HOE ZIT ",
+    "validity_tittle2":"HET MET",
+    "validity_tittle3":"DE GELDIGHEID?",
+    "validity_info1":"Dat een woning over een PDI beschikt is erg belangrijk, maar het belangrijkste is om de geldigheid ervan te onderzoeken. Dit onderzoek kan een koper niet zelf doen. Zie de complexiteit van een IGP rapport in het voorbeeld. Daarvoor zijn gespecialiseerde professionals nodig, te beginnen met een architect gespecialiseerd in ruimtelijke ordening en vervolgens een advocaat eveneens specialist op dat gebied voor de juridische aspecten. Als u zonder stress van Spanje wil genieten is bezuinigen op een onafhankelijk onderzoek zoals IGP, gezien de investering die u gaat doen, onverstandig.",
+    "validity_info2_1":"Een Vastgoedpaspoort kan:",
+    "validity_info2_2":"Verlopen zijn",
+    "validity_info2_3":"Ongeldig zijn vanwege wijzigingen in het onroerend goed",
+    "validity_info2_4":"Onrechtmatig zijn verkregen door informatie te verbergen",
+    "validity_info2_5":"No existir. Esta es la regla más que la excepción en España.",
+
+
+    "risk_tittle":"WELKE ",
+    "risk_tittleB":"RISICO’S LOOPT",
+    "risk_tittleC":" U ZONDER (GELDIG) VASTGOEDPASPOORT?",
+    "risk_info":"Dat een woning geen ‘PDI’ heeft is in Spanje meer regel dan uitzondering. Het wil niet zeggen dat een woning die geen, of geen geldige PDI heeft deze niet kan krijgen. Maar, een woning die er niet over kan beschikken, zal nooit legaal zijn.",
+    "risk_info2":"Dat impliceert de volgende risico’s :",
+    "risk_1n":"Lastig of niet kunnen ",
+    "risk_1info":"verkopen in de toekomst",
+    "risk_2n":"van de woning",
+    "risk_2info":"Devaluatie ",
+    "risk_3n":"afbreken ",
+    "risk_3info":"Moeten  ",
+    "risk_3infob":"van een deel of gehele woning",
+    "risk_4n":"slopen",
+    "risk_4info":"Een deel van de woning moeten",
+    "risk_4infob":" om de situatie te legaliseren, of leven met de illegale status.",
+    
+    "cp_slogan":"A pesar de la apariencia amigable de profesionales, mantén el control. La única garantía para disfrutar de la hermosa España sin estrés es saber exactamente lo que estás comprando",
+    "cp_nomber":" Consejos de Casa Propia, la comunidad de propietarios y compradores:",
+    
+
+
+
+    "inicio_nueva_seccion2":"inicio_trabajadores",
+
+
+    "work_zone_tittle":"Nuestra ",
+    "work_zone_tittle2":"zona de trabajo",
+    "work_zone_testi":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_quote1":"Inspector especializado en urbanismo.",
+    "work_zone_quote2":"Robert J. Yuning ",
+    
+
+    "work_zone_1":"equipo injurad",
+    "work_zone_2":"inspectores juridicos",
+    "work_zone_3":"inspectores de urbanismo",
+    "work_zone_4":"coordinadores",
+    "work_zone_equip1":"Formamos una",
+    "work_zone_equip2":" gran red",
+    "work_zone_equip3":" de",
+    "work_zone_equip4":" profesionales",
+    "work_zone_equipquote":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_juridicos":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_urbanismo":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    "work_zone_coordinadores":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et malesuada ut mi massa viverra semper turpis. ”",
+    
+    
+    "work_zone_garantie_tittle":"VEILIG BETALEN",
+    "work_zone_garantie_info1":"U wilt er zeker van zijn dat de professional zijn werk doet alvorens te betalen. De professional wil er zeker van zijn dat u betaalt als het werk is gedaan.",
+    "work_zone_garantie_info2":"Om uit deze impasse te komen en zekerheid te bieden aan zowel opdrachtgever als professional werken we met het Veilig betalen systeem waarbij u betaalt via een derdenrekening waarvan de professional wordt betaald als de werkzaamheden zijn afgerond.",
+
+    
+    
+    "inicio_nueva_seccion":"inicio_trabajadores",
+    
+    
+    
+    "Contact_tittle":"Contactanos",
+    "Contact_subtitle":"Llena los siguientes campos",
+    "Contact_opt1":"Nombre",
+    "Contact_opt2":"Apellidos",
+    "Contact_opt3":"E-mail",
+    "Contact_opt4":"Telefono de contacto",
+    "Contact_opt5":"Etapa del porceso",
+    "Contact_opt6":"Mensaje",
+    "Contact_opt7":"Mensaje aclarando las durancion de las respuestas y agradeciendo por su aporte a INJURAD",
+    
+    
+    "form_igp_tittle":"IGP INSPECTIE    ",
+
+    "form_igp_info1":"De inspectie is een urbanistische en juridische studie naar de woning. Dat is vrijwel het belangrijkste onderdeel bij het bepalen van de legaliteit van een woning. Deze inspectie is alleen van waarde als deze door een architect gespecialiseerd in ruimtelijke ordeding en een advocaat met hetzelfde specialisme wordt gedaan. Aan de hand van het rapport kunt u beslissen of u doorgaat met de aankoop of niet. Is de woning in orde, of zijn er beperkingen, extra kosten voor onderzoek of legalisatie, accepteer ik eventuele risico’s, etc?",
+    "form_igp_info2":"De IGP probeert bijvoorbeeld de volgende vragen te beantwoorden:",
+    "form_igp_info2b":"Is het huis legaal, legaliseerbaar of illegaal?",
+    "form_igp_info2c":"Is er een risico op sloop?",
+    "form_igp_info2d":"Zijn er risico’s op boetes?",
+    "form_igp_info2e":"Kan ik verbouwen?",
+    "form_igp_info2f":"Kan ik herbouwen in geval van grote schade?",
+    "form_igp_info2g":"Ben ik verzekerd voor brand, waterschade, enz.?",
+    "form_igp_tit2a":"Wie voeren de inspectie uit?",
+    "form_igp_tit2b":"Zoals gezegd is het belangrijkste aspect dat het onroerend goed voldoet aan het bestemmingsplan. Elke IGP inspectie begint altijd met een architect gespecialiseerd in ruimtelijke ordening (vertaald urbanismo) om na te gaan of de woning voldoet aan de eisen van het zogeheten ‘Plan de ordenación del territorio local‘ (deel A, het urbanistisch rapport). Een advocaat beoordeelt de juridische aspecten door de wetgeving te toetsen aan het rapport van de architect. Dit resulteert in een juridisch rapport (deel B), waarin u tevens de conclusies en aanbevelingen vindt.",
+    "form_igp_t2":"Heeft u voordat de IGP plaatsvindt een eigen advocaat nodig?",
+    "form_igp_t2b":"Behalve voor het opstellen van een reserverings- of optiecontract (zie contracten) hoeft u geen geld uit te geven aan een advocaat. U moet eerst weten wat u koopt en of de woning aan uw eisen voldoet. Als alles er goed uitziet, is het raadzaam om een ​​advocaat te raadplegen om u te begeleiden tot aan de notaris. Omdat alles helder op papier staat zal deze minder in rekening brengen. Daarom betekent een IGP inspectie niet alleen maximale zekerheid, maar ook een flinke besparing.",
+    "form_igp_t22":"IGP als second opinion  ",
+    "form_igp_t2b2":"Ook als u al eerder een contract heeft getekend met een makelaar of andere advocaat, is een IGP inspectie verstandig voordat u bij de notaris tekent en betaalt. Voor uw gemoedsrust en om zeker te weten dat u juist bent geïnformeerd. Een IGP kan in volledig vertrouwen worden uitgevoerd zonder enig contact met de verkoper, makelaar of advocaat. Het rapport, ondersteund door de handtekening van de professionals kan bovendien dienen als verdediging in het geval het nodig is om de overeenkomst alsnog te moeten ontbinden.",
+
+
+    "form_igp_info3":"Elke IGP inspectie bevat conclusies en aanbevelingen in uw eigen taal. Met dit advies houdt u de controle en kunt u zelf de mogelijke risico’s afwegen.",
+    "form_doc_tittle":"DOCUMENTEN CHECK",
+    "form_doc_info1":"Zou u een auto kopen zonder (geldige) papieren?",
+    "form_doc_info2":"Waarschijnlijk niet, want als u wordt aangehouden krijgt u een boete, bij een aanrijding is de schade niet verzekerd en bij een ongeval is de schade misschien niet te overzien. Bij het kopen van een auto controleren we allemaal de papieren. Bij een woning zou dat niet anders moeten zijn, want de risico’s zijn het zelfde zo niet groter. Zijn alle documenten aanwezig, zijn ze geldig?. Sommige documenten lijken op elkaar maar hebben een andere functie. Dat leidt tot misverstanden en problemen achteraf (zie risico’s).",
+    "form_igp_tittle2":"Resultaten IGP",
+    "form_igp_tittle2B":"Het resultaat van de IGP wordt uitgedrukt in drie kleuren.",
+    "form_igp_tittle2B1":"Het onroerend goed is illegaal en niet te legaliseren en heeft serieuze beperkingen. U kunt zelf de risico’s afwegen.",
+    "form_igp_tittle2B2":"Er zijn zaken die nog moeten worden opgelost of onderzocht. Het rapport geeft aan welke professional u daarbij kan helpen.",
+    "form_igp_tittle2B3":"De IGP laat geen onrechtmatigheden zien. Neem contact op met een advocaat om u te begeleiden tot aan de notaris.",
+    "form_igp_infot2":"Waarom eerst een documenten check?",
+    "form_igp_infot2P":"Het is belangrijk om te weten welke documenten aanwezig zijn om te bepalen welk type contract getekend moet worden (stap 2) om vervolgens de IGP inspectie uit te laten voeren (stap 3).",
+    "form_igp_infot3":"Wanneer vraagt u een documenten check aan? ",
+    "form_igp_infot3P":"Op het moment dat u overeenstemming heeft over de prijs en de documenten zijn overhandigd (minimaal de essentiële). Onderteken niets en betaal niets zonder degelijk contract (stap 2).",
+    "form_igp_infot4":"Tercer Documento ",
+    
+    
+    "form_igp_infot4-":"Voorbeeld IGP inspectie",
+    
+    
+    
+    
+    
+    
+    
+    
+    "form_doc_tittle2":"Vraag aan de verkoper of diens vertegenwoordiger welke van de volgende documenten kunnen worden aangeleverd:",
+    "form_doc_tittle2p":"Om ervoor te zorgen dat een woning aan alle wettelijke eisen voldoet, moet deze over alle onderstaande documenten beschikken. We hebben de documenten in twee groepen verdeeld. Vraag om te beginnen naar de essentiële documenten.",
+    "form_doc_esT":"Essentiële documenten :",
+    "form_doc_esT2":"Secundaire documenten :",
+    "form_doc_esp1":"Nota simple (Inschrijving Register)",
+    "form_doc_esp2":"Licencia de ocupación (Vastgoedpaspoort)",
+    "form_doc_esp3":"Licencia de obras (Bouwvergunning)",
+    "form_doc_esp4":"Certificado catastral (Cadastrale registratie)",
+    "form_doc_esp5":"Cédula de habitabilidad (Woonvergunning, afhankelijk van autonome regio)",
+    "form_doc_esp6":"Certificado energético (Energiecertificaat)",
+    "form_doc_esp7":"Boletin de electricidad, de agua y gas  (importante para cobertura seguro)",
+    "form_doc_esp8":"ITE (voor gebouwen/ appartementen)",
+    "form_doc_esp9":"Reglamento de la comunidad de propetarios (voor wooncommunities)",
+    "form_doc_esp10":"División horizontal (voor gebouwen/ appartementen)",
+    "form_doc_bt":"Als een woning beschikt over de essentiële documenten wil dat niet zeggen dat de woning legaal is, maar als ze er niet zijn betekent dat niet dat de woning illegaal is.",
+    "form_doc_bt2":"",
+    "form_doc_btb":"Het is lastig te begrijpen,",
+    "form_doc_":"hier leggen we het uit",
+    "form_doc_info":"Woningen met onrechtmatigheden kunnen worden ingeschreven in het eigendomsregister, omdat deze instelling niet de taak heeft om de legaliteit te controleren. Evenzo worden illegale wonigen opgenomen in het Kadaster, omdat ook deze instantie de legaliteit niet controleert. Woningen met een Licencia de ocupación (Vastgoedpaspoort) die niet voldoen aan het huidige bestemmingsplan of wetgeving hebben beperkingen. Woningen die geen bouwvergunning hebben, dus zonder vergunning zijn gebouwd, kunnen alnog gelegaliseerd worden als deze voldoen aan het bestemmingsplan en geldende regelgeving. Daarom is de IGP-keuring enorm belangrijk. Het gaat om een grote investering, dus volg de drie stappen en laat de specialisten hun werk doen volgens de Injurad-richtlijnen.",
+    "form_doc_btbl":"Een check aanvragen is heel eenvoudig",
+    "form_doc_btbl2":"Vul onderstaand formulier in. U ontvangt een e-mail met de details voor de betaling en de mogelijkheid om de documenten naar ons op te sturen",
+    "form_doc_btbl3":"PAGO SEGURO",
+    
+    
+    "form_reserva_tittle":"HET CONTRACT  ",
+    "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
+    "form_reserva_tittle2b":"Na een «Documenten check» weten we welk contract getekend moet worden  ",
+    "form_reserva_info1":"Het is meestal de koper die zorg draagt voor het contract zodat de belangen goed worden gedefinieerd. Het is niet verstandig om onder druk van een makelaar of verkoper een willekeurig contract te tekenen.",
+    "form_reserva_info1b":"Er zijn veel soorten contracten, wij maken in het belang van de koper gebruik van slechts twee. De volgende contracten kunt u tekenen voorafgaand aan de IGP inspectie (stap 3).",
+    "form_reserva_info1t":"Reserveringscontract ",
+    "form_reserva_info1tinfo":"waarbij 1% van de prijs wordt betaald in het geval de verkoper of zijn vertegenwoordiger u GEEN documenten heeft aangeleverd. Zonder de essentiële documenten weet u immers niets over het onroerend goed. Een reserveringscontract is het meest geschikt omdat de koper de woning reserveert en de verkoper de zekerheid heeft dat, als de woning aan de voorwaarden voldoet deze als verkocht kan worden beschouwd. In deze situatie is het raadzaam om een ​​reserveringscontract te ondertekenen en geen grote bedragen over te maken die u later moet claimen als uit de inspectie blijkt dat de woning niet aan uw eisen voldoet of illegaal blijkt te zijn.",
+    "form_reserva_info2t":"Optiecontract ",
+    "form_reserva_info2tinfo":"waarbij 10% van de prijs wordt betaald als de verkoper of zijn vertegenwoordiger alle essentiële documenten heeft verstrekt of is geverifieerd dat de documenten eenvoudig te verkrijgen zijn.",
+    "form_reserva_quest1":"Waaraan voldoet een goed contract?",
+    "form_reserva_quest2":"Het contract specificeert de afspraken tussen u en de verkoper zoals de prijs, het reserveringsbedrag, de beschrijving van het onroerend goed, de eigenaar, duur van de reservering, voorwaarden dat het onroerend goed aan de normen voldoet, of het meubilair is inbegrepen, de leveringsdatum, of er zaken moeten worden hersteld of gerepareerd, wie als depositohouder optreedt, wie er moeten tekenen, enz. Het is belangrijk dat het juridisch in orde is en uw aanbetaling moet worden terugbetaald indien het onroerend goed niet aan de eisen voldoet of illegaal blijkt te zijn.",
+    "form_reserva_quest3":"De procedure is heel eenvoudig",
+    "form_reserva_quest4":"Vraag het contract aan door onderstaand formulier in te vullen. U ontvangt een e-mail met de details voor de betaling en meer uitleg over de procedure. Wij nemen contact met u op voor de gegevens die nodig zijn voor het opstellen van het contract. De advocaat neemt u al het werk en de zorg uit handen en zal vanaf nu zorgen voor het contract en ondertekening door alle partijen.",
+    
+    "stepform1":"Stap 1",
+    "stepform1b":"Prijs: € 75",
+    "stepform1c":"Aanlevertijd: 2 werkdagen",
+    "stepform2":"Stap 2",
+    "stepform2b":"Prijs: € 363",
+    "stepform2c":"Tiempo de entrega: max 3-5 días hábiles",
+    "stepform3":"Stap 3",
+    "stepform3bb":"Vanaf € 532,40 ",
+    "stepform3b":"Prijs stedelijk gebied: € 532,40 ",
+    "stepform3c":"Prijs buiten stedelijk: € 665,50 ",
+    "stepform3d":"Aanlevertijd: 5-10 werkdagen",
+    
+    "more":"Lees verder",
+    "more2":"Meer informatie",
+    
+    "About_tittle1":"MISSIE INJURAD",
+    "About_tittle1_info":"We willen het voor iedereen gemakkelijk om een ​​woning in Spanje te kopen, of het nu gaat om een ​​kleine flat of een luxe villa. Duidelijk en eerlijk informeren over de status van het onroerend goed met betrekking tot de lokale regelgeving en het geldende bestemmingsplan en over de gevolgen als het onroerend goed daar niet aan voldoet. Informatie die essentieel is om een ​​beslissing te nemen en te weten wat er daadwerkelijk wordt gekocht.",
+    "About_tittle2":"Hoe bereiken we onze doelstelling ",
+    "About_tittle2_info":"We gaan uit van vijf basispricipes: ",
+    "About_tittle2_info1":"Standaardisatie",
+    "About_tittle2_info1_1":"Dit doel wordt alleen bereikt door een procedure vast te stellen, met duidelijke richtlijnen en regels voor professionals die hen in staat stellen controle over hun werkzaamheden uit te oefenen en zo hun werk te doen in het belang van de cliënt.",
+    "About_tittle2_info2":"Supervisie, waakhondfunctie",
+    "About_tittle2_info2_1":"We markeren het verschil tussen een individuele professional en een professional die protocollen volgt, zich onderwerpt aan de bijbehorende controles en onze ethische code en regelgeving accepteert.",
+    "About_tittle2_info3":"Professionaliteit",
+    "About_tittle2_info3_1":"De resultaten van de inspectie worden weergegeven in een duidelijk en begrijpelijk rapport, ondertekend door een professional gespecialiseerd op dat gebied hetgeen  technische dekking biedt jegens derden.",
+    "About_tittle2_info4":" Permanente evaluatie",
+    "About_tittle2_info4_1":"De grondige evaluatie van één op de tien meldingen, onderlinge controle en samenwerking tussen de betrokken professionals, het opzetten van een incidentenoplossingsprocedure bij klachten en het continu verbeteren van het gehele systeem, zijn voorbeelden van onze controles waarmee het eindresultaat van kwalitatief zeer hoog nivo is.",
+    "About_tittle2_info5":"Collectieve kennis",
+    "About_tittle2_info5_1":"De collectieve ervaringen en kennis van de professionals bieden bij het opstellen van een inspectie enorme toegevoegde waarde, met inachtneming van het feit dat de spaanse regelgeving op het gebied van ruimtelijke ordening per autonome regio gesegmenteerd worden toegepast.",    
+    
+    "About_tittle3":"Professionals",    
+    "About_tittle3_info":"De juiste professionals, die in staat zijn om onderzoek te doen naar de situatie van onroerend goed, zijn architecten gespecialiseerd in ruimtelijke ordening en juristen met uitgebreide kennis van het recht met betrekking tot ruimtelijke ordening. Het systeem is beschikbaar voor elke professional. Professionals die de richtlijnen en protocollen van Injurad al hebben geaccepteerd, worden in de database opgenomen zodat een verzoek willekeurig aan hen wordt toegewezen. Elke professional die nog niet bekend is met Injurad heeft toegang tot het systeem zodra het validatie- en trainingsproces is voltooid.", 
+    
+    "About_tittle4":"Injurad",
+    "About_tittle4_info":"Met een -in house team- bestaande uit gespecialiseerde architecten en advocaten in ruimtelijke ordening wordt toezicht gehouden op de vorm en inhoud van de rapporten die worden opgesteld door de inspecteurs.",
+    "About_tittle4_tittle1":"Inspecteurs ruimtelijke ordening",
+    "About_tittle4_tittle1_info":"De inspecteurs zijn allen specialisten in ruimtelijke ordening, vrijwel allen architect.",
+    "About_tittle4_tittle2":"Juridische inspecteurs",
+    "About_tittle4_tittle2_info":"De juridsiche inspewcteurs zijn advocaten gespecialiseerd in het recht met betrekking tot ruimtelijke ordening.",
+    "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
+    "About_tittle6":"Werkgebied",
+    "About_tittle6_info":"Het werkgebied van Injurad is nationaal, nodig om onze doelstelling te bereiken. Hiervoor houdt het systeem rekening met nationale wetten en regionale en lokale regelgeving."
+    
 
 }

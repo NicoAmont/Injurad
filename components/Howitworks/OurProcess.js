@@ -28,8 +28,10 @@ function OurProcess() {
                 </h1>
                 
             </div>
-
-            <div className="w-full m-auto h-96 overflow-auto   whitespace-nowrap contenedor_flujo relative shadow-2xl border-bg2 border-l-2 border-r-2 rounded-2xl ">
+            <div className="relative w-full h-full shadow-2xl">
+            {/* <div className="h-full w-32 absolute -left-32 z-0 bg-gradient-to-r  from-bgr to-gl bg-opacity-5 "></div>
+            <div className="h-full w-32 absolute -right-32 z-0 bg-gradient-to-l  from-bgr to-gl "></div> */}
+            <div className="w-full  z-10  m-auto h-96 overflow-auto rounded-2xl   whitespace-nowrap contenedor_flujo relative shadow-2xl border-bg2 border-l-2 border-r-2  ">
                 <svg className="absolute top-10 right-10 animate-pulse " width="44" height="44" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 73.5C0 76.2848 1.10625 78.9555 3.07538 80.9246C5.04451 82.8938 7.71523 84 10.5 84H73.5C76.2848 84 78.9555 82.8938 80.9246 80.9246C82.8938 78.9555 84 76.2848 84 73.5V10.5C84 7.71523 82.8938 5.04451 80.9246 3.07538C78.9555 1.10625 76.2848 0 73.5 0L10.5 0C7.71523 0 5.04451 1.10625 3.07538 3.07538C1.10625 5.04451 0 7.71523 0 10.5L0 73.5ZM23.625 39.375H54.0383L42.7665 28.1085C42.2736 27.6156 41.9967 26.9471 41.9967 26.25C41.9967 25.5529 42.2736 24.8844 42.7665 24.3915C43.2594 23.8986 43.9279 23.6217 44.625 23.6217C45.3221 23.6217 45.9906 23.8986 46.4835 24.3915L62.2335 40.1415C62.478 40.3853 62.6719 40.675 62.8042 40.9939C62.9366 41.3128 63.0047 41.6547 63.0047 42C63.0047 42.3453 62.9366 42.6872 62.8042 43.0061C62.6719 43.325 62.478 43.6147 62.2335 43.8585L46.4835 59.6085C45.9906 60.1014 45.3221 60.3783 44.625 60.3783C43.9279 60.3783 43.2594 60.1014 42.7665 59.6085C42.2736 59.1156 41.9967 58.4471 41.9967 57.75C41.9967 57.0529 42.2736 56.3844 42.7665 55.8915L54.0383 44.625H23.625C22.9288 44.625 22.2611 44.3484 21.7688 43.8562C21.2766 43.3639 21 42.6962 21 42C21 41.3038 21.2766 40.6361 21.7688 40.1438C22.2611 39.6516 22.9288 39.375 23.625 39.375V39.375Z" fill="#CFE0C9"/>
                 </svg>
@@ -48,11 +50,11 @@ function OurProcess() {
                             <p className="text-bg2 font-medium text-base">{t("how_flujo_2")}</p>
                             <p className="text-bg2 font-normal text-base">{t("how_flujo_2info")}</p>
                         </div>
-                            <p className="text-bg2 font-normal text-base">{t("how_flujo_2info2")}</p>
                         <div className="w-3/4 ml-12">
+                            <p className="text-bg2 font-normal text-base">- {t("how_flujo_2info2")}</p>
                             <p className="text-bg2 font-normal  text-base">- {t("how_flujo_2info2a")}</p>
                             <p className="text-bg2 font-normal text-base">- {t("how_flujo_2info2b")}</p>
-                            <p className="text-bg2 font-normal text-base">- {t("how_flujo_2info2")}</p>
+                            <p className="text-bg2 font-normal text-base">- {t("how_flujo_2info2c")}</p>
                         </div>
                     </div>
                     
@@ -66,12 +68,14 @@ function OurProcess() {
                     </div>
                     <div className="pt-2 " >
                         
-                        <div className="w-80 h-10 rounded-xl border ml-4 mt-20   my-auto border-bgr2  flujo_cuadro grid place-items-center">
+                        <div className="w-80 h-14 rounded-xl border ml-4 mt-16 py-3   my-auto border-bgr2  flujo_cuadro grid place-items-center">
                             <p className="text-bg2 font-semibold text-base">{t("how_flujo_3")}</p>
+                            <p className="text-bg2 font-normal text-base">{t("how_flujo_3-")}</p>
                         </div>
 
-                        <div className="w-80 h-10 rounded-xl border ml-4 mt-28  my-auto border-bgr2 flujo_cuadro grid place-items-center">
+                        <div className="w-80 h-14 rounded-xl border ml-4 mt-16 p-3  my-auto border-bgr2 flujo_cuadro grid place-items-center">
                             <p className="text-bg2 font-semibold text-base">{t("how_flujo_3b")}</p>
+                            <p className="text-bg2 font-normal text-base">{t("how_flujo_3b-")}</p>
                         </div>
 
                     </div>
@@ -118,13 +122,13 @@ function OurProcess() {
                     </div>
                     <div className="relative ml-10" >
                         <div className="w-80 h-16 rounded-xl border ml-4 mt-5   my-auto border-bgr2 bg-bgfva2 flujo_cuadro grid place-items-center">
-                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b1")}</p>
+                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b1")} <br /> <span className="font-thin">{t("how_flujo_b1-")}</span> </p>
                         </div>
                         <div className="w-80 h-16 rounded-xl border ml-4 mt-16  my-auto border-bgr2 bg-sl flujo_cuadro grid place-items-center">
-                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b2")} <br /> {t("how_flujo_b3")}</p>
+                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b2")} <br /> <span className="font-thin">{t("how_flujo_b3")}</span> </p>
                         </div>
                         <div className="w-80 h-16 rounded-xl border ml-4 mt-16  my-auto border-bgr2 bg-bgfva flujo_cuadro grid place-items-center">
-                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b4")} <br /> {t("how_flujo_b5")}</p>
+                            <p className="text-bgr font-semibold text-base">{t("how_flujo_b4")} <br /> <span className="font-thin">{t("how_flujo_b5")}</span> </p>
                         </div>
 
                     </div>
@@ -183,6 +187,7 @@ function OurProcess() {
                     
                 </div>
 
+            </div>
             </div>
             <p className="mb-10 text-bg2 m-auto max-w-2xl font-thin italic">Desliza para ver</p>
 
@@ -262,7 +267,7 @@ function OurProcess() {
                             )}
                             </Tab>
                         </Tab.List>
-                        <Tab.Panels className=" h-auto  p-8 md:p-10 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
+                        <Tab.Panels className=" h-96 sm:h-64    p-8 md:p-10 w-4/5 bg-bgr rounded-b-lg sm:rounded-r-lg shadow-2xl flex flex-col border-2 border-bg relative">
                         <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
@@ -271,17 +276,17 @@ function OurProcess() {
                         </svg>
                             <Tab.Panel>
 
-                                <div className="text-4xl md:text-4xl font-bold text-bg2 m-auto flex">
+                                <div className="text-4xl md:text-4xl font-bold text-bg2 m-auto flex ">
                                     {t('how_stepinfo_tittle1')}
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
                                     {t('how_stepinfo_descr1')}
-                                    <h1 className="font-medium mt-2 ml-2">Precio: 75 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">{t('stepform1b')} </h1>
                                 </div>
 
                                 <Link  href="/formdoc" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
-                                    Leer más
+                                    {t('more')}
                                     <svg className="pl-2 hover:ml-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="white"/>
                                     </svg>
@@ -297,11 +302,11 @@ function OurProcess() {
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
                                     {t('how_stepinfo_descr2')}
-                                    <h1 className="font-medium mt-2 ml-2">Costo: 363 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">{t('stepform2b')} </h1>
                                 </div>
                                 <Link  href="/formreserva" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
-                                    Leer más
+                                    {t('more')}
                                     <svg className="pl-2 hover:ml-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="white"/>
                                     </svg>
@@ -317,12 +322,11 @@ function OurProcess() {
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
                                     {t('how_stepinfo_descr3')}
-                                    <h1 className="font-medium mt-2 ml-2">Costo Urbano: 532,40 &euro; </h1>
-                                    <h1 className="font-medium ml-2">Costo Rústico: 665,50 &euro; </h1>
+                                    <h1 className="font-medium mt-2 ml-2">{t('stepform3bb')} </h1>
                                 </div>
                                 <Link  href="/formigp" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
-                                    Leer más
+                                    {t('more')}
                                     <svg className="pl-2 hover:ml-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="white"/>
                                     </svg>

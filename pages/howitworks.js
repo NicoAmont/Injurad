@@ -12,7 +12,7 @@ export default function howitworks() {
 
     <HeroSection />
     <PassportPDI />
-    <Validity />
+    <Validity />  
     <Risk />
     </main>
     
@@ -26,3 +26,4 @@ export const getStaticProps = async ({ locale }) => ({
     ...await serverSideTranslations(locale, ['common', 'footer']),
   },
 })
+

@@ -27,10 +27,10 @@ export default function Validity() {
                     <p className="  text-base">{t("validity_info2_2")}</p>
                 </div>
                 <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-2 pl-4 border-bgr mb-2">
-                <p className="  text-base">{t("validity_info2_2")}</p>
+                <p className="  text-base">{t("validity_info2_3")}</p>
                 </div>
                 <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-2 pl-4 border-bgr">
-                <p className="  text-base">{t("validity_info2_3")}</p>
+                <p className="  text-base">{t("validity_info2_4")}</p>
                 </div>
                 <h1 className=" font-base text-lg text-justify mt-5 ">{t("validity_info2_5")}</h1>
                 <div className="w-full grid place-content-center place-items-center">

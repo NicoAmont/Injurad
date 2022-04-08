@@ -79,16 +79,15 @@ ul {
   background-position: center;
 }
 
-
-
 .content-div{
   background-image:url('/lawyers.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .content-div2{
-  background-image:url('/architect.jpg');
+  background-image:url('/architects.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +134,6 @@ ul {
 .contenedor_flujo::-webkit-scrollbar {
   width: 8px;
 }
-
 
 .contenedor_flujo::-webkit-scrollbar-thumb {
   background-color: rgba(42,97,77,0.6);

@@ -25,6 +25,7 @@ export default function Igp() {
 
             <div className="w-full mb-10">
                 <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom mt-10 ">
+                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2b")}</p>
                     <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2c")}</p>
                     <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2d")}</p>
                     <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2e")}</p>
@@ -59,7 +60,7 @@ export default function Igp() {
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
                     <h1 className=" text-bgr text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 pb-2  border-bgr ">{t("form_igp_t2")}</h1>
-                    <p className=" text-bgr font-normal text-left text-base pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b")}</p>
+                    <p className=" text-bgr font-normal text-left text-sm pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b")}</p>
                 </div>
                 <div className="w-96 h-auto sm:h-96 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
                     <svg className="opacity-30 w-10 absolute  bottom-2 right-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,13 +71,13 @@ export default function Igp() {
                     </svg>
                     
                     <h1 className=" text-bgr text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 md:pb-10 border-bgr ">{t("form_igp_t22")}</h1>
-                    <p className=" text-bgr font-normal text-left text-base pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b2")}</p>
+                    <p className=" text-bgr font-normal text-left text-sm pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b2")}</p>
                 </div>
                 
                 
             </div>
         
-        <div className="w-11/12 md:w-3/4 m-auto mb-20 mt-10 text-xl flex flex-col">
+        <div className="w-11/12 md:w-3/4 m-auto mb-20 mt-20 text-xl flex flex-col">
 
             <h2 className="text-2xl text-bg2 font-medium mb-10">{t("form_igp_tittle2")}</h2>
             <p className="text-lg text-bg2 font-normal ">{t("form_igp_tittle2B")}</p>
@@ -159,7 +160,7 @@ export default function Igp() {
                
             </div>
             <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
-                Ejemplo informe IGP
+                {t("form_igp_infot4-")}
             </button>
 
         </div>
