@@ -353,11 +353,11 @@
     "About_tittle4_tittle1":"Inspecteurs ruimtelijke ordening",
     "About_tittle4_tittle1_info":"De inspecteurs zijn allen specialisten in ruimtelijke ordening, vrijwel allen architect.",
     "About_tittle4_tittle2":"Juridische inspecteurs",
-    "About_tittle4_tittle2_info":"De juridsiche inspewcteurs zijn advocaten gespecialiseerd in het recht met betrekking tot ruimtelijke ordening.",
+    "About_tittle4_tittle2_info":"De juridsiche inspecteurs zijn advocaten gespecialiseerd in het recht met betrekking tot ruimtelijke ordening.",
     "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
     "About_tittle6":"Werkgebied",
     "About_tittle6_info":"Het werkgebied van Injurad is nationaal, nodig om onze doelstelling te bereiken. Hiervoor houdt het systeem rekening met nationale wetten en regionale en lokale regelgeving.",
-    
+    "About_moreinfo":"Lees meer ...",
 
 
     "footer_tittle1":"Over Injurad",
@@ -381,6 +381,28 @@
     
     "footer_tittle5":"Contact ",
     "footer_info5_2":"Algemeen",
-    "footer_info5_3":"Klacht over een inspectie"
+    "footer_info5_3":"Klacht over een inspectie",
+    
+    
+    "menu1":"Stap 1",
+    "menu11":"Check",
+    "menu2":"Stap 2",
+    "menu21":"Contract",
+    "menu3":"Stap 3",
+    "menu311":"Inspectie",
+    
+    "menu8":"Over Injurad",
+    "menu31":"Wie zijn wij",
+    "menu4":"Werkgebied",
+    "menu5":"Vastgoedpaspoort",
+    "menu6":"Begrippenlijst",
+    "menu7":"Aanmelden professionals",
+    
+    "menu9":"Contact"
+ 
+
+
+
+    
 
 }

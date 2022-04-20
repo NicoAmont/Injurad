@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 import Image from "next/image"
 
 
-export default function Aboutus() {
+export default function Aboutus() {     
     const { t } = useTranslation('common');
     const ytvideo = ["https://www.youtube.com/embed/dQw4w9WgXcQ", "https://www.youtube.com/watch?v=UKRY63Buv6A&t=56s",]
 
@@ -43,9 +43,20 @@ export default function Aboutus() {
         </div>
         <div className="w-full md:w-9/12 m-auto h-auto grid md:grid-cols-2 mb-20 ">
 
+
+            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-5 py-4 m-auto md:px-10 hover:scale-110">
+                <div className="w-10  mr-4">
+                <Image className=""  src="/sn.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                </div>
+                <div className="flex  mr-4 flex-col w-64 md:w-96">
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info2")}</h1>
+                    <h1 className="font-normal text-base">{t("About_tittle2_info1_1")}</h1>
+                </div>
+                
+            </div>
             <div className=" rounded-lg h-auto w-8/12 md:w-3/4 flex pr-8 mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
                 <div className="w-10  mr-4">
-                <Image className=""  src="/1n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                <Image className=""  src="/en.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex flex-col w-64 md:w-96 ">
                     <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info1")}</h1>
@@ -55,37 +66,29 @@ export default function Aboutus() {
 
             
 
-            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-5 py-4 m-auto md:px-10 hover:scale-110">
+            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-5 py-4 mx-auto md:px-10 hover:scale-110">
                 <div className="w-10  mr-4">
-                <Image className=""  src="/2n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex  mr-4 flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info2")}</h1>
-                    <h1 className="font-normal text-base">{t("About_tittle2_info1_1")}</h1>
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info3")}</h1>
+                    <h1 className="font-normal text-base">{t("About_tittle2_info3_1")}</h1>
                 </div>
                 
             </div>
 
-            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex pr-8 mb-10 mt-5 py-4 m-auto md:px-10 hover:scale-110">
-                <div className="w-10   mr-4">
-                <Image className=""  src="/3n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
-                </div>
-                <div className="flex  flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info3")}</h1>
-                    <h1 className="font-normal text-base">{t("About_tittle2_info3_1")}</h1>
-                </div>
-            </div>
-
-            <div className=" rounded-full h-auto w-8/12 md:w-3/4 flex md:pl-8 mt-5 py-4 m-auto md:px-10 hover:scale-110">
-                <div className="w-10 mr-4">
-                <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+            <div className=" rounded-xl h-auto w-8/12 md:w-3/4 flex md:pl-8 mb-5 py-4 m-auto md:px-10 hover:scale-110">
+                <div className="w-10  mr-4">
+                <Image className=""  src="/evn.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
                 <div className="flex  mr-4 flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info4")}</h1>   
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info4")}</h1>
                     <h1 className="font-normal text-base">{t("About_tittle2_info4_1")}</h1>
                 </div>
                 
             </div>
+
+           
             <div className=" rounded-full h-auto w-8/12 md:w-3/4  m-auto flex md:pl-8 mt-5 py-4 md:px-10 hover:scale-110">
                 <div className="w-10 mr-4">
                 <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
@@ -102,7 +105,7 @@ export default function Aboutus() {
                 {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
                     <div className="max-w-xl w-3/4 m-auto  md:w-full text-center md:text-left md:ml-40">
-                    <h1 className=" font-semibold text-4xl md:text-6xl  max-w-sm mb-10">
+                    <h1 className=" font-semibold text-3xl md:text-5xl  max-w-sm mb-10">
                         {t("About_tittle3")}
                     </h1>
                     <p>{t("About_tittle3_info")}</p>
@@ -126,7 +129,7 @@ export default function Aboutus() {
                             </div>
                             <div className="py-8 bg-gradient-to-t from-bg2 via-bg2  bg-opacity-25 w-full flex flex-col rounded-b-md fd-cl group-hover:opacity-25">
                                 <span className="block text-xl m-auto pl-7 text-bgr w-full font-bold tracking-wide">{t("About_tittle4_tittle2")}</span>
-                                <button className="text-center font-thin rounded-md px-10 m-auto mt-4 border border-bgr text-bgr text-base">más info..</button>
+                                <button className="text-center  rounded-lg px-10 m-auto mt-4 font-normal py-1 bg-sl text-bgr text-base">{t("About_moreinfo")}</button>
 
                             </div>
                         </div>
@@ -143,7 +146,7 @@ export default function Aboutus() {
                             </div>
                             <div className="py-8 bg-gradient-to-t from-bg2 via-bg2  bg-opacity-25 w-full flex flex-col rounded-b-md fd-cl group-hover:opacity-25">
                                 <span className="block text-xl m-auto pl-7 text-bgr w-full font-bold tracking-wide">{t("About_tittle4_tittle1")}</span>
-                                <button className="text-center font-thin rounded-md px-10 m-auto mt-4 border border-bgr text-bgr text-base">más info..</button>
+                                <button className="ttext-center  rounded-lg px-10 m-auto mt-4 font-normal py-1 bg-sl text-bgr text-base">{t("About_moreinfo")}</button>
 
                             </div>
                         </div>
