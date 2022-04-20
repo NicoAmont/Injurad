@@ -12,14 +12,14 @@ export default function Reserva() {
         
         <h1 className="md:ml-10 text-lg md:text-lg font-bold text-sl uppercase">{t("stepform2")}</h1>
         <h1 className="md:ml-10 text-4xl md:text-4xl font-bold  text-bg2 uppercase">{t("form_reserva_tittle")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform2b")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform2c")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform2b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform2c")}</h1>
 
         <div className="w-3/4 m-auto mb-10 text-base md:text-lg ">
             {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
             <p className="mb-10 text-2xl md:text-4xl  font-medium text-bg2 mt-20">{t("form_reserva_tittle2b")}</p>
-            <p className="mb-2">{t("form_reserva_info1")}</p>
-            <p className="">{t("form_reserva_info1b")}</p>
+            <p className="mb-2 text-base">{t("form_reserva_info1")}</p>
+            <p className="text-base">{t("form_reserva_info1b")}</p>
         </div>
         <div className="w-3/4 m-auto mb-20 text-xl flex flex-col">
             <div className="w-full flex flex-col m-auto gap-20 items-center md:pl-6">

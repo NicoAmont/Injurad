@@ -10,7 +10,6 @@ export default function howitworks() {
     <div>
     <main>
 
-    <HeroSection />
     <PassportPDI />
     <Validity />  
     <Risk />

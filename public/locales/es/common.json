@@ -1,7 +1,7 @@
 {
     "navbtn_title": "Selecciona Idioma",
-    "navbtn_opt1": "Español",
-    "navbtn_opt2": "Holandes",
+    "navbtn_opt1": "Español ( Spanish )",
+    "navbtn_opt2": "Holandes ( Dutch )",
     
     "hero_title":"La itv para",
     "hero_titleb":"propiedades",
@@ -364,7 +364,33 @@
     "About_tittle4_tittle2_info":"Los Abogados de injurad que también cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
     "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
     "About_tittle6":"Area de trabajo",
-    "About_tittle6_info":"El alcance de las inspecciones de Injurad  debe ser nacional, si queremos cumplir nuestro objetivo. Para ello el sistema contempla las leyes nacionales y las normativas autonómicas y locales, por ser a estas a quienes se les ha dado la competencia para planificar, regular y sancionar el en ámbito urbanistico."
+    "About_tittle6_info":"El alcance de las inspecciones de Injurad  debe ser nacional, si queremos cumplir nuestro objetivo. Para ello el sistema contempla las leyes nacionales y las normativas autonómicas y locales, por ser a estas a quienes se les ha dado la competencia para planificar, regular y sancionar el en ámbito urbanistico.",
     
+    
+    "footer_tittle1":"Sobre INJURAD",
+    "footer_info1_1":"Quiénes somos ",
+    "footer_info1_2":"Profesionales",
+    "footer_info1_3":"Área de trabajo",
+    "footer_info1_4":"Trabaja con nosotros",
+
+    
+
+    "footer_tittle3":"Servicios",
+    "footer_info3_1":"Chequeo de Documento ",
+    "footer_info3_2":"Constrato",
+    "footer_info3_3":"Inspección IGP",
+    "footer_info3_4":"Preguntas Frecuentes",
+    
+
+    "footer_tittle4":"General",
+    "footer_info4_1":"Disclaimer ",
+    "footer_info4_2":"Codigo de Integridad",
+    "footer_info4_3":"Política de privacidad",
+    "footer_info4_4":"Ajustes de cookies",
+    
+    "footer_tittle5":"Contact ",
+    "footer_info5_2":"Algemeen",
+    "footer_info5_3":"Klacht over een inspectie"
+
     
 }

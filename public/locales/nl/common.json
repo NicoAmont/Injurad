@@ -1,7 +1,7 @@
 {
     "navbtn_title": "Selecciona Idioma",
-    "navbtn_opt1": "Español",
-    "navbtn_opt2": "Holandes",
+    "navbtn_opt1": "Spaans ( Spanish )",
+    "navbtn_opt2": "Nederlands ( Dutch )",
     
     "hero_title":"La itv para",
     "hero_titleb":"propiedades",
@@ -13,8 +13,8 @@
     "slogan2":"DE WAAKHOND VOOR VASTGOEDINSPECTIES IN SPANJE",
     "slogan3":"dinero",
 
-    "reason_tittle":"INJURAD is er niet  ",
-    "reason_tittlebold":"voor niets",
+    "reason_tittle":"INJURAD is er   ",
+    "reason_tittlebold":"niet voor niets",
     "reason_1a":"Een bijzonder hoog percentage woningen heeft",
     "reason_1b":" geen of een ongeldig ‘Vastgoedpaspoort’ (PDI) ",
     "reason_1c":"en dat kan serieuze consequenties hebben, die soms pas jaren na de transactie aan het licht komen.",
@@ -303,7 +303,7 @@
     
     "form_reserva_tittle":"HET CONTRACT  ",
     "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
-    "form_reserva_tittle2b":"Na een «Documenten check» weten we welk contract getekend moet worden  ",
+    "form_reserva_tittle2b":"Na een 'Documenten check' weten we welk contract getekend moet worden  ",
     "form_reserva_info1":"Het is meestal de koper die zorg draagt voor het contract zodat de belangen goed worden gedefinieerd. Het is niet verstandig om onder druk van een makelaar of verkoper een willekeurig contract te tekenen.",
     "form_reserva_info1b":"Er zijn veel soorten contracten, wij maken in het belang van de koper gebruik van slechts twee. De volgende contracten kunt u tekenen voorafgaand aan de IGP inspectie (stap 3).",
     "form_reserva_info1t":"Reserveringscontract ",
@@ -356,7 +356,31 @@
     "About_tittle4_tittle2_info":"De juridsiche inspewcteurs zijn advocaten gespecialiseerd in het recht met betrekking tot ruimtelijke ordening.",
     "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
     "About_tittle6":"Werkgebied",
-    "About_tittle6_info":"Het werkgebied van Injurad is nationaal, nodig om onze doelstelling te bereiken. Hiervoor houdt het systeem rekening met nationale wetten en regionale en lokale regelgeving."
+    "About_tittle6_info":"Het werkgebied van Injurad is nationaal, nodig om onze doelstelling te bereiken. Hiervoor houdt het systeem rekening met nationale wetten en regionale en lokale regelgeving.",
     
+
+
+    "footer_tittle1":"Over Injurad",
+    "footer_info1_1":"Wie zijn wij ",
+    "footer_info1_2":"Professionals",
+    "footer_info1_3":"Werkgebied",
+    "footer_info1_4":"Werken bij Injurad",
+
+    "footer_tittle3":"Services",
+    "footer_info3_1":"Documenten check ",
+    "footer_info3_2":"Contracten",
+    "footer_info3_3":"IGP inspectie",
+    "footer_info3_4":"Woordenlijst",
+    
+
+    "footer_tittle4":"General",
+    "footer_info4_1":"Disclaimer ",
+    "footer_info4_2":"Integriteitscode",
+    "footer_info4_3":"Política de privacidad",
+    "footer_info4_4":"Ajustes de cookies",
+    
+    "footer_tittle5":"Contact ",
+    "footer_info5_2":"Algemeen",
+    "footer_info5_3":"Klacht over een inspectie"
 
 }

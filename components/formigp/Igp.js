@@ -13,27 +13,57 @@ export default function Igp() {
 
         <h1 className="md:ml-10 text-lg md:text-lg font-bold text-sl uppercase">{t("stepform3")}</h1>
         <h1 className="md:ml-10 text-4xl md:text-4xl font-bold  text-bg2 uppercase">{t("form_igp_tittle")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform3b")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform3c")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-bold text-bg2 ">{t("stepform3d")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3c")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3d")}</h1>
 
         <div className="w-full md:w-3/4 m-auto mb-20 text-base md:text-base mt-20">
 
             {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
             <p className="mb-5 ">{t("form_igp_info1")}</p>
+            <p className="font-normal">{t("form_igp_info3")}</p>
             <p className="mb-5 font-normal">{t("form_igp_info2")}</p>
 
             <div className="w-full mb-10">
                 <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom mt-10 ">
-                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2b")}</p>
-                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2c")}</p>
-                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2d")}</p>
-                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2e")}</p>
-                    <p className="border-bg2 pl-4 border-l-2 mb-2  text-base">{t("form_igp_info2f")}</p>
-                    <p className=" border-bg2 pl-4  border-l-2 mb-2  text-base">{t("form_igp_info2g")}</p>
-                </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p className="w-60 md:w-80">{t("form_igp_info2b")}</p> 
+                        </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p className="w-60 md:w-80">{t("form_igp_info2c")}</p> 
+                        </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p  className="w-60 md:w-80">{t("form_igp_info2d")}</p> 
+                        </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p  className="w-60 md:w-80">{t("form_igp_info2e")}</p> 
+                        </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p  className="w-60 md:w-80">{t("form_igp_info2f")}</p> 
+                        </div>
+                        <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
+                            <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                            </svg>
+                            <p className="w-60 md:w-80">{t("form_igp_info2g")}</p> 
+                        </div>
+                    </div> 
             </div>
-            <p className="font-normal">{t("form_igp_info3")}</p>
 
         </div>
 
@@ -59,7 +89,7 @@ export default function Igp() {
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
-                    <h1 className=" text-bgr text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 pb-2  border-bgr ">{t("form_igp_t2")}</h1>
+                    <h1 className=" text-sl text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 pb-2  border-sl ">{t("form_igp_t2")}</h1>
                     <p className=" text-bgr font-normal text-left text-sm pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b")}</p>
                 </div>
                 <div className="w-96 h-auto sm:h-96 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
@@ -70,7 +100,7 @@ export default function Igp() {
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
                     
-                    <h1 className=" text-bgr text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 md:pb-10 border-bgr ">{t("form_igp_t22")}</h1>
+                    <h1 className=" text-sl text-left text-2xl pt-5 font-semibold m-auto ml-2 border-b-2 md:pb-10 border-sl ">{t("form_igp_t22")}</h1>
                     <p className=" text-bgr font-normal text-left text-sm pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_t2b2")}</p>
                 </div>
                 
@@ -81,8 +111,8 @@ export default function Igp() {
 
             <h2 className="text-2xl text-bg2 font-medium mb-10">{t("form_igp_tittle2")}</h2>
             <p className="text-lg text-bg2 font-normal ">{t("form_igp_tittle2B")}</p>
-            <div className="w-3/4 md:w-full grid sm:grid-cols-2 md:grid-cols-3 m-auto gap-20 place-items-center">
-                <div className="w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
+            <div className="w-3/4 mt-10 md:w-full grid sm:grid-cols-2 md:grid-cols-3 m-auto gap-20 place-items-center">
+                <div className="shadow-2xl rounded-xl w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
                     <svg className="opacity-5 w-10 absolute  bottom-0 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
@@ -104,10 +134,10 @@ export default function Igp() {
                         <path d="M66.0004 209.819C102.003 146.32 162.504 146.82 195 210.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
-                    <h1 className=" text-bgfva font-normal m-auto text-left border-t-2 border-bgfva text-sm pt-5 italic ">{t("form_igp_tittle2B3")}</h1>
+                    <h1 className="  font-normal m-auto text-left border-t-2 border-bg2 text-sm pt-5 italic ">{t("form_igp_tittle2B1")}</h1>
 
                 </div>
-                <div className="w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
+                <div className="shadow-2xl rounded-xl w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
                     <svg className="opacity-5 w-10 absolute  bottom-0 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#E5AE35"/>
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#E5AE35"/>
@@ -130,9 +160,9 @@ export default function Igp() {
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
 
-                    <h1 className=" text-sl font-normal m-auto text-sm border-t-2 pt-2 border-sl italic ">{t("form_igp_tittle2B2")}</h1>
+                    <h1 className="  font-normal m-auto text-sm border-t-2 pt-2 border-sl italic ">{t("form_igp_tittle2B2")}</h1>
                 </div>
-                <div className="w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
+                <div className="shadow-2xl rounded-xl w-full h-full bg-bgr  relative items-end align-bottom p-4 m-auto">
                     <svg className="opacity-5 w-10 absolute  bottom-0 left-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#8A3529"/>
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#8A3529"/>
@@ -154,7 +184,8 @@ export default function Igp() {
                         <path d="M66.0004 209.819C102.003 146.32 162.504 146.82 195 210.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                         <path d="M67.0004 343.819C103.003 280.32 163.504 280.82 196 344.819" stroke="#223C22" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
-                    <h1 className=" text-bg2 font-normal m-auto text-left border-t-2 border-bg2 text-sm pt-5 italic ">{t("form_igp_tittle2B1")}</h1>
+                    <h1 className="  font-normal m-auto text-left border-t-2 border-bgfva text-sm pt-5 italic ">{t("form_igp_tittle2B3")}</h1>
+
 
                 </div>
                

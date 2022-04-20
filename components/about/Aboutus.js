@@ -12,7 +12,7 @@ export default function Aboutus() {
         <div className="max-w-6xl m-auto px-8">
             <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
             <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
-                <p className="">{t("About_tittle1_info")}</p>
+                <p className="text-base">{t("About_tittle1_info")}</p>
             </div>
         </div>
             
@@ -115,7 +115,7 @@ export default function Aboutus() {
             <div className="max-w-5xl m-auto px-8 mt-20">
                 <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
 
-                <p className="w-3/4 text-lg">{t("About_tittle4_info")}</p>
+                <p className="w-3/4 text-base">{t("About_tittle4_info")}</p>
 
                 <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
 

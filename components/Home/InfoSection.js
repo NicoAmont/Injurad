@@ -31,8 +31,8 @@ function InfoSection() {
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-bgr font-bold">{t('pdisection_titlec')}</h1>
                         </div>
-                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light text-lg md:text-base   "> {t('pdisection_p')}</p>
-                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light text-lg md:text-base   "> {t('pdisection_p22')}</p>
+                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light  md:text-base   "> {t('pdisection_p')}</p>
+                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light  md:text-base   "> {t('pdisection_p22')}</p>
                         
                         <div className="w-full  pt-16">
                         </div>
@@ -176,8 +176,8 @@ function InfoSection() {
                     <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-7 md:pl-10 m-auto flex ">
                         <Image className=" m-auto"  src="/shield.png" layout='' width={136+'px'} height={136+'px'} alt="" quality={100} />
                     </div>
-                    <div className="text-lg font-light text-center flex-col m-auto">
-                        <h1 className="text-3xl font-bold mb-4">{t("work_zone_garantie_tittle")}</h1>
+                    <div className="text-lg font-light text-left flex-col m-auto">
+                        <h1 className="text-3xl font-bold mb-4 ml-20">{t("work_zone_garantie_tittle")}</h1>
                         <p className="text-sm text-left w-3/4 m-auto mb-2 ">{t("work_zone_garantie_info1")}</p>
                         <p className="text-sm text-left w-3/4 m-auto">{t("work_zone_garantie_info2")}</p>
                     </div>
