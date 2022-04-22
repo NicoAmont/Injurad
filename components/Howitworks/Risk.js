@@ -12,11 +12,11 @@ export default function Risk() {
             
             <div className="max-w-6xl w-full h-full relative z-10 m-auto md:px-4 flex-col ">
                 
-                <h1 className=" text-2xl md:text-4xl font-semibold px-6 text-left uppercase ">
-                    {t("risk_tittle")} <span className="text-bgf  text-4xl md:text-4xl">{t("risk_tittleB")}</span> 
+                <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase ">
+                    {t("risk_tittle")} <span className="text-bg2  text-4xl md:text-4xl">{t("risk_tittleB")}</span> 
                 </h1>
                 
-                <h1 className=" text-2xl  text-bg2 md:text-4xl font-semibold px-6 mb-20 text-left uppercase">
+                <h1 className=" text-2xl  text-sl md:text-4xl font-semibold px-6 mb-20 text-left uppercase">
                     {t("risk_tittleC")} 
                 </h1>
                 
