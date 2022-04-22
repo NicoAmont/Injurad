@@ -1,5 +1,5 @@
 {
-    "navbtn_title": "Selecciona Idioma",
+    "navbtn_title": "Select Idiom",
     "navbtn_opt1": "Español",
     "navbtn_opt2": "Englis",
     "navbtn_opt3": "Nederlands",
@@ -11,7 +11,7 @@
     "hero_subtitle":"Comprar con seguiridad comienza aquí",
 
     "slogan":"Desde 1987 existe la inspección obligatoria de automóviles (ITV) para la seguridad vial en España. Con este proposito, y para el mercado inmobiliario, se ha creado IGP, inspección a nivel nacional supervisada por Injurad. El objetivo, que las compras seguras sean accesibles para todos, sin importar el valor de la propiedad, y hacer posible disfrutar de este hermoso país sin preocupaciones.",
-    "slogan2":"EL SUPERVISOR DE INSPECCIONES DE PROPIEDADES EN ESPAÑA.",
+    "slogan2":"EL SUPERVISOR NACIONAL DE INSPECCIONES DE PROPIEDADES EN ESPAÑA",
     "slogan3":"dinero",
 
     "reason_tittle":"No es por nada que existe ",
@@ -240,7 +240,7 @@
     "Contact_opt7":"Mensaje aclarando las durancion de las respuestas y agradeciendo por su aporte a INJURAD",
     
     
-    "form_igp_tittle":"INSPECCIÓN IGP",
+    "form_igp_tittle":"SOLICITUD IGP",
 
     "form_igp_info1":"La inspección IGP es un estudio urbanístico y jurídico del inmueble. Esa es prácticamente la parte más importante para determinar la legalidad de una propiedad. Esta inspección sólo tiene valor si la realiza un arquitecto especializado en urbanismo y un abogado con la misma especialidad.",
     "form_igp_info2":"Según el informe, puede decidir si continuar con la compra o no. ¿La casa está en orden, o hay restricciones, costos extras por investigación o legalización, acepto algún riesgo, etc.? Por ejemplo, la IGP trata de responder a las siguientes preguntas:    ",
@@ -307,11 +307,11 @@
     "form_doc_btbl3":"PAGO SEGURO",
     
     
-    "form_reserva_tittle":"CONTRATO ",
+    "form_reserva_tittle":"CONTRATOS  ",
     "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
     "form_reserva_tittle2b":"Después de un «Chequeo de documentos» sabemos cual contrato podrá firmar  ",
-    "form_reserva_info1":"El comprador habitualmente es quién gestiona el contrato para asegurarse que sus intereses esten bien definidos. No es aconsejable firmar un contrato solo porque esta bajo la presión de la inmobiliaria o el vendedor. Ambos contratos serán para que comprador no pierda la oportunidad de comprar y el vendedor tenga la certeza de que, cumpliendo las condiciones puede dar por vendida la casa.",
-    "form_reserva_info1b":"Hay muchos tipos de contratos, en el interés del comprador solo usamos dos :",
+    "form_reserva_info1":"El comprador habitualmente es quién gestiona el contrato para asegurarse que sus intereses esten bien definidos. No es aconsejable firmar un contrato solo porque esta bajo la presión de la inmobiliaria o el vendedor.",
+    "form_reserva_info1b":"Hay muchos tipos de contratos, en el interés del comprador solo usamos dos. Los siguientes contratos se podrían firmar antes de realizar la inspección IGP (paso 3).",
     "form_reserva_info1t":"Contrato de reserva",
     "form_reserva_info1tinfo":"pagando 1% del precio en caso el vendedor o su representante NO le hayan entregado documentos. Sin tener los documentos esenciales usted no sabe nada sobre el inmueble, por lo cual, la firma de un contrato de Reserva es el mecanismo más idoneo para que el comprador no pierda la oportunidad de comprar y el vendedor tener la certeza de que cumpliendo las condiciones puede dar por vendida la casa. En estos casos siempre será aconsejable firmar un contrato de reserva y no mover grandes cantidades de dinero que despues tendrá que reclamar en caso que la inspección revele que la propiedad no cumple sus requisitos.",
     "form_reserva_info2t":"Contrato opción de compra",
@@ -371,7 +371,7 @@
     "menu1":"Paso 1",
     "menu11":"Chequeo",
     "menu2":"Paso 2",
-    "menu21":"Contrato",
+    "menu21":"Contratos",
     "menu3":"Paso 3",
     "menu311":"Inspección",
 
@@ -386,33 +386,34 @@
     "menu9":"Contacto",
     
     
-    "footer_tittle1":"Sobre INJURAD",
-    "footer_info1_1":"Quiénes somos ",
-    "footer_info1_2":"Área de trabajo ",
-    "footer_info1_3":"Profesionales",
-    "footer_info1_4":"Conoce el mercado inmobiliario",
-    "footer_info1_5":"Pasaporte del Inmueble",
-    "footer_info1_6":"Glosario",
+    
+    "footer_tittle1":"About INJURAD",
+    "footer_info1_1":"About us ",
+    "footer_info1_2":"Work area ",
+    "footer_info1_3":"Professionals",
+    "footer_info1_4":"Know the housing market",
+    "footer_info1_5":"Property passport",
+    "footer_info1_6":"Glossary",
 
     
 
-    "footer_tittle3":"Servicios",
-    "footer_info3_1":"Chequeo de Documento ",
-    "footer_info3_2":"Contrato",
-    "footer_info3_3":"Inspección IGP",
+    "footer_tittle3":"Services",
+    "footer_info3_1":"Documents check ",
+    "footer_info3_2":"Contracts",
+    "footer_info3_3":"IGP inspection",
     "footer_info3_4":"",
     
 
-    "footer_tittle4":"Politicas",
+    "footer_tittle4":"Policy",
     "footer_info4_1":" ",
-    "footer_info4_2":"Política de cookies",
-    "footer_info4_3":"Código de ética",
-    "footer_info4_4":"Ajustes de cookies",
+    "footer_info4_2":"cookies policy",
+    "footer_info4_3":"Integrity code",
+    "footer_info4_4":"Cookie settings",
     
     "footer_tittle5":"Contact ",
     "footer_info5_2":"General",
-    "footer_info5_3":"Queja sobre inspección",
-    "footer_info5_4":"Trabajo con Injurad"
+    "footer_info5_3":"Report complaint",
+    "footer_info5_4":"Work with Injurad"
 
     
 }

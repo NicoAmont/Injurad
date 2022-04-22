@@ -6,12 +6,12 @@ export default function PassportPDI() {
     const { t } = useTranslation('common');
 
   return (
-    <div className="w-full h-full bg-bgr flex flex-col mt-16 ">
-        <div className="max-w-6xl h-auto grid md:grid-cols-2 place-items-center m-auto p-8 py-20" >
-            <div className="w-full h-full ">
-                <h1 className="text-bgf font-semibold text-5xl mb-10 ">{t("passport_tittle")}</h1>
-                <h1 className="text-bgf font-base text-base text-justify mb-10">{t("passport_info")}</h1>
-                <h1 className="text-bgf font-medium text-lg text-center w-full mb-14 ">	&quot; {t("passport_logo")}&quot;</h1>
+    <div className="w-full h-full bg-bgr flex flex-col  mt-16 pt-10 ">
+        <div className="max-w-6xl h-auto grid md:grid-cols-2 place-items-center m-auto  py-5" >
+            <div className="w-full h-full md:pt-20 ">
+                <h1 className="text-bg2 font-semibold text-4xl mb-10 ">{t("passport_tittle")}</h1>
+                <p className="text-bgf font-normal text-base text-justify mb-10">{t("passport_info")}</p>
+                <p className="text-bg2 font-medium text-lg text-center w-full  ">	&quot; {t("passport_logo")}&quot;</p>
                 
             </div>
 

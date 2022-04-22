@@ -25,9 +25,9 @@ function Footer() {
             </div> */}
 
             <div className="flex w-auto">
-                <div className="w-full h-full grid grid-cols-1 md:grid-cols-2  m-auto relative">
+                <div className="w-full h-full flex flex-col m-auto relative">
 
-                    <svg className=" scale-150 sm:scale-100 " viewBox="0 0 436 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className=" scale-150 sm:scale-100    " fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
                         <path d="M78.5533 53.596L100.551 35.0352L53.8057 35.0353L38.5001 52.2212L55.8678 38.4726L78.5533 53.596Z" fill="white"/>
@@ -37,13 +37,15 @@ function Footer() {
                         <rect x="132" y="34" width="7" height="49" fill="#072317"/>
                     </svg>
 
-                    <div className="w-full h-full mt-10 sm:mt-10 lg:mt-14 grid grid-cols-1 sm:grid-cols-3 place-items-center m-auto gap-4">
+                    <div className="w-full h-full  grid grid-cols-1 md:grid-cols-4 place-items-center m-auto gap-10 md:pl-10">
                         <div className="w-full h-full flex flex-col text-center sm:text-left ">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl ">{t("footer_tittle1")}</h1>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2  text-base   text-bgr ">{t("footer_info1_1")}</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info1_2")}</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info1_3")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base   text-bgr">{t("footer_info1_4")}</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base pb-2  text-bgr">{t("footer_info1_4")}</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base pb-2  text-bgr">{t("footer_info1_5")}</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base   text-bgr">{t("footer_info1_6")}</a></Link>
                         </div>
                         <div className="w-full h-full flex flex-col text-center sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl">{t("footer_tittle3")}</h1>
@@ -63,6 +65,7 @@ function Footer() {
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl">{t("footer_tittle5")}</h1>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_2")}</a></Link>
                             <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_3")}</a></Link>
+                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_4")}</a></Link>
                         </div>
                     </div>
                 </div>

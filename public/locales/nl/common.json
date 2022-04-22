@@ -1,7 +1,8 @@
 {
     "navbtn_title": "Selecciona Idioma",
-    "navbtn_opt1": "Spaans ( Spanish )",
-    "navbtn_opt2": "Nederlands ( Dutch )",
+    "navbtn_opt1": "Español",
+    "navbtn_opt2": "Englis",
+    "navbtn_opt3": "Nederlands",
     
     "hero_title":"La itv para",
     "hero_titleb":"propiedades",
@@ -29,7 +30,7 @@
     "reason_qansw1a":"Het Vastgoedpaspoort (Pasaporte del inmueble PDI) is het belangrijkste document bij het kopen van een woning in Spanje. Een woning die niet over een Vastgoedpaspoort kan beschikken, zal nooit legaal zijn. De praktijk leert dat alleen een gegarandeerd onafhankelijk onderzoek naar het Vastgoedpaspoort de koper goed beschermt.",
     "reason_qansw1b":"Lo más IMPORTANTE en una compraventa es asegurarse si el PDI se ha consequido legalmente o es valido. Esta investigación solo pueden hacer profesionales especializados, que deben siguir protocoles claras para evitar interpretaciones libres cuales no son en el interes del comprador. ",
     "reason_qansw1c":"Meer over het Vastgoedpaspoort",
-    "reason_question2":"Wat zijin de risico´s ?",
+    "reason_question2":"Wat zijn de risico´s ?",
     "reason_qansw2tit":"Het ontbreken van documenten of ongeldige documenten kan leiden tot :",
     "reason_qansw2a":"Lastig of niet kunnen verkopen in de toekomst, uw vermogen zit vast",
     "reason_qansw2b":"Devaluatie van de woning",
@@ -331,7 +332,7 @@
     "more2":"Meer informatie",
     
     "About_tittle1":"MISSIE INJURAD",
-    "About_tittle1_info":"We willen het voor iedereen gemakkelijk om een ​​woning in Spanje te kopen, of het nu gaat om een ​​kleine flat of een luxe villa. Duidelijk en eerlijk informeren over de status van het onroerend goed met betrekking tot de lokale regelgeving en het geldende bestemmingsplan en over de gevolgen als het onroerend goed daar niet aan voldoet. Informatie die essentieel is om een ​​beslissing te nemen en te weten wat er daadwerkelijk wordt gekocht.",
+    "About_tittle1_info":"We willen veilig kopen voor iedereen mogelijk maken, of het nu gaat om een kleine flat of een luxe villa. Duidelijk en eerlijk informeren over de status van het onroerend goed met betrekking tot de lokale regelgeving en het geldende bestemmingsplan en over de gevolgen als het onroerend goed daar niet aan voldoet. Informatie die essentieel is om een ​​beslissing te nemen en te weten wat er daadwerkelijk wordt gekocht.",
     "About_tittle2":"Hoe bereiken we onze doelstelling ",
     "About_tittle2_info":"We gaan uit van vijf basispricipes: ",
     "About_tittle2_info1":"Standaardisatie",
@@ -360,28 +361,30 @@
     "About_moreinfo":"Lees meer ...",
 
 
-    "footer_tittle1":"Over Injurad",
-    "footer_info1_1":"Wie zijn wij ",
+    "footer_tittle1":"Over ons",
+    "footer_info1_1":"Werkgebied ",
     "footer_info1_2":"Professionals",
-    "footer_info1_3":"Werkgebied",
-    "footer_info1_4":"Werken bij Injurad",
+    "footer_info1_3":"Ken de woningmarkt",
+    "footer_info1_4":"Vastgoedpaspoort",
+    "footer_info1_5":"Woordenlijst",
 
     "footer_tittle3":"Services",
     "footer_info3_1":"Documenten check ",
     "footer_info3_2":"Contracten",
     "footer_info3_3":"IGP inspectie",
-    "footer_info3_4":"Woordenlijst",
+    "footer_info3_4":"",
     
 
-    "footer_tittle4":"General",
-    "footer_info4_1":"Disclaimer ",
-    "footer_info4_2":"Integriteitscode",
-    "footer_info4_3":"Política de privacidad",
-    "footer_info4_4":"Ajustes de cookies",
+    "footer_tittle4":"BELEID",
+    "footer_info4_1":" ",
+    "footer_info4_2":"Cookiebeleid ",
+    "footer_info4_3":"Integriteitscode",
+    "footer_info4_4":"Cookie instellingen",
     
     "footer_tittle5":"Contact ",
     "footer_info5_2":"Algemeen",
-    "footer_info5_3":"Klacht over een inspectie",
+    "footer_info5_3":"Klacht over rapport",
+    "footer_info5_4":"Werken met Injurad",
     
     
     "menu1":"Stap 1",

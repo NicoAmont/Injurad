@@ -89,7 +89,7 @@ export default function Aboutus() {
             </div>
 
            
-            <div className=" rounded-full h-auto w-8/12 md:w-3/4  m-auto flex md:pl-8 mt-5 py-4 md:px-10 hover:scale-110">
+            <div className=" rounded-full h-auto w-8/12 md:w-3/4  m-auto flex md:pl-8 py-4 md:px-10 hover:scale-110">
                 <div className="w-10 mr-4">
                 <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -122,7 +122,7 @@ export default function Aboutus() {
 
                 <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
 
-                    <div className="shadow-lg mb-10 group border border-l-8 border-sl container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
+                    <div className="shadow-lg mb-10 group border border-l-8 border-bg2 container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
                         <div className="w-full flex flex-col ">
                             <div  className="w-full image-cover rounded-t-md" >
                                 
@@ -139,7 +139,7 @@ export default function Aboutus() {
                         </div>
                     </div>
                     </div>
-                    <div className="shadow-lg mb-10 group border border-l-8 border-sl container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div2">
+                    <div className="shadow-lg mb-10 group border border-l-8 border-bg2 container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div2">
                         <div className="w-full flex flex-col ">
                             <div  className="w-full image-cover rounded-t-md" >
                                 
@@ -177,7 +177,7 @@ export default function Aboutus() {
 
 
             
-            <div className="md:w-3/4 m-auto mt-20 text-base md:text-lg ">
+            <div className="md:w-3/4  mt-20 text-base md:text-lg ">
                 <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle6")}</h1>
                 <p className="">{t("About_tittle6_info")}</p>
             </div>

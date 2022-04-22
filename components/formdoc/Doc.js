@@ -31,7 +31,7 @@ export default function Doc() {
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
-                    <h1 className=" text-sl text-left text-2xl pt-5 font-bold m-auto ml-2 border-b-2 pb-2  border-sl ">{t("form_igp_infot2")}</h1>
+                    <h1 className=" text-sl text-left text-2xl pt-5 font-normal m-auto ml-2 border-b-2 pb-2  border-sl ">{t("form_igp_infot2")}</h1>
                     <p className=" text-bgr font-normal text-left text-base pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_infot2P")}</p>
                 </div>
                 <div className="w-96 h-auto sm:h-64 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
@@ -41,7 +41,7 @@ export default function Doc() {
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                         <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
-                    <h1 className=" text-sl text-left text-2xl pt-5 font-bold m-auto ml-2 border-b-2 pb-2 border-sl ">{t("form_igp_infot3")}</h1>
+                    <h1 className=" text-sl text-left text-2xl pt-5 font-normal m-auto ml-2 border-b-2 pb-2 border-sl ">{t("form_igp_infot3")}</h1>
                     <p className=" text-bgr font-normal text-left text-base pt-5 w-10/12 m-auto mb-6 ">{t("form_igp_infot3P")}</p>
                 </div>
                 
@@ -128,7 +128,7 @@ export default function Doc() {
                     </div> 
                 </div>
                 
-                <div className="relative z-10  w-full md:w-full m-auto mt-20 h-auto pb-16 md:pb-0 md:h-auto shadow-2xl rounded-xl items-end align-bottom ">
+                <div className="relative bg-bg2 z-10  w-full md:w-8/12 m-auto mt-10 h-auto pb-16 md:pb-5 md:h-auto shadow-2xl rounded-xl items-end align-bottom ">
                     
                     <svg className="opacity-80 w-8 md:w-10  absolute  bottom-4 right-4 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
@@ -138,12 +138,12 @@ export default function Doc() {
                     </svg>
 
                     <div className="w-3/4 m-auto mt-4 ">
-                        <h2 className=" text-bg2 font-medium text-left text-lg pt-5 italic ">{t("form_doc_bt")}</h2>
-                        <h2 className=" text-bg2 font-medium text-left text-lg pt-5 italic ">{t("form_doc_bt2")}</h2>
-                        <h2 className=" text-bg2 font-thin text-left md:text-left ml-2 text-base pt-5 italic ">{t("form_doc_btb")}</h2>
+                        <h2 className=" text-bgr font-medium text-left text-lg pt-5 italic ">{t("form_doc_bt")}</h2>
+                        <h2 className=" text-bgr font-medium text-left text-lg pt-5 italic ">{t("form_doc_bt2")}</h2>
+                        <h2 className=" text-bgr font-thin text-left md:text-left ml-2 text-base  italic ">{t("form_doc_btb")}</h2>
                         <div className="w-96"  >
                         <Menu >
-                            <Menu.Button className="relative mb-6  w-40 z-10 ml-2  underline text-sl font-base text-left text-base italic"><p clasName="m-auto w-10 overflow-hidden">{t("form_doc_")}</p> </Menu.Button>
+                            <Menu.Button className="relative mb-6  w-auto px-5 py-1 rounded-lg z-10 bg-sl m-auto   text-bgr font-base text-left text-base italic"><p clasName="m-auto w-10 overflow-hidden h-10">{t("form_doc_")}</p> </Menu.Button>
                             
                             <Transition
                             as={Fragment}

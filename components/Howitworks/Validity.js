@@ -17,7 +17,7 @@ export default function Validity() {
             <Image className='z-0 brightness-90 opacity-10 '  src="/imgvald.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
 
-        <div className="max-w-7xl h-auto grid md:grid-cols-1 place-items-center place-content-center m-auto md:p-8 relative z-10 text-bgr py-20 " >
+        <div className="max-w-7xl h-auto grid md:grid-cols-1 place-items-center place-content-center m-auto md:p-8 relative z-10 text-bgr py-15 " >
             
             <div className="w-3/4 h-full flex-col ">
                 <h1 className=" font-semibold text-5xl mb-16 ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
@@ -59,9 +59,9 @@ export default function Validity() {
             </div>
         
         </div>
-        <svg className="w-full relative z-10 " viewBox="0 0 1440 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg className="w-full relative z-10 " viewBox="0 0 1440 102" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0L1440 102H0V0Z" fill="white"/>
-        </svg>
+        </svg> */}
     </div>
   )
 }

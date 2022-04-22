@@ -22,26 +22,26 @@ export default function Reserva() {
             <p className="text-base">{t("form_reserva_info1b")}</p>
         </div>
         <div className="w-3/4 m-auto mb-20 text-xl flex flex-col">
-            <div className="w-full flex flex-col m-auto gap-20 items-center md:pl-6">
-                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-bg2">
+            <div className="w-full flex flex-col m-auto gap-20 items-center ">
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-sl">
                     <p className="  text-base"> <span className="text-bg2 font-bold">{t("form_reserva_info1t")} </span>{t("form_reserva_info1tinfo")}</p>
                 </div>
-                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-bg2">
+                <div className="w-full md:w-3/4  m-auto h-auto relative items-end align-bottom border-l-4 pl-4 border-sl">
                     <p className="  text-base"> <span className="text-bg2 font-bold">{t("form_reserva_info2t")} </span>{t("form_reserva_info2tinfo")}</p>
                 </div>
             
                 
-                <div className="w-full md:w-3/4 m-auto mt-10 py-6 px-4 h-auto md:h-auto shadow-2xl rounded-xl  relative items-end align-bottom overflow-hidden">
+                <div className="w-full md:w-3/4 bg-bg2 m-auto mt-10 py-6 px-4 h-auto md:h-auto shadow-2xl rounded-xl  relative items-end align-bottom overflow-hidden">
                     
                     <svg className="opacity-80 w-8 md:w-10  absolute  bottom-4 right-4 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
-                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
+                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
+                        <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
+                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
+                        <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                     </svg>
                     <div className="w-full md:w-3/4 m-auto mb-8">
-                        <h2 className=" text-bg2 font-medium text-center text-lg pt-5 px-4 md:px-0 italic ">{t("form_reserva_quest1")}</h2>
-                        <p className=" text-bg2 font-normal text-left text-sm pt-5 italic px-4 md:px-0">{t("form_reserva_quest2")}</p>
+                        <h2 className=" text-bgr font-medium text-center text-lg pt-5 px-4 md:px-0 italic ">{t("form_reserva_quest1")}</h2>
+                        <p className=" text-bgr font-normal text-left text-sm pt-5 italic px-4 md:px-0">{t("form_reserva_quest2")}</p>
                     </div>
                 </div>
             </div>

@@ -114,8 +114,8 @@ function OurProcess() {
                                 <div className="text-4xl md:text-4xl font-bold text-bg2 m-auto flex ">
                                     {t('how_stepinfo_tittle1')}
                                 </div>
-                                <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
-                                    {t('how_stepinfo_descr1')}
+                                <div className="text-base font-normal text-bgf mt-5 w-4/5">
+                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr1')}</p>
                                     <h1 className="font-medium mt-2 ml-2">{t('stepform1b')} </h1>
                                 </div>
 
@@ -135,8 +135,9 @@ function OurProcess() {
                                 <div className="text-4xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle2')}
                                 </div>
-                                <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
-                                    {t('how_stepinfo_descr2')}
+                                <div className="text-base font-normal text-bgf mt-5 w-4/5">
+                                    
+                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr2')}</p>
                                     <h1 className="font-medium mt-2 ml-2">{t('stepform2b')} </h1>
                                 </div>
                                 <Link  href="/formreserva" passHref>
@@ -155,8 +156,9 @@ function OurProcess() {
                                 <div className="text-4xl font-bold text-bg2 m-auto flex">
                                     {t('how_stepinfo_tittle3')}
                                 </div>
-                                <div className="text-base font-normal text-bgf mt-5 w-4/5 ml-4">
-                                    {t('how_stepinfo_descr3')}
+                                <div className="text-base font-normal text-bgf mt-5 w-4/5">
+                                    
+                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr3')}</p>
                                     <h1 className="font-medium mt-2 ml-2">{t('stepform3bb')} </h1>
                                 </div>
                                 <Link  href="/formigp" passHref>
@@ -173,7 +175,8 @@ function OurProcess() {
                     </Tab.Group>
 
             </div>
-            <div className="relative w-full h-full shadow-2xl">
+
+            <div className="relative w-10/12 m-auto h-full shadow-2xl">
             {/* <div className="h-full w-32 absolute -left-32 z-0 bg-gradient-to-r  from-bgr to-gl bg-opacity-5 "></div>
             <div className="h-full w-32 absolute -right-32 z-0 bg-gradient-to-l  from-bgr to-gl "></div> */}
             <div className="w-full  z-10  m-auto h-96 overflow-auto rounded-2xl   whitespace-nowrap contenedor_flujo relative shadow-2xl border-bg2 border-l-2 border-r-2  ">
