@@ -15,7 +15,12 @@ function Header() {
         locale === e.target.value ? 0 : push(pathname, pathname, {locale: e.target.value}) 
     
     }
+
     console.log(pathname);
+    
+
+
+
     const [isOpen, setIsOpen] = useState(false);
 
     const [isActive, setActive] = useState({
@@ -34,14 +39,14 @@ function Header() {
     
 
     return (
-        <nav className="flex flex-col lg:flex-row fixed top-0 left-0  justify-center w-screen bg-bgr z-50  ">
+        <nav className="flex flex-col 2xl:flex-row fixed top-0 left-0  justify-center w-screen bg-bgr z-50  ">
 
-            <div className="bg-bgr flex  lg:flex-row items-center  text-base w-full h-16 lg:h-28  lg:px-5  justify-between max-w-7xl">
+            <div className="bg-bgr flex  2xl:flex-row items-center  text-base w-full h-16 2xl:h-28  2xl:px-5  justify-between max-w-7xl">
 
                 {/* Left */}
                 <Link  href="/" passHref>
                 <div className="grid place-content-start relative">
-                    <svg className=" absolute lg:relative lg:pt-24 w-60  lg:w-96 left-0 logo-topmob lg:logo-top " viewBox="0 0 436 147" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className=" absolute 2xl:relative 2xl:pt-24 w-60  2xl:w-96 left-0 logo-topmob 2xl:logo-top z-20" viewBox="0 0 436 147" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M133.428 54.9958L62.1665 146.706L5.28694 69.2672L57.5605 113.393L133.428 54.9958Z" fill="white"/>
                         <path d="M133.428 54.9958L62.1665 146.706L5.28694 69.2672L57.5605 113.393L133.428 54.9958Z" fill="white"/>
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
@@ -55,40 +60,40 @@ function Header() {
                     
                 </div>
                 </Link>
-                {/* Navbar lg display */}
+                {/* Navbar 2xl display */}
 
-                <div className="bg-bgr hidden 2xl:visible  2xl:inline-flex w-full lg:w-auto text-sm lg:text-base">
+                <div className="bg-bgr hidden 2xl:visible  2xl:inline-flex w-full 2xl:w-auto text-sm 2xl:text-base">
                     {/* Center */}
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
-                        <div className= "flex flex-col lg:flex-row place-items-center w-full  cursor-pointer lg:px-10  text-sm transition-colors" >
+                        <div className= "flex flex-col 2xl:flex-row place-items-center w-full  cursor-pointer 2xl:px-10  text-sm transition-colors" >
                             
-                            <Link  href="/formdoc" passHref><button className=" border-b-2 border-bgfva2 navitem flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><button className=" border-b-2 border-bgfva2 navitem flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l" id="1"  > <span className="font-semibold text-bgfva2">{t('menu1')}</span> <br /> {t('menu11')}</a>
                             </button></Link>
-                            <Link  href="/formreserva" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formreserva" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 font-normal"><span className="font-semibold text-bgfva2">{t('menu2')}</span> <br /> {t('menu21')} </a>
                             </div></Link>
                             
-                            <Link  href="/formigp" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
+                            <Link  href="/formigp" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal "><span className="font-semibold text-bgfva2">{t('menu3')}</span> <br /> {t('menu311')}</a>
                             </div></Link>
-                            <div className="flex flex-col  text-center justify-center w-full lg:w-32 h-16   lg:h-28 hover:bg-bgr2    ">
+                            <div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2    ">
                                     <Popover className="relative  ">
-                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full lg:w-32 h-16 lg:h-28 hover:bg-bgr2 font-semibold text-bg2 ">{t('menu8')}</Popover.Button>
+                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 font-semibold text-bg2 ">{t('menu8')}</Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
-                                            <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 lg:w-max border-t-4 border-gl">
+                                            <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
                                                 <div className="w-full h-full flex-column">
 
                                                     <div className=" flex flex-col text-left">
                                                         <a className="font-medium text-gl text-left w-full h-full" ></a>
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/about" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>    
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu5')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu6')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
+                                                        <Link href="/about" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
+                                                        <Link href="/contact" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>    
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu5')}</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu6')}</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
                                                     </div>
 
                                                 </div> 
@@ -100,10 +105,10 @@ function Header() {
                                                     </div>
                                                     
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Términos profesionales</a></Link>
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>    
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
-                                                        <Link href="/" passHref><a className=" p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Términos profesionales</a></Link>
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>    
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
+                                                        <Link href="/" passHref><a className=" p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
                                                     </div>
                                                 </div>  */}
                                             </div>
@@ -123,6 +128,7 @@ function Header() {
                             <option value="es" className="   p-4" >{t('navbtn_opt1')}</option>
                             <option value="en" className=" ">{t('navbtn_opt2')}</option>
                             <option value="nl" className=" ">{t('navbtn_opt3')}</option>
+
                         </select>
 
                         <div className="w-full m-auto gap-3 justify-center hidden">
@@ -146,7 +152,7 @@ function Header() {
                     </div> 
                 </div> 
 
-                {/* Navbar less than lg display */}
+                {/* Navbar less than 2xl display */}
                 <div className=" grid 2xl:hidden place-content-left place-items-end mr-4 w-full relative z-10 ">
 							<button
 								onClick={() => setIsOpen(!isOpen)}
@@ -204,38 +210,38 @@ function Header() {
 					leaveTo="opacity-0 scale-95"
 				>
 					{(ref) => (
-						<div className="bg-bgr  lg:hidden w-full lg:w-auto text-sm lg:text-base">
+						<div className="bg-bgr  2xl:hidden w-full 2xl:w-auto text-sm 2xl:text-base">
                     {/* Center */}
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
-                    <div className="flex flex-col lg:flex-row place-items-center w-full  cursor-pointer lg:px-10  text-sm transition-colors ">
+                    <div className="flex flex-col 2xl:flex-row place-items-center w-full  cursor-pointer 2xl:px-10  text-sm transition-colors ">
                             
-                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l"><span className="font-semibold text-bgfva2">{t('menu1')}</span> <br /> {t('menu11')}</a>
                             </div></Link>
-                            <Link  href="/formreserva" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formreserva" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 font-normal"><span className="font-semibold text-bgfva2">{t('menu2')}</span> <br /> {t('menu21')}  </a>
                             </div></Link>
                             
-                            <Link  href="/formigp" passHref><div className="flex px-4 flex-col  text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2    ">
+                            <Link  href="/formigp" passHref><div className="flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal "><span className="font-semibold text-bgfva2">{t('menu3')}</span> <br /> {t('menu311')}</a>
                             </div></Link>
-                            <div className="flex flex-col  text-center justify-center w-full lg:w-32 h-16   lg:h-28 hover:bg-bgr2    ">
+                            <div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2    ">
                                     <Popover className="relative  ">
-                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full lg:w-32 h-16 lg:h-28 hover:bg-bgr2 ">{t('menu8')} </Popover.Button>
+                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')} </Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
-                                            <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 lg:w-max border-t-4 border-gl">
+                                            <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
                                                 <div className="w-full h-full flex-column">
 
                                                     <div className=" flex flex-col text-left">
                                                         <a className="font-medium text-gl text-left w-full h-full" ></a>
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/about" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>    
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu5')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu6')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
+                                                        <Link href="/about" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
+                                                        <Link href="/contact" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>    
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu5')}</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu6')}</a></Link>
+                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
                                                     </div>
 
                                                 </div> 
@@ -247,17 +253,17 @@ function Header() {
                                                     </div>
                                                     
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Términos profesionales</a></Link>
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>    
-                                                        <Link href="/" passHref><a className="mb-2 p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
-                                                        <Link href="/" passHref><a className=" p-1 lg:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Términos profesionales</a></Link>
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>    
+                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
+                                                        <Link href="/" passHref><a className=" p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
                                                     </div>
                                                 </div>  */}
                                             </div>
                                         </Popover.Panel>
                                     </Popover>
                             </div>
-                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full lg:w-28 h-16 lg:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l">Trabaja con nosotros</a>
                             </div></Link>
                         </div>

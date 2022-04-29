@@ -27,7 +27,7 @@ function Footer() {
             <div className="flex w-auto">
                 <div className="w-full h-full flex flex-col m-auto relative">
 
-                    <svg className=" scale-150 sm:scale-100    " fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className=" scale-150  md:scale-50 mb-10    " viewBox="40 0 378 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
                         <path d="M107.931 36.381L61.6906 90.0876L36.2558 53.6537L61.6906 72.9015L107.931 36.381Z" fill="#2EA153"/>
                         <path d="M78.5533 53.596L100.551 35.0352L53.8057 35.0353L38.5001 52.2212L55.8678 38.4726L78.5533 53.596Z" fill="white"/>

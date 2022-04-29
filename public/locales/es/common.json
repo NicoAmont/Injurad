@@ -115,7 +115,9 @@
     "how_flujo_2info2c":"Nota simple",   
     "how_flujo_2info2d":"Certificado Catastral",   
     "how_flujo_3":"Te dan los documentos",   
+    "how_flujo_3-":"Buen comienzo !",   
     "how_flujo_3b":"No te los dan todos o no los tienen. Alerta!",   
+    "how_flujo_3b-":"Este alerta!",   
     "how_flujo_4":"PRIMER PASO",   
     "how_flujo_4a":"CHEQUEO DE DOCUMENTOS ",   
     "how_flujo_5":"SEGUNDO PASO",   
@@ -284,7 +286,7 @@
     
     
     "form_doc_tittle2":"Pida al vendedor o su representante cuáles de los siquientes documentos puede proporcionar: ",
-    "form_doc_tittle2p":"Para que una propiedad este en cumplimiento de todos los requisitos de ley deberìa tener todos los documentos de la siguiente lista. Dividimos los documentos en dos grupos. Un buen comienzo sería pedir los escenciales. ",
+    "form_doc_tittle2p":"Para que una propiedad este en cumplimiento de todos los requisitos de ley deberìa tener todos los documentos de la siguiente lista. Dividimos los documentos en dos grupos. Un buen comienzo sería pedir los esenciales. ",
     "form_doc_esT":"Esenciales :",
     "form_doc_esT2":"Secundarios :",
     "form_doc_esp1":"Nota simple ",

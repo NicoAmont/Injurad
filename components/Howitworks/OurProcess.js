@@ -28,18 +28,18 @@ function OurProcess() {
                 </h1>
                 
             </div>
-            <div className=" w-11/12 px-2 sm:px-0 text-bgr md:mx-auto place-items-center ">
+            <div className=" w-11/12 px-2 sm:px-0 text-bgr mx-auto place-items-center ">
                     <Tab.Group >
                         
-                        <Tab.List className="flex  space-x-1 w-full md:w-4/5  relative m-auto  ">
+                        <Tab.List className="flex  space-x-1 w-11/12 sm:w-3/4    relative m-auto  ">
                             <Tab as={Fragment}>
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-40 py-2 relative mt-2 z-20  text-sm leading-5 font-medium text-sl flex h-10 border-2  border-bgf ' : 'bg-b rounded-t-lg w-24 mt-2 h-10 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex '
+                                    selected ? 'bg-bgr rounded-t-lg  w-32 md:w-40 py-2 ml-1 relative mt-2 z-20  text-sm leading-5 font-medium text-sl flex h-10 border-2  border-bgf ' : 'bg-b rounded-t-lg w-24 mt-2 h-10 sm:w-32 py-2.5 focus:outline-none focus:ring-2 ring-offset-2 text-bgr flex '
                                 }
                                 >
-                                <div className=" absolute w-full h-4 bg-bgr z-4 -bottom-4"></div> 
+                                <div className=" absolute  w-full h-6  bg-bgr z-4 -bottom-6"></div> 
                                 <div className="flex w-full h-full m-auto mr-11  px-3 relative">
                                     <h1 className="text-4xl md:text-4xl font-bold relative z-10"></h1> 
                                     <h2>
@@ -221,7 +221,7 @@ function OurProcess() {
                             <p className="text-bg2 font-normal text-base">{t("how_flujo_3-")}</p>
                         </div>
 
-                        <div className="w-80 h-14 rounded-xl border ml-4 mt-16 p-3  my-auto border-bgr2 flujo_cuadro grid place-items-center">
+                        <div className="w-auto h-14 rounded-xl border ml-4 mt-16 p-3  my-auto border-bgr2 flujo_cuadro grid place-items-center">
                             <p className="text-bg2 font-semibold text-base">{t("how_flujo_3b")}</p>
                             <p className="text-bg2 font-normal text-base">{t("how_flujo_3b-")}</p>
                         </div>
@@ -320,10 +320,10 @@ function OurProcess() {
 
                     </div>
                     <div className="relative ml-10 mr-20" >
-                        <div className="w-96 h-16 bg-bgfva2 rounded-xl border ml-4 mt-5   my-auto border-bgr2  flujo_cuadro grid place-items-center">
+                        <div className="w-auto px-2 h-16 bg-bgfva2 rounded-xl border ml-4 mt-5   my-auto border-bgr2  flujo_cuadro grid place-items-center">
                             <p className="text-bgr font-semibold text-base">{t("how_flujo_b13")}</p>
                         </div>
-                        <div className="w-96 h-16 bg-bgfva2 rounded-xl border ml-4 mt-16  my-auto border-bgr2  flujo_cuadro grid place-items-center">
+                        <div className="w-auto h-16 bg-bgfva2 rounded-xl border ml-4 mt-16  my-auto border-bgr2  flujo_cuadro grid place-items-center">
                             <p className="text-bgr font-semibold text-base">{t("how_flujo_b13")}</p>
                         </div>
 

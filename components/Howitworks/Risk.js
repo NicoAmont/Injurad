@@ -10,10 +10,10 @@ export default function Risk() {
 
         <div className="flex flex-col w-full h-full relative bg-bgr pb-20 pt-10">
             
-            <div className="max-w-6xl w-full h-full relative z-10 m-auto md:px-4 flex-col ">
+            <div className="max-w-6xl  h-full relative z-10 m-auto md:px-4 flex-col ">
                 
-                <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase ">
-                    {t("risk_tittle")} <span className="text-bg2  text-4xl md:text-4xl">{t("risk_tittleB")}</span> 
+                <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase overflow-hidden break-words w-32 ">
+                    {t("risk_tittle")} <span className="text-bg2  text-2xl md:text-4xl">{t("risk_tittleB")}</span> 
                 </h1>
                 
                 <h1 className=" text-2xl  text-sl md:text-4xl font-semibold px-6 mb-20 text-left uppercase">
