@@ -328,7 +328,7 @@ function OurProcess() {
                         </div>
 
                     </div>
-                    <div className="relative ml-10 mr-20" >
+                    <div className="relative ml-10 mr-20 " >
                         <div className="w-1"></div>
 
                     </div>
@@ -337,7 +337,7 @@ function OurProcess() {
 
             </div>
             </div>
-            <p className="mb-10 text-bg2 m-auto max-w-2xl font-thin italic">Desliza para ver</p>
+            <p className="mb-10 text-bg2 m-auto max-w-2xl font-thin italic">{t("how_flujo_swip")}</p>
 
 
 

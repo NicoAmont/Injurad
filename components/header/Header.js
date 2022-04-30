@@ -9,23 +9,23 @@ import React, { useState } from "react";
 
 
 function Header() {
+    // Settings for change the lenguage
     const { t } = useTranslation('common');
+    
     const {push, pathname, locale} = useRouter();
     const handleChange = e => {
         locale === e.target.value ? 0 : push(pathname, pathname, {locale: e.target.value}) 
-    
+        
     }
-
-    console.log(pathname);
-    
-
-
-
+    //Media navbar
     const [isOpen, setIsOpen] = useState(false);
-
+    
+    // Adding styles to the navbar
     const [isActive, setActive] = useState({
         activeObject: null
     });
+
+    //Getting the idiom for the video change
     const [idiom, setIdiom] = useState([locale]);
     const addIdiom = () => {
         setIdiom([
@@ -34,10 +34,9 @@ function Header() {
             }
         ])
     }
-
-    const cPath = locale.split('/');
     
-
+    
+     
     return (
         <nav className="flex flex-col 2xl:flex-row fixed top-0 left-0  justify-center w-screen bg-bgr z-50  ">
 
@@ -57,7 +56,6 @@ function Header() {
                         <rect x="117" y="34" width="7" height="49" fill="white"/>
                         <rect x="132" y="34" width="7" height="49" fill="white"/>
                     </svg>
-                    
                 </div>
                 </Link>
                 {/* Navbar 2xl display */}
