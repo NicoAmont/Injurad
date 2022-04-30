@@ -25,7 +25,7 @@ function InfoSection() {
                 <div className="grid place-items-center md:grid-cols-2 md:place-items-center m-auto">
                     
                     
-                    <div className=" md:ml-2 font-light w-4/5">
+                    <div className=" md:ml-2 font-light w-4/5 pt-10">
                         <div className="grid w-full mb-14 m-auto">
                             <h1 className=" text-4xl md:text-4xl  font-bold">{t('pdisection_title')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
@@ -177,7 +177,7 @@ function InfoSection() {
                         <Image className=" m-auto"  src="/shield.png" layout='' width={136+'px'} height={136+'px'} alt="" quality={100} />
                     </div>
                     <div className="text-lg font-light text-left flex-col m-auto">
-                        <h1 className="text-3xl font-bold mb-4 ml-20">{t("work_zone_garantie_tittle")}</h1>
+                        <h1 className="text-3xl font-bold mb-4  ml-10 mt-4 sm:ml-20">{t("work_zone_garantie_tittle")}</h1>
                         <p className="text-sm text-left w-3/4 m-auto mb-2 ">{t("work_zone_garantie_info1")}</p>
                         <p className="text-sm text-left w-3/4 m-auto">{t("work_zone_garantie_info2")}</p>
                     </div>
