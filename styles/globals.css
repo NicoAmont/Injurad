@@ -71,6 +71,11 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.segment-4{
+  background-image: url(../public/docs.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .segment-3{
   background-image: url(../public/about2.jpg);
   background-repeat: no-repeat;

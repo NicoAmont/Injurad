@@ -54,7 +54,7 @@ export default function Doc() {
                 <h1 className="text-2xl md:text-3xl text-bg2 font-medium ">{t("form_doc_tittle2")}</h1>
                 <p className="text-base  font-normal mt-10 ">{t("form_doc_tittle2p")}</p>
                 <div className="w-full flex flex-wrap m-auto gap-10   items-center mt-5 md:pl-6">
-                    <div className=" mb-10 mt-10 relative items-end align-bottom">
+                    <div className=" mb-10 md:mt-10 relative items-end align-bottom">
                     <Menu >
                                 <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl m-auto text-sm  py-1 text-bgr font-base text-left  italic"><h1 className="  font-base text-left text-base md:text-base  italic ">{t("form_doc_esT")}</h1> </Menu.Button>
                                 
@@ -171,52 +171,51 @@ export default function Doc() {
                                 </Transition>
                             </Menu>                    
                     </div>
-                    
-                    <div className="relative bg-bg2 z-10 px-4 w-full md:w-8/12 m-auto   h-auto pb-16 md:pb-2 md:h-auto shadow-2xl rounded-xl items-end align-bottom ">
-                        
-                        <svg className="opacity-80 w-8 md:w-10  absolute  bottom-4 right-4"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                            <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                            <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
-                            <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
-                        </svg>
-
-                        <div className=" m-auto  ">
-                            <h2 className=" text-bgr font-normal text-left text-lg pt-5 italic ">{t("form_doc_bt")}</h2>
-                            <h2 className=" text-bgr font-normal text-left text-lg pt-5 italic ">{t("form_doc_bt2")}</h2>
-                            <h2 className=" text-bgr font-thin text-left md:text-left ml-2 text-base  italic ">{t("form_doc_btb")}</h2>
-                            <div className="w-96"  >
-                            <Menu >
-                                <Menu.Button className="relative mb-6 w-36 sm:w-60 px-5 py-1 rounded-lg z-10 bg-sl m-auto text-sm   text-bgr font-base text-left  italic"><p className="m-auto w-auto overflow-hidden">{t("form_doc_")}</p> </Menu.Button>
-                                
-                                <Transition
-                                as={Fragment}
-                                enter="transition ease-out duration-100"
-                                enterFrom="transform opacity-0 scale-95"
-                                enterTo="transform opacity-100 scale-100"
-                                leave="transition ease-in duration-75"
-                                leaveFrom="transform opacity-100 scale-100"
-                                leaveTo="transform opacity-0 scale-95"
-                                >
-
-                                <Menu.Items className="bg-opacity-95 absolute z-20 -left-10 md:left-80 md:w-96 border  border-gl top-0 w-56 p-10 rounded-3xl text-gl bg-bgr shadow-2xl">
-                                    <Menu.Item className="text-sm">
-                                    {({ active }) => (
-                                        <a
-                                        className={`${active && 'bg-blue-500'}`}
-                                        >
-                                        {t("form_doc_info")}
+                    <div className="w-full m-auto   h-auto relative text-bgr segments segment-4 ">
+                            <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
+                            {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
+                            <div className="flex flex-col  relative w-full md:w-2/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
+                                <div className="max-w-6xl  text-center items-center align-middle md:text-left  md:ml-20">
+                                    <h1 className=" font-medium text-base md:text-base mb-10 max-w-sm m-auto md:ml-0 md:mb-5">
+                                        {t("form_doc_bt")}
+                                    </h1>
+                                    <h1 className=" font-medium text-base md:text-base mb-10 max-w-sm m-auto md:ml-0 md:mb-5">
+                                        {t("form_doc_bt2")}
+                                    </h1>
                                         
-                                        </a>
-                                    )}
-                                    </Menu.Item>
-                                </Menu.Items>
-                                </Transition>
-                            </Menu>
+                                        <Menu >
+                                            <Menu.Button className="relative mb-6 w-36 sm:w-60 px-5 py-1 rounded-lg z-10 bg-sl m-auto text-sm   text-bgr font-base text-left  italic"><p className="m-auto w-auto overflow-hidden">{t("form_doc_")}</p> </Menu.Button>
+                                            
+                                            <Transition
+                                            as={Fragment}
+                                            enter="transition ease-out duration-100"
+                                            enterFrom="transform opacity-0 scale-95"
+                                            enterTo="transform opacity-100 scale-100"
+                                            leave="transition ease-in duration-75"
+                                            leaveFrom="transform opacity-100 scale-100"
+                                            leaveTo="transform opacity-0 scale-95"
+                                            >
+
+                                            <Menu.Items className="bg-opacity-95 absolute z-20 -left-10 md:left-80 md:w-96 border  border-gl top-0 w-56 p-10 rounded-3xl text-gl bg-bgr shadow-2xl">
+                                                <Menu.Item className="text-sm">
+                                                {({ active }) => (
+                                                    <a
+                                                    className={`${active && 'bg-blue-500'}`}
+                                                    >
+                                                    {t("form_doc_info")}
+                                                    
+                                                    </a>
+                                                )}
+                                                </Menu.Item>
+                                            </Menu.Items>
+                                            </Transition>
+                                        </Menu>
+                                </div>
+                                
                             </div>
                             
                         </div>
-                    </div>
+                   
                 </div>
             </div>
 
