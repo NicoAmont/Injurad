@@ -261,9 +261,7 @@ function Header() {
                                         </Popover.Panel>
                                     </Popover>
                             </div>
-                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
-                                <a className=" transition-colors delay-150 text-subs2l">Trabaja con nosotros</a>
-                            </div></Link>
+                            
                         </div>
                     </div>
                     

@@ -6,6 +6,8 @@ export default function Validity() {
 
   return (
     <div className="w-full h-full bg-bg2 flex flex-col relative ">
+        
+
         <svg className="w-10 md:w-20 absolute bottom-10 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
@@ -19,8 +21,8 @@ export default function Validity() {
 
         <div className="max-w-7xl h-auto grid md:grid-cols-1 place-items-center place-content-center m-auto md:p-8 relative z-10 text-bgr py-15 " >
             
-            <div className="w-3/4 h-full flex-col pt-10">
-                <h1 className=" font-semibold text-2xl sm:text-4xl mb-16 ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
+            <div className="w-3/4 h-full flex-col pt-16">
+                <h1 className=" font-semibold text-2xl sm:text-4xl mb-10  ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
                 <h1 className=" font-base text-base text-justify mb-10 font-normal">{t("validity_info1")}</h1>
                 <h1 className=" font-base text-base text-justify mb-5 ">{t("validity_info2_1")}</h1>
 

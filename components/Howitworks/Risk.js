@@ -12,11 +12,11 @@ export default function Risk() {
             
             <div className="max-w-6xl  h-full relative z-10 m-auto md:px-4 flex-col ">
                 
-                <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase overflow-hidden break-words w-32 ">
+                <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase overflow-hidden break-words w-auto ">
                     {t("risk_tittle")} <span className="text-bg2  text-2xl md:text-4xl">{t("risk_tittleB")}</span> 
                 </h1>
                 
-                <h1 className=" text-2xl  text-sl md:text-4xl font-semibold px-6 mb-20 text-left uppercase">
+                <h1 className=" text-2xl  text-sl md:text-4xl font-semibold px-6 mb-10 text-left uppercase">
                     {t("risk_tittleC")} 
                 </h1>
                 
@@ -92,7 +92,7 @@ export default function Risk() {
                     </div>
                 </div>
                 
-                <div className="flex flex-col md:flex-row w-auto max-w-4xl m-auto h-auto border-bg  rounded-xl py-10 bg-b text-bgr shadow-xl mt-20 hover:scale-105">
+                <div className="flex flex-col md:flex-row w-auto max-w-xl m-auto h-auto border-bg  rounded-xl py-10 bg-b text-bgr shadow-xl mt-20 hover:scale-105">
                     <div className="w-3/4 max-w-3xl mauto flex flex-col md:flex-row m-auto ">
                     
                         <div className=" w-40 md:w-80 m-auto  md:mr-4">
@@ -111,7 +111,6 @@ export default function Risk() {
                 </div>
                 
             </div>
-            <button></button>
             
         </div>
     )
