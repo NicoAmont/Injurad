@@ -16,9 +16,9 @@ export default function Aboutus() {
             </div>
         </div>
             
-        <div className="w-full grid sm:grid-cols-4 relative">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-4 relative">
             <div className="w-full h-full bg-gradient-to-r from-bgr2 via-bgr2 absolute z-10 bg-opacity-5 "></div>
-            <div className="relative w-full bg-sl    ">
+            <div className="relative w-full bg-sl  ">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/1.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
             <div className="relative w-full bg-sl h-56 hidden sm:flex">
@@ -30,14 +30,14 @@ export default function Aboutus() {
             <div className="relative w-full bg-sl h-56  hidden sm:flex">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/4.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
-            <div className="relative w-full bg-sl h-56 hidden sm:flex">
+            <div className="relative w-full bg-sl h-56 ">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/5.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
         </div>
 
         <div className="max-w-6xl m-auto px-8 mt-20">
             <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle2")}</h1>
-            <div className="md:w-3/4 md:ml-10 mb-20 text-base md:text-lg ">
+            <div className="md:w-3/4 md:ml-10 mb-10 text-base md:text-lg ">
                 <p className="">{t("About_tittle2_info")}</p>
             </div>
         </div>

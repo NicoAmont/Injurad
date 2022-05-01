@@ -56,7 +56,7 @@ export default function Doc() {
                 <div className="w-full flex flex-wrap m-auto gap-10   items-center mt-5 md:pl-6">
                     <div className=" mb-10 md:mt-10 relative items-end align-bottom">
                     <Menu >
-                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl m-auto text-sm  py-1 text-bgr font-base text-left  italic"><h1 className="  font-base text-left text-base md:text-base  italic ">{t("form_doc_esT")}</h1> </Menu.Button>
+                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl m-auto text-sm  py-1 text-bgr font-base text-left  "><h1 className="  font-base text-left text-base md:text-base   ">{t("form_doc_esT")}</h1> </Menu.Button>
                                 
                                 <Transition
                                 as={Fragment}
@@ -114,9 +114,9 @@ export default function Doc() {
                         
                     </div>
                 
-                    <div className=" relative items-end align-bottom mb-10 sm:mb-0  sm:mt-0">
+                    <div className=" relative  mb-10 sm:mb-0  sm:mt-0">
                     <Menu >
-                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl m-auto text-sm  py-1 text-bgr font-base text-left  italic"><h1 className="  font-base text-left text-base md:text-base  italic ">{t("form_doc_esT2")}</h1> </Menu.Button>
+                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl text-sm  py-1 text-bgr font-base text-left  "><h1 className="  font-base text-left text-base md:text-base   ">{t("form_doc_esT2")}</h1> </Menu.Button>
                                 
                                 <Transition
                                 as={Fragment}
@@ -184,7 +184,7 @@ export default function Doc() {
                                     </h1>
                                         
                                         <Menu >
-                                            <Menu.Button className="relative mb-6 w-36 sm:w-60 px-5 py-1 rounded-lg z-10 bg-sl m-auto text-sm   text-bgr font-base text-left  italic"><p className="m-auto w-auto overflow-hidden">{t("form_doc_")}</p> </Menu.Button>
+                                            <Menu.Button className="relative mb-6 w-36 sm:w-60 px-5 py-1 rounded-lg z-10 bg-sl m-auto text-sm   text-bgr font-base text-left  "><p className="m-auto w-auto overflow-hidden">{t("form_doc_")}</p> </Menu.Button>
                                             
                                             <Transition
                                             as={Fragment}
@@ -234,7 +234,7 @@ export default function Doc() {
                     
                 </div> */}
                 <h2 className="mb-10 text-3xl text-bg2 font-medium ">{t("form_doc_btbl")}</h2>
-                <p className="mb-10 text-base text-bg2 font-normal ">{t("form_doc_btbl2")} :</p>
+                <p className="mb-10 text-base font-normal ">{t("form_doc_btbl2")} :</p>
                 <htmlform>
                     <div className="grid xl:grid-cols-2 xl:gap-6">
                         <div className="relative z-0 mb-6 w-full group">
