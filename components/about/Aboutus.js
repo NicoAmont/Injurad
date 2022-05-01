@@ -16,21 +16,21 @@ export default function Aboutus() {
             </div>
         </div>
             
-        <div className="w-full grid grid-cols-4 relative">
+        <div className="w-full grid sm:grid-cols-4 relative">
             <div className="w-full h-full bg-gradient-to-r from-bgr2 via-bgr2 absolute z-10 bg-opacity-5 "></div>
             <div className="relative w-full bg-sl    ">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/1.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
-            <div className="relative w-full bg-sl h-56">
+            <div className="relative w-full bg-sl h-56 hidden sm:flex">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/2.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
-            <div className="relative w-full bg-sl h-full col-span-2 row-span-2 ">
+            <div className="relative w-full bg-sl h-full col-span-2 row-span-2 hidden sm:flex">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/3.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
-            <div className="relative w-full bg-sl h-56  ">
+            <div className="relative w-full bg-sl h-56  hidden sm:flex">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/4.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
-            <div className="relative w-full bg-sl h-56 ">
+            <div className="relative w-full bg-sl h-56 hidden sm:flex">
                 <Image className='absolute w-96   h-full bottom-0 '  src="/5.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" />
             </div>
         </div>
