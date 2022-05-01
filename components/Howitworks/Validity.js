@@ -22,7 +22,7 @@ export default function Validity() {
         <div className="max-w-7xl h-auto grid md:grid-cols-1 place-items-center place-content-center m-auto md:p-8 relative z-10 text-bgr py-15 " >
             
             <div className="w-3/4 h-full flex-col pt-16">
-                <h1 className=" font-semibold text-2xl sm:text-4xl mb-10  ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
+                <h1 className=" font-semibold text-2xl sm:text-4xl mb-5  ">{t("validity_tittle")} <span className="text-sl">{t("validity_tittle2")}</span> {t("validity_tittle3")}</h1>
                 <h1 className=" font-base text-base text-justify mb-10 font-normal">{t("validity_info1")}</h1>
                 <h1 className=" font-base text-base text-justify mb-5 ">{t("validity_info2_1")}</h1>
 

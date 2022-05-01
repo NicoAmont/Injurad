@@ -71,7 +71,7 @@ export default function Igp() {
         <div className="w-full  m-auto h-auto md:h-auto  mb-10  relative items-end align-bottom overflow-hidden">
                     
             
-            <div className="w-full   m-auto mb-8">
+            <div className="w-full md:w-3/4  m-auto mb-8">
                 <h2 className=" text-bg2 font-medium text-left text-lg pt-5  md:px-0  ">{t("form_igp_tit2a")}</h2>
                 <p className=" text-bg2 font-normal text-left text-normal pt-5  md:px-0">{t("form_igp_tit2b")}</p>
                 <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
