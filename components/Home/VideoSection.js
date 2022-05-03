@@ -11,8 +11,6 @@ import Link from "next/link"
 
 function VideoSection() {
     const { t } = useTranslation('common');
-
-
         
         
     
@@ -47,13 +45,13 @@ function VideoSection() {
                     <div className="flex flex-col md:flex-row align-text-top h-full w-full">
                         <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">1</h1>
                         <div className=" flex-col ">
-                            <p className="w-72 text-base text-left font-medium">{t('reason_1a')} <span className="text-bg2 font-bold ">{t('reason_1b')}</span> <span>{t('reason_1c')}</span></p>
+                            <p className="w-72  text-left font-medium leading-8 text-lg">{t('reason_1a')} <span className="text-bg2 font-bold ">{t('reason_1b')}</span> <span>{t('reason_1c')}</span></p>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row align-text-top h-full w-full md:mr-4 ">
                         <h1 className="text-5xl md:text-5xl font-bold text-sl text-left mr-4">2</h1>
                         <div className=" flex-col ">
-                            <p className="w-72 text-base text-left">{t('reason_2a')} <span className="text-bg2 font-bold "> {t('reason_2b')}</span><span>{t('reason_2c')}</span></p>
+                            <p className="w-72  text-left leading-8 text-lg">{t('reason_2a')} <span className="text-bg2 font-bold "> {t('reason_2b')}</span><span>{t('reason_2c')}</span></p>
                         </div>
                     </div>
                     {/* <div className="flex flex-col md:flex-row align-text-top h-full w-full ">
@@ -68,8 +66,8 @@ function VideoSection() {
                 <div className="w-full md:w-full pt-5 m-auto" >
                     <div className=" px-4  text-left mb-4 m-auto">
                         <h1 className="font-bold  text-3xl md:text-3xl md:w-3/5 m-auto  text-bg2  mb-10  ">{t('info_title')} </h1>
-                        <p className="mb-2 md:w-3/5 m-auto text-left text-base">{t('info_pa')} <span className="font-bold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
-                        <p className="mb-5 md:w-3/5 m-auto text-left  text-base">{t('info_pd')}</p>
+                        <p className="mb-2 md:w-3/5 m-auto text-left  leading-8 text-lg">{t('info_pa')} <span className="font-bold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
+                        <p className="mb-5 md:w-3/5 m-auto text-left   leading-8 text-lg">{t('info_pd')}</p>
                     </div>
                 </div>
                 <div className="w-3/4 m-auto pr-8 mb-24 ">

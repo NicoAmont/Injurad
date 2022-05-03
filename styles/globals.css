@@ -85,14 +85,19 @@ ul {
 }
 
 .content-div{
-  background-image:url('/lawyers.jpg');
+  
+  background-image:linear-gradient( to right,
+  rgb(50,103,84), rgba(40, 225, 140, 0.1) ),
+   url('/lawyers2.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .content-div2{
-  background-image:url('/architects.jpg');
+  background-image:linear-gradient( to right,
+  rgb(50,103,84), rgba(40, 225, 140, 0.1) ),
+  url('/architects.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

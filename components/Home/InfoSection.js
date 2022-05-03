@@ -31,15 +31,15 @@ function InfoSection() {
                             <h1 className=" text-4xl md:text-4xl  text-sl font-bold">{t('pdisection_titleb')}</h1>
                             <h1 className=" text-4xl md:text-4xl  text-bgr font-bold">{t('pdisection_titlec')}</h1>
                         </div>
-                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light  md:text-base   "> {t('pdisection_p')}</p>
-                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light  md:text-base   "> {t('pdisection_p22')}</p>
+                        <p className="mt-10 text-left max-w-lg  md:pr-0  font-light  leading-8 text-lg "> {t('pdisection_p')}</p>
+                        <p className="mt-2 text-left max-w-lg  md:pr-0  font-light  leading-8 text-lg  "> {t('pdisection_p22')}</p>
                         
                         <div className="w-full  pt-16">
                         </div>
 
                     </div> 
                     
-                    <div className=" w-3/4  grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl mt-10 ">
+                    <div className=" w-3/4  grid gap-4 lg:w-96 mx-auto bg-white rounded-2xl ">
                         <Disclosure>
                         {({ open }) => (
                             <>

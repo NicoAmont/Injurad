@@ -13,15 +13,15 @@ export default function Risk() {
             <div className="max-w-6xl  h-full relative z-10 m-auto md:px-4 flex-col ">
                 
                 <h1 className=" text-2xl md:text-4xl text-bg2 font-semibold px-6 text-left uppercase overflow-hidden break-words w-auto ">
-                    {t("risk_tittle")} <span className="text-bg2  text-2xl md:text-4xl">{t("risk_tittleB")}</span> 
+                    {t("risk_tittle")} <span className=" text-sl  text-2xl md:text-4xl">{t("risk_tittleB")}</span> 
                 </h1>
                 
-                <h1 className=" text-2xl  text-sl md:text-4xl font-semibold px-6 mb-10 text-left uppercase">
+                <h1 className=" text-2xl text-bg2  md:text-4xl font-semibold px-6 mb-10 text-left uppercase">
                     {t("risk_tittleC")} 
                 </h1>
                 
-                <p className="px-6 font-base text-normal text-justify mb-5 ">{t("risk_info")}</p>
-                <p className="px-6 font-base text-normal text-justify mb-5 ">{t("risk_info2")}</p>
+                <p className="px-6 font-base text-normal text-left mb-5 ">{t("risk_info")}</p>
+                <p className="px-6 font-base text-normal text-left mb-5 ">{t("risk_info2")}</p>
                 <div className="w-full h-auto grid md:grid-cols-2 place-items-center mt-10">
                 
                     
@@ -31,7 +31,7 @@ export default function Risk() {
                                 <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
                             </svg>                        </div>
                         <div className="flex ">
-                            <h1 className="font-normal text-normal w-60">{t("risk_2info")} <span className="font-bold">{t("risk_2n")}</span></h1>
+                            <h1 className="font-bold text-normal w-60">{t("risk_2info")} <span className="font-normal">{t("risk_2n")}</span></h1>
                         </div>
                     </div>
                     
@@ -92,10 +92,10 @@ export default function Risk() {
                     </div>
                 </div>
                 
-                <div className="flex flex-col md:flex-row w-3/4 max-w-xl m-auto h-auto border-bg  rounded-xl py-10 bg-b text-bgr shadow-xl mt-20 hover:scale-105">
-                    <div className="w-3/4 max-w-3xl mauto flex flex-col md:flex-row m-auto ">
+                <div className="flex flex-col md:flex-row w-3/4 max-w-2xl m-auto h-auto border-bg  rounded-xl py-10 bg-b text-bgr shadow-xl mt-20 hover:scale-105">
+                    <div className=" max-w-3xl mauto flex flex-col md:flex-row m-auto px-4">
                     
-                        <div className=" w-40 md:w-80 m-auto  md:mr-4">
+                        <div className=" w-40 md:w-80 m-auto  md:mr-4 mb-7 ">
                             <Image className=""  src="/CP.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                         </div>
                         <div className="text-lg font-light text-center">

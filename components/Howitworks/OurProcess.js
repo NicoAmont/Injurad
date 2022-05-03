@@ -19,7 +19,7 @@ function OurProcess() {
             <Image className='z-0 brightness-90 opacity-90 '  src="/howimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
         <div className="w-full h-full max-w-4xl m-auto flex-row">
-            <div className="w-full h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
+            <div className="w-11/12 h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
                 <h1 className="text-bl font-medium text-4xl md:text-4xl text-bg2 uppercase">
                 {t('how_tittle')}
                 </h1>
@@ -102,7 +102,7 @@ function OurProcess() {
                             )}
                             </Tab>
                         </Tab.List>
-                        <Tab.Panels className=" h-96 sm:h-64 m-auto    p-8 md:p-10 w-4/5 bg-bgr rounded-lg mb-20 shadow-2xl flex flex-col border-2 border-bg relative">
+                        <Tab.Panels className=" h-auto sm:h-64 m-auto    p-8 md:p-10 w-4/5 bg-bgr rounded-lg mb-20 shadow-2xl flex flex-col border-2 border-bg relative">
                         <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#203D46"/>
@@ -115,8 +115,8 @@ function OurProcess() {
                                     {t('how_stepinfo_tittle1')}
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5">
-                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr1')}</p>
-                                    <h1 className="font-medium mt-2 ml-2">{t('stepform1b')} </h1>
+                                    <p className="font-normal font-heads leading-8 text-lg ">{t('how_stepinfo_descr1')}</p>
+                                    <h1 className="font-medium mt-2 ml-2 leading-8 text-lg">{t('stepform1b')} </h1>
                                 </div>
 
                                 <Link  href="/formdoc" passHref>
@@ -137,8 +137,8 @@ function OurProcess() {
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5">
                                     
-                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr2')}</p>
-                                    <h1 className="font-medium mt-2 ml-2">{t('stepform2b')} </h1>
+                                    <p className="font-normal font-heads leading-8 text-lg">{t('how_stepinfo_descr2')}</p>
+                                    <h1 className="font-medium mt-2 ml-2 leading-8 text-lg">{t('stepform2b')} </h1>
                                 </div>
                                 <Link  href="/formreserva" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
@@ -158,8 +158,8 @@ function OurProcess() {
                                 </div>
                                 <div className="text-base font-normal text-bgf mt-5 w-4/5">
                                     
-                                    <p className="font-normal font-heads ">{t('how_stepinfo_descr3')}</p>
-                                    <h1 className="font-medium mt-2 ml-2">{t('stepform3bb')} </h1>
+                                    <p className="font-normal font-heads leading-8 text-lg">{t('how_stepinfo_descr3')}</p>
+                                    <h1 className="font-medium mt-2 ml-2 leading-8 text-lg">{t('stepform3bb')} </h1>
                                 </div>
                                 <Link  href="/formigp" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
