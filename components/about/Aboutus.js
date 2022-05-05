@@ -44,7 +44,17 @@ export default function Aboutus() {
 
         <div className="w-3/4 md:w-9/12 m-auto h-auto grid md:grid-cols-2 mb-20 place-content-center ">
 
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col  mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col  mb-5 py-4 mx-auto md:px-10  ">
+                <div className="w-10  mr-4">
+                <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                </div>
+                <div className="flex  flex-col w-64 md:w-96">
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info2")}</h1>
+                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info2_1")}</h1>
+                </div>
+                
+            </div>
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -54,31 +64,8 @@ export default function Aboutus() {
                 </div>
                 
             </div>
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
-                <div className="w-10  mr-4">
-                <Image className=""  src="/en.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
-                </div>
-                <div className="flex flex-col  w-64 md:w-96 ">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info1")}</h1>
-                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info1_1")}</h1>
-                </div>
-            </div>
             
-
-            
-
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
-                <div className="w-10 mr-4">
-                <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
-                </div>
-                <div className="flex flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info5")}</h1>   
-                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info5_1")}</h1>
-                </div>
-                
-            </div>
-            
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/evn.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -88,16 +75,29 @@ export default function Aboutus() {
                 </div>
                 
             </div>
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10 hover:scale-110 ">
-                <div className="w-10  mr-4">
-                <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+
+            
+
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col mb-5 py-4 mx-auto md:px-10  ">
+                <div className="w-10 mr-4">
+                <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
-                <div className="flex  flex-col w-64 md:w-96">
-                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info3")}</h1>
-                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info3_1")}</h1>
+                <div className="flex flex-col w-64 md:w-96">
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info5")}</h1>   
+                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info5_1")}</h1>
                 </div>
                 
             </div>
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-col  mb-5 py-4 mx-auto md:px-10  ">
+                <div className="w-10  mr-4">
+                <Image className=""  src="/en.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
+                </div>
+                <div className="flex flex-col  w-64 md:w-96 ">
+                    <h1 className="font-medium text-2xl mb-2 text-bg2">{t("About_tittle2_info1")}</h1>
+                    <h1 className="font-normal leading-8 text-lg">{t("About_tittle2_info1_1")}</h1>
+                </div>
+            </div>
+            
             
         </div>
         <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3 ">

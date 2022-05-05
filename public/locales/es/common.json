@@ -32,7 +32,7 @@
     "reason_qansw1c":" Más información PDI",
     "reason_question2":"¿ Cuales son los riesgos ?",
     "reason_qansw2tit":"Los riesgos que no siempre se informan o minimizan en interés de la transacción son:",
-    "reason_qansw2a":"Dificultad o no poder vender en el futuro, su patrimonio congelado",
+    "reason_qansw2a":"Dificultad o no poder vender en el futuro, su patrimonio bloqueado",
     "reason_qansw2b":"Devaluación de la propiedad",
     "reason_qansw2c":"Demolición de una parte o toda la construcción de su propiedad",
     "reason_qansw2d":"Que tenga que demoler parte de la propiedad para conseguir la legalización, o vivir siempre en la ilegalidad",
@@ -152,8 +152,8 @@
     
 
     "passport_tittle":"¿Qué es un 'Pasaporte del inmueble' (PDI)?",
-    "passport_info":"El ‘Pasaporte del inmueble es el documento más importante a la hora de comprar una propiedad en España. Injurad introduce el término ‘Pasaporte del inmueble’ (PDI), porque el nombre puede variar según la comunidad autónoma. Lo mas razonable sería que se unificara en un solo nombre de aplicación nacional para evitar malentendidos y engaños. Hay documentos que sugieren por el nombre que es un PDI pero NO lo son. Por ejemplo, la Cédula de habitabilidad, documentos del Registro de la Propiedad o de Catastro. El ‘Pasaporte del inmueble’ es nuestro nombre para un documento oficial del gobierno local que confirma que la propiedad:",
-    "passport_logo":"Está construida de acuerdo con la ley y tiene autorización para ser ocupada y habitada",
+    "passport_info":"El ‘Pasaporte del inmueble es el documento más importante a la hora de comprar una propiedad en España. Injurad introduce el término ‘Pasaporte del inmueble’ (PDI), porque el nombre puede variar según la comunidad autónoma. Lo mas razonable sería que se unificara en un solo nombre de aplicación nacional para evitar malentendidos y engaños. Hay documentos que sugieren por el nombre que es un PDI pero NO lo son. Por ejemplo, la Cédula de habitabilidad, documentos del Registro de la Propiedad o de Catastro. El ‘Pasaporte del inmueble’ es nuestro nombre para un documento oficial del gobierno.",
+    "passport_logo":"",
     
     
     "validity_tittle":"¿Y la ",
@@ -176,9 +176,9 @@
     "risk_1info":"su patrimonio congelado",
     "risk_2n":" de la propiedad.",
     "risk_2info":"Devaluación",
-    "risk_3n":"Demolición",
+    "risk_3n":"Recibir una orden de demolición",
     "risk_3info":"",
-    "risk_3infob":"de una parte o toda la construcción de su propiedad",
+    "risk_3infob":"de una parte o toda la propiedad",
     "risk_4n":"demoler",
     "risk_4info":"Que tenga que",
     "risk_4infob":" parte de la propiedad para conseguir la legalización, o vivir siempre en la ilegalidad",

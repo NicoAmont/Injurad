@@ -153,8 +153,8 @@
 
 
     "passport_tittle":"WAT IS EEN VASTGOEDPASPOORT (PDI)?",
-    "passport_info":"Het ‘Vastgoedpaspoort’ is het belangrijkste document bij het kopen van een woning in Spanje. Injurad introduceert de term ‘Vastgoedpaspoort’ (vertaald Pasaporte del inmueble PDI), omdat de naam per autonome regio kan verschillen. Er zijn namelijk documenten die door de naam suggereren dat het om een PDI gaat maar NIET zijn. Bijvoorbeeld een woonverguning, documenten van het Kadaster of het Woningregister. Vastgoedpaspoort is de beste naam en zou eigenlijk voor heel Spanje moeten worden geïntroduceerd om misverstanden en misleiding te voorkomen. Het ‘Vastgoedpaspoort’ is onze naam voor een officieel document van de lokale overheid dat bevestigt dat het onroerend goed:",
-    "passport_logo":"Is gebouwd in overeenstemming met de wet én toestemming heeft om te mogen worden bewoond.",
+    "passport_info":"Het ‘Vastgoedpaspoort’ is het belangrijkste document bij het kopen van een woning in Spanje. Injurad introduceert de term ‘Vastgoedpaspoort’ (vertaald Pasaporte del inmueble PDI), omdat de naam per autonome regio kan verschillen. Er zijn namelijk documenten die door de naam suggereren dat het om een PDI gaat maar NIET zijn. Bijvoorbeeld een woonverguning, documenten van het Kadaster of het Woningregister. Vastgoedpaspoort is de beste naam en zou eigenlijk voor heel Spanje moeten worden geïntroduceerd om misverstanden en misleiding te voorkomen. Het ‘Vastgoedpaspoort’ is onze naam voor een officieel document van de lokale overheid.",
+    "passport_logo":"",
     
     
     "validity_tittle":"HOE ZIT ",
@@ -330,8 +330,8 @@
     "stepform2c":"Levertijd: max 3-5 werkdagen",
     "stepform3":"Stap 3",
     "stepform3bb":"Vanaf  532,40€ ",
-    "stepform3b":"Prijs stedelijk gebied:  532,40€",
-    "stepform3c":"Prijs buiten stedelijk:  665,50€ ",
+    "stepform3b":"Prijs stedelijk: 532,40€",
+    "stepform3c":"Prijs landelijk:  665,50€ ",
     "stepform3d":"Levertijd: 5-10 werkdagen",
     
     "more":"Lees verder",

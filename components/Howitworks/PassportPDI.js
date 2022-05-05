@@ -10,7 +10,7 @@ export default function PassportPDI() {
         <div className="max-w-6xl h-auto grid md:grid-cols-2 place-items-center m-auto px-8 p-5" >
             <div className="w-full h-full md:pt-20 ">
                 <h1 className="text-bg2 font-semibold text-2xl sm:text-4xl mb-10 ">{t("passport_tittle")}</h1>
-                <p className="text-bgf font-normal text-base text-justify mb-10">{t("passport_info")}</p>
+                <p className="text-bgf font-normal text-base  mb-10">{t("passport_info")}</p>
                 <p className="text-bg2 font-medium text-lg text-center w-full  ">	&quot; {t("passport_logo")}&quot;</p>
                 
             </div>

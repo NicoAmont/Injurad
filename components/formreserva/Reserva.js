@@ -41,7 +41,7 @@ export default function Reserva() {
                     </svg>
                     <div className="w-full md:w-3/4 m-auto mb-8">
                         <h2 className=" text-bgr font-medium text-center text-xl pt-5 px-4 md:px-0 italic ">{t("form_reserva_quest1")} <span className="text-sl">{t("form_reserva_quest1b")}</span> {t("form_reserva_quest1c")}</h2>
-                        <p className=" text-bgr font-normal text-left text-sm pt-5 italic px-4 md:px-0">{t("form_reserva_quest2")}</p>
+                        <p className=" text-bgr font-normal text-left text-sm pt-5 px-4 md:px-0">{t("form_reserva_quest2")}</p>
                     </div>
                 </div>
             </div>

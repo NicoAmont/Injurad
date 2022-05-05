@@ -149,8 +149,8 @@
     
 
     "passport_tittle":"WHAT IS A PROPERTY PASSPORT (PDI)?",
-    "passport_info":"The «Property Passport» is the most important document when purchasing a property in Spain. Injurad uses the term «Property Passport» (Pasaporte del inmueble, PDI) because the name can vary across the autonomous regions. It is better to use this one term nationwide to avoid any misunderstandings and disappointment. Some documents have names that could be mistaken for a PDI but are NOT. Examples of these are housing permits, documents from the Land Registry or Cadastre. The «Property Passport» is a name for an official document from the local government that confirms that the property:",
-    "passport_logo":"has been built in compliance with the law and has a housing permit.    ",
+    "passport_info":"The «Property Passport» is the most important document when purchasing a property in Spain. Injurad uses the term «Property Passport» (Pasaporte del inmueble, PDI) because the name can vary across the autonomous regions. It is better to use this one term nationwide to avoid any misunderstandings and disappointment. Some documents have names that could be mistaken for a PDI but are NOT. Examples of these are housing permits, documents from the Land Registry or Cadastre. The «Property Passport» is a name for an official document from the local government.",
+    "passport_logo":"",
     
     
     "validity_tittle":"WHAT ABOUT ",
@@ -173,9 +173,9 @@
     "risk_1info":"sell your property in the future",
     "risk_2n":" property",
     "risk_2info":"Reducing the value of the",
-    "risk_3n":"Having to demolish",
+    "risk_3n":"Recive a demolition order",
     "risk_3info":"",
-    "risk_3infob":"the whole or part of the property",
+    "risk_3infob":"for the whole or part of the property",
     "risk_4n":"demolish ",
     "risk_4info":"Having to",
     "risk_4infob":" part of the property so that it becomes legal, or to live with the illegal status.",
