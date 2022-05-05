@@ -261,7 +261,7 @@
     "form_igp_info3":"Each IGP inspection contains conclusions and recommendations, which will allow you to keep control and weigh up the possible risks for yourself.",
     "form_doc_tittle":"DOCUMENT VERIFICATION ",
     "form_doc_info1":"Would you purchase a car without valid documents?",
-    "form_doc_info2":"Probably not, because if you are stopped by the police, you will be fined and if there is an accident, you will not be insured and if your car is damaged, you may not be covered. When buying a car, we check all the documentation. ",
+    "form_doc_info2":"Probably not, because if you are stopped by the police, you will be fined and if there is an accident, you will not be insured and if your car is damaged, you may not be covered or worse. When buying a car, we check all the documentation. ",
     "form_doc_info2b":"There should be no difference when purchasing a property, particularly as the risks are higher. Are all the documents available and valid? Some documents may look similar but have different purposes. This may lead to misunderstandings and problems afterwards (see «Risks»). ",
     "form_igp_tittle2":"Results IGP",
     "form_igp_tittle2B":"IGP results are shown in three colours:",
@@ -286,8 +286,8 @@
     
     "form_doc_tittle2":"Ask the seller or their representative which of the following documents can be supplied: ",
     "form_doc_tittle2p":"To ensure that a property meets all the legal requirements, all the documentation that we have listed below must be available. We have divided the documentation into two groups. To get started, ask for the essential documents. ",
-    "form_doc_esT":"Essential Documents",
-    "form_doc_esT2":"Secondary documents",
+    "form_doc_esT":"Essential ",
+    "form_doc_esT2":"Secondary ",
     "form_doc_esp1":"Registration at the Land Registry (Nota simple) ",
     "form_doc_esp2":"Housing permit (Licencia de ocupación/Property passport)",
     "form_doc_esp3":"Building permits (Licencia de obras)",
@@ -337,9 +337,9 @@
     "stepform2b":"Price: 363€",
     "stepform2c":"Delivery time : max 3-5 working days",
     "stepform3":"Step 3",
-    "stepform3b":"Price urban: 532,40 €",
-    "stepform3bb":"From: € 532,40 ",
-    "stepform3c":"Price rural: 665,50 €",
+    "stepform3b":"Price urban: 532,40€",
+    "stepform3bb":"From: 532,40€ ",
+    "stepform3c":"Price rural: 665,50€",
     "stepform3d":"Delivery time: 5-10 working days",
     
     
