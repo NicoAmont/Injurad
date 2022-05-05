@@ -32,13 +32,13 @@
     "reason_qansw1c":"More about the Real Estate Passport",
     "reason_question2":"What are the risks ?",
     "reason_qansw2tit":"Missing documents or invalid documents can lead to the following issues:    ",
-    "reason_qansw2a":"It may be difficult or even impossible for you to sell your property in the future    ",
-    "reason_qansw2b":"Reducing the value of the property    ",
-    "reason_qansw2c":"Having to demolish the whole or part of the property    ",
-    "reason_qansw2d":"No guaranteed insurance coverage despite having paid premium    ",
-    "reason_qansw2e":"Problems with obtaining or extending permits (renovation, rebuilding, rental, etc.)    ",
-    "reason_qansw2f":"Fines for works carried out without a permit    ",
-    "reason_qansw2g":"Multas por obras realizadas sin permiso",
+    "reason_qansw2a":"No guaranteed insurance coverage despite having paid premium",
+    "reason_qansw2b":"Recive a demolition order for the whole or part of the property",
+    "reason_qansw2c":"Difficult or impossible to sell in the future your invesment blocked",
+    "reason_qansw2d":"Problems obtaining or extending permits (renovation, rebuilding, rental, etc.)",
+    "reason_qansw2e":"Fines for renovation carried out without a permit.",
+    "reason_qansw2f":"Reducing the value of the property",
+    "reason_qansw2g":"",
     "reason_question3":"¿ Como me afecta a mí, la falata de ética ?",
     "reason_qansw3a":"Existe un conflicto de interes entre el interes comercial de los asesores y el interes del comprador. Al exisitir tantas propiedades que no cumplen los requisitos legales el «custumbre» es no informar completo al comprador o dejar toda la responsabilidad al comprador. Esto ha resultado en tres pasos para comprar con máxima seguridad: ",
     "reason_qansw3b":"Document verification",
@@ -192,7 +192,7 @@
     "cp_slogan":"Despite friendly professionals, always keep in control. The only guarantee to enjoy this beautiful country without stress is to know exactly what you are purchasing",
     "cp_nomber":"Tips from Casa Propia, the community of owners and buyers.",
     
-
+    
 
 
     "inicio_nueva_seccion2":"inicio_trabajadores",
