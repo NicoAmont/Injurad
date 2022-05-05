@@ -173,13 +173,13 @@
     "risk_tittleC":"LOOPT U ZONDER (GELDIG) VASTGOEDPASPOORT?",
     "risk_info":"Dat een woning geen ‘PDI’ heeft is in Spanje meer regel dan uitzondering. Het wil niet zeggen dat een woning die geen, of geen geldige PDI heeft deze niet kan krijgen. Maar, een woning die er niet over kan beschikken, zal nooit legaal zijn.",
     "risk_info2":"Dat impliceert de volgende risico’s :",
-    "risk_1n":"Lastig of niet kunnen ",
-    "risk_1info":"verkopen in de toekomst",
+    "risk_1n":"Lastig of niet kunnen verkopen ",
+    "risk_1info":"in de toekomst, uw investering geblokkeerd",
     "risk_2n":"van de woning",
     "risk_2info":"Devaluatie ",
-    "risk_3n":"afbreken ",
-    "risk_3info":"Moeten  ",
-    "risk_3infob":"van een deel of gehele woning",
+    "risk_3n":"Een sloopopdracht ",
+    "risk_3info":"",
+    "risk_3infob":"voor een deel of gehele pand",
     "risk_4n":"slopen",
     "risk_4info":"Een deel van de woning moeten",
     "risk_4infob":" om de situatie te legaliseren, of leven met de illegale status.",
@@ -193,8 +193,8 @@
     "risk_7info":"",
     "risk_7infob":" voor werkzaamheden die zonder vergunning zijn uitgevoerd",
     
-    "cp_slogan":"A pesar de la apariencia amigable de profesionales, mantén el control. La única garantía para disfrutar de la hermosa España sin estrés es saber exactamente lo que estás comprando",
-    "cp_nomber":" Consejos de Casa Propia, la comunidad de propietarios y compradores:",
+    "cp_slogan":"Houd ondanks vriendelijke professionals altijd zelf de controle. De enige garantie om zonder stress van dit prachtige land Spanje te genieten is om precies te weten wat je koopt",
+    "cp_nomber":"Tips van Casa Propia, de community van eigenaren en kopers.",
     
 
 
