@@ -71,7 +71,7 @@
     "condition_title1":"Condiciones",
     "condition_title":"Condicion",
     "contidion1_tittle":"Professionals moeten een inspectie volgens richtlijnen opstellen en tekenen",
-    "contidion1":"De professionals werken volgens de regels en protocollen van Injurad. U krijgt een zogenaand urbanistisch en een juridisch rapport, de IGP inspectie. Door ondertekening tonen professionals hun bertokkenheid. De IGP inspwectie is bedoeld om u duidelijkheid te verschaffen over de situatie van de woning en wat de te nemen vervolgstappen zijn.",
+    "contidion1":"De professionals werken volgens de regels en protocollen van Injurad. U krijgt een zogenaand urbanistisch en een juridisch rapport, de IGP inspectie. Door ondertekening tonen professionals hun bertokkenheid. De IGP inspectie is bedoeld om u duidelijkheid te verschaffen over de situatie van de woning en wat de te nemen vervolgstappen zijn.",
     "contidion2_tittle":"Professionals moeten ons evaluatiesysteem accepteren",
     "contidion2":"Een van onze controles is de evaluatie van de rapportages. 1 op 10 zal een evaluatie ondergaan, zowel naar vorm als inhoud. Op deze manier verifiëren we of de rapporten voldoen aan de kwaliteitsnormen, een effectieve maatregel voor professionals om bij elk rapport tot het uiterste te gaan.",
     "contidion3_tittle":"De professionals maken deel uit van het INJURAD kenniscentrum",
@@ -324,6 +324,8 @@
     "form_reserva_quest4":"Vraag het contract aan door onderstaand formulier in te vullen. U ontvangt een e-mail met de details voor de betaling en meer uitleg over de procedure. Wij nemen contact met u op voor de gegevens die nodig zijn voor het opstellen van het contract. De advocaat neemt u al het werk en de zorg uit handen en zal vanaf nu zorgen voor het contract en ondertekening door alle partijen.",
     
     "stepform1":"Stap 1",
+    
+    "stepform1b":"Precio: 75€",
     "stepform1c":"Levertijd: 2 werkdagen",
     "stepform2":"Stap 2",
     "stepform2b":"Prijs:  363€",
@@ -371,7 +373,7 @@
     "footer_info1_2":"Professionals",
     "footer_info1_3":"Ken de woningmarkt",
     "footer_info1_4":"Vastgoedpaspoort",
-    "footer_info1_5":"Woordenlijst",
+    "footer_info1_5":"",
 
     "footer_tittle3":"Services",
     "footer_info3_1":"Documenten check ",

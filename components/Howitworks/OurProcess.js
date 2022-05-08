@@ -19,13 +19,11 @@ function OurProcess() {
             <Image className='z-0 brightness-90 opacity-90 '  src="/howimg.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
         </div>
         <div className="w-full h-full max-w-4xl m-auto flex-row">
-            <div className="w-11/12 h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-20 ml-8">
+            <div className="w-11/12 h-full flex flex-col mt-32 md:mt-20  max-w-6xl mb-10 ml-8">
                 <h1 className="text-bl font-medium text-4xl md:text-4xl text-bg2 uppercase">
-                {t('how_tittle')}
+                {t('how_tittle')} <span className="text-4xl md:text-4xl uppercase text-sl font-bold ">{t('how_tittle2')}</span>
                 </h1>
-                <h1 className="text-4xl md:text-4xl uppercase text-sl font-bold ">
-                {t('how_tittle2')}
-                </h1>
+                
                 
             </div>
             <div className=" w-11/12 px-2 sm:px-0 text-bgr mx-auto place-items-center ">
