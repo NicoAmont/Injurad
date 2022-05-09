@@ -6,7 +6,6 @@ import ReactPlayer from 'react-player';
 import {useRouter} from "next/router"
 
 export default function HeroSection() {
-
     const {push, pathname, locale} = useRouter();
 
     console.log(locale)
@@ -32,7 +31,7 @@ export default function HeroSection() {
                 <div className="w-screen h-96  md:w-full md:h-full relative z-20 m-auto" >
                 
                 <ReactPlayer
-                    url={ytvideo[yidiom]} 
+                    url={t("url")}
                     width='100%' 
                     height='100%'
                     light

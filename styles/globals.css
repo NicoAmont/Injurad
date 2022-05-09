@@ -162,3 +162,49 @@ ul {
 .navitem.active{
   background-color:#E9FCF3;
 }
+
+
+.text{
+  background-image:
+    linear-gradient(
+      transparent 0%,
+      transparent 90%,
+      rgba(229, 173, 53, 0.267) 90%,
+      rgba(229, 173, 53, 0.282) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
+}
+.text:hover{
+background-size: 100% 100%;
+background-position-x: left;
+}
+
+.item{
+  border-radius:  10px;
+  border-color: #E5AE35;
+  border-width: 2px;
+  padding: 0.5rem 2rem ;
+  margin-top: 10px;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content{
+  margin-top: 5px;
+  max-height: 0px;
+  overflow: hidden;
+  transition:all 0.25s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 100%;
+  transition:all 0.25s cubic-bezier(1,0,1,0) ;
+}
