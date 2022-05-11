@@ -61,6 +61,21 @@ ul {
 /* .segments{
   background-attachment: fixed;
 } */
+.segments{
+  background-image: url(../public/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px ;
+}
+@media (max-width: 450px){    
+  .segments{
+    background-image: url(../public/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 140px; 
+    background-position-x: center; 
+  } 
+}
 .segment-1{
   background-image: url(../public/heroimg.png);
   background-repeat: no-repeat;
@@ -90,6 +105,15 @@ ul {
   rgb(50,103,84), rgba(40, 225, 140, 0.1) ),
    url('/lawyers2.jpg');
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-div3{
+  
+  background-image:linear-gradient( to right,
+  rgba(13, 96, 64, 0.747), rgba(143, 149, 41, 0.615) )
+   ;
+  background-position:  right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -183,21 +207,23 @@ background-position-x: left;
 }
 
 .item{
-  border-radius:  10px;
-  border-color: #E5AE35;
-  border-width: 2px;
-  padding: 0.5rem 2rem ;
-  margin-top: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid #106f2e ;
+  padding: 0.5rem 1rem ;
+  margin-top: 15px;
+
 }
 .title{
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  
 }
 
 .content{
   margin-top: 5px;
+  letter-spacing: 0.025em;
   max-height: 0px;
   overflow: hidden;
   transition:all 0.25s cubic-bezier(0,1,0,1);
@@ -208,3 +234,28 @@ background-position-x: left;
   max-height: 100%;
   transition:all 0.25s cubic-bezier(1,0,1,0) ;
 }
+audio{
+  width: 100%;
+  background-color: #F1F3F4;
+  border-radius: 10px;
+  color: #326e8c;
+}
+.player{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.content-divplayer{
+  
+  background-image:linear-gradient( to right,
+  rgb(50,103,84), rgba(40, 225, 140, 0.1) ),
+   url('/lawyers2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
