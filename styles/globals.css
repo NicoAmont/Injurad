@@ -232,6 +232,8 @@ background-position-x: left;
 .content.show {
   height: auto;
   max-height: 100%;
+  font-size:18px;
+  
   transition:all 0.25s cubic-bezier(1,0,1,0) ;
 }
 audio{

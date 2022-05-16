@@ -6,6 +6,15 @@ import { Menu, Transition } from '@headlessui/react'
 export default function Doc() {
     const { t } = useTranslation('common');
     const ytvideo = ["https://www.youtube.com/embed/dQw4w9WgXcQ", "https://www.youtube.com/watch?v=UKRY63Buv6A&t=56s",]
+    
+    const [selected, setSelected] = useState(null);
+    
+    const toggle = (i) => {
+        if (selected === i){
+            return setSelected(null);
+        }
+        setSelected(i)
+    }
 
   return (
     <div className="bg-bgr  pt-20 md:pt-40 pb-20">
@@ -25,7 +34,7 @@ export default function Doc() {
 
             <div className="w-full m-auto mb-20 text-xl">
                 <div className="w-full flex flex-wrap m-auto gap-10 items-center justify-center">
-                    <div className="w-96 h-auto sm:h-80 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6 ">
+                    <div className="w-8/12 h-auto sm:h- bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-10 pb-4">
                         <svg className="opacity-30 w-10 absolute  bottom-2 right-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
@@ -34,8 +43,31 @@ export default function Doc() {
                         </svg>
                         <h1 className=" text-sl text-left text-2xl pt-5 font-normal m-auto ml-2 border-b-2 pb-2  border-sl ">{t("form_igp_infot2")}</h1>
                         <p className=" text-bgr font-normal text-left text-base pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2P")}</p>
+                        <p className=" text-bgr font-normal text-left text-base pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2Pb")}</p>
+                    
+                    
+                    
                     </div>
-                    <div className="w-96 h-auto sm:h-80 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
+                        
+                        <div className="item  m-auto w-8/12">
+                            <div className="title  " onClick={ () => toggle(1)}>
+                                <h2 className=" font-semibold text-bg2">{t("form_doc_q1")}</h2>
+                                <span className=" text-bg2 font-normal">{selected === 1 ? "-" : "+"}</span>
+                            </div>
+                            <div className=" border-l-2 border-sl pl-2 ">
+                                <h2 className={selected === 1 ? "content show" : "content"} ><span className="font-medium">{t("form_doc_a11")}</span> {t("form_doc_a12")} </h2>
+                            </div>
+                        </div>
+                        <div className="item  m-auto w-8/12">
+                            <div className="title  " onClick={ () => toggle(2)}>
+                                <h2 className=" font-semibold text-bg2">{t("form_doc_q1")}</h2>
+                                <span className=" text-bg2 font-normal">{selected === 2 ? "-" : "+"}</span>
+                            </div>
+                            <div className=" border-l-2 border-sl pl-2 ">
+                                <h2 className={selected === 2 ? "content show" : "content"} ><span className="font-medium">{t("form_doc_a11")}</span> {t("form_doc_a12")} </h2>
+                            </div>
+                        </div>
+                    {/* <div className="w-96 h-auto sm:h-80 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
                         <svg className="opacity-30 w-10 absolute  bottom-2 right-2 "  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
                             <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#fff"/>
@@ -44,7 +76,7 @@ export default function Doc() {
                         </svg>
                         <h1 className=" text-sl text-left text-2xl pt-5 font-normal m-auto ml-2 border-b-2 pb-2 border-sl ">{t("form_igp_infot3")}</h1>
                         <p className=" text-bgr font-normal text-left text-base pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot3P")}</p>
-                    </div>
+                    </div> */}
                     
                     
                 </div>
