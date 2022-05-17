@@ -6,7 +6,14 @@ import Image from "next/image"
 export default function Aboutus() {     
     const { t } = useTranslation('common');
     const ytvideo = ["https://www.youtube.com/embed/dQw4w9WgXcQ", "https://www.youtube.com/watch?v=UKRY63Buv6A&t=56s",]
-
+    const [selected, setSelected] = useState(null);
+    
+    const toggle = (i) => {
+        if (selected === i){
+            return setSelected(null);
+        }
+        setSelected(i)
+    }
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20 w-full">
         <div className="max-w-6xl m-auto px-8">
@@ -105,12 +112,58 @@ export default function Aboutus() {
                 {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
 
-                    <div className="max-w-xl w-3/4 m-auto  md:w-full text-left md:text-left md:ml-40">
-                        <h1 className=" font-semibold text-3xl md:text-5xl  max-w-sm mb-10">
-                            {t("About_tittle3")}
-                        </h1>
-                        <p>{t("About_tittle3_info")}</p>
+                <div className="w-full md:w-3/4  m-auto mb-8">
+                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
+                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
+                <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_igp_tit4cont2")}</p>
+
+                <div className="item2 m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(1)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q1")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 1 ? "-" : "+"}</span>
                     </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 1 ? "content show" : "content"} > {t("form_igp_tit4q1answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(2)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q2")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 2 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 2 ? "content show" : "content"} > {t("form_igp_tit4q2answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(3)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q3")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 3 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 3 ? "content show" : "content"} > {t("form_igp_tit4q3answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(4)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q4")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 4 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 4 ? "content show" : "content"} > {t("form_igp_tit4q4answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12 border-b border-bgr">
+                    <div className="title  " onClick={ () => toggle(5)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q5")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
+                    </div>
+                </div>
+            
+            </div>
                     
                 </div>
                 

@@ -20,10 +20,12 @@ export default function Doc() {
     <div className="bg-bgr  pt-20 md:pt-40 pb-20">
         <div className="max-w-6xl m-auto px-8 mb-10 ">
         
-            <h1 className="md:ml-10 text-lg md:text-lg font-bold text-sl uppercase">{t("stepform1")}</h1>
-            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold text-bg2 uppercase">{t("form_doc_tittle")}</h1>
-            <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform1b")}</h1>
-            <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform1c")}</h1>
+            <h1 className="md:ml-10 text-4xl md:text-5xl font-bold text-sl uppercase">{t("form_doc_tittle")}</h1>
+            <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-5 ">{t("stepform1b")}</h1>
+            <h1 className="md:ml-10 text-sm md:text-sm font-medium text-bg2 mb-2">{t("iva1b")}</h1>
+            <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 ">{t("stepform1b2")}</h1>
+            <h1 className="md:ml-10 text-sm md:text-sm font-medium text-bg2 mb-2">{t("iva2b")}</h1>
+            <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 ">{t("stepform1c")}</h1>
 
             <div className="w-full md:w-3/4 m-auto mb-20 text-base md:text-base ">
                 {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
@@ -60,7 +62,7 @@ export default function Doc() {
                         </div>
                         <div className="item  m-auto w-8/12">
                             <div className="title  " onClick={ () => toggle(2)}>
-                                <h2 className=" font-semibold text-bg2">{t("form_doc_q1")}</h2>
+                                <h2 className=" font-semibold text-bg2">{t("form_doc_q2")}</h2>
                                 <span className=" text-bg2 font-normal">{selected === 2 ? "-" : "+"}</span>
                             </div>
                             <div className=" border-l-2 border-sl pl-2 ">
@@ -84,174 +86,11 @@ export default function Doc() {
 
 
             <div className="w-full md:w-3/4 m-auto mb-16 text-xl flex flex-col">
-                <h1 className="text-2xl md:text-3xl text-bg2 font-medium ">{t("form_doc_tittle2")}</h1>
-                <p className="  font-normal mt-10 leading-8 text-lg ">{t("form_doc_tittle2p")}</p>
-                <div className="w-full flex flex-wrap m-auto gap-10   items-center mt-5 ">
-                    <div className=" mb-10  relative items-end align-bottom">
-                            <Menu >
-                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl m-auto text-sm  py-2 text-bgr font-base text-left  "><h1 className="  font-base text-left text-base md:text-base   ">{t("form_doc_esT")}</h1> </Menu.Button>
-                                
-                                <Transition
-                                as={Fragment}
-                                enter="transition ease-out duration-100"
-                                enterFrom="transform opacity-0 scale-95"
-                                enterTo="transform opacity-100 scale-100"
-                                leave="transition ease-in duration-75"
-                                leaveFrom="transform opacity-100 scale-100"
-                                leaveTo="transform opacity-0 scale-95"
-                                >
-
-                                <Menu.Items className="bg-opacity-95 absolute z-20 -left-2 mt-10 md:w-96 border  border-gl top-0 w-56 p-10 rounded-3xl text-gl bg-bgr shadow-2xl">
-                                    <Menu.Item className="text-sm">
-                                    {({ active }) => (
-                                        <div className="w-full flex flex-col items-start align-top justify-start md:pl-4">
-
-                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row ">
-                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                </svg>
-                                <p className="w-60 md:w-80">{t("form_doc_esp1")}</p> 
-                            </div>
-                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row mb-5  sm:mb-0  h-10  ">
-                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                </svg>
-                                <p  className="w-60 md:w-80">{t("form_doc_esp2")}</p> 
-                            </div>
-                            <div className=" text-bg font-normal text-left text-sm  flex flex-row  ">
-                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                </svg>
-                                <p  className="w-60 md:w-80">{t("form_doc_esp3")}</p> 
-                            </div>
-                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
-                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                </svg>
-                                <p  className="w-60 md:w-80">{t("form_doc_esp4")}</p> 
-                            </div>
-                            
-                            
-                        </div> 
-                                    )}
-                                    </Menu.Item>
-                                </Menu.Items>
-                                </Transition>
-                            </Menu>
-                    </div>
                 
-                    <div className=" relative  mb-10 ">
-                            <Menu >
-                                <Menu.Button className=" w-auto sm:w-auto px-5  rounded-lg z-10 bg-sl text-sm  py-2 text-bgr font-base text-left  "><h1 className="  font-base text-left text-base md:text-base   ">{t("form_doc_esT2")}</h1> </Menu.Button>
-                                
-                                <Transition
-                                as={Fragment}
-                                enter="transition ease-out duration-100"
-                                enterFrom="transform opacity-0 scale-95"
-                                enterTo="transform opacity-100 scale-100"
-                                leave="transition ease-in duration-75"
-                                leaveFrom="transform opacity-100 scale-100"
-                                leaveTo="transform opacity-0 scale-95"
-                                >
-
-                                <Menu.Items className="bg-opacity-95 absolute z-20 -left-40 sm:-left-1 mt-10 sm:mt-10 md:w-96 border  border-gl top-0 w-56 p-10 rounded-3xl text-gl bg-bgr shadow-2xl">
-                                    <Menu.Item className="text-sm">
-                                    {({ active }) => (
-                                        <div className="w-full flex flex-col items-start align-top justify-start md:pl-4">
-                                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p  className="w-60 md:w-80">{t("form_doc_esp5")}</p> 
-                                            </div>
-                                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p className="w-60 md:w-80">{t("form_doc_esp6")}</p> 
-                                            </div>
-                                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row mb-5  sm:mb-0  h-10  ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p  className="w-60 md:w-80">{t("form_doc_esp7")}</p> 
-                                            </div>
-                                            <div className=" text-bg font-normal text-left text-sm  flex flex-row  ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p  className="w-60 md:w-80">{t("form_doc_esp8")}</p> 
-                                            </div>
-                                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p  className="w-60 md:w-80">{t("form_doc_esp9")}</p> 
-                                            </div>
-                                            <div className=" text-bg font-normal text-left text-sm pt-5 flex flex-row  ">
-                                                <svg className="mr-2 transition-all duration-150 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
-                                                </svg>
-                                                <p  className="w-60 md:w-80">{t("form_doc_esp10")}</p> 
-                                            </div>
-                            
-                                        </div> 
-                                    )}
-                                    </Menu.Item>
-                                </Menu.Items>
-                                </Transition>
-                            </Menu>                    
-                    </div>
+                    
+                
 
 
-                    <div className="w-full m-auto   h-auto relative text-bgr segments segment-4 ">
-                            <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
-                            {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
-                            <div className="flex flex-col   relative w-full md:w-2/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
-                                <div className="max-w-6xl px-2 text-center items-center align-middle md:text-left  md:ml-20">
-                                    <h1 className=" text-lg md:text-lg mb-10 max-w-sm m-auto md:ml-0 md:mb-5">
-                                        {t("form_doc_bt")}
-                                    </h1>
-                                    <h1 className=" font-normal text-lg md:text-lg mb-10 max-w-sm m-auto md:ml-0 md:mb-10">
-                                        {t("form_doc_bt2")}
-                                    </h1>
-                                    <h1 className=" font-normal text-base sm:text-lg  m-auto mb-4">
-                                        {t("form_doc_")}
-                                    </h1>
-
-                                        
-                                        <Menu >
-                                            <Menu.Button className="relative mb-6 w-auto sm:w-auto px-5 py-2 rounded-lg z-10 bg-sl m-auto text-base   text-bgr font-normal text-left  "><p className="m-auto w-auto overflow-hidden">{t("form_doc_b")}</p> </Menu.Button>
-                                            
-                                            <Transition
-                                            as={Fragment}
-                                            enter="transition ease-out duration-100"
-                                            enterFrom="transform opacity-0 scale-95"
-                                            enterTo="transform opacity-100 scale-100"
-                                            leave="transition ease-in duration-75"
-                                            leaveFrom="transform opacity-100 scale-100"
-                                            leaveTo="transform opacity-0 scale-95"
-                                            >
-
-                                            <Menu.Items className="bg-opacity-95 absolute z-20 -left-10 md:left-80 md:w-96 border  border-gl top-0 w-56 p-10 rounded-3xl text-gl bg-bgr shadow-2xl">
-                                                <Menu.Item className="text-sm">
-                                                {({ active }) => (
-                                                    <a
-                                                    className={`${active && 'bg-blue-500'}`}
-                                                    >
-                                                    {t("form_doc_info")}
-                                                    
-                                                    </a>
-                                                )}
-                                                </Menu.Item>
-                                            </Menu.Items>
-                                            </Transition>
-                                        </Menu>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
                    
                 </div>
             </div>
@@ -351,6 +190,6 @@ export default function Doc() {
             </div>
         </div>
             
-    </div>
+   
   )
 }

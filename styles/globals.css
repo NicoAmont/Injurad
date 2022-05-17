@@ -111,7 +111,7 @@ ul {
 .content-div3{
   
   background-image:linear-gradient( to right,
-  rgba(13, 96, 64, 0.747), rgba(143, 149, 41, 0.615) )
+  rgba(255, 255, 255, 0.473),rgba(255, 255, 255, 0.747) )
    ;
   background-position:  right;
   background-repeat: no-repeat;
@@ -209,6 +209,13 @@ background-position-x: left;
 .item{
   border-radius: 10px;
   border-bottom: 1px solid #106f2e ;
+  padding: 0.5rem 1rem ;
+  margin-top: 15px;
+
+}
+.item2{
+  border-radius: 10px;
+  border-bottom: 1px solid #fff ;
   padding: 0.5rem 1rem ;
   margin-top: 15px;
 

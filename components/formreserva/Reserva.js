@@ -10,10 +10,10 @@ export default function Reserva() {
     <div className="bg-bgr  pt-32 md:pt-40 pb-20">
         <div className="max-w-6xl m-auto px-8">
         
-        <h1 className="md:ml-10 text-lg md:text-lg font-bold text-sl uppercase">{t("stepform2")}</h1>
-        <h1 className="md:ml-10 text-4xl md:text-4xl font-bold  text-bg2 uppercase">{t("form_reserva_tittle")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform2b")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform2c")}</h1>
+        <h1 className="md:ml-10 text-4xl md:text-5xl font-bold  text-sl uppercase">{t("form_reserva_tittle")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2  mt-5">{t("stepform2b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("iva22b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2 ">{t("stepform2c")}</h1>
 
         <div className="md:w-3/4 m-auto mb-10 text-base md:text-lg ">
             {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
