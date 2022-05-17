@@ -96,7 +96,7 @@ export default function Doc() {
                 </div>
             </div>
 
-            <div className="max-w-3xl mx-auto relative">
+            <div className="max-w-3xl mx-auto relative w-3/4">
                 {/* <div className="flex flex-col md:flex-row w-auto max-w-6xl m-auto h-auto mb-20  rounded-xl p-5 bg-bgrS text-bgf shadow-xl mt-20">
                     <div className=" max-w- flex flex-col md:flex-row m-auto ">
                         <div className="h-auto w-20 md:mb-0 md:w-80 md:pb-2 md:pl-10 m-auto flex ">
