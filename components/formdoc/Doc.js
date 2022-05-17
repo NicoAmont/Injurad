@@ -66,7 +66,8 @@ export default function Doc() {
                                 <span className=" text-bg2 font-normal">{selected === 2 ? "-" : "+"}</span>
                             </div>
                             <div className=" border-l-2 border-sl pl-2 ">
-                                <h2 className={selected === 2 ? "content show" : "content"} ><span className="font-medium">{t("form_doc_a11")}</span> {t("form_doc_a12")} </h2>
+                                <h2 className={selected === 2 ? "content show" : "content"} >{t("form_doc_a21")}</h2>
+                                <h2 className={selected === 2 ? "content show" : "content"} >{t("form_doc_a22")}</h2>
                             </div>
                         </div>
                     {/* <div className="w-96 h-auto sm:h-80 bg-gl relative items-end align-bottom rounded-2xl shadow-2xl px-4 pb-6">
