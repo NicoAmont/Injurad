@@ -122,7 +122,7 @@ function Header() {
                     <div className="block m-auto text-center items-center ">
                         <select className="font-text2 font-normal bg-bgr2  border-none mb-4  rounded-xl text-bg  p-2 w-11 " onChange={handleChange} >
                     
-                            <option disabled aria-selected className="hidden ">{idiom[0].toUpperCase() }</option>
+                            <option disabled selected className="hidden ">{idiom[0].toUpperCase() }</option>
                             <option value="es" className="   p-4" >{t('navbtn_opt1')}</option>
                             <option value="en" className=" ">{t('navbtn_opt2')}</option>
                             <option value="nl" className=" ">{t('navbtn_opt3')}</option>
