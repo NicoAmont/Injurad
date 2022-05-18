@@ -40,32 +40,29 @@ function Footer() {
                     <div className="w-full h-full  grid grid-cols-1 md:grid-cols-4 place-items-center m-auto gap-10 md:pl-10">
                         <div className="w-full h-full flex flex-col text-left sm:text-left ">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl ">{t("footer_tittle1")}</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2  text-base   text-bgr ">{t("footer_info1_1")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info1_2")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info1_3")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base pb-2  text-bgr">{t("footer_info1_4")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base pb-2  text-bgr">{t("footer_info1_5")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base   text-bgr">{t("footer_info1_6")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2  text-base   text-bgr ">{t("footer_info1_1")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info1_2")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info1_3")}</a></Link>
                         </div>
                         <div className="w-full h-full flex flex-col text-left sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl">{t("footer_tittle3")}</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info3_1")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info3_2")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base   text-bgr">{t("footer_info3_3")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 text-base   text-bgr">{t("footer_info3_4")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info3_1")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info3_2")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  text-base   text-bgr">{t("footer_info3_3")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  text-base   text-bgr">{t("footer_info3_4")}</a></Link>
                         </div>
                         <div className="w-full h-full flex flex-col text-left sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl">{t("footer_tittle4")}</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info4_1")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info4_2")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info4_3")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info4_4")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info4_1")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info4_2")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info4_3")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info4_4")}</a></Link>
                         </div>
                         <div className="w-full h-full flex flex-col text-left sm:text-left mt-10 sm:mt-0">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl">{t("footer_tittle5")}</h1>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_2")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_3")}</a></Link>
-                            <Link href="/" passHref><a className="font-light sm:pl-4 pb-2 text-base   text-bgr">{t("footer_info5_4")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info5_2")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info5_3")}</a></Link>
+                            <Link href="/" passHref><a className="font-light  pb-2 text-base   text-bgr">{t("footer_info5_4")}</a></Link>
                         </div>
                     </div>
                 </div>

@@ -26,10 +26,11 @@ export default function Igp() {
         <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3c2")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3d")}</h1>
 
-        <div className="w-full md:w-3/4  m-auto mb-10 text-base md:text-base mt-20">
+        <div className="w-full md:w-11/12  m-auto mb-10 text-base md:text-base mt-20">
 
             {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
             <p className="mb-5 leading-8 text-lg">{t("form_igp_info1")}</p>
+            <p className="mb-5 leading-8 text-lg">{t("form_igp_info1b")}</p>
 
             
 
@@ -38,17 +39,20 @@ export default function Igp() {
         <div className="w-full  m-auto h-auto md:h-auto  mb-10  relative items-end align-bottom overflow-hidden">
                     
             
-            <div className="w-full md:w-3/4  m-auto mb-8">
-                <h2 className=" text-bg2 font-medium text-left text-3xl pt-5  md:px-0  ">{t("form_igp_tit2a")}</h2>
+            <div className="w-full md:w-11/12  m-auto mb-8">
+                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0 uppercase mb-10 ">{t("form_igp_tit2a")}</h2>
+                <h2 className=" text-bg2 font-medium text-left text-2xl pt-5  md:px-0  ">{t("form_igp_tit2aa")}</h2>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit2b")} <span className="font-medium"> {t("form_igp_tit2b2")}</span> {t("form_igp_tit2b3")}</p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0"><span className="font-medium">{t("form_igp_tit3")}</span> {t("form_igp_tit3b")}</p>
+                <h2 className=" text-bg2 font-medium text-left text-2xl pt-5 mt-5 md:px-0  ">{t("form_igp_tit4ar")}</h2>
+                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4arcont")}</p>
                 {/* <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-5 mb-20 transition-all duration-150 relative z-10">
                 {t("form_igp_infot4-")}
                 </button> */}
             </div>
             
-            <div className="w-full md:w-3/4  m-auto mb-8">
-                <h2 className=" text-bg2 font-medium text-left text-3xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
+            <div className="w-full md:w-11/12  m-auto mb-8">
+                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont2")}</p>
 
@@ -126,7 +130,7 @@ export default function Igp() {
                 
             </div> */}
         
-        <div className="w-11/12 md:w-3/4 m-auto mb-20 mt-20 text-xl flex flex-col">
+        <div className="w-11/12 md:w-11/12 m-auto mb-20 mt-20 text-xl flex flex-col">
 
             <h2 className="text-2xl text-bg2 font-medium mb-2">{t("form_igp_tittle2")}</h2>
             <p className="leading-8 text-lg  font-normal ">{t("form_igp_tittle2B")}</p>
@@ -180,7 +184,7 @@ export default function Igp() {
 
         </div>
 
-            <div className="max-w-2xl mx-auto ">
+            <div className=" mx-auto ">
                 <h1 className="mb-10 text-lg text-bg2 font-medium ">{t("Contact_subtitle")} :</h1>
                 <htmlform>
                     <div className="grid xl:grid-cols-2 xl:gap-6">
