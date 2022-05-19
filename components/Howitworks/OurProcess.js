@@ -90,8 +90,8 @@ function OurProcess() {
                                 </h1>
                                 <div className="text-base font-normal text-bg2 mt-5 ml-4 ">
                                     <p className="font-normal font-heads leading-8 text-lg ">{t('how_stepinfo_descr1')}</p>
-                                    <p className="font-normal font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1b')}</p>
-                                    <p className="font-semibold font-heads leading-8 text-xl mt-5 ">{t('how_stepinfo_descr1d')}</p>
+                                    <p className="font-semibold font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1b')}</p>
+                                    <p className="font-normal font-heads leading-8 text-xl mt-5 ">{t('how_stepinfo_descr1d')}</p>
                                     <p className="font-normal font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1e')}</p>
                                     <p className="font-normal font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1c')}</p>
                                     <h1 className="font-semibold text-sl ml-2  text-xl mt-6">{t('stepform1b1')} </h1>
