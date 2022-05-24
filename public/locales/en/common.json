@@ -51,7 +51,8 @@
     "reason_qansw3b":"Document verification",
     "reason_qansw3c":"Contratos de reserva y Opción de compra",
     "reason_qansw3d":"Inspección nacional supervisada IGP",
-    
+    "how_stepinfo_descr1d1":"Have you received the most important documentation?",
+
     "announce":"WHAT EVERY BUYER SHOULD KNOW    ",
     "announce2":"Be sensible, don’t skimp on control.",
     "more":"Read more",
@@ -67,7 +68,7 @@
     "info_title2":"Purchasing your dream home in Spain involves investing a lot of money. Should there be risks involved? No!",
     "info_pa":"Purchasing your dream home in Spain involves investing a lot of money. Should there be any risks involved? No! To avoid this, ",
     "info_pc":"make sure that you are in control of the purchase process yourself.",
-    "info_pc2":"Without urban planning or legal knowledge, it is impossible to check if the professionals are doing their job well. Is the contract conclusive? Has everything been thoroughly investigated? Leave supervision to Injurad.  ",
+    "info_pc2":"",
     "info_pd":"Due to a lack of legal and town planning knowledge, it is difficult for buyers to really know whether the experts are doing an efficient job. Therefore, keep everything under control with the help of Injurad.",
     "info_pe":"",
     "info_pf":"",
@@ -495,7 +496,9 @@
     "footer_tittle5":"Contact ",
     "footer_info5_2":"General",
     "footer_info5_3":"Report complaint",
-    "footer_info5_4":"Work with Injurad"
+    "footer_info5_4":"Work with Injurad",
+
+    "card_infobtn":"learn more ..."
 
     
 }

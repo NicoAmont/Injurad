@@ -26,7 +26,7 @@ function OurProcess() {
                 <p className=" mt-10 tracking-wide text-lg w-11/12">{t('how_tittleinfo')}</p>
                 
             </div>
-            <div className=" w-11/12 px-2 sm:px-0 text-bgr mx-auto place-items-center ">
+            <div className="hidden lg:grid w-11/12 px-2 sm:px-0 text-bgr mx-auto place-items-center ">
                     <Tab.Group >
                         
                         <Tab.List className="grid sm:grid-flow-col place-content-center h-auto justify-center transition-all  duration-700 ">
@@ -34,14 +34,14 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex justify-center  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex justify-center  border  border-sl ' : 'bg-sl rounded-md  h-56 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
                                 >
                                     <div className="grid place-items-center m-auto relative">
                                         <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
                                         <h1 className="text-lg text-center mb-5 font-medium"> <span className="font-bold text-4xl">36,30 €</span></h1>
                                         <h1 className="text-base  text-center border-t border-b border-bgrS p-5">{t('step1')} </h1>
-                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">{t('card_infobtn')}</div>
                                     </div>
                                 </button>
                             )}
@@ -50,14 +50,14 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md h-64 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
                                 >
                                     <div className="grid place-items-center m-auto relative">
                                         <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
                                         <h1 className="text-base text-center mb-5 "> <span className="font-semibold text-3xl">121,00 €</span></h1>
                                         <h1 className="text-base  text-center border-t border-b border-bgrS p-5">{t('step2')} </h1>
-                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">{t('card_infobtn')}</div>
                                     </div>
                                         
                                 </button>
@@ -67,14 +67,14 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md  h-64 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md  h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
                                 >   
                                     <div className="grid place-items-center m-auto relative">
                                         <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
                                         <h1 className="text-base text-center mb-5 "> <span className="font-semibold text-3xl">199,65 €</span></h1>
                                         <h1 className="text-base text-center border-t border-b border-bgrS p-5">{t('step3')} </h1>
-                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">{t('card_infobtn')}</div>
                                     </div>
                                 </button>
                             )}
@@ -93,12 +93,12 @@ function OurProcess() {
                             
                         </Tab.List>
                         <Tab.Panels className=" h-auto sm:h-auto m-auto content-div3 border border-sl   p-8 md:p-10 sm:w-4/5 bg-bgr rounded-lg mb-20 shadow-2xl flex flex-col relative">
-                        <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                            <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
-                            <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
-                            <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
-                        </svg>
+                            <svg className="w-10 md:w-20 absolute bottom-20 md:bottom-10 right-5 md:right-10"  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
+                                <path d="M30.5306 10.3415L11.69 32.2242L1.32663 17.3792L11.69 25.2217L30.5306 10.3415Z" fill="#326754"/>
+                                <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
+                                <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#326754"/>
+                            </svg>
                             <Tab.Panel>
 
                                 <h1 className="text-4xl md:text-4xl font-bold text-sl m-auto flex ">

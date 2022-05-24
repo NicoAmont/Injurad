@@ -4,6 +4,7 @@ import InfoSection from '../components/Home/InfoSection'
 import Slogan from '../components/Home/Slogan'
 import VideoSection from '../components/Home/VideoSection'
 import OurProcess from '../components/Howitworks/OurProcess'
+import CardsMobile from '../components/Howitworks/CardsMobile'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <HeroSection />
         <VideoSection />
         <OurProcess />
+        <CardsMobile />
         {/* <InfoSection /> */}
         
         
