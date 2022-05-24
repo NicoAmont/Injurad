@@ -23,21 +23,26 @@ function OurProcess() {
                 <h1 className="text-bl font-semibold text-4xl md:text-4xl text-bg2 uppercase">
                 {t('how_tittle')} <span className="text-4xl md:text-4xl uppercase text-sl font-bold ">{t('how_tittle2')}</span>
                 </h1>
-                <p className=" mt-10 tracking-wide text-lg">{t('how_tittleinfo')}</p>
+                <p className=" mt-10 tracking-wide text-lg w-11/12">{t('how_tittleinfo')}</p>
                 
             </div>
             <div className=" w-11/12 px-2 sm:px-0 text-bgr mx-auto place-items-center ">
                     <Tab.Group >
                         
-                        <Tab.List className="grid sm:grid-flow-col place-content-center h-auto ">
+                        <Tab.List className="grid sm:grid-flow-col place-content-center h-auto justify-center transition-all  duration-700 ">
                             <Tab as={Fragment}>
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex justify-center  border-2  border-sl ' : 'bg-bg2 rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex justify-center  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
                                 >
-                                        <h1 className="text-base text-center m-auto ">{t('step1')} </h1>
+                                    <div className="grid place-items-center m-auto relative">
+                                        <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
+                                        <h1 className="text-lg text-center mb-5 font-medium"> <span className="font-bold text-4xl">36,30 €</span></h1>
+                                        <h1 className="text-base  text-center border-t border-b border-bgrS p-5">{t('step1')} </h1>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                    </div>
                                 </button>
                             )}
                             </Tab>
@@ -45,10 +50,16 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border-2  border-sl ' : 'bg-bg2 rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md h-64 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
                                 >
-                                        <h1 className="text-base text-center m-auto ">{t('step2')} </h1>
+                                    <div className="grid place-items-center m-auto relative">
+                                        <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
+                                        <h1 className="text-base text-center mb-5 "> <span className="font-semibold text-3xl">121,00 €</span></h1>
+                                        <h1 className="text-base  text-center border-t border-b border-bgrS p-5">{t('step2')} </h1>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                    </div>
+                                        
                                 </button>
                             )}
                             </Tab>
@@ -56,10 +67,15 @@ function OurProcess() {
                             {({ selected }) => (
                                 <button
                                 className={
-                                    selected ? 'bg-bgr rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border-2  border-sl ' : 'bg-bg2 rounded-md h-auto w-auto md:w-auto px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
+                                    selected ? 'bg-bgr rounded-md  h-64 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex  border  border-sl ' : 'bg-sl rounded-md  h-56 w-auto md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bgr flex  '
                                 }
-                                >
-                                        <h1 className="text-base text-center m-auto ">{t('step3')} </h1>
+                                >   
+                                    <div className="grid place-items-center m-auto relative">
+                                        <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
+                                        <h1 className="text-base text-center mb-5 "> <span className="font-semibold text-3xl">199,65 €</span></h1>
+                                        <h1 className="text-base text-center border-t border-b border-bgrS p-5">{t('step3')} </h1>
+                                        <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">Descubre más ...</div>
+                                    </div>
                                 </button>
                             )}
                             </Tab>
@@ -90,12 +106,33 @@ function OurProcess() {
                                 </h1>
                                 <div className="text-base font-normal text-bg2 mt-5 ml-4 ">
                                     <p className="font-normal font-heads leading-8 text-lg ">{t('how_stepinfo_descr1')}</p>
-                                    <p className="font-semibold font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1b')}</p>
-                                    <p className="font-normal font-heads leading-8 text-xl mt-5 ">{t('how_stepinfo_descr1d')}</p>
+                                    <p className="font-semibold font-heads leading-8 text-lg mt-2 mb-4 ">{t('how_stepinfo_descr1b')}</p>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr1d1")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr1d2")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr1d3")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr1d4")}</p>
+                                    </div>
                                     <p className="font-normal font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1e')}</p>
-                                    <p className="font-normal font-heads leading-8 text-lg mt-2 ">{t('how_stepinfo_descr1c')}</p>
-                                    <h1 className="font-semibold text-sl ml-2  text-xl mt-6">{t('stepform1b1')} </h1>
-                                    <h1 className="font-medium text-bg2 ml-2 s text-lg ">{t('iva1b')} </h1>
+                                    
                                 </div>
 
                                 <Link  href="/formdoc" passHref>
@@ -116,11 +153,33 @@ function OurProcess() {
                                 </div>
                                 <div className="text-base font-normal text-bg2 mt-5 ml-4 ">
                                     
-                                    <p className="font-normal font-heads leading-8 text-lg">{t('how_stepinfo_descr2')}</p>
-                                    <p className="font-normal font-heads leading-8 text-lg mt-2">{t('how_stepinfo_descr2b')}</p>
+                                    <p className="font-normal font-heads leading-8 text-lg mb-4">{t('how_stepinfo_descr2')}</p>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr2b")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr2b2")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr2b3")}</p>
+                                    </div>
+                                    <div className="flex flex-row pl-2">
+                                        <svg className="mr-2 transition-all duration-150 pt-1 " width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path  d="M2.05762 9.65033C2.05762 9.50313 2.11609 9.36195 2.22018 9.25786C2.32427 9.15377 2.46545 9.0953 2.61265 9.0953H15.7038L12.2104 5.603C12.1061 5.49878 12.0476 5.35743 12.0476 5.21004C12.0476 5.06264 12.1061 4.92129 12.2104 4.81707C12.3146 4.71285 12.4559 4.6543 12.6033 4.6543C12.7507 4.6543 12.8921 4.71285 12.9963 4.81707L17.4366 9.25737C17.4883 9.30893 17.5293 9.37018 17.5573 9.43761C17.5853 9.50504 17.5997 9.57733 17.5997 9.65033C17.5997 9.72334 17.5853 9.79563 17.5573 9.86306C17.5293 9.93049 17.4883 9.99174 17.4366 10.0433L12.9963 14.4836C12.8921 14.5878 12.7507 14.6464 12.6033 14.6464C12.4559 14.6464 12.3146 14.5878 12.2104 14.4836C12.1061 14.3794 12.0476 14.238 12.0476 14.0906C12.0476 13.9432 12.1061 13.8019 12.2104 13.6977L15.7038 10.2054H2.61265C2.46545 10.2054 2.32427 10.1469 2.22018 10.0428C2.11609 9.93872 2.05762 9.79754 2.05762 9.65033Z" fill="#203D46"/>
+                                        </svg>
+                                        <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr2b4")}</p>
+                                    </div>
                                     <p className="font-normal font-heads leading-8 text-lg mt-2">{t('how_stepinfo_descr2c')}</p>
-                                    <h1 className="font-semibold text-sl ml-2  text-xl mt-6">{t('stepform1b1b')} </h1>
-                                    <h1 className="font-medium text-bg2 ml-2 s text-lg ">{t('iva22b')} </h1>
+                                    
                                 </div>
                                 <Link  href="/formreserva" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
@@ -180,7 +239,7 @@ function OurProcess() {
                                         <p className="w-60 text-lg sm:w-full mb-2">{t("how_stepinfo_descr3B6")}</p>
                                     </div>
                                     <p className="font-normal font-heads leading-8 text-lg">{t('how_stepinfo_descr35')}</p>
-                                    <h1 className="font-medium mt-2 ml-2 leading-8 text-lg text-sl">{t('stepform3bb')} </h1>
+                                    
                                 </div>
                                 <Link  href="/formigp" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">
@@ -200,8 +259,7 @@ function OurProcess() {
                                 <div className="text-base font-normal text-bg2 mt-5 ml-4 ">
                                     
                                     <p className="font-normal font-heads leading-8 text-lg">{t('how_stepinfo_descr4')}</p>
-                                    <h1 className="font-semibold text-sl ml-2  text-xl mt-6">{t('stepform1b1b')} </h1>
-                                    <h1 className="font-medium text-bg2 ml-2 s text-lg ">{t('iva1b')} </h1>
+                                    
                                 </div>
                                 <Link  href="/formigp" passHref>
                                 <button className="bg-sl text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-bgf transition-all duration-150 relative z-10 ml-4">

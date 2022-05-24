@@ -17,14 +17,15 @@ export default function Igp() {
     <div className="bg-bgr  pt-32 md:pt-40 pb-20">
         <div className="max-w-6xl m-auto px-8">
 
-        <h1 className="md:ml-10 text-4xl md:text-5xl font-bold  text-sl uppercase">{t("form_igp_tittle")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-5">{t("stepform1b1b")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3ba")}</h1>
+        <h1 className="md:ml-10 text-4xl md:text-5xl font-bold mb-5 text-sl uppercase">{t("form_igp_tittle")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3b")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3b2")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3c")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3c2")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3d")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base border-t border-bgrS2 w-80 pt-2 font-semibold text-bg2 mt-2">{t("stepform1b1b")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3ba")}</h1>
+        <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform1c")}</h1>
 
         <div className="w-full md:w-11/12  m-auto mb-10 text-base md:text-base mt-20">
 

@@ -276,7 +276,7 @@ function VideoSection() {
             </div>            
             <div className="w-full m-auto mt-10  h-auto relative text-bgr segments  ">
                 <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
-                {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
+                <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> 
                 <div className="flex flex-col  relative w-full md:w-2/4 py-20 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
                     <div className="max-w-6xl  text-center items-center align-middle md:text-left  md:ml-40">
                         <h1 className=" font-semibold text-4xl md:text-5xl mb-10 max-w-sm m-auto md:ml-0 md:mb-5">

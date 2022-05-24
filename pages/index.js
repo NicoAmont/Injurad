@@ -15,7 +15,7 @@ export default function Home() {
         <HeroSection />
         <VideoSection />
         <OurProcess />
-        <InfoSection />
+        {/* <InfoSection /> */}
         
         
       </main>

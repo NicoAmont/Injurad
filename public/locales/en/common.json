@@ -10,14 +10,14 @@
     "hero_titled":"españa",
     "hero_subtitle":"Comprar con seguiridad comienza aquí",
 
-    "slogan":"Since 1987, there has been a compulsory test (ITV) in Spain to check that vehicles are safe to drive. There is an equivalent in the real estate industry, the IGP (General Property Inspection), an inspection supervised by Injurad. Our goal is to ensure that everyone is able to purchase safely, regardless of the value of the property, so that you can enjoy this beautiful country with peace of mind.",
+    "slogan":"Since 1987, there has been a compulsory test (ITV) in Spain to check that vehicles are safe to drive. With the goal of having an equivalent inspection in the real estate industry, Injurad was founded. Everyone should be able to purchase safely, regardless of the value of the property, so that you can enjoy this beautiful country with peace of mind.",
     "slogan2":"THE PROPERTY WATCHDOG IN SPAIN",
     "slogan3":"dinero",
-    "reason_tittleinfo":"En el mercado inmobiliario cada profesional utiliza su propio método, no existe ningún tipo de regulación o supervisión. La falta de supervisión en transacciones individuales resulta en que las viviendas problemáticas se compran a pesar de la intervención de profesionales y este es un número muy alto. Propiedades que la mayoría de los compradores no habrían comprado, o quizás por un precio inferior, si hubieran sido informados sobre las limitaciones y riesgos.",
-    "reason_tittleinfotit":"En la práctica las siguientes situaciones son habituales:",
-    "reason_tittleinfotit1":"Faltan documentos (esenciales)",
-    "reason_tittleinfotit2":"Contratos donde faltan cláusulas importantes o cláusulas mal redactadas",
-    "reason_tittleinfotit3":"Due diligence incompletos o superficiales",
+    "reason_tittleinfo":"Experts in the Spanish real estate market use their own methods without having to comply with any regulations or having to undergo any supervision. The lack of supervision of individual transactions means that properties with problems are being purchased, despite the involvement of experts during the purchase process. The number of these cases is high.",
+    "reason_tittleinfotit":"The problems are almost always caused by:",
+    "reason_tittleinfotit1":"Missing (essential) documentation",
+    "reason_tittleinfotit2":"Contracts with missing or misleading clauses",
+    "reason_tittleinfotit3":"Incomplete or superficial purchase due diligence",
 
     "reason_tittle":"Injurad is here for a ",
     "reason_tittlebold":"reason",
@@ -53,19 +53,22 @@
     "reason_qansw3d":"Inspección nacional supervisada IGP",
     
     "announce":"WHAT EVERY BUYER SHOULD KNOW    ",
-    "announce2":"Sea sensato, no escatime en el control.",
+    "announce2":"Be sensible, don’t skimp on control.",
     "more":"Read more",
     "more2":"Know more",
+    "more3":"Start control",
+    "step1":"DOCUMENTATION VERIFICATION",
+    "step2":"CONTROL ON CONTRACTS",
+    "step3":"CONTROL ON THE IGP INSPECTION ",
 
 
 
-
-    "info_title":"Stay in control with Injurad's supervision!",
+    "info_title":"Stay in control with the help of Injurad!",
     "info_title2":"Purchasing your dream home in Spain involves investing a lot of money. Should there be risks involved? No!",
-    "info_pa":"Purchasing your dream home in Spain involves investing a lot of money. Should there be risks involved? No! To avoid this, ",
+    "info_pa":"Purchasing your dream home in Spain involves investing a lot of money. Should there be any risks involved? No! To avoid this, ",
     "info_pc":"make sure that you are in control of the purchase process yourself.",
     "info_pc2":"Without urban planning or legal knowledge, it is impossible to check if the professionals are doing their job well. Is the contract conclusive? Has everything been thoroughly investigated? Leave supervision to Injurad.  ",
-    "info_pd":"Control begins with the three steps of Injurad with specialists who must follow strict protocols. Professionals who have no direct or indirect commercial interest in your decision to buy or not the property.",
+    "info_pd":"Due to a lack of legal and town planning knowledge, it is difficult for buyers to really know whether the experts are doing an efficient job. Therefore, keep everything under control with the help of Injurad.",
     "info_pe":"",
     "info_pf":"",
     "info_pg":"Tener el control de la compra significa comprar conscientemente",
@@ -105,14 +108,14 @@
 
     "Howitworkssection":"start of how it works",
 
-    "how_tittle":"OUR PROCEDURE IS ",
-    "how_tittle2":"SIMPLE",
+    "how_tittle":"IT’S VERY ",
+    "how_tittle2":"EASY",
 
     "step":"Step",
     "how_dubstep1":"",
     "how_dubstep2":"",
     "how_dubstep3":"",
-    "how_tittleinfo":"En cada compraventa hay momentos que le dan oportunidad para ejercer control y llegar a una compraventa exitosa. La supervisión de Injurad no requiere contacto con el vendedor o intermediarios, esto le asegura imparcialidad y discreción.",
+    "how_tittleinfo":"Have you received any documentation or contracts? Please send them to us and we will check them for you confidentially and impartially. No contact will be made with the seller or the sales representative.",
 
     "how_flujo_1":"Acuerdo precio con el vendedor",   
     "how_flujo_2":"Solicitud documentos",   
@@ -149,31 +152,38 @@
 
     
     "how_stepinfo_tittle1":"Document verification",
-    "how_stepinfo_descr1":"The first thing you need to do is to find out whether or not the property has all the documents in order. If they are, it is a good start. If they are not or if they are not available, be aware!",
-    "how_stepinfo_descr1b":"Es imposible dar certeza sobre la situación legal y urbanística de la propiedad basándose únicamente en documentos!",
-    "how_stepinfo_descr1d":"¿Ha recibido los documentos más importantes? ¿Puede saber si corresponden a lo que le han dicho? y ¿Sabe que acreditan esos papeles? ¿Tiene los documentos esenciales para poder firmar un contrato?",
-    "how_stepinfo_descr1e":"Es imposible dar certeza sobre la situación legal y urbanística de la propiedad basándose únicamente en documentos!",
-    "how_stepinfo_descr1c":"Mándenos todos los documentos y le explicaremos.",
+    "how_stepinfo_descr1":"Before signing any contract, it is important to find out whether the property has all the documentation in order. You will either receive a few documents or none at all. In any of these cases, you do not have to rule the property out, but be aware! Unfortunately, some documents may give you the impression that everything is in order, but it is not as simple as it looks.",
+    "how_stepinfo_descr1b":"It is impossible to have certainty about the legal and town planning situation of the property based on the documents alone!",
+    "how_stepinfo_descr1d":"Have you received the most important documentation?",
+    "how_stepinfo_descr1d2":"Is it correct what they have told you?",
+    "how_stepinfo_descr1d3":"Are you aware of what this documentation is for?",
+    "how_stepinfo_descr1d4":"Do you have all the necessary documentation to sign a contract?",
+    "how_stepinfo_descr1e":"Please send us all the documentation and we will check it for you.",
+    "how_stepinfo_descr1c":"Send us the contract that you have been asked to sign and we will check it for you.",
 
     "how_stepinfo_tittle2":"Contract",
     "how_stepinfo_descr2":"Depending on the documents you receive, you will sign an option or a reservation contract. A valid contract is essential.",
-    "how_stepinfo_tittle3":"IGP inspection",
-    "how_stepinfo_descr3":"The third step is the IGP inspection. With this report you will be aware of the situation, which means that you will have much more certainty and potentially save costs.    ",
+    "how_stepinfo_tittle3":"Control on the IGP inspection",
+    "how_stepinfo_descr3":"Finally there is one reliable standard for purchase investigations: the IGP inspection. This inspection puts an end to the individual approach of experts which it is impossible for buyers to check and therefore run unnecessary risks.",
     
+    "how_stepinfo_descr2b":"Does the contract include all the essential clauses that protect your interests?",
+    "how_stepinfo_descr2b2":"Are there any clauses that could harm your interests without you knowing?",
+    "how_stepinfo_descr2b3":"Is it a reservation contract or are they actually terms of a purchase contract that oblige you to purchase a property, even if it is a property with problems? ",
+    "how_stepinfo_descr2b4":"Are the resolutive conditions clear so that if the property is not in order, you will get a refund (deposit, reservation fee, etc.)?",
 
     "passport_tittle":"WHAT IS A PROPERTY PASSPORT (PDI)?",
     "passport_info":"The «Property Passport» is the most important document when purchasing a property in Spain. Injurad uses the term «Property Passport» (Pasaporte del inmueble, PDI) because the name can vary across the autonomous regions. It is better to use this one term nationwide to avoid any misunderstandings and disappointment. Some documents have names that could be mistaken for a PDI but are NOT. Examples of these are housing permits, documents from the Land Registry or Cadastre. The «Property Passport» is a name for an official document from the local government.",
     "passport_logo":"",
     
-    "how_stepinfo_descr3A":"De IGP-inspectie is een studie ruimtelijke ordening in combinatie met een juridische studie van het onroerend goed. De IGP keuring is het belangrijkste onderdeel om de legaliteit van het onroerend goed te kunnen bepalen.",
-    "how_stepinfo_descr3B":"De IGP probeert de volgende vragen te beantwoorden:",
-    "how_stepinfo_descr3B1":"Is het onroerend goed legaal, legaliseerbaar of illegaal?",
-    "how_stepinfo_descr3B2":"Is er een risico op sloop?",
-    "how_stepinfo_descr3B3":"Zijn er risico’s op boetes?",
-    "how_stepinfo_descr3B4":"Kan ik verbouwen?",
-    "how_stepinfo_descr3B5":"Mag de woning worden herbouwd in geval van schade door bijvoorbeeld brand?",
-    "how_stepinfo_descr3B6":"Is er dekking van de verzekering bij brand, overstroming, etc.?",
-    "how_stepinfo_descr35":"Vraag om een ​​IGP en Injurad controleert de naleving van de protocollen.",
+    "how_stepinfo_descr3A":"Finally there is one reliable standard for purchase investigations: the IGP inspection. This inspection puts an end to the individual approach of experts which it is impossible for buyers to check and therefore run unnecessary risks.",
+    "how_stepinfo_descr3B":"The IGP inspection is the most important part to both assert the legality of the property and to obtain answers for the questions that buyers consider appropriate to ask:",
+    "how_stepinfo_descr3B1":"Is the property legal? Can it be legalised? Or is it illegal?",
+    "how_stepinfo_descr3B2":"Is there a risk of demolition?",
+    "how_stepinfo_descr3B3":"Are there any risks of fines?",
+    "how_stepinfo_descr3B4":"Can I renovate the property?",
+    "how_stepinfo_descr3B5":"Can the property be rebuilt in the event of damage, for example, fire?",
+    "how_stepinfo_descr3B6":"Is there insurance coverage in the event of fire, flood, etc.?",
+    "how_stepinfo_descr35":"Ask for an IGP and Injurad will check the inspection to make sure it complies with the protocol that we have established with lawyers and architects.",
     
     "validity_tittle":"WHAT ABOUT ",
     "validity_tittle2":"VALIDITY?",
@@ -264,7 +274,7 @@
     
     "form_igp_tittle":"IGP inspection",
 
-    "form_igp_info1":"The inspection is a planning and legal review of the property. This is the most important part to determine whether a property is legal. This inspection is only of use if it is conducted by an architect specialised in town planning and a lawyer with the same expertise. ",
+    "form_igp_info1":"The IGP inspection was created with the collaboration of lawyers and architects from the Injurad's Knowledge Centre (Centro de Conocimiento Injurad or CCI). IGP stands for Inspección General de la Propiedad (General Property Inspection).",
     "form_igp_info2":"Based on the report, you can decide whether or not you wish to proceed with the purchase. Is the property in order? Are there any restrictions? Are there any extra costs for checking the property or making it legal? Do I have to accept the risks? By way of example, some of the questions that the IGP tries to answer are as follows:",
     "form_igp_info2b":"Is the property legal? Can it be made legal? Or is it illegal?",
     "form_igp_info2c":"Is there a risk of demolition??",
@@ -272,12 +282,16 @@
     "form_igp_info2e":"Can I renovate the property?",
     "form_igp_info2f":"Can I rebuild the property in case of major damage?",
     "form_igp_info2g":"Am I insured against fire, water damage or other damage?",
-    "form_igp_tit2a":"Who performs the inspection?",
-    "form_igp_tit2b":"As mentioned, the most important matter is that the property complies with the planning regulations. Every IGP inspection starts with a check conducted by an architect specialised in planning regulations (urbanismo), to verify whether the property meets the requirements of the land-use planning regulations (plan de ordenación del territorio local) (Part A, the «planning report»). A lawyer will assess the legal aspects by checking the legislation against part A, the architect’s report. This legal report will correspond to part B of the inspection report and in which you will also find the conclusions and recommendations.",
+    "form_igp_tit2a":"Who carries out the IGP inspection and control? ARCHITECTS AND LAWYERS",
+    "form_igp_tit2aa":"ARQUITECTOS Y ABOGADOS (realizar inspección)",
+    "form_igp_tit2b":"The architects and the lawyers who carry out the inspection in accordance with the IGP standards are independent and have no commercial relationship with Injurad. It is important that the property meets the requirements of the land-use planning regulations (plan de ordenación de territorio local), which are the planning regulations established by the town hall. This is why every IGP inspection always starts with the investigation carried out by an architect specialised in planning regulations (Part A, the 'planning report').",
+    "form_igp_tit3b":"A lawyer then assesses the legal aspects by checking the legislation against the architect's report. This results in the generation of a legal report (part B, the 'legal report') in which you will also find conclusions and recommendations.",
+
     "form_igp_t2":"Do you need your own lawyer before the IGP takes place?",
     "form_igp_t2b":"Except for drawing up a reservation or an option contract (see «Contracts»), you do not have to spend money on a lawyer. You first need to know what you are purchasing and whether the property meets your requirements. If everything looks good, it is advisable to hire a lawyer to accompany you to the notary’s office. This is why an IGP inspection not only means maximum security, but also considerable savings because the lawyer will have everything clearly on paper which means that the cost will be less.",
     "form_igp_t22":"IGP as a second opinion",
     "form_igp_t2b2":"Even if you have previously signed a contract with a broker or a lawyer, it is advisable to have an IGP inspection before you sign and pay at the notary’s office. This will give you peace of mind and make sure that you are correctly informed. An IGP can be conducted in complete confidence, without any contact with the seller, the broker or the lawyer. The report, signed by the experts, can also be used as evidence in case it is necessary to terminate the agreement.",
+    "form_igp_info1b":"Each IGP inspection offers a series of important conclusions and recommendations. This allows you to weigh up the risks yourself and decide whether you want to proceed with the purchase. The inspection report also makes the final phase up to the notary much clearer, as it allows you to find out whether everything is in order or what still needs to be done.    ",
 
 
     "form_igp_info3":"Each IGP inspection contains conclusions and recommendations, which will allow you to keep control and weigh up the possible risks for yourself.",
@@ -290,16 +304,38 @@
     "form_igp_tittle2B1":"The property is illegal and cannot be made legal. It will therefore have important limitations, so you will be able analyse the risks yourself.",
     "form_igp_tittle2B2":"here are issues that have yet to be resolved or investigated. The report will indicate which expert can help you.",
     "form_igp_tittle2B3":"The IGP shows no irregularities. Contact a lawyer to accompany you to the notary’s office.",
-    "form_igp_infot2":"Why should the documentation be checked first?",
-    "form_igp_infot2P":"It is important to find out what documentation is available in order to decide what type of contract needs to be signed (step 2) and then to have the IGP inspection carried out (step 3). ",
+    "form_igp_infot2P":"A buyer cannot distinguish which documents have been supplied and what they are for. This is why it is important to have the documentation checked by an independent party. The seller of the property is not impartial and has a commercial interest. Take control of this situation with the help of Injurad.",
+    "form_igp_infot2Pb":"You will receive a report signed by the lawyer who checked the documentation.",
     "form_igp_infot3":"When should you ask for the documentation to be checked? ",
     "form_igp_infot3P":"The moment you agree on the price and the documentation has been handed over (at least the essential documents). Do not sign anything and do not pay anything without a proper contract (step 2).",
     "form_igp_infot4":"Tercer Documento ",
-    
+    "form_doc_q1":"When should you ask for the documentation to be checked?",
+    "form_doc_a11":"Before signing a contract.",
+    "form_doc_a12":"First, there must be agreement on the price of the property, provided that everything is in order. It is not advisable to sign a contract or make a deposit before checking what documentation is available.",
+    "form_doc_q2":"What if you do not receive any documentation?",
+    "form_doc_a21":"This does not inspire confidence. If you do not receive any documentation and you are asked to sign a contract, beware. It is logical for a buyer to have the documentation available before signing, just as it is logical for a seller to provide you with all the necessary documentation to sell the property.",
+    "form_doc_a22":"In case you do not receive any documentation, it is even more important to be in possession of a good contract. See “Contracts”.",
+
     
     "form_igp_infot4-":"Example IGP inspection",
-    
-    
+
+    "form_reserva_tit4tit":"Injurad's agreement model templates",
+    "form_reserva_tit4cont":"Thanks to the Knowledge Centre, Injurad has its own agreement model templates. However, Injurad is only concerned about checking that the contract is used correctly.",
+    "form_reserva_tit4cont2":"You can ask your own lawyer to use our agreement model template. This must meet the conditions that have been set out (see 'Conditions'). You can also choose a lawyer who has already gone through the application process. They are independent, are not part of Injurad, pay no commission or fee, but are willing to work under supervision and comply with our protocols. Injurad wants to be able to guarantee absolute discretion and independence and only carry out the supervision in the interest of the buyers.",
+    "form_reserva_tit4cont3":"The cost for a contract drawn up by a lawyer including IVA and the Injurad inspection has been set at €425.92.",
+    "form_reserva_tit4_2":"Requirements",
+
+    "form_igp_tit4q1":"To sign the integrity statement",
+    "form_igp_tit4q1answ":"Injurad se mueve con unos valores muy definidos, la independencia, imparcialidad, seguridad, respeto a las leyes, integridad y ética en el trabajo. Nuestro código ético es norma de obligado cumplimiento, que debe aceptar todo colaborador. Este es el espíritu Injurad, y la protección y seguridad que usted recibirá.",
+    "form_igp_tit4q2":"To accept the protocol  ",
+    "form_igp_tit4q2answ":"Toda conducta impropia o que resulte contraria a nuestro código ético y de conducta, incluido el cumplimiento de nuestros protocolos, será sancionada conforme a nuestro reglamento interno. Esta normativa interna debe ser aceptada por todos los colaboradores. Además disponemos de un comité de arbitraje independiente que resolverá cualquier tipo de conflicto que pudiera surgir.",
+    "form_igp_tit4q3":"To accept being supervised by Injurad  ",
+    "form_igp_tit4q3answ":"De esta forma comprobamos que los informes cumplen con los protocolos, reglas y estándares de calidad, siendo una medida efectiva para que los profesionales pongan su máximo desempeño en cada uno de los informes.",
+    "form_igp_tit4q4":"To take an internal course (lawyers and architects who are part of Injurad and also external lawyers and architects)",
+    "form_igp_tit4q4answ":"Los profesionales entregan un informe técnico conforme a las reglas y protocolos de Injurad. Cada uno de los profesionales que interviene da su opinión técnica sobre la situación del inmueble, presentando un informe urbanístico y un informe jurídico, ambos debidamente firmados, ofreciendo un trabajo comprometido y responsable.",
+    "form_igp_tit4q5":"To participate in the Injurad Knowledge Centre",
+    "form_igp_tit4q5answ":"Las leyes en España están en constante cambio. Gracias a nuestro Centro de conocimiento, los profesionales pueden encontrar una respuesta adecuada incluso en los casos más complicados. La acumulación de multitud de experiencias, pues solo nos dedicamos a esto, tiene ventajas tanto para los profesionales como para usted.",
+
     
     
     
@@ -335,20 +371,25 @@
     
     "form_reserva_tittle":"CONTRACT  ",
     "form_reserva_tittle2":"¿Que contiene los documentos de contrato de reserva? ",
-    "form_reserva_tittle2b":"After 'Checking the Documentation', which contract needs to be signed? ",
-    "form_reserva_info1":"It is usually the purchaser who drafts the contract so that it works in their best interests. Do not sign any contract under pressure from the estate agent or the seller. Both contracts below are the most suitable because it allows the purchaser to reserve the property, and it assures the seller that if the property meets the conditions, it can be considered as sold.",
-    "form_reserva_info1b":"There are many types of contracts but we only use two in the purcharser’s interests.",
-    "form_reserva_info1t":"Reservation contract.",
-    "form_reserva_info1tinfo":"1% of the price is paid as a deposit in case the seller or their representative has not provided you with any of the essential documentation. After all, without having this documentation, you will not know anything about the property. It is advisable to sign a reservation contract rather than transferring large amounts of money.",
-    "form_reserva_info2t":"Option contract.",
-    "form_reserva_info2tinfo":"10% of the price is paid as a deposit if the seller or their representative has supplied all the essential documentation or if easy access to the documentation has been confirmed.",
-    "form_reserva_quest1":"What does",
-    "form_reserva_quest1b":"requirements",
-    "form_reserva_quest1c":"a good contract need to meet?",
+    "form_reserva_tittle2b":"You have received a contract. A well-written contract is essential.",
+    "form_reserva_info1":"There are many types of contracts and this makes it confusing. Signing a contract is an important step that should not be underestimated, even if it concerns a «simple» reservation. The simpler the contract, the greater the chance that clauses will be missing. However, you should make sure that a more complex contract does not include clauses that conflict with your interests. Therefore, you have to be in control with the help of Injurad.",
+    "form_reserva_info1b":"Many contracts have the sole purpose of binding the buyer and completing the sale. It is not easy, if not impossible, for a buyer to understand the legal jargon of the contracts. An incorrectly drafted contract can lead to:",
+    "form_reserva_info1t":"Being unable to have your deposit refunded.",
+    "form_reserva_info1tinfo":"For example, in cases when the property is not legal or when it does not meet with the town planning or your personal requirements.",
+    "form_reserva_info2t":"Being forced into purchasing a property",
+    "form_reserva_info2tinfo":"with restrictions or even an illegal property, without you being aware of this.",
+    "form_reserva_quest1":"We check the contract against our guidelines and protocols. You will receive a report signed by a lawyer.",
+    "form_reserva_quest1b":"",
+    "form_reserva_quest1c":"",
     "form_reserva_quest2":"The contract specifies the terms agreed between you and the seller such as the price, the reservation amount, the description of the property, who the owner is, the length of the reservation, that the property meets the standards, whether the property is furnished or unfurnished, the completion date, whether anything needs to be replaced or repaired, who the deposit will be paid to, who must sign, etc. It is important that everything is in order legally, and that your reservation amount (deposit) can be refunded if the property does not meet the requirements or is found to be illegal.",
     "form_reserva_quest3":"The procedure is very simple",
     "form_reserva_quest4":"You can request the contract by filling in the form below. You will receive an email with payment details and more information about the procedure. We will contact you to obtain the details we need to draw up the contract. The lawyer will do all the work so you do not have to worry about anything. They will prepare the contract for the parties to sign.",
     
+    "form_igp_infot2":"Why check a contract with Injurad?",
+    "form_reserva_info3t":"Being unable to discuss any topics",
+    "form_reserva_info3tinfo":"that have already been previously agreed",
+    "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
+    "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
 
 
@@ -356,25 +397,27 @@
 
     "stepform1":"Paso 1",
     "stepform1b1":"Control desde:",
-    "stepform1b1b":"Precio control :",
-    "stepform1b":"Precio hasta 2 documentos: ",
-    "iva1b":" 36,30 €  (30 € ex. iva)",
-    "stepform1b2":"Precio mas de 2 documentos:",
-    "iva2b":"90,75 € IVA incluido",
-    "stepform1c":"Duración:  1-2 dias hábiles",
+    "stepform1b1b":"Price control :",
+    "stepform1b":"Price until 2 documentos: ",
+    "iva1b":" 36,30 €  (incl. vat)",
+    "stepform1b2":"Price more than 2 documentos:",
+    "iva2b":"90,75 € (incl. vat)",
+    "stepform1c":"Duration:  1-2 work days",
     "stepform2":"Paso 2",
-    "stepform2b":"Precio:",
-    "iva22b":"121 (100 ex iva)",
-    "stepform2c":"Duración: max 1-3 días hábiles",
+    "stepform2b":"Price::",
+    "iva22b":" 121 € incl. vat ",
+    "stepform2c":"Duration: max 3-5 work days",
     "stepform3":"Paso 3",
-    "stepform3ba":"199,65 € (165 ex. iva)",
-    "stepform3b":"Precio IGP urbano: ",
-    "stepform3b2":"332,40 € IVA incluido",
-    "stepform3bb":"Precio desde 532,40 € ",
-    "stepform3c":"Precio IGP rústico: 465,50 €",
-    "stepform3c2":"465,50 € IVA incluido",
-    "stepform3d":"Duración: 5-10 diás hábiles",
-    "stepform4bb":"200 € IVA incluido",
+    "stepform3ba":"199,65 € (incl. vat)",
+    "stepform3b":"Price IGP urbano: ",
+    "stepform3b2":"332,40 € (incl. vat)",
+    "stepform3bb":"Price from  € 199,65 (incl. vat) ",
+    "stepform3c":"Price IGP rústico:",
+    "stepform3c2":"465,50 € (incl. vat)",
+    "stepform3d":"Duration: 5-10 work days",
+    "stepform4bb":"200 € (incl. vat)",
+    
+    
 
     
     
@@ -407,12 +450,12 @@
     "About_tittle6_info":"In order to meet our objective, Injurad works nationally. To do this, the system takes into account both national laws and regional and local regulations.    ",
     "About_moreinfo":"más info ...",
     
-    "menu1":"Step 1",
-    "menu11":"Check",
-    "menu2":"Step 2",
+    "menu1":"Control",
+    "menu11":"Documentation",
+    "menu2":"Control",
     "menu21":"Contract",
-    "menu3":"Step 3",
-    "menu311":"Inspection",
+    "menu3":"Control",
+    "menu311":"IGP",
 
     
     "menu8":"About INJURAD",
