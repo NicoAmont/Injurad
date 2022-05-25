@@ -28,7 +28,7 @@ function VideoSection() {
             <div className="grid grid-cols-1 w-full max-w-6xl m-auto place-items-center gap-20">
                 
                 
-            <div className="flex flex-col text-left justify-center m-auto w-3/4 md:w-full max-w-7xl py-20 px-4 relative  h-full">
+            <div className="flex flex-col text-left justify-center m-auto w-9/12 md:w-full max-w-7xl py-20 px-4 relative  h-full">
 
                 <svg className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 z-0 scale-150" width="415" height="400" viewBox="0 0 415 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.4">
@@ -141,6 +141,7 @@ function VideoSection() {
                                     </div>
                                     
                                     
+                                    
                                 </div>
                             </Disclosure.Panel>
                             </>
@@ -171,16 +172,17 @@ function VideoSection() {
                 </div> */}
 
                 <div className="w-full md:w-full pt-5 m-auto" >
-                    <div className=" px-4  text-left mb-4 m-auto">
+                    <div className="  text-left mb-4 m-auto">
                         <h1 className="font-bold  text-3xl md:text-4xl md:w-4/5 m-auto  text-bg2  mb-10  "> <span className="text-sl">{t('info_title')}</span> {t('info_titleb')} </h1>
                         <p className="mb-2 md:w-4/5 m-auto text-left  leading-8 text-lg">{t('info_pa')} <span className="font-semibold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
                         <p className="mb-5 md:w-4/5 m-auto text-left   leading-8 text-lg">{t('info_pd')}</p>
                     </div>
                 </div>
+                {/*
                 <div className="w-3/4 m-auto pr-8  ">
                     <div className="w-full max-w-lg  m-auto bg-white rounded-2xl relative z-10">
                        
-                        {/* <Disclosure>
+                         <Disclosure>
                         {({ open }) => (
                             <>
                             <Disclosure.Button className="flex justify-between w-full border border-bg2 bg-bg2 px-4 py-2 text-lg font-normal   text-left text-bgr bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -265,24 +267,23 @@ function VideoSection() {
                             </Disclosure.Panel>
                             </>
                         )}
-                        </Disclosure> */}
+                        </Disclosure> 
                         
                         
                     </div>
                 </div>
-                    
+                    */}
             </div>
                 
             </div>            
-            <div className="w-full m-auto mt-10  h-auto relative text-bgr segments  ">
+            <div className="w-full m-auto mt-14  h-auto relative text-bgr segments  ">
                 <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
-                <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> 
+                
                 <div className="flex flex-col  relative w-full md:w-2/4 py-20 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
                     <div className="max-w-6xl  text-center items-center align-middle md:text-left  md:ml-40">
                         <h1 className=" font-semibold text-4xl md:text-5xl mb-10 max-w-sm m-auto md:ml-0 md:mb-5">
                             {t("announce2")}
                         </h1>
-                        
                     </div>
                     
                 </div>
