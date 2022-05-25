@@ -36,7 +36,7 @@
     "reason_qansw1b":"Lo más IMPORTANTE en una compraventa es asegurarse si el PDI se ha consequido legalmente o es valido. Esta investigación solo pueden hacer profesionales especializados, que deben siguir protocoles claras para evitar interpretaciones libres cuales no son en el interes del comprador. ",
     "reason_qansw1c":"More about the Real Estate Passport",
     "reason_question2":"What are the risks ?",
-    "reason_qansw2tit":"Missing documents or invalid documents can lead to the following issues:    ",
+    "reason_qansw2tit":"",
     "reason_qansw2a":"No guaranteed insurance coverage despite having paid premium",
     "reason_qansw2b":"Recive a demolition order for the whole or part of the property",
     "reason_qansw2c":"Difficult or impossible to sell in the future your invesment blocked",
@@ -406,28 +406,27 @@
 
     "stepform1":"Paso 1",
     "stepform1b1":"Control desde:",
-    "stepform1b1b":"Price control :",
-    "stepform1b":"Price until 2 documentos: ",
+    "stepform1b1b":"Control :",
+    "stepform1b":"Control up to 2 documentos: ",
     "iva1b":" 36,30 €  (incl. vat)",
-    "stepform1b2":"Price more than 2 documentos:",
+    "stepform1b2":"Control more than 2 documentos:",
     "iva2b":"90,75 € (incl. vat)",
     "stepform1c":"Duration:  1-2 work days",
     "stepform2":"Paso 2",
     "stepform2b":"Price:",
     "iva22b":" 121 € incl. vat ",
-    "stepform2c":"Duration: max 3-5 work days",
+    "stepform2c":"Duration: 1-2 work days",
     "stepform3":"Paso 3",
     "stepform3ba":"199,65 € (incl. vat)",
-    "stepform3b":"Price IGP urbano: ",
+    "stepform3b":"IGP urbano: ",
     "stepform3b2":"332,40 € (incl. vat)",
     "stepform3bb":"Price from  € 199,65 (incl. vat) ",
-    "stepform3c":"Price IGP rústico:",
+    "stepform3c":"IGP rústico:",
     "stepform3c2":"465,50 € (incl. vat)",
     "stepform3d":"Duration: 5-10 work days",
     "stepform4bb":"200 € (incl. vat)",
     "form_reserva_info1pb":"Why check a contract with Injurad?",
 
-    
 
     
     
@@ -490,8 +489,8 @@
     
 
     "footer_tittle3":"Services",
-    "footer_info3_1":"Documents check ",
-    "footer_info3_2":"Contracts",
+    "footer_info3_1":"Check Documents ",
+    "footer_info3_2":"Check Contracts",
     "footer_info3_3":"IGP inspection",
     "footer_info3_4":"",
     

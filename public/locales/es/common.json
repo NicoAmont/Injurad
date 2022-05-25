@@ -399,22 +399,22 @@
 
     "stepform1":"Paso 1",
     "stepform1b1":"Control desde:",
-    "stepform1b1b":"Precio control :",
-    "stepform1b":"Precio hasta 2 documentos: ",
+    "stepform1b1b":"Control :",
+    "stepform1b":"Control hasta 2 documentos :",
     "iva1b":" 36,30 €  (incl. iva)",
-    "stepform1b2":"Precio mas de 2 documentos:",
+    "stepform1b2":"Control mas de 2 documentos:",
     "iva2b":"90,75 € (incl. iva)",
     "stepform1c":"Duración:  1-2 dias hábiles",
     "stepform2":"Paso 2",
     "stepform2b":"Precio:",
     "iva22b":" 121 € incl. iva ",
-    "stepform2c":"Duración: max 3-5 días hábiles",
+    "stepform2c":"Duración: 1-2 dias hábiles",
     "stepform3":"Paso 3",
     "stepform3ba":"199,65 € (incl. iva)",
-    "stepform3b":"Precio IGP urbano: ",
+    "stepform3b":"IGP urbano: ",
     "stepform3b2":"332,40 € (incl. iva)",
     "stepform3bb":"Precio desde  € 199,65 (incl. iva) ",
-    "stepform3c":"Precio IGP rústico:",
+    "stepform3c":"IGP rústico:",
     "stepform3c2":"465,50 € (incl. iva)",
     "stepform3d":"Duración: 5-10 diás hábiles",
     "stepform4bb":"200 € (incl. iva)",
@@ -659,8 +659,8 @@
     
 
     "footer_tittle3":"Servicios",
-    "footer_info3_1":"Chequeo de Documento ",
-    "footer_info3_2":"Contrato",
+    "footer_info3_1":"Chequeo de Documentos ",
+    "footer_info3_2":"Chequeo de Contratos",
     "footer_info3_3":"Inspección IGP",
     "footer_info3_4":"",
     
@@ -674,7 +674,7 @@
     "footer_tittle5":"Contact ",
     "footer_info5_2":"General",
     "footer_info5_3":"Queja sobre inspección",
-    "footer_info5_4":"Trabajo con Injurad",
+    "footer_info5_4":"Trabaja con Injurad",
     
     "card_infobtn":"Descubre más ..."
 
