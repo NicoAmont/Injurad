@@ -172,7 +172,7 @@ function VideoSection() {
 
                 <div className="w-full md:w-full pt-5 m-auto" >
                     <div className=" px-4  text-left mb-4 m-auto">
-                        <h1 className="font-bold  text-3xl md:text-4xl md:w-4/5 m-auto  text-bg2  mb-10  ">{t('info_title')} </h1>
+                        <h1 className="font-bold  text-3xl md:text-4xl md:w-4/5 m-auto  text-bg2  mb-10  "> <span className="text-sl">{t('info_title')}</span> {t('info_titleb')} </h1>
                         <p className="mb-2 md:w-4/5 m-auto text-left  leading-8 text-lg">{t('info_pa')} <span className="font-semibold text-bg2">{t('info_pc')}</span> {t('info_pc2')}</p>
                         <p className="mb-5 md:w-4/5 m-auto text-left   leading-8 text-lg">{t('info_pd')}</p>
                     </div>

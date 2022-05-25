@@ -63,7 +63,8 @@
 
 
 
-    "info_title":"Tome el control con la supervisión de Injurad!",
+    "info_title":"Tome el control ",
+    "info_titleb":"con la supervisión de Injurad!",
     "info_title2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Mejor que no!",
     "info_pa":"",
     "info_pc":"Hacer realidad la casa de sus sueños en España significa invertir mucho dinero. ¿Tomar riesgos? ¡Más bien no! Compradores no tienen suficientes conocimientos técnicos en urbanismo ni jurídicos para controlar los profesionales solo. Por su tranquilidad, tome el control con ayuda de Injurad.",
@@ -114,7 +115,7 @@
 
     "step1":"CHEQUEO DOCUMENTOS",
     "step2":"CHEQUEO CONTRATOS",
-    "step3":"INSPECCIÓN IGP ",
+    "step3":"CHEQUEO INSPECCIÓN IGP ",
     "step4":"Notario",
     "how_dubstep1":"",
     "how_dubstep2":"",
@@ -301,7 +302,7 @@
     "form_igp_tit4arcont":"Los supervisores de Injurad (también abogados y arquitectos) comprueban si la inspección IGP se ha realizado de acuerdo con las normas y protocolos.",
     "form_igp_tit4tit":"Los profesionales que colaboran con Injurad",
     "form_igp_tit4cont":"Injurad no trabaja con cualquiera. Los profesionales que realizan la inspección son seleccionados tanto por sus conocimientos profesionales como por su trayectoria profesional. Injurad exige mucho de los profesionales para proteger al máximo a los compradores. Esto nos distingue de los profesionales individuales que no tienen ningún tipo de supervisión.",
-    "form_igp_tit4cont2":"",
+    "form_igp_tit4cont2":"Con Injurad usted tiene el control y la defensa frente a la desinformación y el engaño. Injurad también establece requisitos estrictos para los profesionales, por lo que marcamos una gran diferencia con la forma como hoy se compran las casas con profesionales individuales sin ningún control.",
     "form_igp_tit4q1":"Firmar declaración de integridad",
     "form_igp_tit4q1answ":"Injurad se mueve con unos valores muy definidos, la independencia, imparcialidad, seguridad, respeto a las leyes, integridad y ética en el trabajo. Nuestro código ético es norma de obligado cumplimiento, que debe aceptar todo colaborador. Este es el espíritu Injurad, y la protección y seguridad que usted recibirá.",
     "form_igp_tit4q2":"Aceptar reglas    ",
@@ -312,6 +313,8 @@
     "form_igp_tit4q4answ":"Los profesionales entregan un informe técnico conforme a las reglas y protocolos de Injurad. Cada uno de los profesionales que interviene da su opinión técnica sobre la situación del inmueble, presentando un informe urbanístico y un informe jurídico, ambos debidamente firmados, ofreciendo un trabajo comprometido y responsable.",
     "form_igp_tit4q5":"Participación en el centro de conocimiento de Injurad",
     "form_igp_tit4q5answ":"Las leyes en España están en constante cambio. Gracias a nuestro Centro de conocimiento, los profesionales pueden encontrar una respuesta adecuada incluso en los casos más complicados. La acumulación de multitud de experiencias, pues solo nos dedicamos a esto, tiene ventajas tanto para los profesionales como para usted.",
+    "form_igp_tit4q6":"Internal course",
+    "form_igp_tit4q6answ":"An in‑house course covers the necessary information to start working with Injurad. During the course, we will explain how the system works, what is expected from the inspection, what the integrity discussion entails, how to share information from the Knowledge Centre, etc.",
 
     "form_igp_info3":"Cada inspección define una serie de conclusiones y recomendaciones. Con este dictamen usted estará en la posibilidad de mantener el control y tomar una decisión haciendo su propio análisis de riesgos. Así este informe le evitará que le confundan en los próximos pasos hasta llegar al notario .",
     "form_doc_tittle":"CHEQUEO DE DOCUMENTOS ",

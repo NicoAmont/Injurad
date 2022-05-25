@@ -59,7 +59,8 @@
 
 
 
-    "info_title":"Hou zelf de controle met de supervisie van Injurad!",
+    "info_title":"Hou zelf de controle ",
+    "info_titleb":"met de hulp van Injurad!",
     "info_title2":"Hacer realidad tu casa de ensueño en España significa invertir dinero. ¿Correr riesgos? Mejor que no!",
     "info_pa":"",
     "info_pc":"Het realiseren van uw droomhuis in Spanje betekent veel geld investeren. Risico’s nemen? Liever niet! Kopers beschikken niet over juridische kennis en kennis van ruimtelijke ordening om professionals zelf te controleren. Hou daarom de controle met de hulp van Injurad.",
@@ -107,9 +108,9 @@
 
     "how_tittle":"HET IS HEEL",
     "how_tittle2":"EENVOUDIG",
-    "step1":"CONTROLE DOCUMENTEN",
-    "step2":"CONTROLE CONTRACTEN",
-    "step3":"INSPECCIÓN IGP ",
+    "step1":"DOCUMENTEN CONTROLEREN",
+    "step2":"CONTRACT CONTROLEREN",
+    "step3":"IGP AANLOOPKEURING CONTROLEREN",
     "step":"Stap",
     "how_dubstep1":"",
     "how_dubstep2":"",
@@ -156,14 +157,22 @@
     
     "how_stepinfo_tittle1":"Documenten",
     "how_stepinfo_descr1":"Voordat u wat voor contract ook ondertekent, is het belangrijk om te weten of de documentatie van de woning op orde is. Het komt voor dat u slechts een paar documenten krijgt of niks. Als er geen documenten zijn of u krijgt ze niet hoeft de woning niet direct af te schrijven, maar wees alert! Helaas wekken sommige documenten de indruk dat alles in orde is, maar zo eenvoudig is het niet.",
-    "how_stepinfo_descr1b":" Als er geen documenten zijn of u krijgt ze niet hoeft de woning niet direct af te schrijven, maar wees alert! Helaas wekken sommige documenten de indruk dat alles in orde is, maar zo eenvoudig is het niet.",
+    "how_stepinfo_descr1b":"Het is onmogelijk om alleen op basis van documenten zekerheid te hebben over de juridische en urbanistische situatie van het onroerend goed!",
     "how_stepinfo_descr1d":"Het is onmogelijk om alleen op basis van documenten zekerheid te hebben over de juridische en urbanistische situatie van het onroerend goed!",
     "how_stepinfo_descr1e":"Heeft u de belangrijkste documenten ontvangen? Klopt het wat ze u hebben verteld? Weet u waar deze documenten voor zijn? Beschikt u over de noodzakelijke documenten om een ​​contract te kunnen ondertekenen?",
     "how_stepinfo_descr1c":"Stuur ons alle documenten en we leggen het uit.",
 
+    "how_stepinfo_descr1d1":"Heeft u de belangrijkste documenten ontvangen?",
+    "how_stepinfo_descr1d2":"Klopt het wat ze u hebben verteld?",
+    "how_stepinfo_descr1d3":" Weet u waar deze documenten voor zijn?",
+    "how_stepinfo_descr1d4":"Beschikt u over de noodzakelijke documenten om een ​​contract te kunnen ondertekenen?",
+
     "how_stepinfo_tittle2":"Contracten",
-    "how_stepinfo_descr2":"Een contract ondertekenen betekent een verbintenis aangaan. Bevat het contract alle essentiële clausules die uw belangen beschermen? Zijn er geen clausules die uw belangen schaden zonder dat u het weet? ",
-    "how_stepinfo_descr2b":"Is het een reserveringscontract of zijn het eigenlijk voorwaarden van een koopcontract die u verplichten om een ​​woning te kopen, zelfs als het een probleemwoning betreft? Zijn de ontbindende voorwaarden duidelijk zodat de borg wordt teruggestort (aanbetaling, reservering, etc.) als de woning niet in orde is? ",
+    "how_stepinfo_descr2":"Een contract ondertekenen betekent een verbintenis aangaan.",
+    "how_stepinfo_descr2b":" Bevat het contract alle essentiële clausules die uw belangen beschermen?  ",
+    "how_stepinfo_descr2b2":"Zijn er geen clausules die uw belangen schaden zonder dat u het weet?",
+    "how_stepinfo_descr2b3":"Is het een reserveringscontract of zijn het eigenlijk voorwaarden van een koopcontract die u verplichten om een ​​woning te kopen, zelfs als het een probleemwoning betreft?",
+    "how_stepinfo_descr2b4":"Zijn de ontbindende voorwaarden duidelijk zodat de borg wordt teruggestort (aanbetaling, reservering, etc.) als de woning niet in orde is? ",
     "how_stepinfo_descr2c":"Stuur ons het contract dat u wordt voorgesteld te ondertekenen en wij controleren deze.",
     "how_stepinfo_tittle3":"IGP inspectie",
     "how_stepinfo_descr3A":"Met de IGP inspectie is er eindelijk één betrouwbare standaard voor aankoop-onderzoeken. Het maakt een einde aan de individuele aanpak van professionals die door kopers onmogelijk te controleren valt en daardoor onnodig risico’s lopen.",
@@ -297,7 +306,7 @@
 
     "form_igp_tit4tit":"De professionals die samenwerken met Injurad",
     "form_igp_tit4cont":"Injurad werkt niet zomaar met iedereen samen. De professionals die de keuring uitvoeren worden zowel geselecteerd op hun vakkennis als op hun professionele carrière. Injurad stelt hoge eisen aan professionals om kopers maximaal te kunnen beschermen. Daarmee onderscheiden we ons van professionals die worden ingezet bij transacties zonder enige vorm van toezicht.",
-    "form_igp_tit4cont2":"",
+    "form_igp_tit4cont2":"Met Injurad heb je zelf de touwtjes in handen en ben je bestand tegen verkeerde informatie en bedrog. Injurad stelt bijzonder strenge eisen aan professionals. Daarmee onderscheiden we ons van transacties waarbij onroerend goed wordt gekocht met behulp van professionals die niet worden gecontroleerd.",
     "form_igp_tit4q1":"Tekenen intergiteitscode",
     "form_igp_tit4q1answ":"Injurad hanteert duidelijke waarden; onafhankelijkheid, onpartijdigheid, veiligheid, de wet respecterend, integriteit en arbeidsethos. Onze integriteitscode moet door alle professionals worden aanvaard.",
     "form_igp_tit4q2":"Accepteren van een reglement",
@@ -308,6 +317,8 @@
     "form_igp_tit4q4answ":"De professionals leveren een rapport aan conform de regels en protocollen van Injurad. De professionals rapporteren over het onroerend goed, presenteren een urbanistisch rapport (ruimtelijke ordening) en een juridisch rapport, beide ondertekend, waarmee zij hun betrokkenheid aantonen.",
     "form_igp_tit4q5":"Deelname aan het CCI, centro de conocimiento Injurad (kenniscentrum)",
     "form_igp_tit4q5answ":"De wetten in Spanje veranderen voortdurend. Injurad is volledig gericht, en daarme specialist, op juridische en urbanistische aspecten van de transactie. Dankzij het CCI kunnen professionals zelfs in de meest gecompliceerde gevallen een passend antwoord vinden en helpen bij het updaten en doorontwikkelen van onze service. Van deze gemeenschappelijke kennis en ervaringen profiteren zowel kopers als professionals.",
+    "form_igp_tit4q6":"Internal course",
+    "form_igp_tit4q6answ":"An in‑house course covers the necessary information to start working with Injurad. During the course, we will explain how the system works, what is expected from the inspection, what the integrity discussion entails, how to share information from the Knowledge Centre, etc.",
 
 
 
@@ -416,7 +427,7 @@
     "stepform3d":"Aanlevertijd: 5-10 werkdagen",
     "stepform4bb":"200 € IVA incluido",
     
-    "more":"Start IGP",
+    "more":"Start controle",
     "more2":"Meer informatie",
     "more3":"Start controle",
     
@@ -461,8 +472,8 @@
     "footer_info1_5":"",
 
     "footer_tittle3":"Services",
-    "footer_info3_1":"Controle documenten ",
-    "footer_info3_2":"Controle contracten",
+    "footer_info3_1":"Documenten controleren ",
+    "footer_info3_2":"Contract controleren",
     "footer_info3_3":"IGP inspectie",
     "footer_info3_4":"",
     
@@ -492,6 +503,8 @@
     "menu6":"",
     "menu7":"Aanmelden professionals",
     
-    "menu9":"Contact"
+    "menu9":"Contact",
+
+    "card_infobtn":"Meer weten?"
     
 }

@@ -19,8 +19,8 @@
     "reason_tittleinfotit2":"Contracts with missing or misleading clauses",
     "reason_tittleinfotit3":"Incomplete or superficial purchase due diligence",
 
-    "reason_tittle":"Injurad is here for a ",
-    "reason_tittlebold":"reason",
+    "reason_tittle":"Injurad is here  ",
+    "reason_tittlebold":"for a reason",
     "reason_1a":"An extremely high percentage of properties have",
     "reason_1b":" no “Property Passport” (PDI) or they have an invalid one.",
     "reason_1c":"This almost always has serious consequences, which sometimes only come to light years after the purchase.",
@@ -55,16 +55,18 @@
 
     "announce":"WHAT EVERY BUYER SHOULD KNOW    ",
     "announce2":"Be sensible, don’t skimp on control.",
-    "more":"Read more",
+    "more":"Start control",
     "more2":"Know more",
     "more3":"Start control",
-    "step1":"DOCUMENTATION VERIFICATION",
-    "step2":"CONTROL ON CONTRACTS",
-    "step3":"CONTROL ON THE IGP INSPECTION ",
+    "step1":"CHECK DOCUMENTS ",
+    "step2":"CHECK CONTRACTS",
+    "step3":"IGP PRE-PURCHASE INSPECTION ",
+    "how_stepinfo_descr2c":"Send us the contract that you are proposed to sign and we will check.",
 
 
 
-    "info_title":"Stay in control with the help of Injurad!",
+    "info_title":"Stay in control ",
+    "info_titleb":"with the help of Injurad!",
     "info_title2":"Purchasing your dream home in Spain involves investing a lot of money. Should there be risks involved? No!",
     "info_pa":"Purchasing your dream home in Spain involves investing a lot of money. Should there be any risks involved? No! To avoid this, ",
     "info_pc":"make sure that you are in control of the purchase process yourself.",
@@ -163,8 +165,8 @@
     "how_stepinfo_descr1c":"Send us the contract that you have been asked to sign and we will check it for you.",
 
     "how_stepinfo_tittle2":"Contract",
-    "how_stepinfo_descr2":"Depending on the documents you receive, you will sign an option or a reservation contract. A valid contract is essential.",
-    "how_stepinfo_tittle3":"Control on the IGP inspection",
+    "how_stepinfo_descr2":"Signing a contract involves making a commitment.",
+    "how_stepinfo_tittle3":"IGP inspection",
     "how_stepinfo_descr3":"Finally there is one reliable standard for purchase investigations: the IGP inspection. This inspection puts an end to the individual approach of experts which it is impossible for buyers to check and therefore run unnecessary risks.",
     
     "how_stepinfo_descr2b":"Does the contract include all the essential clauses that protect your interests?",
@@ -284,7 +286,7 @@
     "form_igp_info2f":"Can I rebuild the property in case of major damage?",
     "form_igp_info2g":"Am I insured against fire, water damage or other damage?",
     "form_igp_tit2a":"Who carries out the IGP inspection and control? ARCHITECTS AND LAWYERS",
-    "form_igp_tit2aa":"ARQUITECTOS Y ABOGADOS (realizar inspección)",
+    "form_igp_tit2aa":"ARCHITECTS AND LAWYERS",
     "form_igp_tit2b":"The architects and the lawyers who carry out the inspection in accordance with the IGP standards are independent and have no commercial relationship with Injurad. It is important that the property meets the requirements of the land-use planning regulations (plan de ordenación de territorio local), which are the planning regulations established by the town hall. This is why every IGP inspection always starts with the investigation carried out by an architect specialised in planning regulations (Part A, the 'planning report').",
     "form_igp_tit3b":"A lawyer then assesses the legal aspects by checking the legislation against the architect's report. This results in the generation of a legal report (part B, the 'legal report') in which you will also find conclusions and recommendations.",
 
@@ -293,6 +295,7 @@
     "form_igp_t22":"IGP as a second opinion",
     "form_igp_t2b2":"Even if you have previously signed a contract with a broker or a lawyer, it is advisable to have an IGP inspection before you sign and pay at the notary’s office. This will give you peace of mind and make sure that you are correctly informed. An IGP can be conducted in complete confidence, without any contact with the seller, the broker or the lawyer. The report, signed by the experts, can also be used as evidence in case it is necessary to terminate the agreement.",
     "form_igp_info1b":"Each IGP inspection offers a series of important conclusions and recommendations. This allows you to weigh up the risks yourself and decide whether you want to proceed with the purchase. The inspection report also makes the final phase up to the notary much clearer, as it allows you to find out whether everything is in order or what still needs to be done.    ",
+    "form_igp_tit4arcont":"Injurad's inspectors (also lawyers and architects) check on behalf of the buyers whether the IGP inspection has been carried out in accordance with our rules and protocols.",
 
 
     "form_igp_info3":"Each IGP inspection contains conclusions and recommendations, which will allow you to keep control and weigh up the possible risks for yourself.",
@@ -326,16 +329,21 @@
     "form_reserva_tit4cont3":"The cost for a contract drawn up by a lawyer including IVA and the Injurad inspection has been set at €425.92.",
     "form_reserva_tit4_2":"Requirements",
 
-    "form_igp_tit4q1":"To sign the integrity statement",
-    "form_igp_tit4q1answ":"Injurad se mueve con unos valores muy definidos, la independencia, imparcialidad, seguridad, respeto a las leyes, integridad y ética en el trabajo. Nuestro código ético es norma de obligado cumplimiento, que debe aceptar todo colaborador. Este es el espíritu Injurad, y la protección y seguridad que usted recibirá.",
-    "form_igp_tit4q2":"To accept the protocol  ",
-    "form_igp_tit4q2answ":"Toda conducta impropia o que resulte contraria a nuestro código ético y de conducta, incluido el cumplimiento de nuestros protocolos, será sancionada conforme a nuestro reglamento interno. Esta normativa interna debe ser aceptada por todos los colaboradores. Además disponemos de un comité de arbitraje independiente que resolverá cualquier tipo de conflicto que pudiera surgir.",
-    "form_igp_tit4q3":"To accept being supervised by Injurad  ",
-    "form_igp_tit4q3answ":"De esta forma comprobamos que los informes cumplen con los protocolos, reglas y estándares de calidad, siendo una medida efectiva para que los profesionales pongan su máximo desempeño en cada uno de los informes.",
-    "form_igp_tit4q4":"To take an internal course (lawyers and architects who are part of Injurad and also external lawyers and architects)",
-    "form_igp_tit4q4answ":"Los profesionales entregan un informe técnico conforme a las reglas y protocolos de Injurad. Cada uno de los profesionales que interviene da su opinión técnica sobre la situación del inmueble, presentando un informe urbanístico y un informe jurídico, ambos debidamente firmados, ofreciendo un trabajo comprometido y responsable.",
-    "form_igp_tit4q5":"To participate in the Injurad Knowledge Centre",
-    "form_igp_tit4q5answ":"Las leyes en España están en constante cambio. Gracias a nuestro Centro de conocimiento, los profesionales pueden encontrar una respuesta adecuada incluso en los casos más complicados. La acumulación de multitud de experiencias, pues solo nos dedicamos a esto, tiene ventajas tanto para los profesionales como para usted.",
+    "form_igp_tit4q1":"Values of our integrity code",
+    "form_igp_tit4q1answ":"Injurad works with clear values; independence, impartiality, security, compliance with the law, integrity and work ethic. All our experts must comply with our integrity code.",
+    "form_igp_tit4q2":"Adherence to our regulations ",
+    "form_igp_tit4q2answ":"Any practice or conduct that violates our policies, including the non‑compliance with our protocols, will be reviewed and sanctioned following our internal policies. These regulations must be accepted by all employees. In the case of any complaint about any expert, an independent arbitration committee will be called in to find a solution if necessary.",
+    "form_igp_tit4q3":"Acceptance of our checks",
+    "form_igp_tit4q3answ":"Injurad checks whether the reports meet the protocols, rules and quality standards. This is also an effective measure for experts to maximise their performance with each report.",
+    "form_igp_tit4q4":"Submission of a signed report",
+    "form_igp_tit4q4answ":"The professionals provide a report in accordance with Injurad's rules and protocols. The experts' report on the property covers town planning and legal matters and is signed by both the lawyer and the architect to confirm their participation.",
+    "form_igp_tit4q5":"Participation in the Injurad's Knowledge Centre, CCI (Centro de Conocimiento Injurad)",
+    "form_igp_tit4q5answ":"The laws in Spain are constantly changing. Injurad is fully focused on the transaction and therefore we work with both an expert in town‑planning and an expert in legal matters. Thanks to the CCI, experts can find a suitable answer even for the most complicated cases and help update and further develop our service. Both buyers and professionals benefit from this common knowledge and experience.",
+    "form_igp_tit4q6":"Internal course",
+    "form_igp_tit4q6answ":"An in‑house course covers the necessary information to start working with Injurad. During the course, we will explain how the system works, what is expected from the inspection, what the integrity discussion entails, how to share information from the Knowledge Centre, etc.",
+    "form_igp_tit4tit":"The experts who work with Injurad",
+    "form_igp_tit4cont":"Injurad does not just work with everyone. Our inspectors are selected for their professional expertise as well as for their professional backgrounds. In order to work with Injurad, it is essential that the experts’ backgrounds reflect their professional integrity with regard to norms and values. These are part of our code of ethics, which must be accepted by all experts.",
+    "form_igp_tit4cont2":"With Injurad you are in control and buyers do not want to be misinformed or deceived. Injurad sets out very strict requirements for experts. This distinguishes us from other real estate transactions in which properties are purchased with the help of experts who have not been assessed.",
 
     
     
@@ -405,7 +413,7 @@
     "iva2b":"90,75 € (incl. vat)",
     "stepform1c":"Duration:  1-2 work days",
     "stepform2":"Paso 2",
-    "stepform2b":"Price::",
+    "stepform2b":"Price:",
     "iva22b":" 121 € incl. vat ",
     "stepform2c":"Duration: max 3-5 work days",
     "stepform3":"Paso 3",
@@ -417,35 +425,36 @@
     "stepform3c2":"465,50 € (incl. vat)",
     "stepform3d":"Duration: 5-10 work days",
     "stepform4bb":"200 € (incl. vat)",
-    
+    "form_reserva_info1pb":"Why check a contract with Injurad?",
+
     
 
     
     
     "About_tittle1":"INJURAD’S MISSION    ",
-    "About_tittle1_info":"Our goal is to ensure that everyone is able to purchase safely, regardless of the value of the property and for a reasonable fee. You will be provided with clear and honest information regarding the status of the property, including local regulations, the applicable planning regulations and the consequences if the property does not comply with them. It is essential to have this information in order to make a decision and to know what you are actually purchasing.",
+    "About_tittle1_info":"Our goal is to ensure that everyone is able to purchase safely, regardless of the value of the property, and at a reasonable fee. You will be provided with clear and honest information regarding the status of the property, including local regulations, the applicable planning regulations and the consequences if the property does not comply with them. It is essential to have this information in order before making a decision and to understand fully what you are actually purchasing. This is why we have introduced the IGP as a national standard for property inspections, a standard that we are able to control.",
     "About_tittle2":"How do we achieve our goal?",
     "About_tittle2_info":"We follow five basic principles:",
     "About_tittle2_info1":"Standardisation",
-    "About_tittle2_info1_1":"This goal is only achieved by establishing a procedure with clear guidelines and rules for the experts, which allow them to exercise control over their work and therefore do their work in the client’s best interests.    ",
+    "About_tittle2_info1_1":"This goal is only achieved by establishing a procedure with clear guidelines and rules for the experts, which allow them to exercise control over their work in the client’s best interests.",
     "About_tittle2_info2":"Supervision with a «watchdog» function",
     "About_tittle2_info2_1":"We highlight the difference between an independent expert, and an expert who follows protocols, who accepts our controls and who accepts our code of ethics and regulations.",
     "About_tittle2_info3":"Professionalism    ",
     "About_tittle2_info3_1":"The results of the inspection are presented in a report that is clear and easy to understand, signed by a professional who is an expert in that field, and which provides technical coverage to third parties.",
     "About_tittle2_info4":" Permanent evaluation",
-    "About_tittle2_info4_1":"We carry out a thorough evaluation of one in ten reports, with mutual checks and co-operation between the experts involved. We have an incident resolution procedure for complaints, and continuous improvement for the entire system. These are examples of the checks we conduct to ensure a high quality end result.    ",
+    "About_tittle2_info4_1":"We carry out a thorough evaluation of one in ten reports for quality assurance, with mutual checks and co-operation between the experts involved. We have an incident resolution procedure for complaints, and continuous improvement for the entire system. These are examples of the checks we conduct to ensure a high quality end result.",
     "About_tittle2_info5":"Collective knowledge ",
     "About_tittle2_info5_1":"The collective experience and knowledge of the experts provides enormous added value when preparing an inspection, taking into account that the Spanish regulations in the field of land-use planning are applied differently depending on the autonomous region.    ",    
     
     "About_tittle3":"Who are our experts    ",    
     "About_tittle3_info":"The experts are specialised real estate professionals. They are architects who specialise in land-use planning and lawyers with extensive knowledge of the law related to land-use planning. The system is available to any expert. Experts who have already accepted Injurad’s guidelines and protocols are entered into our database so that a request can randomly be assigned to them. Any expert who is new to Injurad will have access to the system once the validation and training process is complete.", 
     
-    "About_tittle4":"Injurad",
-    "About_tittle4_info":"An in-house team consisting of specialised architects and lawyers in planning regulations monitors the form and content of the reports drawn up by the inspectors.",
-    "About_tittle4_tittle1":"Inspectors in town planning regulations (urbanismo)    ",
-    "About_tittle4_tittle1_info":"The inspectors are all town planning experts, almost all architects.    ",
+    "About_tittle4":"Injurad’s team",
+    "About_tittle4_info":"Injurad’s team consists of lawyers and architects who specialise in planning regulations. Their responsibility is to check reports against fixed guidelines and protocols.",
+    "About_tittle4_tittle1":"Inspectors in town planning regulations (urbanismo)",
+    "About_tittle4_tittle1_info":"Our architects who specialise in planning regulations verify that the IGP inspections comply with our protocols.",
     "About_tittle4_tittle2":"Legal inspectors  ",
-    "About_tittle4_tittle2_info":"The legal inspectors are lawyers who specialise in land-use planning law.    ",
+    "About_tittle4_tittle2_info":"Lawyers who specialise in planning regulations are responsible for checking documents and contracts as well as checking that the IGP inspections comply with our guidelines and protocols.",
     "About_tittle5":"Los Abogados de injurad que tambien cuentan con la experiencia y el conocimiento en las leyes urbanísticas, para supervisar los procesos de inspección.",
     "About_tittle6":"Where we work",
     "About_tittle6_info":"In order to meet our objective, Injurad works nationally. To do this, the system takes into account both national laws and regional and local regulations.    ",
