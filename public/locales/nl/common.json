@@ -56,7 +56,19 @@
     "announce2":"Wees verstandig, bezuinig niet op controle.",
 
 
-
+    "other":"Controle Documenten, Contract",
+    "otherc":"Contratos",
+    "otheri":"",
+    "email":"E-mail",
+    "nombres":"Voornaam",
+    "apellidos":"Achternaam",
+    "municipio":"Plaats",
+    "codigo":"Postcode",
+    "pais":"Land",
+    "pasaporte":"Paspoortnummer / NIE / DNI",
+    "direccion_fac":"Factuuradres",
+    "calleynumero":"Straat en huisnummer",
+    "telefono":"Mobiele nummer (+01-255-456-7890)",
 
 
     "info_title":"Hou zelf de controle ",

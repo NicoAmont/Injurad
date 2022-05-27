@@ -98,6 +98,13 @@ ul {
   background-color: #326754;
   background-position: center;
 }
+.segment-5{
+  background-image: url(../public/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #326754;
+  background-position: center;
+}
 
 .content-div{
   

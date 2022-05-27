@@ -419,6 +419,20 @@
     "stepform3d":"Duración: 5-10 diás hábiles",
     "stepform4bb":"200 € (incl. iva)",
     
+    "other":"Chequeo Documentos y Contrato",
+    "otherc":"Contratos",
+    "otheri":"",
+    "email":"E-mail",
+    "nombres":"Nombres",
+    "apellidos":"Apellidos",
+    "municipio":"Municipio",
+    "codigo":"Codigo Postal",
+    "pais":"Pais",
+    "pasaporte":"Pasaporte / DNI / NIE",
+    "direccion_fac":"Dirección de facturación",
+    "calleynumero":"Calle y numero",
+    "telefono":"Telefono móvil (+01-255-456-7890)",
+
     
     "About_tittle1":"MISION INJURAD",
     "About_tittle1_info":"El objetivo, que las compras seguras sean accesibles para todos, sin importar el valor de la propiedad por una tarifa razonable. Informar clara y honestamente sobre la situación del inmueble en cuanto al cumplimiento de las normas urbanísticas, y si es el caso, sobre las consecuencias que supondrá el no cumplirlas, información que es fundamental para tomar una decisión conociendo lo que realmente se esta comprando.    ",

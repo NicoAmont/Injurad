@@ -400,16 +400,28 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-
+    "other":"Control Documents and Contracts",
+    "otherc":"Contracts",
+    "otheri":"",
+    "email":"E-mail",
+    "nombres":"Name",
+    "apellidos":"Surname",
+    "municipio":"Town",
+    "codigo":"Zip code",
+    "pais":"Country",
+    "pasaporte":"Passport / DNI / NIE",
+    "direccion_fac":"Billing address",
+    "calleynumero":"Street and number",
+    "telefono":"Mobile number (+01-255-456-7890)",
 
 
 
     "stepform1":"Paso 1",
     "stepform1b1":"Control desde:",
     "stepform1b1b":"Control :",
-    "stepform1b":"Control up to 2 documentos: ",
+    "stepform1b":"Control up to 2 documents: ",
     "iva1b":" 36,30 €  (incl. vat)",
-    "stepform1b2":"Control more than 2 documentos:",
+    "stepform1b2":"Control more than 2 documents:",
     "iva2b":"90,75 € (incl. vat)",
     "stepform1c":"Duration:  1-2 work days",
     "stepform2":"Paso 2",
