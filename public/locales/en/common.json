@@ -420,26 +420,28 @@
     "stepform1b1":"Control desde:",
     "stepform1b1b":"Control :",
     "stepform1b":"Control up to 2 documents: ",
-    "iva1b":" 36,30 €  (incl. vat)",
+    "iva1b":" 36,30 €  (incl. VAT)",
     "stepform1b2":"Control more than 2 documents:",
-    "iva2b":"90,75 € (incl. vat)",
-    "stepform1c":"Duration:  1-2 work days",
+    "iva2b":"90,75 € (incl. VAT)",
+    "stepform1c":"Duration:  1-2 working days",
     "stepform2":"Paso 2",
     "stepform2b":"Price:",
-    "iva22b":" 121 € incl. vat ",
-    "stepform2c":"Duration: 1-2 work days",
+    "iva22b":" 121 € incl. VAT ",
+    "stepform2c":"Duration: 1-2 working days",
     "stepform3":"Paso 3",
-    "stepform3ba":"199,65 € (incl. vat)",
+    "stepform3ba":"199,65 € (incl. VAT)",
     "stepform3b":"IGP urbano: ",
-    "stepform3b2":"332,40 € (incl. vat)",
-    "stepform3bb":"Price from  € 199,65 (incl. vat) ",
+    "stepform3b2":"332,40 € (incl. VAT)",
+    "stepform3bb":"Price from  € 199,65 (incl. VAT) ",
     "stepform3c":"IGP rústico:",
-    "stepform3c2":"465,50 € (incl. vat)",
-    "stepform3d":"Duration: 5-10 work days",
-    "stepform4bb":"200 € (incl. vat)",
+    "stepform3c2":"465,50 € (incl. VAT)",
+    "stepform3d":"Duration: 5-10 working days",
+    "stepform4bb":"200 € (incl. VAT)",
     "form_reserva_info1pb":"Why check a contract with Injurad?",
 
-
+    "stepformOp1":"Redactar contrato : ",
+    "stepformOp2":"Controlar contrato : ",
+    "stepformOp2_":"423,50 € (incl. btw)  ",
     
     
     "About_tittle1":"INJURAD’S MISSION    ",
@@ -518,7 +520,11 @@
     "footer_info5_3":"Report complaint",
     "footer_info5_4":"Work with Injurad",
 
-    "card_infobtn":"learn more ..."
+    "card_infobtn":"learn more ...",
+    
+    "mensaje_enviadotit":"Thank you for your confidence in Injurad",
+    "mensaje_enviadotext":"En breve nos contactaremos",
+    "mensaje_enviado_btn":"Volver al inicio"
 
     
 }

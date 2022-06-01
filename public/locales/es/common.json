@@ -318,17 +318,20 @@
 
     "form_igp_info3":"Cada inspección define una serie de conclusiones y recomendaciones. Con este dictamen usted estará en la posibilidad de mantener el control y tomar una decisión haciendo su propio análisis de riesgos. Así este informe le evitará que le confundan en los próximos pasos hasta llegar al notario .",
     "form_doc_tittle":"CHEQUEO DE DOCUMENTOS ",
-    "form_doc_info1":"¿Compraría un coche sin papeles válidos?",
-    "form_doc_info2":"Probablemente no, porque si le detienen le multarían, en caso de colisión los daños no estarían asegurados y en caso de accidente los daños podrían ser incalculables. Y para venderlo en el futuro no sería fácil, quizás imposible. A la hora de comprar un coche, todos comprobamos los papeles. Esto no debería ser diferente comprando una propiedad, porque los riesgos son tal vez mayores. ¿Están todos los documentos presentes, son válidos? Los documentos de Registro de la propiedad (Nota simple), Catastro o un certificado del ayuntamiento al no existir infracción no tienen nada que ver con la legalidad. Hay más documentos de gran importancia, Licencia de ocupación, Licencia de obras, Cédula de habitabilidad etc.",
-    "form_doc_info2b":"Algunos documentos tienen una apariencia similar teniendo diferente finalidad. Esto conduce a malentendidos, uso oportunista y por supuesto problemas posteriores.",
+    "form_doc_info1":"Mantén el control y revisa los documentos con la ayuda de Injurad",
+    "form_doc_info2":"Si no conduce un automóvil sin ITV y un carnet de conducir, entonces tampoco desea una propiedad sin los documentos esenciales porque los riesgos son los mismos, tal vez incluso mayores. ",
+    "form_doc_info2b":"La posibilidad que una casa se queme es pequeña, en cambio una compañía de seguros si tiene derecho a no pagar o el ayuntamiento a no dar permiso para reconstruir la casa. ¿Es ese un riesgo aceptable para usted o no?",
+    "form_doc_info2b2":"Generalmente se insinúa que una vivienda está en regla si está inscrita en Catastro y Registro de la Propiedad y tiene un certificado de que la vivienda es habitable. Eso es evidentemente incorrecto y la razón por la que los propietarios tienen problemas posteriores. ",
     "form_igp_tittle2":"Resultados de IGP",
+    "form_doc_info2btit":"Un ejemplo ",
+
     "form_igp_tittle2B":"Los resultados del IGP definen tres situaciones: luz verde, luz amarilla o luz roja.",
     "form_igp_tittle2B1":"La propiedad es ilegal y no se puede legalizar, en consecuencia tendrá limitaciones importantes, usted mismo podrá analizar los riesgos.",
     "form_igp_tittle2B2":"Hay cuestiones que aún no se han resuelto o deben ser investigadas. El informe indica cual profesional le puede ayudar.",
     "form_igp_tittle2B3":"El IGP no revela que en la propiedad hay irregularidades. Póngase en contacto con un abogado para que lo oriente hasta el notario.",
     "form_igp_infot2":"Porque controlar los documentos con ayuda de Injurad?",
-    "form_igp_infot2P":"Un comprador no puede diferenciar qué documentos le están entregando y qué acreditan, por tanto un Chequeo de documentos es la ayuda independiente que necesita. Quien vende la casa no es precisamente la voz imparcial que le dará claridad. Por eso tome el control con la ayuda de Injurad.",
-    "form_igp_infot2Pb":"Recibirá los resultados con la firma del abogado que revisó.",
+    "form_igp_infot2P":"Hay tantos documentos que los compradores son relativamente fáciles de engañar. Es muy difícil distinguir qué documentos son realmente importantes y cuáles parecen importantes pero no lo son en realidad. La persona que vende la propiedad no es imparcial y tiene un interés comercial.",
+    "form_igp_infot2Pb":"",
     "form_igp_infot3":"En que momento se pide un Chequeo de documentos? ",
     "form_igp_infot3P":"En el momento que logre un acuerdo sobre el precio y entregan los documentos (mínimo los esenciales). No firme nada, ni realice ningún pago sin haber concensuado un contrato (paso 2).",
     "form_igp_infot4":"Tercer Documento ",
@@ -358,7 +361,7 @@
     "form_doc_b":" aquí le explicamos",
     "form_doc_info":"Las viviendas irregulares se pueden inscribir en el Registro de la propiedad, porque esta institución no tiene como función comprobar la legalidad. Así mismo viviendas ilegales aparecen en el Castastro, porque este organismo tampoco tiene esta función. Las viviendas con Licencia de ocupación (Pasaporte del Inmueble) que no cumplan con el plan urbanístico o la legislación actual tendrán limitaciones.  Las viviendas que no tienen Licencia de obra, por lo tanto se construyeron sin un permiso, aún podrían legalizarse si cumplen con el plan urbanístico y la demás normativas actuales. Por eso la inspección IGP es sumamente importante. Se trata de una gran inversión, así que siga los tres pasos y haga que los especialistas realicen su trabajo bajo las pautas de Injurad.",
     "form_doc_btbl":"Solicitar un chequeo es muy sencillo",
-    "form_doc_btbl2":"Rellene el formulario aquí debajo. Recibirá un correo electrónico con las instrucciones para pagar y enviarnos los documentos que ha recibido para controlarlos.",
+    "form_doc_btbl2":"Envíanos los documentos que le ha entregado, incluso la Licencia de ocupación, ¡que no se confunda con un certificado de ser habitable! Le explicamos si los imprescindibles están incluidos, qué significan y qué documentos le faltan por solicitar",
     "form_doc_btbl3":"PAGO SEGURO",
     "form_doc_q1":"En que momento se pide un Chequeo de Documentos?",
     "form_doc_a11":"Antes de firmar cualquier contrato.",
@@ -388,7 +391,7 @@
     "form_reserva_quest1c":"Contrastamos el contrato con nuestros lineamientos y protocolos. Recibirá los resultados con la firma del abogado que revisó.    ",
     "form_reserva_quest2":"",
     "form_reserva_quest3":"El procedimiento es muy sencillo",
-    "form_reserva_quest4":"Rellene el formulario aquí debajo. Recibirá un correo electrónico con las instrucciones para pagar y enviarnos el contrato que ha recibido.",
+    "form_reserva_quest4":"Rellene el formulario aquí debajo. Recibirá un correo electrónico con las instrucciones para pagar y enviarnos el contrato que ha recibido",
     
     "form_reserva_tit4tit":"Contratos Modelo Injurad",
     "form_reserva_tit4cont":"Gracias al Centro de Conocimiento, Injurad ha podido desarrollar modelos de contrato estandarizados perfeccionados gracias a las multiples experiencias de los abogados que colaboran con Injurad. Los colaboradores al aceptar nuestro código ético así como al asumir nuestros protocolos permite a Injurad y sus supervisores el control.",
@@ -419,11 +422,16 @@
     "stepform3d":"Duración: 5-10 diás hábiles",
     "stepform4bb":"200 € (incl. iva)",
     
+    "stepformOp1":"Redactar contrato : ",
+    "stepformOp2":"Controlar contrato : ",
+    "stepformOp2_":"423,50 € incl. iva  ",
+
+
     "other":"Chequeo Documentos y Contrato",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
-    "nombres":"Nombres",
+    "nombres":"Nombre",
     "apellidos":"Apellidos",
     "municipio":"Municipio",
     "codigo":"Codigo Postal",
@@ -690,7 +698,10 @@
     "footer_info5_3":"Queja sobre inspección",
     "footer_info5_4":"Trabaja con Injurad",
     
-    "card_infobtn":"Descubre más ..."
+    "card_infobtn":"Descubre más ...",
 
+    "mensaje_enviadotit":"GRACIAS POR CONFIAR EN INJURAD",
+    "mensaje_enviadotext":"En breve nos contactaremos",
+    "mensaje_enviado_btn":"Volver al inicio"
     
 }

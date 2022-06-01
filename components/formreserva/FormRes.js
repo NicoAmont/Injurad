@@ -247,8 +247,9 @@ export default function FormRes() {
                     placeholder=" " 
                     required
                 >
-                    <option>{t("stepform2b")} {t("iva22b")}</option>
-
+                    <option  disabled value=""></option>
+                    <option>{t("stepformOp1")} {t("iva22b")}</option>
+                    <option>{t("stepformOp2")} {t("stepformOp2_")}</option>
                 </select>
                 <label 
                     htmlhtmlfor="floating_last_name" 

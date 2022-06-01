@@ -28,11 +28,15 @@ export default function Doc() {
             <h1 className="md:ml-10 text-sm md:text-sm font-medium text-bg2 mb-2">{t("iva2b")}</h1>
             <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 ">{t("stepform1c")}</h1>
 
-            <div className="w-full md:w-3/4 m-auto mb-20 text-base md:text-base ">
+            <div className="w-full md:w-11/12 m-auto mb-20 text-base md:text-base ">
                 {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                 <p className="mb-10 text-2xl md:text-3xl uppercase font-medium text-bg2 mt-20">{t("form_doc_info1")}</p>
                 <p className="leading-8 text-lg">{t("form_doc_info2")}</p>
-                <p className="leading-8 text-lg mt-5">{t("form_doc_info2b")}</p>
+                <div className="border-l-4 border-sl pl-4 w-11/12 m-auto">
+                    <p className="leading-8 text-xl uppercase text-bg2 font-medium mt-5">{t("form_doc_info2btit")}</p>
+                    <p className="leading-8 text-base mt-1">{t("form_doc_info2b")}</p>
+                </div>
+                <p className="leading-8 text-lg mt-5">{t("form_doc_info2b2")}</p>
             </div>
 
             <div className="w-full m-auto mb-20 text-xl">
@@ -87,7 +91,7 @@ export default function Doc() {
             </div>
 
 
-            <div className="w-full md:w-3/4 m-auto mb-16 text-xl flex flex-col">
+            <div className="w-full md:w-11-12 m-auto mb-16 text-xl flex flex-col">
                 
                     
                 

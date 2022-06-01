@@ -68,9 +68,9 @@ export default function Reserva() {
                     <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont")} </p>
                     <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont2")}</p>
                     <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_reserva_tit4cont3")}</p>
+                    {/*
                     <h2 className=" text-sl font-semibold text-left text-xl pt-5  md:px-0  ">{t("form_reserva_tit4_2")}</h2>
-
-                    <div className="item2 m-auto w-8/12">
+                     <div className="item2 m-auto w-8/12">
                         <div className="title  " onClick={ () => toggle(1)}>
                             <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q1")}</h2>
                             <span className=" text-bgr font-normal">{selected === 1 ? "-" : "+"}</span>
@@ -114,7 +114,7 @@ export default function Reserva() {
                         <div className=" border-l-2 border-sl pl-2 ">
                             <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
                         </div>
-                    </div>
+                    </div> */}
                 
                 </div>
                         

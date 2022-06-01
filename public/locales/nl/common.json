@@ -336,20 +336,22 @@
 
     "form_igp_info3":"Elke IGP inspectie bevat conclusies en aanbevelingen in uw eigen taal. Met dit advies houdt u de controle en kunt u zelf de mogelijke risico’s afwegen.",
     "form_doc_tittle":"DOCUMENTEN CHECK",
-    "form_doc_info1":"Zou u een auto kopen zonder geldige papieren?",
-    "form_doc_info2":"Waarschijnlijk niet, want als u wordt aangehouden krijgt u een boete, bij een aanrijding is de schade niet verzekerd en bij een ongeval is de schade misschien niet te overzien. Bij het kopen van een auto controleren we allemaal de papieren. Bij een woning zou dat niet anders moeten zijn, want de risico’s zijn het zelfde zo niet groter.",
-    "form_doc_info2b":"Zijn alle documenten aanwezig, zijn ze geldig?. De documenten van het Eigendomsregister (Nota Simple) en kadaster hebben niets te maken met legaliteit. Er zijn meer documenten van groot belang, Licencia de ocupación, Licencia de obras, Cédula de habitabilidad, etc. Sommige documenten lijken op elkaar maar hebben een andere functie. Dat leidt tot misverstanden en problemen achteraf.",
+    "form_doc_info1":"Hou de regie en controleer de documenten ",
+    "form_doc_info2":"Als u geen auto rijdt zonder verplichte autokeuring en rijbewijs, dan wilt u ook geen huis zonder essentiële documenten omdat de risico’s hetzelfde zo niet groter zijn. ",
+    "form_doc_info2btit":"Een voorbeeld",
+    "form_doc_info2b":"De kans dat een huis afbrandt is klein, maar een verzekeringsmaatschappij heeft het recht om niet uit te keren of de gemeente verleent geen vergunning om de schade te herstellen dan wel het huis te herbouwen als dat nodig is. Is dat voor u een acceptabel risico of niet?",
+    "form_doc_info2b2":"De suggestie wordt gewekt dat een woning in orde is als deze is geregistreerd in het Kadaster en Woningregister en over een Woonvergunning beschikt. Dat is pertinent onjuist en de reden dat huiseigenaren achteraf in de problemen komen.",
     "form_igp_tittle2":"Resultaten IGP",
     "form_igp_tittle2B":"Het resultaat van de IGP wordt uitgedrukt in drie kleuren.",
     "form_igp_tittle2B1":"Het onroerend goed is illegaal en niet te legaliseren en heeft serieuze beperkingen. U kunt zelf de risico’s afwegen.",
     "form_igp_tittle2B2":"Er zijn zaken die nog moeten worden opgelost of onderzocht. Het rapport geeft aan welke professional u daarbij kan helpen.",
     "form_igp_tittle2B3":"De IGP laat geen onrechtmatigheden zien. Neem contact op met een advocaat om u te begeleiden tot aan de notaris.",
     "form_igp_infot2":"Waarom de documenten controleren met hulp van Injurad?",
-    "form_igp_infot2P":"Een koper kan niet onderscheiden welke documenten zijn aangeleverd en waar ze voor zijn. Daarom is goed om de documenten te laten controleren door een onafhankelijke partij. Degene die het huis verkoopt is niet onpartijdig of heeft een commercieel belang. Neem de controle in eigen hand met de hulp van Injurad.",
+    "form_igp_infot2P":"Er zijn zoveel documenten dat kopers betrekkelijk eenvoudig te misleiden zijn. Het is erg moeilijk om te onderscheiden welke documenten echt belangrijk zijn en welke belangrijk lijken, maar niet zijn. Degene die de woning verkoopt is niet onpartijdige en heeft een commercieel belang.",
     "form_igp_infot3":"Wanneer vraagt u een documenten check aan? ",
     "form_igp_infot3P":"Op het moment dat u overeenstemming heeft over de prijs en de documenten zijn overhandigd (minimaal de essentiële). Onderteken niets en betaal niets zonder degelijk contract (stap 2).",
     "form_igp_infot4":"Tercer Documento ",
-    "form_igp_infot2Pb":"U ontvangt de resultaten ondertekend door de advocaat die de documenten heeft beoordeeld.",
+    "form_igp_infot2Pb":"",
     
     
     "form_igp_infot4-":"Voorbeeld IGP inspectie",
@@ -376,11 +378,11 @@
     "form_doc_b":"hier leggen we het uit",
     "form_doc_info":"Woningen met onrechtmatigheden kunnen worden ingeschreven in het eigendomsregister, omdat deze instelling niet de taak heeft om de legaliteit te controleren. Evenzo worden illegale wonigen opgenomen in het Kadaster, omdat ook deze instantie de legaliteit niet controleert. Woningen met een Licencia de ocupación (Vastgoedpaspoort) die niet voldoen aan het huidige bestemmingsplan of wetgeving hebben beperkingen. Woningen die geen bouwvergunning hebben, dus zonder vergunning zijn gebouwd, kunnen alnog gelegaliseerd worden als deze voldoen aan het bestemmingsplan en geldende regelgeving. Daarom is de IGP-keuring enorm belangrijk. Het gaat om een grote investering, dus volg de drie stappen en laat de specialisten hun werk doen volgens de Injurad-richtlijnen.",
     "form_doc_btbl":"Een check aanvragen is heel eenvoudig",
-    "form_doc_btbl2":"Vul onderstaand formulier in. U ontvangt een e-mail met de details voor de betaling en de mogelijkheid om de documenten naar ons op te sturen",
+    "form_doc_btbl2":"Stuur ons de documenten die u heeft gekregen, inclusief de Licencia de ocupación, niet te verwarren met de Woonvergunning! We leggen u uit of u de essentiële documenten heeft ontvangen, wat ze inhouden en welke documenten ontbreken.",
     "form_doc_btbl3":"PAGO SEGURO",
     "form_doc_q1":"Wanneer vraagt u een documenten check aan?",
     "form_doc_a11":"Voordat u een contract tekent. ",
-    "form_doc_a12":" Eerst moet er overeenstemming zijn over de prijs van de woning, op voorwaarde dat alles in orde is. Het is niet raadzaam om een ​​contract te ondertekenen of een aanbetaling te doen voordat is controleert welke documenten er zijn.",
+    "form_doc_a12":" Eerst moet er overeenstemming zijn over de prijs van de woning, op voorwaarde dat alles in orde is. Het is niet raadzaam om een ​​contract te ondertekenen of een aanbetaling te doen voordat is gecontroleerd welke documenten er zijn.",
     "form_doc_q2":"Wat als u geen enkel document krijgt?",
     "form_doc_a21":"Dat wekt geen vertrouwen. Als u geen documenten ontvangt en men vraagt om een ​​contract te ondertekenen, moet u alert zijn. Het is logisch dat een koper over de documenten kan beschikken voordat er getekend wordt, net zo logisch is het dat een verkoper documenten aanlevert om te verkopen.",
     "form_doc_a22":"In geval u geen documenten ontvangt, is dus nóg belangrijker om uw belangen vast te leggen te door middel van een goed contract. Zie contracten.",
@@ -407,8 +409,8 @@
     "form_reserva_info4tinfo":"die normaal gesproken voor de verkoper zijn.",
 
     "form_reserva_tit4tit":"Modelovereenkomsten Injurad",
-    "form_reserva_tit4cont":"Dankzij het Kenniscentrum beschikt Injurad over eigen modelovereenkomsten. Injurad houdt zich echter alleen bezig met de controle of het contract correct wordt gebruikt.",
-    "form_reserva_tit4cont2":"U kunt uw eigen advocaat vragen gebruik maken van ons model. Deze moet voldoen aan de voorwaarden die worden gesteld (zie voorwaarden). U kunt ook kiezen voor een advocaat die het aanmeldingsproces reeds heeft doorlopen. Zij zijn onafhankelijk, maken geen deel uit van Injurad, betalen geen commissie of vergoeding, maar zijn bereid onder toezicht te werken volgens onze regels.",
+    "form_reserva_tit4cont":"Dankzij het Kenniscentrum waaraan alle advocaten deelnemen heeft Injurad contractmodellen kunnen ontwikkelen. De professionals die onze integriteitscode en protocollen accepteren, zorgen ervoor dat Injurad en zijn supervisors controle kunnen uitoefenen.",
+    "form_reserva_tit4cont2":"U kunt uw eigen advocaat vragen om ons model te gebruiken. Deze moet de voorwaarden die Injurad stelt accepteren en naleven. U kunt ook een advocaat kiezen uit de lijst van Injurad. Professionals die de voorwaarden al hebben geaccepteerd. Ze zijn onafhankelijk, maken geen deel uit van Injurad, betalen geen commissie of honorarium, maar zijn bereid om onder toezicht te werken volgens onze regels. Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veili Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veiligere contracten te komen.",
     "form_reserva_tit4cont3":"De kosten voor het opmaken van een contract is met advocaten vastgesteld op 425,92 € incl btw en de controle door injurad.",
     "form_reserva_tit4_2":"Voorwaarden deelname professionals",
 
@@ -439,6 +441,11 @@
     "stepform3d":"Aanlevertijd: 5-10 werkdagen",
     "stepform4bb":"200 € IVA incluido",
     
+    "stepformOp1":"Contract opmaken : ",
+    "stepformOp2":"Contract controleren : ",
+    "stepformOp2_":"423,50 € incl. btw  ",
+
+
     "more":"Start controle",
     "more2":"Meer informatie",
     "more3":"Start controle",
@@ -517,6 +524,10 @@
     
     "menu9":"Contact",
 
-    "card_infobtn":"Meer weten?"
+    "card_infobtn":"Meer weten?",
+
+    "mensaje_enviadotit":"Dank voor uw vertrouwen in Injurad",
+    "mensaje_enviadotext":"En breve nos contactaremos",
+    "mensaje_enviado_btn":"Volver al inicio"
     
 }
