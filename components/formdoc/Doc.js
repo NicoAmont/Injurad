@@ -37,6 +37,7 @@ export default function Doc() {
                     <p className="leading-8 text-base mt-1">{t("form_doc_info2b")}</p>
                 </div>
                 <p className="leading-8 text-lg mt-5">{t("form_doc_info2b2")}</p>
+                <p className="leading-8 text-lg mt-5">{t("form_doc_info2b3")}</p>
             </div>
 
             <div className="w-full m-auto mb-20 text-xl">

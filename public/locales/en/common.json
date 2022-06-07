@@ -300,9 +300,9 @@
 
     "form_igp_info3":"Each IGP inspection contains conclusions and recommendations, which will allow you to keep control and weigh up the possible risks for yourself.",
     "form_doc_tittle":"DOCUMENT VERIFICATION ",
-    "form_doc_info1":"Would you purchase a car without valid documents?",
-    "form_doc_info2":"Probably not, because if you are stopped by the police, you will be fined and if there is an accident, you will not be insured and if your car is damaged, you may not be covered or worse. When buying a car, we check all the documentation. ",
-    "form_doc_info2b":"There should be no difference when purchasing a property, particularly as the risks are higher. Are all the documents available and valid? Some documents may look similar but have different purposes. This may lead to misunderstandings and problems afterwards (see «Risks»). ",
+    "form_doc_info1":"Always check the documents yourself with the help of Injurad",
+    "form_doc_info2":"If you do not want to drive a car without the mandatory car inspection and/or the driver's license, then you also do not want a property without the essential documents. The risks are the same in both cases, but perhaps worse when talking about a property.    ",
+    "form_doc_info2b":"The chance that a house might burn down is small. However, an insurance company has the right not to pay out or the town hall not to grant a permit to repair the damage or rebuild the property if necessary. Is that an acceptable risk for you or not?    ",
     "form_igp_tittle2":"Results IGP",
     "form_igp_tittle2B":"IGP results are shown in three colours:",
     "form_igp_tittle2B1":"The property is illegal and cannot be made legal. It will therefore have important limitations, so you will be able analyse the risks yourself.",
@@ -319,6 +319,9 @@
     "form_doc_q2":"What if you do not receive any documentation?",
     "form_doc_a21":"This does not inspire confidence. If you do not receive any documentation and you are asked to sign a contract, beware. It is logical for a buyer to have the documentation available before signing, just as it is logical for a seller to provide you with all the necessary documentation to sell the property.",
     "form_doc_a22":"In case you do not receive any documentation, it is even more important to be in possession of a good contract. See “Contracts”.",
+    "form_doc_info2b2":"It is commonly believed that a property is in order if it is registered in both the Spanish Cadastre and the Land Registry and if it has a housing permit. This is patently incorrect and the reason why homeowners get into trouble afterwards.",
+    "form_doc_info2b3":"With so many documents to hand, buyers can relatively easily be misled. It is very difficult to distinguish the documents that are really important from those which seem to be but are actually not. The person selling the property is not impartial and they are only interested in selling the property. This is why it is so important that you take control yourself with the help of Injurad.    ",
+    "form_doc_info2btit":"An example ",
 
     
     "form_igp_infot4-":"Example IGP inspection",
@@ -372,7 +375,7 @@
     "form_doc_b":"but we are here to help",
     "form_doc_info":"Illegal properties can be registered in the Land Registry (Registro de la Propiedad). The Registry does not check whether properties are legal. Illegal properties can also be registered in the Spanish Cadastre, because tax is also levied on illegal buildings. Properties with an housing permit (licencia de ocupación) that does not comply with town planning regulations or legislation can still be illegal. Properties that do not have a building permit(licencia de obra) and were therefore built without a permit could still be legalised if they comply with the planning regulations. This is why it is so important to have the IGP inspection. There is a lot of money involved in the purchase of a property, so follow the three steps and have an IGP inspection carried out by experts.",
     "form_doc_btbl":"Requesting a check is very simple",
-    "form_doc_btbl2":"Fill in the form below. You will receive an email with payment details and the option to send the documentation to us.",
+    "form_doc_btbl2":"Send us the documents you have been given, including the housing permit (not to be confused with the residential permit!). We will explain to you whether you have the essential documentation, what they mean and which documents you still need to request.",
     "form_doc_btbl3":"SECURE PAYMENT",
 
     "url":"https://www.youtube.com/embed/iF2jbcuUkB4",
