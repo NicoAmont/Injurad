@@ -35,6 +35,8 @@ export default function FormContact() {
 
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+
         <div className="relative z-0 mb-6 w-full group">
             <input 
                 type="email" 
@@ -59,8 +61,25 @@ export default function FormContact() {
             </label>
             {errors.email_direction && 'Escribe un correo no menor a 8 caracteres y valido.'}
         </div>
+        <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="tel" 
+                    name="phone" 
+                    {...register('phone', { required: true })}
+                    id="phone" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlFor="floating_phone" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    Telefono (+ 01-255-456-7890)
+                </label>
+        </div>
         
-        
+        </div>
         <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
                 <input 
@@ -101,46 +120,7 @@ export default function FormContact() {
                 </label>
             </div>
         </div>
-        <div className="grid xl:grid-cols-2 xl:gap-6">
-            <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="tel" 
-                    name="phone" 
-                    {...register('phone', { required: true })}
-                    id="phone" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlFor="floating_phone" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    Telefono (+ 01-255-456-7890)
-                </label>
-            </div>
-            <div className="relative z-0 mb-6 w-full group">
-                <select 
-                    name="step_process"
-                    {...register('step_process', { required: true })}
-                    id="floating_last_name" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
-                    placeholder=" " 
-                    required
-                >
-                    <option>Chequeo de documentos</option>
-                    <option>Contrato de Reserva</option>
-                    <option>IGP</option>
-                    <option>Otro</option>
-                </select>
-                <label 
-                    htmlhtmlfor="floating_last_name" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    Etapa del proceso
-                </label>
-            </div>
-        </div>
+        
         <div className="relative z-0 mb-6 w-full group">
             <input  
                 type="text" 
