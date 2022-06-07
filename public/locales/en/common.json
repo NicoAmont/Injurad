@@ -411,10 +411,10 @@
     "apellidos":"Surname",
     "municipio":"Town",
     "codigo":"Zip code",
-    "pais":"Country",
+    "pais":"Nationality",
     "pasaporte":"Passport / DNI / NIE",
     "direccion_fac":"Billing address",
-    "calleynumero":"Street and number",
+    "calleynumero":"Country and city",
     "telefono":"Mobile number (+01-255-456-7890)",
 
 

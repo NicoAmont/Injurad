@@ -428,7 +428,8 @@
     "stepformOp2_":"423,50 € incl. iva  ",
 
 
-    "other":"Chequeo Documentos y Contrato",
+    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
+    "other2":"Control < 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
@@ -436,10 +437,10 @@
     "apellidos":"Apellidos",
     "municipio":"Municipio",
     "codigo":"Codigo Postal",
-    "pais":"Pais",
+    "pais":"Nacionalidad",
     "pasaporte":"Pasaporte / DNI / NIE",
     "direccion_fac":"Dirección de facturación",
-    "calleynumero":"Calle y numero",
+    "calleynumero":"Pais y ciudad",
     "telefono":"Telefono móvil (+01-255-456-7890)",
 
     
