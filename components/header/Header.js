@@ -237,8 +237,8 @@ function Header() {
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
                                                         <Link href="/about" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
-                                                        <Link href="/workwithus" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
+                                                        <Link href="/about" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
+                                                        <Link href="/contact" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
                                                     </div>
 
                                                 </div> 
