@@ -19,7 +19,7 @@ function Header() {
     }
     //Media navbar
     const [isOpen, setIsOpen] = useState(false);
-    
+    const [count, setCount] = useState(0)
     // Adding styles to the navbar
     const [isActive, setActive] = useState({
         activeObject: null
@@ -65,7 +65,7 @@ function Header() {
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
                         <div className= "flex flex-col 2xl:flex-row place-items-center w-full  cursor-pointer 2xl:px-10  text-sm transition-colors" >
                             
-                            <Link  href="/formdoc" passHref><button className=" border-b-2 border-bgfva2 navitem flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><button  className=" border-b-2 border-bgfva2 navitem flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l" id="1"  > <span className="font-semibold text-bgfva2">{t('menu1')}</span> <br /> {t('menu11')}</a>
                             </button></Link>
                             <Link  href="/formreserva" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
@@ -80,6 +80,7 @@ function Header() {
                                         <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 font-semibold text-bg2 ">{t('menu8')}</Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
+                                            {({ close }) => (
                                             <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
                                                 <div className="w-full h-full flex-column">
 
@@ -87,9 +88,9 @@ function Header() {
                                                         <a className="font-medium text-gl text-left w-full h-full" ></a>
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/about" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
+                                                        <Link href="/about" passHref><a onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
+                                                        <Link href="/contact" passHref><a onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
+                                                        <Link href="/howitworks" passHref><a  onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
                                                     </div>
 
                                                 </div> 
@@ -108,6 +109,7 @@ function Header() {
                                                     </div>
                                                 </div>  */}
                                             </div>
+                                            )}
                                         </Popover.Panel>
                                     </Popover>
                             </div>
@@ -211,14 +213,14 @@ function Header() {
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
                     <div className="flex flex-col 2xl:flex-row place-items-center w-full  cursor-pointer 2xl:px-10  text-sm transition-colors ">
                             
-                            <Link  href="/formdoc" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
+                            <Link  href="/formdoc" passHref><div onClick={() => setIsOpen(!isOpen)} className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 text-subs2l"><span className="font-semibold text-bgfva2">{t('menu1')}</span> <br /> {t('menu11')}</a>
                             </div></Link>
-                            <Link  href="/formreserva" passHref><div className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
+                            <Link  href="/formreserva" passHref><div onClick={() => setIsOpen(!isOpen)} className="flex px-4 flex-col place-items-center text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2">
                                 <a className=" transition-colors delay-150 font-normal"><span className="font-semibold text-bgfva2">{t('menu2')}</span> <br /> {t('menu21')}  </a>
                             </div></Link>
                             
-                            <Link  href="/formigp" passHref><div className="flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
+                            <Link  href="/formigp" passHref><div onClick={() => setIsOpen(!isOpen)} className="flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal "><span className="font-semibold text-bgfva2">{t('menu3')}</span> <br /> {t('menu311')}</a>
                             </div></Link>
                             <div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2    ">
@@ -226,6 +228,7 @@ function Header() {
                                         <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')} </Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
+                                        {({ close }) => (
                                             <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
                                                 <div className="w-full h-full flex-column">
 
@@ -233,9 +236,9 @@ function Header() {
                                                         <a className="font-medium text-gl text-left w-full h-full" ></a>
                                                     </div>
                                                     <div className=" flex flex-col text-left ">
-                                                        <Link href="/about" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
-                                                        <Link href="/workwithus" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
+                                                        <Link href="/about" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
+                                                        <Link href="/contact" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
+                                                        <Link href="/workwithus" passHref><a onClick={() => setIsOpen(!isOpen)} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
                                                     </div>
 
                                                 </div> 
@@ -254,6 +257,7 @@ function Header() {
                                                     </div>
                                                 </div>  */}
                                             </div>
+                                        )}
                                         </Popover.Panel>
                                     </Popover>
                             </div>

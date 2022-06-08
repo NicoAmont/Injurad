@@ -34,10 +34,9 @@ export default function Doc() {
                 <p className="leading-8 text-lg">{t("form_doc_info2")}</p>
                 <div className="border-l-4 border-sl pl-4 w-11/12 m-auto">
                     <p className="leading-8 text-xl uppercase text-bg2 font-medium mt-5">{t("form_doc_info2btit")}</p>
-                    <p className="leading-8 text-base mt-1">{t("form_doc_info2b")}</p>
+                    <p className="leading-8 text-lg mt-1">{t("form_doc_info2b")}</p>
                 </div>
                 <p className="leading-8 text-lg mt-5">{t("form_doc_info2b2")}</p>
-                <p className="leading-8 text-lg mt-5">{t("form_doc_info2b3")}</p>
             </div>
 
             <div className="w-full m-auto mb-20 text-xl">
@@ -50,8 +49,8 @@ export default function Doc() {
                             <path d="M18.5609 17.3561L27.5238 9.79357L8.47747 9.79359L2.24123 16.796L9.3177 11.1941L18.5609 17.3561Z" fill="#fff"/>
                         </svg>
                         <h1 className=" text-sl text-left text-2xl pt-5 font-normal m-auto ml-2 border-b-2 pb-2  border-sl ">{t("form_igp_infot2")}</h1>
-                        <p className=" text-bgr font-normal text-left text-base pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2P")}</p>
-                        <p className=" text-bgr font-normal text-left text-base pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2Pb")}</p>
+                        <p className=" text-bgr font-normal text-left text-lg pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2P")}</p>
+                        <p className=" text-bgr font-normal text-left text-lg pt-5 ml-2 m-auto mb-6 ">{t("form_igp_infot2Pb")}</p>
                     
                     
                     
@@ -127,3 +126,9 @@ export default function Doc() {
    
   )
 }
+
+
+
+
+
+

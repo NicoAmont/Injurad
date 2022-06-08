@@ -308,7 +308,7 @@
     "form_igp_tittle2B1":"The property is illegal and cannot be made legal. It will therefore have important limitations, so you will be able analyse the risks yourself.",
     "form_igp_tittle2B2":"here are issues that have yet to be resolved or investigated. The report will indicate which expert can help you.",
     "form_igp_tittle2B3":"The IGP shows no irregularities. Contact a lawyer to accompany you to the notary’s office.",
-    "form_igp_infot2P":"A buyer cannot distinguish which documents have been supplied and what they are for. This is why it is important to have the documentation checked by an independent party. The seller of the property is not impartial and has a commercial interest. Take control of this situation with the help of Injurad.",
+    "form_igp_infot2P":"With so many documents to hand, buyers can relatively easily be misled. It is very difficult to distinguish the documents that are really important from those which seem to be but are actually not. The person selling the property is not impartial and they are only interested in selling the property. This is why it is so important that you take control yourself with the help of Injurad.",
     "form_igp_infot2Pb":"You will receive a report signed by the lawyer who checked the documentation.",
     "form_igp_infot3":"When should you ask for the documentation to be checked? ",
     "form_igp_infot3P":"The moment you agree on the price and the documentation has been handed over (at least the essential documents). Do not sign anything and do not pay anything without a proper contract (step 2).",
@@ -320,7 +320,7 @@
     "form_doc_a21":"This does not inspire confidence. If you do not receive any documentation and you are asked to sign a contract, beware. It is logical for a buyer to have the documentation available before signing, just as it is logical for a seller to provide you with all the necessary documentation to sell the property.",
     "form_doc_a22":"In case you do not receive any documentation, it is even more important to be in possession of a good contract. See “Contracts”.",
     "form_doc_info2b2":"It is commonly believed that a property is in order if it is registered in both the Spanish Cadastre and the Land Registry and if it has a housing permit. This is patently incorrect and the reason why homeowners get into trouble afterwards.",
-    "form_doc_info2b3":"With so many documents to hand, buyers can relatively easily be misled. It is very difficult to distinguish the documents that are really important from those which seem to be but are actually not. The person selling the property is not impartial and they are only interested in selling the property. This is why it is so important that you take control yourself with the help of Injurad.    ",
+    "form_doc_info2b3":"",
     "form_doc_info2btit":"An example ",
 
     
@@ -403,7 +403,8 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control Documents and Contracts",
+    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
+    "other2":"Control < 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
     "email":"E-mail",

@@ -252,13 +252,11 @@ export default function FormDoc() {
                     placeholder=" " 
                     required
                 >
-
                     <option selected disabled>Elige el servicio</option>
                     <option>{t("stepform1b")} {t("iva1b")}</option>
                     <option>{t("stepform1b2")} {t("iva2b")}</option>
                     <option>{t("other")} </option>
                     <option>{t("other2")} </option>
-
                 </select>
                 <label 
                     htmlhtmlfor="floating_last_name" 
