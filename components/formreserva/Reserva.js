@@ -58,12 +58,12 @@ export default function Reserva() {
 
             </div>
 
-            <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3 ">
+            <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3  ">
                     <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
                     {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                     <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
 
-                    <div className="w-full md:w-3/4  m-auto mb-8">
+                    <div className="w-11/12 md:w-3/4  m-auto mb-8">
                     <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_reserva_tit4tit")}</h2>
                     <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont")} </p>
                     <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont2")}</p>

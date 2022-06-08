@@ -51,7 +51,7 @@ export default function Aboutus() {
 
         <div className="w-3/4 md:w-9/12 m-auto h-auto grid md:grid-cols-2 mb-20 place-content-center ">
 
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col  mb-5 py-4 mx-auto md:px-10  ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col  mb-5 py-4  md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -61,7 +61,7 @@ export default function Aboutus() {
                 </div>
                 
             </div>
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10  ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-col  mb-5 py-4  md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/4n.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -72,7 +72,7 @@ export default function Aboutus() {
                 
             </div>
             
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap  mb-5 py-4 mx-auto md:px-10  ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-col  mb-5 py-4  md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/evn.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -85,7 +85,7 @@ export default function Aboutus() {
 
             
 
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col mb-5 py-4 mx-auto md:px-10  ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col mb-5 py-4  md:px-10  ">
                 <div className="w-10 mr-4">
                 <Image className=""  src="/brain.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
@@ -95,7 +95,7 @@ export default function Aboutus() {
                 </div>
                 
             </div>
-            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-col  mb-5 py-4 mx-auto md:px-10  ">
+            <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-col  mb-5 py-4  md:px-10  ">
                 <div className="w-10  mr-4">
                 <Image className=""  src="/en.png" layout='' width={400+'px'} height={400+'px'} alt="" quality={100} />
                 </div>
