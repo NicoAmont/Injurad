@@ -72,7 +72,7 @@ function OurProcess() {
                                 >   
                                     <div className="grid place-items-center m-auto relative">
                                         <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
-                                        <h1 className=" text-center mb-5 font-medium text-3xl relative"> <span className="font-semibold text-4xl mr-6 ">544,</span> <span className="text-2xl absolute left-14 pl-2 font-semibold ">50</span>€</h1>
+                                        <h1 className=" text-center mb-5 font-medium text-3xl relative"> <span className="font-semibold text-4xl mr-6 ">544,</span> <span className="text-2xl absolute left-14 pl-5 font-semibold ">50</span>€</h1>
                                         <h1 className="text-base text-center border-t border-b border-bgrS p-5">{t('step3')} </h1>
                                         <div className="text-sl bg-bgr border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">{t('card_infobtn')}</div>
                                     </div>

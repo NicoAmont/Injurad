@@ -173,7 +173,7 @@ export default function CardsMobile() {
       <Popover.Button><button className= "bg-bgr rounded-md h-64 w-64 md:w-64 px-4 py-1 ml-1 relative z-20 mb-4 text-sm text-center m-auto font-medium text-bg2 flex justify-center  border  border-sl ">
                 <div className="grid place-items-center m-auto relative">
                     <div className="bg-sl w-3 h-3 rounded-full absolute top-0 right-0" ></div>
-                    <h1 className=" text-center mb-5 font-medium text-3xl relative"> <span className="font-semibold text-4xl mr-6 ">544,</span> <span className="text-2xl absolute left-14 pl-2 font-semibold ">50</span>€</h1>
+                    <h1 className=" text-center mb-5 font-medium text-3xl relative"> <span className="font-semibold text-4xl mr-6 ">544,</span> <span className="text-2xl absolute left-14 pl-5 font-semibold ">50</span>€</h1>
                     <h1 className="text-base text-center border-t border-b border-bgrS p-5">{t('step3')} </h1>
                     <div className="text-bgr bg-sl border border-sl font-medium p-2 w-10/12 mt-5 rounded-lg">{t('card_infobtn')}</div>
                 </div>
