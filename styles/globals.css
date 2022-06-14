@@ -279,7 +279,7 @@ audio{
 
 .content-about1{
   background-image:linear-gradient( to right,
-  rgb(50,103,84, 0.5), rgba(40, 225, 140, 0.1) ),
+  rgba(50, 103, 84, 0), rgba(40, 225, 139, 0) ),
    url('/men.jpeg');
   background-position: center;
   background-repeat: no-repeat;
@@ -288,7 +288,7 @@ audio{
 .content-about2{
   
   background-image:linear-gradient( to right,
-  rgba(50, 103, 84, 0.5), rgba(40, 225, 140, 0.1) ),
+  rgba(50, 103, 84, 0), rgba(40, 225, 139, 0) ),
    url('/men2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
@@ -297,7 +297,7 @@ audio{
 .content-about3{
   
   background-image:linear-gradient( to right,
-  rgb(50,103,84, 0.5), rgba(40, 225, 140, 0.01) ),
+  rgba(50, 103, 84, 0), rgba(40, 225, 139, 0) ),
    url('/man3.jpeg');
   background-position: center;
   background-repeat: no-repeat;

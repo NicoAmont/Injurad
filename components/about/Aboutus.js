@@ -23,21 +23,21 @@ export default function Aboutus() {
                 <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
             </div>
             <div className="overflow-scroll md:overflow-auto ">
-            <div className="flex sejue gap-10 m-auto">
+            <div className="flex sejue gap-5 m-auto">
                 
-                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
+                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
                     <div className="absolute bottom-0 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Casa en Mallorca</span>
                     </div>
                 </div>
 
-                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
+                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
                     <div className="absolute bottom-0 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
                     </div>
                 </div>
                 
-                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
+                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
                     <div className="absolute bottom-0 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Juan Navarro</span>
                     </div>
