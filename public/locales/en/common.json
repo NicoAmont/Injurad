@@ -15,7 +15,7 @@
     "slogan3":"dinero",
     "reason_tittleinfo":"Experts in the Spanish real estate market use their own methods without having to comply with any regulations or having to undergo any supervision. The lack of supervision of individual transactions means that properties with problems are being purchased, despite the involvement of experts during the purchase process. The number of these cases is high.",
     "reason_tittleinfotit":"The problems are almost always caused by:",
-    "reason_tittleinfotit1":"Missing (essential) documentation",
+    "reason_tittleinfotit1":"Deception with documents",
     "reason_tittleinfotit2":"Contracts with missing or misleading clauses",
     "reason_tittleinfotit3":"Incomplete or superficial purchase due diligence",
 
@@ -328,7 +328,7 @@
 
     "form_reserva_tit4tit":"Injurad's agreement model templates",
     "form_reserva_tit4cont":"Thanks to the Knowledge Centre, Injurad has its own agreement model templates. However, Injurad is only concerned about checking that the contract is used correctly.",
-    "form_reserva_tit4cont2":"You can ask your own lawyer to use our agreement model template. This must meet the conditions that have been set out (see 'Conditions'). You can also choose a lawyer who has already gone through the application process. They are independent, are not part of Injurad, pay no commission or fee, but are willing to work under supervision and comply with our protocols. Injurad wants to be able to guarantee absolute discretion and independence and only carry out the supervision in the interest of the buyers.",
+    "form_reserva_tit4cont2":"You can ask your own lawyer to use our agreement model template. This must meet the conditions that have been set out (see 'Conditions'). You can also choose a professionals who have already gone through the application process. They are independent, are not part of Injurad, pay no commission or fee, but are willing to work under supervision and comply with our protocols. Injurad wants to be able to guarantee absolute discretion and independence and only carry out the supervision in the interest of the buyers.",
     "form_reserva_tit4cont3":"The cost for a contract drawn up by a lawyer including IVA and the Injurad inspection has been set at €425.92.",
     "form_reserva_tit4_2":"Requirements",
 
@@ -345,8 +345,8 @@
     "form_igp_tit4q6":"Internal course",
     "form_igp_tit4q6answ":"An in‑house course covers the necessary information to start working with Injurad. During the course, we will explain how the system works, what is expected from the inspection, what the integrity discussion entails, how to share information from the Knowledge Centre, etc.",
     "form_igp_tit4tit":"The experts who work with Injurad",
-    "form_igp_tit4cont":"Injurad does not just work with everyone. Our inspectors are selected for their professional expertise as well as for their professional backgrounds. In order to work with Injurad, it is essential that the experts’ backgrounds reflect their professional integrity with regard to norms and values. These are part of our code of ethics, which must be accepted by all experts.",
-    "form_igp_tit4cont2":"With Injurad you are in control and buyers do not want to be misinformed or deceived. Injurad sets out very strict requirements for experts. This distinguishes us from other real estate transactions in which properties are purchased with the help of experts who have not been assessed.",
+    "form_igp_tit4cont":" Our professionals are selected for their expertise as well as for their professional backgrounds. In order to work with Injurad, it is essential that the experts’ backgrounds reflect their professional integrity with regard to norms and values. These are part of our code of ethics, which must be accepted by all experts.",
+    "form_igp_tit4cont2":"",
 
     
     
@@ -395,16 +395,20 @@
     "form_reserva_quest1c":"",
     "form_reserva_quest2":"The contract specifies the terms agreed between you and the seller such as the price, the reservation amount, the description of the property, who the owner is, the length of the reservation, that the property meets the standards, whether the property is furnished or unfurnished, the completion date, whether anything needs to be replaced or repaired, who the deposit will be paid to, who must sign, etc. It is important that everything is in order legally, and that your reservation amount (deposit) can be refunded if the property does not meet the requirements or is found to be illegal.",
     "form_reserva_quest3":"The procedure is very simple",
-    "form_reserva_quest4":"You can request the contract by filling in the form below. You will receive an email with payment details and more information about the procedure. We will contact you to obtain the details we need to draw up the contract. The lawyer will do all the work so you do not have to worry about anything. They will prepare the contract for the parties to sign.",
-    
+    "form_reserva_quest4":"Fill the form. You will receive an email with the instructions",
+
+    "form_data":"Applicant Information",
+    "form_data2":"Information property",
+    "form_data3":"Select service",
+
     "form_igp_infot2":"Why check a contract with Injurad?",
     "form_reserva_info3t":"Being unable to discuss any topics",
     "form_reserva_info3tinfo":"that have already been previously agreed",
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control < 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other":"Control > 2 documentos y Control contrato: 459,8 € (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
     "email":"E-mail",

@@ -32,7 +32,7 @@ export default function Doc() {
                 {/* <iframe className="relative mt-10 mb-10 md:mt-20 z-10 w-10/12 m-auto h-96 scale-110 border-2 border-sl rounded-lg shadow-xl" src={ytvideo[0]} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                 <p className="mb-10 text-2xl md:text-3xl uppercase font-medium text-bg2 mt-20">{t("form_doc_info1")}</p>
                 <p className="leading-8 text-lg">{t("form_doc_info2")}</p>
-                <div className="border-l-4 border-sl pl-4 w-11/12 m-auto">
+                <div className="border-l-4 border-sl pl-4 w-11/12 m-auto my-10">
                     <p className="leading-8 text-xl uppercase text-bg2 font-medium mt-5">{t("form_doc_info2btit")}</p>
                     <p className="leading-8 text-lg mt-1">{t("form_doc_info2b")}</p>
                 </div>

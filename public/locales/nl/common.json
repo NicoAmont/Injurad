@@ -15,8 +15,8 @@
     "slogan3":"dinero",
     "reason_tittleinfo":"Op de Spaanse woningmarkt hanteert elke professional zijn eigen werkwijze. Er is geen enkel toezicht of te controleren standaard. Daardoor worden probleemwoningen gekocht ondanks de tussenkomst van professionals. Het gaat om te grote aantallen.",
     "reason_tittleinfotit":"In de praktijk komen de volgende situaties veel voor",
-    "reason_tittleinfotit1":"Ontbreken van (essentiële) documenten",
-    "reason_tittleinfotit2":"Contracten met ontbrekende en misleidende clausules    ",
+    "reason_tittleinfotit1":"Misleiding met documenten",
+    "reason_tittleinfotit2":"Contracten met ontbrekende en misleidende clausules",
     "reason_tittleinfotit3":"Incomplete of oppervlakkige aankooponderzoeken (due diligence)    ",
 
     "reason_tittle":"INJURAD is er   ",
@@ -318,8 +318,8 @@
 
 
     "form_igp_tit4tit":"De professionals die samenwerken met Injurad",
-    "form_igp_tit4cont":"Injurad werkt niet zomaar met iedereen samen. De professionals die de keuring uitvoeren worden zowel geselecteerd op hun vakkennis als op hun professionele carrière. Injurad stelt hoge eisen aan professionals om kopers maximaal te kunnen beschermen. Daarmee onderscheiden we ons van professionals die worden ingezet bij transacties zonder enige vorm van toezicht.",
-    "form_igp_tit4cont2":"Met Injurad heb je zelf de touwtjes in handen en ben je bestand tegen verkeerde informatie en bedrog. Injurad stelt bijzonder strenge eisen aan professionals. Daarmee onderscheiden we ons van transacties waarbij onroerend goed wordt gekocht met behulp van professionals die niet worden gecontroleerd.",
+    "form_igp_tit4cont":"De professionals die de checks en keuringen uitvoeren worden zowel geselecteerd op hun vakkennis als op hun professionele carrière. Injurad stelt hoge eisen aan de professionals om kopers te beschermen.",
+    "form_igp_tit4cont2":"",
     "form_igp_tit4q1":"Tekenen intergiteitscode",
     "form_igp_tit4q1answ":"Injurad hanteert duidelijke waarden; onafhankelijkheid, onpartijdigheid, veiligheid, de wet respecterend, integriteit en arbeidsethos. Onze integriteitscode moet door alle professionals worden aanvaard.",
     "form_igp_tit4q2":"Accepteren van een reglement",
@@ -409,16 +409,19 @@
     "form_reserva_info4t":"Moeten accepteren van boetes of verplichtingen",
     "form_reserva_info4tinfo":"die normaal gesproken voor de verkoper zijn.",
 
-    "form_reserva_tit4tit":"Modelovereenkomsten Injurad",
-    "form_reserva_tit4cont":"Dankzij het Kenniscentrum waaraan alle advocaten deelnemen heeft Injurad contractmodellen kunnen ontwikkelen. De professionals die onze integriteitscode en protocollen accepteren, zorgen ervoor dat Injurad en zijn supervisors controle kunnen uitoefenen.",
-    "form_reserva_tit4cont2":"U kunt uw eigen advocaat vragen om ons model te gebruiken. Deze moet de voorwaarden die Injurad stelt accepteren en naleven. U kunt ook een advocaat kiezen uit de lijst van Injurad. Professionals die de voorwaarden al hebben geaccepteerd. Ze zijn onafhankelijk, maken geen deel uit van Injurad, betalen geen commissie of honorarium, maar zijn bereid om onder toezicht te werken volgens onze regels. Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veili Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veiligere contracten te komen.",
+    "form_reserva_tit4tit":"Model_ overeenkomsten Injurad",
+    "form_reserva_tit4cont":"Dankzij het Kenniscentrum waaraan alle advocaten deelnemen heeft Injurad contractmodellen kunnen ontwikkelen. De professionals die onze integriteitscode en protocollen accepteren, zorgen ervoor dat Injurad en haar inspecteurs controle kunnen uitoefenen.",
+    "form_reserva_tit4cont2":"U kunt uw eigen advocaat vragen om ons model te gebruiken. Deze moet de voorwaarden die Injurad stelt accepteren en naleven. U kunt ook professionals kiezen die de voorwaarden al hebben geaccepteerd. Ze zijn onafhankelijk, maken geen deel uit van Injurad, betalen geen commissie of honorarium, maar zijn bereid om onder toezicht te werken volgens onze regels. Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veili Injurad wil totale discretie en onafhankelijkheid garanderen en controle uitoefenen om tot veiligere contracten te komen.",
     "form_reserva_tit4cont3":"De kosten voor het opmaken van een contract is met advocaten vastgesteld op 425,92 € incl btw en de controle door injurad.",
     "form_reserva_tit4_2":"Voorwaarden deelname professionals",
 
 
 
+    "form_data":"Gegevens aanvrager",
+    "form_data2":"Gegevens woning",
+    "form_data3":"Maak een keuze",
 
-    "form_reserva_quest4":"Vraag het contract aan door onderstaand formulier in te vullen. U ontvangt een e-mail met de details voor de betaling en meer uitleg over de procedure. Wij nemen contact met u op voor de gegevens die nodig zijn voor het opstellen van het contract. De advocaat neemt u al het werk en de zorg uit handen en zal vanaf nu zorgen voor het contract en ondertekening door alle partijen.",
+    "form_reserva_quest4":"Vul het formulier in. U ontvangt een mail met instructies",
     
     "stepform1":"Paso 1",
     "stepform1b1":"Controle vanaf:",

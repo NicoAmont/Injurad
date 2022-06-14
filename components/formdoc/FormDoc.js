@@ -35,7 +35,7 @@ export default function FormDoc() {
 
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
-        <h2 className="pb-5 font-semibold text-bg2">Datos del solicitante</h2>
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data")}</h2>
         <div className="relative z-0 mb-6 w-full group">
             <input 
                 type="email" 
@@ -182,8 +182,48 @@ export default function FormDoc() {
             </div>
             
         </div>
-        <h2 className="pb-5 font-semibold text-bg2">Datos del inmueble</h2>
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data2")}</h2>
         <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="text" 
+                    name="calle_numero"
+                    {...register('calle_numero', { required: true })}
+                    id="calle_numero" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlhtmlfor="calle_numero" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    {t("calleynumero")}
+                </label>
+            </div>
+            
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="text" 
+                    name="postal"
+                    {...register('postal', { required: true })}
+                    id="postal" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlhtmlfor="postal" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    {t("codigo")}
+                </label>
+            </div>
+        </div>
+        
+        
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+            
             <div className="relative z-0 mb-6 w-full group">
                 <input 
                     type="text" 
@@ -206,44 +246,6 @@ export default function FormDoc() {
                 </label>
             </div>
             <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="text" 
-                    name="postal"
-                    {...register('postal', { required: true })}
-                    id="postal" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlhtmlfor="postal" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    {t("codigo")}
-                </label>
-            </div>
-        </div>
-        
-        
-        <div className="grid xl:grid-cols-2 xl:gap-6">
-        <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="text" 
-                    name="calle_numero"
-                    {...register('calle_numero', { required: true })}
-                    id="calle_numero" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlhtmlfor="calle_numero" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    {t("calleynumero")}
-                </label>
-            </div>
-            <div className="relative z-0 mb-6 w-full group">
                 <select 
                     name="step_process"
                     {...register('step_process', { required: true })}
@@ -252,7 +254,7 @@ export default function FormDoc() {
                     placeholder=" " 
                     required
                 >
-                    <option selected disabled>Elige el servicio</option>
+                    <option selected disabled>{t("form_data3")}</option>
                     <option>{t("stepform1b")} {t("iva1b")}</option>
                     <option>{t("stepform1b2")} {t("iva2b")}</option>
                     <option>{t("other")} </option>

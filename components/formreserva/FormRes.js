@@ -37,7 +37,7 @@ export default function FormRes() {
 
 
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
-        <h2 className="pb-5 font-semibold text-bg2">Datos del solicitante</h2>
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data")}</h2>
         <div className="relative z-0 mb-6 w-full group">
             <input 
                 type="email" 
@@ -184,7 +184,7 @@ export default function FormRes() {
             </div>
             
         </div>
-        <h2 className="pb-5 font-semibold text-bg2">Datos del inmueble</h2>
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data2")}</h2>
         <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
                 <input 
@@ -254,7 +254,7 @@ export default function FormRes() {
                     placeholder=" " 
                     required
                 >
-                    <option selected disabled>Elige el servicio</option>
+                    <option selected disabled>{t("form_data3")}</option>
                     <option>{t("stepformOp1")} {t("iva22b")}</option>
                     <option>{t("stepformOp2")} {t("stepformOp2_")}</option>
                     <option>{t("other")}</option>

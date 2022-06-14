@@ -35,7 +35,7 @@ export default function FormIgp() {
 
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
-    <h2 className="pb-5 font-semibold text-bg2">Datos del solicitante</h2>
+    <h2 className="pb-5 font-semibold text-bg2">{t("form_data")}</h2>
     <div className="relative z-0 mb-6 w-full group">
         <input 
             type="email" 
@@ -182,7 +182,7 @@ export default function FormIgp() {
         </div>
         
     </div>
-    <h2 className="pb-5 font-semibold text-bg2">Datos del inmueble</h2>
+    <h2 className="pb-5 font-semibold text-bg2">{t("form_data2")}</h2>
     <div className="grid xl:grid-cols-2 xl:gap-6">
         <div className="relative z-0 mb-6 w-full group">
             <input 
@@ -252,6 +252,7 @@ export default function FormIgp() {
                     placeholder=" " 
                     required
                 >
+                    <option selected disabled>{t("form_data3")}</option>
                     <option>{t("stepform3b")} {t("stepform3b2")}</option>
                     <option>{t("stepform3c")} {t("stepform3c2")}</option>
                     <option>{t("stepform1b1b")} {t("stepform3ba")}</option>

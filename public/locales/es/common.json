@@ -18,7 +18,7 @@
     "reason_tittlebold":"INJURAD",
     "reason_tittleinfo":"En el mercado inmobiliario cada profesional utiliza su propio método. No existe ni supervisión ni un estandard que permite control, resulta en que las viviendas problemáticas se compran a pesar de la intervención de profesionales. Este es un número muy alto.",
     "reason_tittleinfotit":"Las causas de los problemas posteriores son casi siempre:",
-    "reason_tittleinfotit1":"Faltan documentos (esenciales)",
+    "reason_tittleinfotit1":"Engaño con los documentos",
     "reason_tittleinfotit2":"Contratos donde faltan cláusulas importantes o clausulas que perjudican los intereses del comprador",
     "reason_tittleinfotit3":"Due diligence incompletos o superficiales",
     "reason_tittleinfotit4":"Escrituras que no estan de acuerdo a los pactos",
@@ -301,8 +301,8 @@
     "form_igp_tit3b":"Luego, un abogado evalúa los aspectos legales comparando la legislación con el informe del arquitecto. Esto da como resultado un informe jurídico (parte B), en el que también encontrará las conclusiones y recomendaciones.",
     "form_igp_tit4arcont":"Los supervisores de Injurad (también abogados y arquitectos) comprueban si la inspección IGP se ha realizado de acuerdo con las normas y protocolos.",
     "form_igp_tit4tit":"Los profesionales que colaboran con Injurad",
-    "form_igp_tit4cont":"Injurad no trabaja con cualquiera. Los profesionales que realizan la inspección son seleccionados tanto por sus conocimientos profesionales como por su trayectoria profesional. Injurad exige mucho de los profesionales para proteger al máximo a los compradores. Esto nos distingue de los profesionales individuales que no tienen ningún tipo de supervisión.",
-    "form_igp_tit4cont2":"Con Injurad usted tiene el control y la defensa frente a la desinformación y el engaño. Injurad también establece requisitos estrictos para los profesionales, por lo que marcamos una gran diferencia con la forma como hoy se compran las casas con profesionales individuales sin ningún control.",
+    "form_igp_tit4cont":"Los profesionales que realizan los controles e inspecciones son seleccionados por sus conocimientos profesionales así como por su trayectoria profesional. Injurad impone grandes exigencias a los profesionales para proteger a los compradores.",
+    "form_igp_tit4cont2":"",
     "form_igp_tit4q1":"Firmar declaración de integridad",
     "form_igp_tit4q1answ":"Injurad se mueve con unos valores muy definidos, la independencia, imparcialidad, seguridad, respeto a las leyes, integridad y ética en el trabajo. Nuestro código ético es norma de obligado cumplimiento, que debe aceptar todo colaborador. Este es el espíritu Injurad, y la protección y seguridad que usted recibirá.",
     "form_igp_tit4q2":"Aceptar reglas    ",
@@ -392,11 +392,15 @@
     "form_reserva_quest1c":"Contrastamos el contrato con nuestros lineamientos y protocolos. Recibirá los resultados con la firma del abogado que revisó.    ",
     "form_reserva_quest2":"",
     "form_reserva_quest3":"El procedimiento es muy sencillo",
-    "form_reserva_quest4":"Rellene el formulario aquí debajo. Recibirá un correo electrónico con las instrucciones para pagar y enviarnos el contrato que ha recibido",
-    
+    "form_reserva_quest4":"Rellene el formulario. Recibirá un correo electrónico con las instrucciones",
+
+    "form_data":"Datos del solicitante",
+    "form_data2":"Datos del inmueble",
+    "form_data3":"Elige el servicio",
+
     "form_reserva_tit4tit":"Contratos Modelo Injurad",
     "form_reserva_tit4cont":"Gracias al Centro de Conocimiento, Injurad ha podido desarrollar modelos de contrato estandarizados perfeccionados gracias a las multiples experiencias de los abogados que colaboran con Injurad. Los colaboradores al aceptar nuestro código ético así como al asumir nuestros protocolos permite a Injurad y sus supervisores el control.",
-    "form_reserva_tit4cont2":"Puede pedirle a su propio abogado que utilice nuestro modelo, sin embargo tendrá que aceptar y cumplir las condiciones que establece Injurad necesarias para su seguridad (ver condiciones). También podrá elegir un abogado de la lista que facilita Injurad. Profesionales que ya han aceptado condiciones, conocen y practican nuestras normas. Son independientes, no forman parte de Injurad, no pagan comisión ni honorarios, pero están dispuestos a trabajar bajo supervisión de acuerdo con nuestras reglas. Injurad quiere garantizar total discreción e independencia ejerciendo el control en función conseguir contratos más seguros.",
+    "form_reserva_tit4cont2":"Puede pedirle a su propio abogado que utilice nuestro modelo, sin embargo tendrá que aceptar y cumplir las condiciones que establece Injurad necesarias para su seguridad (ver condiciones). También podrá elegir profesionales que ya han aceptado condiciones, conocen y practican nuestras normas. Son independientes, no forman parte de Injurad, no pagan comisión ni honorarios, pero están dispuestos a trabajar bajo supervisión de acuerdo con nuestras reglas. Injurad quiere garantizar total discreción e independencia ejerciendo el control en función conseguir contratos más seguros.",
     "form_reserva_tit4cont3":"Los costes para la redacción de un contrato con colaboradores y la respectiva supervisión de Injurad se han fijado en 423,50 € incluido IVA    ",
     "form_reserva_tit4_2":"Condiciones de participacion de profesionales",
 
@@ -420,7 +424,7 @@
     "stepform3bb":"Precio desde  € 199,65 (incl. iva) ",
     "stepform3c":"IGP rústico:",
     "stepform3c2":"617,10 € (incl. iva)",
-    "stepform3d":"Duración: 5-10 diás hábiles",
+    "stepform3d":"Duración: 5-12 diás hábiles",
     "stepform4bb":"200 € (incl. iva)",
     
     "stepformOp1":"Redactar contrato : ",
@@ -444,7 +448,7 @@
     "telefono":"Telefono móvil (+01-255-456-7890)",
 
     
-    "About_tittle1":"MISION INJURAD",
+    "About_tittle1":"TRABAJAMOS JUNTOS POR UN MERCADO MAS SEGURO",
     "About_tittle1_info":"El objetivo, que las compras seguras sean accesibles para todos, sin importar el valor de la propiedad por una tarifa razonable. Informar clara y honestamente sobre la situación del inmueble en cuanto al cumplimiento de las normas urbanísticas, y si es el caso, sobre las consecuencias que supondrá el no cumplirlas, información que es fundamental para tomar una decisión conociendo lo que realmente se esta comprando.    ",
     "About_tittle2":"Como conseguimos nuestro objetivo",
     "About_tittle2_info":"Partimos de 5 principios basicos:",

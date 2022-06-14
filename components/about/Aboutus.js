@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 import { useTranslation } from "next-i18next";
 import Image from "next/image"
+import MediaPlayerAbout from './MediaPlayerAbout';
 
 
 export default function Aboutus() {     
@@ -20,6 +21,32 @@ export default function Aboutus() {
             <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
             <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
                 <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
+            </div>
+            <div className="overflow-scroll md:overflow-auto ">
+            <div className="flex sejue gap-10 m-auto">
+                
+                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Casa en Mallorca</span>
+                    </div>
+                </div>
+
+                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
+                    </div>
+                </div>
+                
+                <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Juan Navarro</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
+                <p className="leading-8 text-lg">Ralph en Luz hebben de gevolgen van misleiding aan den lijve ondervonden. Nu zetten zij zich in voor preventie, zodat de Spaanse droom van anderen gerealiseerd kan worden. Luister naar hun verhaal.</p>
+                <p className="leading-8 text-lg">Juan Navarro is advocaat en medeoprichter van Injurad. Hij zorgt ervoor dat Injurad koers houdt voor wat betreft kennis en ethiek van de professionals die namens kopers checks en keuringen uitvoeren.</p>
             </div>
         </div>
             
@@ -105,6 +132,26 @@ export default function Aboutus() {
                 
                 
             </div>
+            <h1 className=" text-4xl md:text-4xl font-bold mt-5 mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
+
+                <p className=" text-base">{t("About_tittle4_info")}</p>
+
+                <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
+
+                    <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
+                        <div className="absolute  px-6 ">
+                            <span className="block text-xl  text-bgr w-full font-bold tracking-wide  mb-8">{t("About_tittle4_tittle2")}</span>
+                            <span className="text-base w-3/4 m-auto font-normal text-bgr tracking-wider  ">{t("About_tittle4_tittle2_info")}</span> 
+                        </div>
+                    </div>
+                    <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div2">
+                        <div className="absolute  px-6 ">
+                            <span className="block text-xl  text-bgr w-full font-bold tracking-wide  mb-8">{t("About_tittle4_tittle1")}</span>
+                            <span className="text-base w-3/4 m-auto font-normal text-bgr tracking-wider  ">{t("About_tittle4_tittle1_info")}</span> 
+                        </div>
+                    </div>
+                    
+                </div>
         </div>
 
         <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3 ">
@@ -169,40 +216,15 @@ export default function Aboutus() {
                 
             </div>
             <div className="max-w-5xl m-auto px-8 mt-20">
-                <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
-
-                <p className=" text-base">{t("About_tittle4_info")}</p>
-
-                <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
-
-                    <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
-                        <div className="absolute  px-6 ">
-                            <span className="block text-xl  text-bgr w-full font-bold tracking-wide  mb-8">{t("About_tittle4_tittle2")}</span>
-                            <span className="text-base w-3/4 m-auto font-normal text-bgr tracking-wider  ">{t("About_tittle4_tittle2_info")}</span> 
-                        </div>
-                    </div>
-                    <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div2">
-                        <div className="absolute  px-6 ">
-                            <span className="block text-xl  text-bgr w-full font-bold tracking-wide  mb-8">{t("About_tittle4_tittle1")}</span>
-                            <span className="text-base w-3/4 m-auto font-normal text-bgr tracking-wider  ">{t("About_tittle4_tittle1_info")}</span> 
-                        </div>
-                    </div>
-                    
-                </div>
-
-
-
-            {/* <div className="grid sm:grid-cols-2 md:grid-cols-3">
-                <div className="">
-                <Image className=""  src="/men.jpg" layout='' width={300+'px'} height={400+'px'} alt="" objectFit="cover" quality={100} />
-                </div>
-                <div className="">
-                <Image className=""  src="/men2.jpg" layout='' width={300+'px'} height={400+'px'} alt=""  objectFit="cover" quality={100} />
-                </div>
-                <div className="">
-                <Image className=""  src="/men3.jpg" layout='' width={300+'px'} height={400+'px'} alt=""  objectFit="cover" quality={100} />
-                </div>
+                
+            {/*<div className="w-screen h-screen fixed top-0 left-0  z-50">
+             
+            <div className="w-96 h-20 bg-bg2 absolute bottom-0 right-40 ">
+             <MediaPlayerAbout className="" /> 
+            </div>
             </div> */}
+
+            
             
             <div className="md:w-3/4  mt-20 text-base md:text-lg ">
                 <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle6")}</h1>

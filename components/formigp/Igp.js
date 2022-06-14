@@ -24,9 +24,7 @@ export default function Igp() {
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3c")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3c2")}</h1>
         <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform3d")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base border-t border-bgrS2 w-80 pt-2 font-semibold text-bg2 mt-2">{t("stepform1b1b")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-medium text-bg2 ">{t("stepform3ba")}</h1>
-        <h1 className="md:ml-10 text-lg md:text-base font-semibold text-bg2 mt-2">{t("stepform1c")}</h1>
+        
 
         <div className="w-full md:w-11/12  m-auto mb-10 text-base md:text-base mt-20">
 
@@ -42,77 +40,83 @@ export default function Igp() {
                     
             
             <div className="w-full md:w-11/12  m-auto mb-8">
-                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2a")}</h2>
-                <h2 className=" text-bg2 font-medium text-left text-xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2aa")}</h2>
+                <h2 className=" text-bg2 font-semibold text-left text-4xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2a")}</h2>
+                <h2 className=" text-sl font-medium text-left text-xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2aa")}</h2>
                 
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit2b")} <span className="font-medium"> {t("form_igp_tit2b2")}</span> {t("form_igp_tit2b3")}</p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0"><span className="font-medium">{t("form_igp_tit3")}</span> {t("form_igp_tit3b")}</p>
-                <h2 className=" text-bg2 font-medium text-left text-2xl pt-5 mt-5 md:px-0  ">{t("form_igp_tit4ar")}</h2>
+                <h2 className=" text-sl font-medium text-left text-2xl pt-5 mt-5 md:px-0  ">{t("form_igp_tit4ar")}</h2>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4arcont")}</p>
                 {/* <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-5 mb-20 transition-all duration-150 relative z-10">
                 {t("form_igp_infot4-")}
                 </button> */}
             </div>
             
-            <div className="w-full md:w-11/12  m-auto mb-8">
-                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
-                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
-                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont2")}</p>
+            <div className="w-full md:w-11/12  m-auto mb-8 segments segment-3 ">
+            <div className="bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-10 py-8 ">
 
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(1)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q1")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 1 ? "-" : "+"}</span>
+                <div className="w-10/12 m-auto">
+                    <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
+                    <p className="text-bgr  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
+                    <p className=" text-bgr font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont2")}</p>
+
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title" onClick={ () => toggle(1)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q1")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 1 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 1 ? "content show " : "content"} > {t("form_igp_tit4q1answ")} </h2>
+                        </div>
                     </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 1 ? "content show" : "content"} > {t("form_igp_tit4q1answ")} </h2>
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(2)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q2")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 2 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 2 ? "content show" : "content"} > {t("form_igp_tit4q2answ")} </h2>
+                        </div>
+                    </div>
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(3)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q3")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 3 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 3 ? "content show" : "content"} > {t("form_igp_tit4q3answ")} </h2>
+                        </div>
+                    </div>
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(4)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q4")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 4 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 4 ? "content show" : "content"} > {t("form_igp_tit4q4answ")} </h2>
+                        </div>
+                    </div>
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(5)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q5")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
+                        </div>
+                    </div>
+                    <div className="item  m-auto w-10/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(5)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q6")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q6answ")} </h2>
+                        </div>
                     </div>
                 </div>
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(2)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q2")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 2 ? "-" : "+"}</span>
-                    </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 2 ? "content show" : "content"} > {t("form_igp_tit4q2answ")} </h2>
-                    </div>
-                </div>
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(3)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q3")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 3 ? "-" : "+"}</span>
-                    </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 3 ? "content show" : "content"} > {t("form_igp_tit4q3answ")} </h2>
-                    </div>
-                </div>
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(4)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q4")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 4 ? "-" : "+"}</span>
-                    </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 4 ? "content show" : "content"} > {t("form_igp_tit4q4answ")} </h2>
-                    </div>
-                </div>
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(5)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q5")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 5 ? "-" : "+"}</span>
-                    </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
-                    </div>
-                </div>
-                <div className="item  m-auto w-8/12">
-                    <div className="title  " onClick={ () => toggle(5)}>
-                        <h2 className=" font-semibold text-bg2">{t("form_igp_tit4q6")}</h2>
-                        <span className=" text-bg2 font-normal">{selected === 5 ? "-" : "+"}</span>
-                    </div>
-                    <div className=" border-l-2 border-sl pl-2 ">
-                        <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q6answ")} </h2>
-                    </div>
-                </div>
+            </div>
+                
             
             </div>
         </div>

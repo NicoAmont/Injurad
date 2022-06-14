@@ -18,11 +18,7 @@
     padding: 0;
     box-sizing: inherit;
 }
-::-webkit-scrollbar {
-  background-color: rgba(140, 170, 159, 0.267);
-  border-radius: 10px;
-  width: 4px;
-}
+
 main, footer{
     background-color: #6C86E0;
 }
@@ -167,13 +163,13 @@ ul {
 }
 
 .contenedor_flujo{
-  scrollbar-width: auto;
+  scrollbar-width: 4px;
   scrollbar-color: rgba(42,97,77,0.6) #ffffff;
 }
 
 /* Chrome, Edge, and Safari */
 .contenedor_flujo::-webkit-scrollbar {
-  width: 8px;
+  width: 2px;
 }
 
 .contenedor_flujo::-webkit-scrollbar-thumb {
@@ -215,7 +211,7 @@ background-position-x: left;
 
 .item{
   border-radius: 10px;
-  border-bottom: 1px solid #106f2e ;
+  border-bottom: 1px solid #a0cfae ;
   padding: 0.5rem 1rem ;
   margin-top: 15px;
 
@@ -241,6 +237,7 @@ background-position-x: left;
   max-height: 0px;
   overflow: hidden;
   transition:all 0.25s cubic-bezier(0,1,0,1);
+  
 }
 
 .content.show {
@@ -275,3 +272,37 @@ audio{
   background-size: cover;
 }
 
+.stickel{
+  position: sticky !important;
+  top: 0;
+}
+
+.content-about1{
+  background-image:linear-gradient( to right,
+  rgb(50,103,84, 0.5), rgba(40, 225, 140, 0.1) ),
+   url('/men.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-about2{
+  
+  background-image:linear-gradient( to right,
+  rgba(50, 103, 84, 0.5), rgba(40, 225, 140, 0.1) ),
+   url('/men2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-about3{
+  
+  background-image:linear-gradient( to right,
+  rgb(50,103,84, 0.5), rgba(40, 225, 140, 0.01) ),
+   url('/man3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sejue{
+  width: 1000px;
+}
