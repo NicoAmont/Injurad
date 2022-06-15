@@ -60,6 +60,7 @@ function Header() {
                 </Link>
                 {/* Navbar 2xl display */}
 
+                
                 <div className="bg-bgr hidden 2xl:visible  2xl:inline-flex w-full 2xl:w-auto text-sm 2xl:text-base">
                     {/* Center */}
                     <div className="flex  justify-center w-full flex-grow font-heads font-normal m-auto  ">
@@ -75,45 +76,9 @@ function Header() {
                             <Link  href="/formigp" passHref><div className=" border-b-2 border-bgfva2 flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal "><span className="font-semibold text-bgfva2">{t('menu3')}</span> <br /> {t('menu311')}</a>
                             </div></Link>
-                            <div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2    ">
-                                    <Popover className="relative  ">
-                                        <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 font-semibold text-bg2 ">{t('menu8')}</Popover.Button>
-
-                                        <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
-                                            {({ close }) => (
-                                            <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
-                                                <div className="w-full h-full flex-column">
-
-                                                    <div className=" flex flex-col text-left">
-                                                        <a className="font-medium text-gl text-left w-full h-full" ></a>
-                                                    </div>
-                                                    <div className=" flex flex-col text-left ">
-                                                        <Link href="/about" passHref><a onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75 ease-in-out">{t('menu31')}</a></Link>    
-                                                        <Link href="/contact" passHref><a onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu4')}</a></Link>
-                                                        <Link href="/howitworks" passHref><a  onClick={ () => {close()}} className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">{t('menu7')}</a></Link>
-                                                    </div>
-
-                                                </div> 
-                                                
-                                                {/* <div className="w-full h-full flex-col mt-4">
-
-                                                    <div className=" flex flex-col text-left">
-                                                        <a className="font-medium text-gl text-left w-full" >Politicas & Privacidad</a>
-                                                    </div>
-                                                    
-                                                    <div className=" flex flex-col text-left ">
-                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Términos profesionales</a></Link>
-                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Protocolos</a></Link>    
-                                                        <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
-                                                        <Link href="/" passHref><a className=" p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
-                                                    </div>
-                                                </div>  */}
-                                            </div>
-                                            )}
-                                        </Popover.Panel>
-                                    </Popover>
-                            </div>
-                            
+                            <Link  href="/about" passHref><div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2">
+                            <a onClick={() => setIsOpen(!isOpen)} className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 font-semibold text-bg2">{t('menu8')}</a>
+                            </div></Link>
                         </div>
                     </div>
                     
@@ -223,8 +188,9 @@ function Header() {
                             <Link  href="/formigp" passHref><div onClick={() => setIsOpen(!isOpen)} className="flex px-4 flex-col  text-center justify-center w-full 2xl:w-28 h-16 2xl:h-28 hover:bg-bgr2    ">
                                 <a className=" transition-colors delay-150 font-normal "><span className="font-semibold text-bgfva2">{t('menu3')}</span> <br /> {t('menu311')}</a>
                             </div></Link>
-                            <div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2    ">
-                                    <Popover className="relative  ">
+                            <Link  href="/about" passHref><div className="flex flex-col  text-center justify-center w-full 2xl:w-32 h-16   2xl:h-28 hover:bg-bgr2">
+                            <a onClick={() => setIsOpen(!isOpen)} className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')}</a>
+                                    {/*<Popover className="relative  ">
                                         <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')} </Popover.Button>
 
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
@@ -243,7 +209,7 @@ function Header() {
 
                                                 </div> 
                                                 
-                                                {/* <div className="w-full h-full flex-col mt-4">
+                                                 <div className="w-full h-full flex-col mt-4">
 
                                                     <div className=" flex flex-col text-left">
                                                         <a className="font-medium text-gl text-left w-full" >Politicas & Privacidad</a>
@@ -255,12 +221,12 @@ function Header() {
                                                         <Link href="/" passHref><a className="mb-2 p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Disclaimer</a></Link>    
                                                         <Link href="/" passHref><a className=" p-1 2xl:p-2  hover:bg-bgr2 transition-all duration-75">Configuracion de privacidad</a></Link>    
                                                     </div>
-                                                </div>  */}
+                                                </div>  
                                             </div>
                                         )}
                                         </Popover.Panel>
-                                    </Popover>
-                            </div>
+                                    </Popover>*/}
+                            </div></Link>
                             
                         </div>
                     </div>

@@ -433,7 +433,7 @@
 
 
     "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control < 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
@@ -448,8 +448,8 @@
     "telefono":"Telefono móvil (+01-255-456-7890)",
 
     
-    "About_tittle1":"TRABAJAMOS JUNTOS POR UN MERCADO MAS SEGURO",
-    "About_tittle1_info":"El objetivo, que las compras seguras sean accesibles para todos, sin importar el valor de la propiedad por una tarifa razonable. Informar clara y honestamente sobre la situación del inmueble en cuanto al cumplimiento de las normas urbanísticas, y si es el caso, sobre las consecuencias que supondrá el no cumplirlas, información que es fundamental para tomar una decisión conociendo lo que realmente se esta comprando.    ",
+    "About_tittle1":"Contentos de poder contribuir a la realización de su sueño.",
+    "About_tittle1_info":"El objetivo, que las compras seguras sean accesibles para todos, sin importar el valor de la propiedad por una tarifa razonable. Informar clara y honestamente sobre la situación del inmueble.",
     "About_tittle2":"Como conseguimos nuestro objetivo",
     "About_tittle2_info":"Partimos de 5 principios basicos:",
     "About_tittle2_info1":"Estandarización",
@@ -462,6 +462,8 @@
     "About_tittle2_info4_1":"La evaluación en profundidad de uno de cada diez informes, el control mutuo y el trabajo en equipo entre los profesionales que intervienen, el establecimiento de un procedimiento de resolución de incidencias para el caso de presentación de quejas y la mejora continua de todo el sistema, son ejemplos de nuestros controles para que el resultado final sea un trabajo de calidad.    ",
     "About_tittle2_info5":"Conocimiento colectivo",
     "About_tittle2_info5_1":"La suma de las experiencias y de los esfuerzos individuales de los profesionales a la hora de hacer un dictamen, ofrece un valor agregado con especial importancia, teniendo en cuenta que la normativa urbanística española tiene una aplicación y regulación segmentada por Comunidades Autónomas y municipios.",    
+    "About_foto1":"Una finca en Mayorca",    
+    
     
     "About_tittle3":"Profesionales",    
     "About_tittle3_info":"Los profesionales, que tienen la idoneidad para realizar las investigaciones sobre la situación de los inmuebles, son arquitectos especializados en urbanismo y abogados con amplio conocimiento de las leyes urbanísticas. El sistema esta a disposición de cualquier profesional. Los profesionales que ya han acceptado las pautas y protocolos de Injurad estan incluidos en la base de datos para que les sea asignada aleatoriamente alguna solicitud. Pero cualquier profesional que aun no conoce Injurad puede acceder al sistema, una vez finalicen el proceso de validación y formación.", 

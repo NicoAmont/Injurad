@@ -57,7 +57,7 @@
 
 
     "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control < 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
@@ -454,8 +454,8 @@
     "more2":"Meer informatie",
     "more3":"Start controle",
     
-    "About_tittle1":"MISSIE INJURAD",
-    "About_tittle1_info":"De doelstelling van Injurad is om veilig kopen voor iedereen toegankelijk te maken ongeacht de waarde van het onroerend goed tegen een redelijke vergoeding. Duidelijk en eerlijk informeren over de status van het onroerend goed met betrekking tot de lokale regelgeving en het geldende bestemmingsplan en over de gevolgen als het onroerend goed daar niet aan voldoet. Informatie die essentieel is om een ​​beslissing te nemen en te weten wat er daadwerkelijk wordt gekocht. Daarom introduceren we een de IGP als nationale standaard voor woning-inspecties, een standaard die eenvoudig te controleren is.",
+    "About_tittle1":"Fijn dat we mogen bijdragen aan het realiseren van uw droom",
+    "About_tittle1_info":"De doelstelling van Injurad is om veilig kopen voor iedereen toegankelijk te maken ongeacht de waarde van het onroerend goed tegen een redelijke vergoeding. Duidelijk en eerlijk informeren over de status van het onroerend goed.",
     "About_tittle2":"Hoe bereiken we onze doelstelling ",
     "About_tittle2_info":"We gaan uit van vijf basispricipes: ",
     "About_tittle2_info1":"Standaardisatie",
@@ -468,6 +468,8 @@
     "About_tittle2_info4_1":"De onderlinge controle en de samenwerking tussen de betrokken professionals, een klachtenprocedure en het continu verbeteren en updaten van het systeem.",
     "About_tittle2_info5":"Collectieve kennis",
     "About_tittle2_info5_1":"In het kenniscentrum van Injurad worden ervaringen en kennis uitgewisseld hetgeen van enorme toegevoegde waarde is voor de cliënt en het verbeteren van de kwaliteit. Spaanse regelgeving op het gebied van ruimtelijke ordening worden per autonome regio gesegmenteerd toegepast.",    
+    
+    "About_foto1":"Hun finca op Mallorca",    
     
     
     "About_tittle3":"Professionals",    

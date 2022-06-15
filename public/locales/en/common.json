@@ -407,7 +407,7 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control > 2 documentos y Control contrato: 459,8 € (incl. iva)",
+    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
     "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
@@ -452,8 +452,8 @@
     "stepformOp2_":"423,50 € (incl. btw)  ",
     
     
-    "About_tittle1":"INJURAD’S MISSION    ",
-    "About_tittle1_info":"Our goal is to ensure that everyone is able to purchase safely, regardless of the value of the property, and at a reasonable fee. You will be provided with clear and honest information regarding the status of the property, including local regulations, the applicable planning regulations and the consequences if the property does not comply with them. It is essential to have this information in order before making a decision and to understand fully what you are actually purchasing. This is why we have introduced the IGP as a national standard for property inspections, a standard that we are able to control.",
+    "About_tittle1":"Glad we can contribute to the realization of your dream.  ",
+    "About_tittle1_info":"Our goal is to ensure that everyone is able to purchase safely, regardless of the value of the property, and at a reasonable fee. You will be provided with clear and honest information regarding the status of the property.",
     "About_tittle2":"How do we achieve our goal?",
     "About_tittle2_info":"We follow five basic principles:",
     "About_tittle2_info1":"Standardisation",
@@ -469,7 +469,8 @@
     
     "About_tittle3":"Who are our experts    ",    
     "About_tittle3_info":"The experts are specialised real estate professionals. They are architects who specialise in land-use planning and lawyers with extensive knowledge of the law related to land-use planning. The system is available to any expert. Experts who have already accepted Injurad’s guidelines and protocols are entered into our database so that a request can randomly be assigned to them. Any expert who is new to Injurad will have access to the system once the validation and training process is complete.", 
-    
+    "About_foto1":"House in Mayorca",   
+
     "About_tittle4":"Injurad’s team",
     "About_tittle4_info":"Injurad’s team consists of lawyers and architects who specialise in planning regulations. Their responsibility is to check reports against fixed guidelines and protocols.",
     "About_tittle4_tittle1":"Inspectors in town planning regulations (urbanismo)",
