@@ -303,6 +303,15 @@ audio{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content-about4{
+  
+  background-image:linear-gradient( to right,
+  rgba(50, 103, 84, 0.878), rgba(40, 225, 139, 0.779) ),
+   url('/man3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .sejue{
   width: 1000px;
 }

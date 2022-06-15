@@ -17,9 +17,21 @@ export default function Aboutus() {
     }
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20 w-full">
+    <div className="w-96 h-96 fixed bottom-0 left-44 sm:right-0  z-50 ">
+                <div className="w-96 h-20  absolute bottom-10 right-40 shadow-2xl  ">
+                <div className="rounded-xl shadow-lg pt-10  pb-5 mb-10 h-18 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about4 z-10">
+                    <div className="absolute top-2 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide">Nuestra historia</span>
+                    </div>
+                <MediaPlayerAbout className="" /> 
+                </div>
+            </div>
+            </div>
         <div className="max-w-6xl m-auto px-8">
             <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
-            
+            <div className="md:w-3/4 m-auto mb-10 text-base md:text-lg ">
+                <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
+            </div>
             <div className="overflow-scroll md:overflow-auto mt-10">
             <div className="flex sejue gap-5 m-auto">
                 
@@ -44,7 +56,9 @@ export default function Aboutus() {
             </div>
             </div>
             <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
-                <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
+                <p className="leading-8 text-lg">Ralph en Luz hebben de gevolgen van misleiding aan den lijve ondervonden. Nu zetten zij zich in voor preventie, zodat de Spaanse droom van anderen gerealiseerd kan worden. Luister naar hun verhaal.</p>
+                <p className="leading-8 text-lg">Juan Navarro is advocaat en medeoprichter van Injurad. Hij zorgt ervoor dat Injurad koers houdt voor wat betreft kennis en ethiek van de professionals die namens kopers checks en keuringen uitvoeren.</p>
+                
             </div>
         </div>
             
@@ -215,12 +229,8 @@ export default function Aboutus() {
             </div>
             <div className="max-w-5xl m-auto px-8 mt-20">
                 
-            {/*<div className="w-screen h-screen fixed top-0 left-0  z-50">
-             
-            <div className="w-96 h-20 bg-bg2 absolute bottom-0 right-40 ">
-             <MediaPlayerAbout className="" /> 
-            </div>
-            </div> */}
+            
+
 
             
             
