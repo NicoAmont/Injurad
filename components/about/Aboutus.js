@@ -17,11 +17,11 @@ export default function Aboutus() {
     }
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20 w-full">
-    <div className="w-96 h-96 fixed bottom-0 left-44 sm:right-0  z-50 ">
+    <div className="w-96 h-20 fixed bottom-0 left-44 sm:right-0  z-50 ">
                 <div className="w-96 h-20  absolute bottom-10 right-40 shadow-2xl  ">
                 <div className="rounded-xl shadow-lg pt-10  pb-5 mb-10 h-18 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about4 z-10">
                     <div className="absolute top-2 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide">Nuestra historia</span>
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide">{t("audiotitle")}</span>
                     </div>
                 <MediaPlayerAbout className="" /> 
                 </div>
