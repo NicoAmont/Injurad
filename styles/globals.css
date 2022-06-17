@@ -18,6 +18,11 @@
     padding: 0;
     box-sizing: inherit;
 }
+*::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
 
 main, footer{
     background-color: #6C86E0;

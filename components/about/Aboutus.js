@@ -17,31 +17,31 @@ export default function Aboutus() {
     }
   return (
     <div className="bg-bgr  pt-32 md:pt-40 pb-20 w-full">
-    <div className="w-96 h-20 fixed bottom-0 left-44 sm:right-0  z-50 ">
-                <div className="w-96 h-20  absolute bottom-10 right-40 shadow-2xl  ">
+        
+                <div className="w-screen sm:w-96 h-20 fixed  bottom-10 right-0 sm:right-20 shadow-2xl z-50 ">
                 <div className="rounded-xl shadow-lg pt-10  pb-5 mb-10 h-18 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about4 z-10">
                     <div className="absolute top-2 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide">{t("audiotitle")}</span>
                     </div>
                 <MediaPlayerAbout className="" /> 
                 </div>
-            </div>
-            </div>
-        <div className="max-w-6xl m-auto px-8">
-            <h1 className="md:ml-10 text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
-            <div className="md:w-3/4 m-auto mb-10 text-base md:text-lg ">
+            
+        </div>
+        <div className="max-w-5xl m-auto px-8">
+            <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
+            <div className=" m-auto mb-10 text-base md:text-lg ">
                 <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
             </div>
             <div className="overflow-scroll md:overflow-auto mt-10">
-            <div className="flex sejue gap-5 m-auto">
+            <div className="flex sejue">
                 
-                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
+                <div className="w-8/12 mr-10 sm:w-full shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
                     <div className="absolute bottom-0 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">{t("About_foto1")}</span>
                     </div>
                 </div>
 
-                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
+                <div className="shadow-lg mr-10 mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
                     <div className="absolute bottom-0 px-6 ">
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
                     </div>
@@ -55,7 +55,7 @@ export default function Aboutus() {
                 </div>
             </div>
             </div>
-            <div className="md:w-3/4 m-auto mb-20 text-base md:text-lg ">
+            <div className=" m-auto mb-20 text-base md:text-lg ">
                 <p className="leading-8 text-lg">Ralph en Luz hebben de gevolgen van misleiding aan den lijve ondervonden. Nu zetten zij zich in voor preventie, zodat de Spaanse droom van anderen gerealiseerd kan worden. Luister naar hun verhaal.</p>
                 <p className="leading-8 text-lg">Juan Navarro is advocaat en medeoprichter van Injurad. Hij zorgt ervoor dat Injurad koers houdt voor wat betreft kennis en ethiek van de professionals die namens kopers checks en keuringen uitvoeren.</p>
                 
@@ -81,12 +81,12 @@ export default function Aboutus() {
             </div>
         </div>
 
-        <div className="max-w-6xl m-auto px-8 mt-20">
+        <div className="max-w-5xl m-auto px-8 mt-20">
             <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle2")}</h1>
-            <div className="md:w-3/4 md:ml-10 mb-10 text-base md:text-lg ">
+            <div className=" mb-10 text-base md:text-lg ">
                 <p className="leading-8 text-lg">{t("About_tittle2_info")}</p>
             </div>
-            <div className="w-3/4 md:w-10/12 md:m-auto h-auto grid md:grid-cols-2 mb-20 place-content-center ">
+            <div className="w-3/4 md:w-11/12 md:m-auto h-auto grid md:grid-cols-2 mb-20 place-content-center ">
 
                 <div className=" rounded-lg h-auto w-auto md:w-3/4 flex flex-wrap md:flex-col  mb-5 py-4  md:px-10  ">
                     <div className="w-10  mr-4">
@@ -148,7 +148,7 @@ export default function Aboutus() {
 
                 <p className=" text-base">{t("About_tittle4_info")}</p>
 
-                <div className="w-full max-w-4xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
+                <div className="w-full max-w-5xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
 
                     <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
                         <div className="absolute  px-6 ">
@@ -171,7 +171,7 @@ export default function Aboutus() {
                 {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
 
-                <div className="w-3/4 md:w-3/4  m-auto mb-8">
+                <div className="w-3/4 max-w-2xl  m-auto mb-8">
                 <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_igp_tit4cont2")}</p>
