@@ -156,8 +156,8 @@ export default function Aboutus() {
             </div>
             </div>
             <div className=" m-auto mb-20 text-base md:text-lg ">
-                <p className="leading-8 text-lg">Ralph en Luz hebben de gevolgen van misleiding aan den lijve ondervonden. Nu zetten zij zich in voor preventie, zodat de Spaanse droom van anderen gerealiseerd kan worden. Luister naar hun verhaal.</p>
-                <p className="leading-8 text-lg">Juan Navarro is advocaat en medeoprichter van Injurad. Hij zorgt ervoor dat Injurad koers houdt voor wat betreft kennis en ethiek van de professionals die namens kopers checks en keuringen uitvoeren.</p>
+                <p className="leading-8 text-lg">{t("About_text1")}</p>
+                <p className="leading-8 text-lg">{t("About_text2")}</p>
                 
             </div>
         </div>
