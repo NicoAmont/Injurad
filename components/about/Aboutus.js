@@ -28,12 +28,47 @@ export default function Aboutus() {
             
         </div>
         <div className="max-w-5xl m-auto px-8">
+        
+        {/* about history */}
+        <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
+            
+        <div className=" m-auto mb-10 text-base md:text-lg ">
+                <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
+            </div>
+            <div className="overflow-scroll md:overflow-auto mt-10">
+            <div className="flex sejue">
+                
+                <div className="w-8/12 mr-10 sm:w-full shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">{t("About_foto1")}</span>
+                    </div>
+                </div>
+
+                <div className="shadow-lg mr-10 mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
+                    </div>
+                </div>
+                
+
+                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
+                    <div className="absolute bottom-0 px-6 ">
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Juan Navarro</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className=" m-auto mb-20 text-base md:text-lg ">
+                <p className="leading-8 text-lg">{t("About_text1")}</p>
+                <p className="leading-8 text-lg">{t("About_text2")}</p>
+                
+            </div>
                 {/* injurad team */}
                 <h1 className=" text-4xl md:text-4xl font-bold mt-5 mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
 
                 <p className=" text-base">{t("About_tittle4_info")}</p>
 
-                <div className="w-full max-w-5xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
+                {/* <div className="w-full max-w-5xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
 
                     <div className="shadow-lg mb-10 h-96 group container relative rounded-md bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-div">
                         <div className="absolute  px-6 ">
@@ -48,7 +83,7 @@ export default function Aboutus() {
                         </div>
                     </div>
                     
-                </div>
+                </div> */}
         </div>
         <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3 ">
 
@@ -122,44 +157,7 @@ export default function Aboutus() {
             </div>
             <div className="flex flex-wrap mb-20">
             
-            <button className="bg-bgr border-2 border-bg2 text-bg2 m-auto text-sm  w-48 py-2 flex items-center justify-center mt-20 transition-all duration-150 relative z-10">
-                Conoce el mercado inmobiliario en España
-            </button>
-            
-            </div>   
-            {/* about history */}
-            <h1 className=" text-4xl md:text-4xl font-bold mb-10 text-bg2 uppercase">{t("About_tittle1")}</h1>
-            <div className=" m-auto mb-10 text-base md:text-lg ">
-                <p className="leading-8 text-lg">{t("About_tittle1_info")}</p>
-            </div>
-            <div className="overflow-scroll md:overflow-auto mt-10">
-            <div className="flex sejue">
-                
-                <div className="w-8/12 mr-10 sm:w-full shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about3 z-10">
-                    <div className="absolute bottom-0 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">{t("About_foto1")}</span>
-                    </div>
-                </div>
-
-                <div className="shadow-lg mr-10 mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
-                    <div className="absolute bottom-0 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
-                    </div>
-                </div>
-                
-
-                <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
-                    <div className="absolute bottom-0 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Juan Navarro</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div className=" m-auto mb-20 text-base md:text-lg ">
-                <p className="leading-8 text-lg">{t("About_text1")}</p>
-                <p className="leading-8 text-lg">{t("About_text2")}</p>
-                
-            </div>
+            </div>  
         </div>
             
         <div className="w-full grid grid-cols-1 sm:grid-cols-4 relative">

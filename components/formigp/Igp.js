@@ -41,7 +41,7 @@ export default function Igp() {
             
             <div className="w-full md:w-11/12  m-auto mb-8">
                 <h2 className=" text-bg2 font-semibold text-left text-4xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2a")}</h2>
-                <h2 className=" text-sl font-medium text-left text-xl pt-5  md:px-0  mb-10 ">{t("form_igp_tit2aa")}</h2>
+                <h2 className=" text-sl font-medium text-left text-2xl pt-5  md:px-0  ">{t("form_igp_tit2aa")}</h2>
                 
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit2b")} <span className="font-medium"> {t("form_igp_tit2b2")}</span> {t("form_igp_tit2b3")}</p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0"><span className="font-medium">{t("form_igp_tit3")}</span> {t("form_igp_tit3b")}</p>
