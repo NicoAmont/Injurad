@@ -30,12 +30,25 @@ export default async function handler(req, res) {
       to: 'lewtcorp.web@gmail.com',
       subject: `Contact form submission from ${name}`,
       html: `
-          <p>Tines un nuevo mensaje de ${name}</p><br>
-          <p>nombre: ${name}</p><br>
-          <p>Apellidos: ${last_name}</p><br>
-          <p>telefono: ${phone}</p><br>
-          <p>Relación de la pregunta: ${step_process}</p><br>
-          <p>Pregunta: ${message_outro}</p><br>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="/dist/output.css" rel="stylesheet">
+        <title>Document</title>
+    
+        
+    
+      </head>
+      <body>
+        <h1 class="text-3xl font-bold underline">
+          Hello world!
+        </h1>
+          <h1>${name}</h1>
+          <p>{{text}}</p>
+      </body>
+    </html>
       `,
     });
     console.log('Mensaje enviado', emailRes.messageId);

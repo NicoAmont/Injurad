@@ -106,12 +106,12 @@ export default function Igp() {
                         </div>
                     </div>
                     <div className="item  m-auto w-10/12 text-bgr">
-                        <div className="title  " onClick={ () => toggle(5)}>
+                        <div className="title  " onClick={ () => toggle(6)}>
                             <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q6")}</h2>
                             <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
                         </div>
                         <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q6answ")} </h2>
+                            <h2 className={selected === 6 ? "content show" : "content"} > {t("form_igp_tit4q6answ")} </h2>
                         </div>
                     </div>
                 </div>
