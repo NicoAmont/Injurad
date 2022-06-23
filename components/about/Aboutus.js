@@ -46,14 +46,16 @@ export default function Aboutus() {
 
                 <div className="shadow-lg mr-10 mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
                     <div className="absolute bottom-0 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Luz y Ralph</span>
+                    <span className="block text-2xl  text-bgr w-full font-semibold tracking-wide ">{t("About_phtoinfo1a")}</span>
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide mb-8 opacity-75">{t("About_phtoinfo1")}</span>
                     </div>
                 </div>
                 
 
                 <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
                     <div className="absolute bottom-0 px-6 ">
-                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide  mb-8">Juan Navarro</span>
+                    <span className="block text-2xl  text-bgr w-full font-semibold tracking-wide ">{t("About_phtoinfo2a")}</span>                    
+                    <span className="block text-xl  text-bgr w-full font-semibold tracking-wide mb-8 opacity-75">{t("About_phtoinfo2")}</span>
                     </div>
                 </div>
             </div>
