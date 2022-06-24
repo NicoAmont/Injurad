@@ -281,7 +281,7 @@
     
     
     "Contact_tittle":"Contactanos",
-    "Contact_subtitle":"Llena los siguientes campos",
+    "Contact_subtitle":"Vul het formulier in. U ontvangt een mail met instructies:",
     "Contact_opt1":"Nombre",
     "Contact_opt2":"Apellidos",
     "Contact_opt3":"E-mail",
@@ -291,7 +291,7 @@
     "Contact_opt7":"",
     
     
-    "form_igp_tittle":"IGP INSPECTIE    ",
+    "form_igp_tittle":"IGP INSPECTIE ",
 
     "form_igp_info1":"De IGP inspectie is ontstaan door de samenwerking van advocaten en architecten van het CCI, Injurad’s kenniscentrum. IGP staat voor inspección general de la propiedad, ofwel algemene woning-inspectie.",
     "form_igp_info1b":"Elke IGP inspectie biedt een reeks belangrijke conclusies en aanbevelingen. Daardoor kunt u zelf de risico’s afwegen en beslissen of u de koop wil doorzetten. De uitslag maakt bovendien de laatste fase tot aan de notaris veel overzichtelijker, u weet namelijk of alles in orde is of wat er nog moet gebeuren.",
@@ -343,6 +343,11 @@
     "form_doc_info2b2":"De suggestie wordt gewekt dat een woning in orde is als deze is geregistreerd in het Kadaster en Woningregister en over een Woonvergunning beschikt. Dat is pertinent onjuist en de reden dat huiseigenaren achteraf in de problemen komen.",
     "form_igp_tittle2":"Resultaten IGP",
     "form_igp_tittle2B":"Het resultaat van de IGP wordt uitgedrukt in drie kleuren.",
+
+    "form_igp_tit1sem":"Rood",
+    "form_igp_tit2sem":"Geel",
+    "form_igp_tit3sem":"Groen",
+
     "form_igp_tittle2B1":"Het onroerend goed is illegaal en niet te legaliseren en heeft serieuze beperkingen. U kunt zelf de risico’s afwegen.",
     "form_igp_tittle2B2":"Er zijn zaken die nog moeten worden opgelost of onderzocht. Het rapport geeft aan welke professional u daarbij kan helpen.",
     "form_igp_tittle2B3":"De IGP laat geen onrechtmatigheden zien. Neem contact op met een advocaat om u te begeleiden tot aan de notaris.",

@@ -45,7 +45,7 @@ export default function Aboutus() {
                 </div>
 
                 <div className="shadow-lg mr-10 mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about1 z-10">
-                    <div className="absolute bottom-0 px-6 ">
+                    <div className="absolute bottom-0 px-6 text-center">
                     <span className="block text-2xl  text-bgr w-full font-semibold tracking-wide ">{t("About_phtoinfo1a")}</span>
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide mb-8 opacity-75">{t("About_phtoinfo1")}</span>
                     </div>
@@ -53,7 +53,7 @@ export default function Aboutus() {
                 
 
                 <div className="shadow-lg mb-10 h-96 group container relative  bg-bgr  max-w-sm flex justify-center items-center  mx-auto content-about2 z-10">
-                    <div className="absolute bottom-0 px-6 ">
+                    <div className="absolute bottom-0 px-6 text-center">
                     <span className="block text-2xl  text-bgr w-full font-semibold tracking-wide ">{t("About_phtoinfo2a")}</span>                    
                     <span className="block text-xl  text-bgr w-full font-semibold tracking-wide mb-8 opacity-75">{t("About_phtoinfo2")}</span>
                     </div>
@@ -68,7 +68,7 @@ export default function Aboutus() {
                 {/* injurad team */}
                 <h1 className=" text-4xl md:text-4xl font-bold mt-5 mb-10 text-bg2 uppercase">{t("About_tittle4")}</h1>
 
-                <p className=" text-base">{t("About_tittle4_info")}</p>
+                <p className=" text-lg tracking-wide">{t("About_tittle4_info")}</p>
 
                 {/* <div className="w-full max-w-5xl m-auto h-full grid md:grid-cols-2 place-items-center mt-10">
 
@@ -94,7 +94,7 @@ export default function Aboutus() {
                 {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
                 <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
 
-                <div className="w-3/4 max-w-2xl  m-auto mb-8">
+                <div className="w-11/12 max-w-xl pl-4 m-auto mb-8">
                 <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_igp_tit4tit")}</h2>
                 <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_igp_tit4cont")} </p>
                 <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_igp_tit4cont2")}</p>
@@ -143,6 +143,15 @@ export default function Aboutus() {
                     <div className=" border-l-2 border-sl pl-2 ">
                         <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
                     </div>
+                </div>
+                <div className="item  m-auto w-8/12 text-bgr">
+                        <div className="title  " onClick={ () => toggle(6)}>
+                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q6")}</h2>
+                            <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
+                        </div>
+                        <div className=" border-l-2 border-sl pl-2 ">
+                            <h2 className={selected === 6 ? "content show" : "content"} > {t("form_igp_tit4q6answ")} </h2>
+                        </div>
                 </div>
 
                 </div>
