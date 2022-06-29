@@ -12,6 +12,15 @@ export default function FormDoc() {
     const { register, handleSubmit, formState: {errors}, reset } = useForm();
 
     async function onSubmitForm(values) {
+        
+        let config2 = {
+            method:'POST',
+            url:"/api/docform",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            data:values,
+        }
         let config = {
             method:'POST',
             url:"/api/services",
@@ -20,11 +29,12 @@ export default function FormDoc() {
             },
             data:values,
         }
-
-        router.push('/emailsended');
+        console.log(values)
         try {
-            const response = await axios(config)
-            if(response.status == 200){
+            const response1 = await axios(config)
+            const response = await axios(config2)
+            if(response.status == 200 && response1.status == 200 ){
+                router.push('/emailsended');
                 reset();
             }
         } catch (err) {
@@ -35,33 +45,26 @@ export default function FormDoc() {
 
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
-        <h2 className="pb-5 font-semibold text-bg2">{t("form_data")}</h2>
-        <div className="relative z-0 mb-6 w-full group">
-            <input 
-                type="email" 
-                name="email_direction" 
-                {...register('email_direction', { 
-                    required: true,
-                    required: true,
-                    minLength:8,
-                    pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, 
-                    message: 'Escribe un correo no menor a 8 caracteres y valido.'
-                    
-                })}
-                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
-                placeholder=" "
-                required 
-            />
-            <label 
-                htmlFor="email_direction" 
-                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+    <div className="relative z-0 mb-6 w-full group hidden">
+                <select 
+                    name="lang"
+                    {...register('lang', { required: true })}
+                    id="lang" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                    placeholder=" " 
+                    required
                 >
-                {t("email")}
-            </label>
-            {errors.email_direction && 'Escribe un correo no menor a 8 caracteres y valido.'}
-        </div>
-        
-        
+                    <option selected disabled>{t("lang")}</option>
+                </select>
+                <label 
+                    htmlhtmlfor="lang" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    
+                </label>
+            </div>
+    {/* DATOS DEL SOLICITANTE */}
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data")}</h2>
         <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
                 <input 
@@ -104,64 +107,25 @@ export default function FormDoc() {
         </div>
         <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="text" 
-                    name="pais" 
-                    {...register('pais', { 
-                        required: true,
-                        maxLength: 40,
-                        message: 'Escribe no más de 11 caracteres'
-                        })}
-                    id="pais" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlFor="pais" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    {t("pais")}
-                </label>
-            </div>
-            <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="text" 
-                    name="pasaporte"
-                    {...register('pasaporte', { required: true })}
-                    id="pasaporte" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlhtmlfor="pasaporte" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    {t("pasaporte")}
-                </label>
-            </div>
-        </div>
-        <div className="grid xl:grid-cols-2 xl:gap-6">
-            <div className="relative z-0 mb-6 w-full group">
-                <input 
-                    type="text" 
-                    name="facturacion" 
-                    {...register('facturacion', { 
-                        required: true,
-                        message: 'Escribe no más de 11 caracteres'
-                        })}
-                    id="facturacion" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                    placeholder=" " 
-                    required 
-                />
-                <label 
-                    htmlFor="facturacion" 
-                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                    {t("direccion_fac")}
-                </label>
+                    <input 
+                        type="text" 
+                        name="pais" 
+                        {...register('pais', { 
+                            required: true,
+                            maxLength: 40,
+                            message: 'Escribe no más de 11 caracteres'
+                            })}
+                        id="pais" 
+                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                        placeholder=" " 
+                        required 
+                    />
+                    <label 
+                        htmlFor="pais" 
+                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    >
+                        {t("pais")}
+                    </label>
             </div>
             <div className="relative z-0 mb-6 w-full group">
                 <input 
@@ -180,47 +144,132 @@ export default function FormDoc() {
                     {t("telefono")}
                 </label>
             </div>
+        </div>
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="email" 
+                    name="email_direction" 
+                    {...register('email_direction', { 
+                        required: true,
+                        required: true,
+                        minLength:8,
+                        pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, 
+                        message: 'Escribe un correo no menor a 8 caracteres y valido.'
+                        
+                    })}
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                    placeholder=" "
+                    required 
+                />
+                <label 
+                    htmlFor="email_direction" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    >
+                    {t("email")}
+                </label>
+                {errors.email_direction && 'Escribe un correo no menor a 8 caracteres y valido.'}
+            </div>
+            <div className="relative z-0 mb-6 w-full group">
+                    <input 
+                        type="text" 
+                        name="pasaporte"
+                        {...register('pasaporte', { required: true })}
+                        id="pasaporte" 
+                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                        placeholder=" " 
+                        required 
+                    />
+                    <label 
+                        htmlhtmlfor="pasaporte" 
+                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    >
+                        {t("pasaporte")}
+                    </label>
+            </div>
+        </div>
+    {/* DATOS DE FACTURACION */}
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_dataB")}</h2>        
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div className="relative z-0 mb-6 w-full group">
+                    <input 
+                        type="text" 
+                        name="facturacion" 
+                        {...register('facturacion', { 
+                            required: true,
+                            message: 'Escribe no más de 11 caracteres'
+                            })}
+                        id="facturacion" 
+                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                        placeholder=" " 
+                        required 
+                    />
+                    <label 
+                        htmlFor="facturacion" 
+                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    >
+                        {t("direccion_fac")}
+                    </label>
+            </div>
+            
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="text" 
+                    name="postal"
+                    {...register('postal', { required: true })}
+                    id="postal" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlhtmlfor="postal" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    {t("codigo")}
+                </label>
+            </div>
+        </div>        
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="text" 
+                    name="calle_numero"
+                    {...register('calle_numero', { required: true })}
+                    id="calle_numero" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlhtmlfor="calle_numero" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    {t("calleynumero")}
+                </label>
+            </div>
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="text" 
+                    name="calle_numero2"
+                    {...register('calle_numero2', { required: true })}
+                    id="calle_numero2" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlhtmlfor="calle_numero2" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    {t("calleynumero2")}
+                </label>
+            </div>
             
         </div>
-            <div className="grid xl:grid-cols-2 xl:gap-6">
-                <div className="relative z-0 mb-6 w-full group">
-                    <input 
-                        type="text" 
-                        name="calle_numero"
-                        {...register('calle_numero', { required: true })}
-                        id="calle_numero" 
-                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                        placeholder=" " 
-                        required 
-                    />
-                    <label 
-                        htmlhtmlfor="calle_numero" 
-                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                    >
-                        {t("calleynumero")}
-                    </label>
-                </div>
-                
-                <div className="relative z-0 mb-6 w-full group">
-                    <input 
-                        type="text" 
-                        name="postal"
-                        {...register('postal', { required: true })}
-                        id="postal" 
-                        className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                        placeholder=" " 
-                        required 
-                    />
-                    <label 
-                        htmlhtmlfor="postal" 
-                        className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                    >
-                        {t("codigo")}
-                    </label>
-                </div>
-            </div>
-        <h2 className="pb-5 font-semibold text-bg2">{t("form_data2")}</h2>
         
+    {/* DATOS DEL INMUEBLE */}
+        <h2 className="pb-5 font-semibold text-bg2">{t("form_data2")}</h2>
         
         <div className="grid xl:grid-cols-2 xl:gap-6">
             
@@ -247,26 +296,52 @@ export default function FormDoc() {
             </div>
             <div className="relative z-0 mb-6 w-full group">
                 <select 
-                    name="step_process"
-                    {...register('step_process', { required: true })}
-                    id="floating_last_name" 
-                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                    name="type_process"
+                    {...register('type_process', { required: true })}
+                    id="floating_last_name2" 
+                    className="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
                     placeholder=" " 
                     required
                 >
-                    <option selected disabled>{t("form_data3")}</option>
-                    <option>{t("stepform1b")} {t("iva1b")}</option>
-                    <option>{t("stepform1b2")} {t("iva2b")}</option>
-                    <option>{t("other")} </option>
-                    <option>{t("other2")} </option>
+                    <option selected disabled>{t("form_data4")}</option>
+                    <option>{t("form_data4a")}</option>
+                    <option>{t("form_data4b")}</option>
+                    <option>{t("form_data4c")}</option>
+                    <option>{t("form_data4d")}</option>
+                    <option>{t("form_data4e")}</option>
+                    <option>{t("form_data4f")}</option>
                 </select>
                 <label 
-                    htmlhtmlfor="floating_last_name" 
+                    htmlhtmlfor="floating_last_name2" 
                     className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                     
                 </label>
             </div>
+        </div>
+            
+        <div className="relative z-0 mb-6 w-full group">
+            <select 
+                name="step_process"
+                {...register('step_process', { required: true })}
+                id="floating_last_name" 
+                className="block py-2.5 px-2  w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                placeholder=" " 
+                required
+            >
+                <option selected disabled>{t("form_data3")}</option>
+                <option>{t("stepform1b")} {t("iva1b")}</option>
+                <option>{t("stepform1b2")} {t("iva2b")}</option>
+                <option>{t("other")} </option>
+                <option>{t("other2")} </option>
+            </select>
+            <label 
+                htmlhtmlfor="floating_last_name" 
+                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >
+                
+            </label>
+        
         </div>
 
         <button 

@@ -1,40 +1,16 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import nodemailer from 'nodemailer'
-
-export default async function handler(req, res) {
-  
-  const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process} = req.body
-
-  const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
-    auth: {
-      user: process.env.email,
-      pass: process.env.password,
-    }, 
-    secure: true,
-  });
-
-  try {
-    const emailRes2 = await transporter.sendMail({
-      from: process.env.email,
-      to: 'lewtcorp.web@gmail.com', 
-      subject: `Contact form submission from ${name}`,
-      html: `
-      <html lang="en">
-          <head>
+<html lang="en">
+        <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
           <title>Document</title>
-  
+
           <style>
           *{
-              box-sizing: border-box;
-              -webkit-box-sizing: border-box;
-              -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
               }
               body{
                   font-family: Helvetica;
@@ -82,7 +58,6 @@ export default async function handler(req, res) {
                   color: #fff;
                   background: #4FC3A1;
               }
-              
               
               .fl-table thead th:nth-child(odd) {
                   color: #ffffff;
@@ -159,88 +134,45 @@ export default async function handler(req, res) {
                   }
               }
           </style>
-  
-          </head>
-          <body>
-          <h2>Datos del solicitante</h2>
-          <div class="table-wrapper">
-              <table class="fl-table">
-                  <thead>
-                  <tr>
-                      <th>Datos</th>
-                      <th>Valores</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                      <td>Nombre</td>
-                      <td>${name}</td>
-                  </tr>
-                  <tr>
-                      <td>Apellidos</td>
-                      <td>${last_name}</td>
-                  </tr>
-                  <tr>
-                      <td>Nacionalidad</td>
-                      <td>${pais}</td>
-                  </tr>
-                  <tr>
-                      <td>Telefono móvil</td>
-                      <td>${phone}</td>
-                  </tr>
-                  <tr>
-                      <td>Email</td>
-                      <td>${email_direction}</td>
-                  </tr>
-                  <tr>
-                      <td>Pasaporte/DNI/NIE</td>
-                      <td>${pasaporte}</td>
-                  </tr>
-                  <tr>
-                      <td>Direccion de facturacion</td>
-                      <td>${facturacion}</td>
-                  </tr>
-                  <tr>
-                      <td>Codigo Postal</td>
-                      <td>${postal}</td>
-                  </tr>
-                  <tr>
-                      <td>Pais</td>
-                      <td>${calle_numero}</td>
-                  </tr>
-                  <tr>
-                      <td>Ciudad</td>
-                      <td>${calle_numero2}</td>
-                  </tr>
-                  <tr>
-                      <td>Municipio</td>
-                      <td>${municipio}</td>
-                  </tr>
-                  <tr>
-                      <td>Tipo de inmueble</td>
-                      <td>${type_process}</td>
-                  </tr>
-                  <tr>
-                      <td>Servicio</td>
-                      <td>${step_process}</td>
-                  </tr>
-                  <tbody>
-              </table>
-          </div>
-          </body>
+
+        </head>
+        <body>
+        <h2>Datos del solicitante</h2>
+        <div class="table-wrapper">
+            <table class="fl-table">
+                <thead>
+                <tr>
+                    <th>Datos</th>
+                    <th>Valores</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>${name}</td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td>${last_name}</td>
+                </tr>
+                <tr>
+                    <td>Telefono</td>
+                    <td>${phone}</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>${email_direction}</td>
+                </tr>
+                <tr>
+                    <td>Mensaje</td>
+                    <td>${message_outro}</td>
+                </tr>
+                <tr>
+                    <td>Idioma</td>
+                    <td>${lang}</td>
+                </tr>
+                <tbody>
+            </table>
+        </div>
+        </body>
       </html>
-      `,
-      });
-    
-    console.log('Mensaje enviado', emailRes2.messageId);
-  } catch (err) {
-    console.log(err)
-  }
-  res.status(200).json(req.body)
-}
-
-
-
-//ohfgjhceacpkemar
-//471989
-//627555

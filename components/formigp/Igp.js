@@ -158,7 +158,7 @@ export default function Igp() {
             <p className="leading-8 text-lg  font-normal ">{t("form_igp_tittle2B")}</p>
                 <div className="overflow-scroll md:overflow-auto mt-10 border-r-4 border-sl">
                     <div className="flex sejue gap-10 ">
-                        <div className=" rounded-xl w-full h-full bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
+                        <div className=" rounded-xl w-full h-auto bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
                             
                             <h1 className="  font-semibold m-auto text-4xl text-center text-bg2 ">{t("form_igp_tit1sem")}</h1>
                             <svg className="m-auto pl-7" width="113" height="297" viewBox="0 0 263 447" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -170,10 +170,10 @@ export default function Igp() {
                                 <path d="M26.0004 209.819C62.0034 146.32 122.504 146.82 155 210.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                                 <path d="M27.0004 343.819C63.0034 280.32 123.504 280.82 156 344.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                             </svg>
-                            <h1 className="  font-normal m-auto text-center  text-base   ">{t("form_igp_tittle2B1")}</h1>
+                            <h1 className="  font-medium m-auto text-center  text-base h-32  ">{t("form_igp_tittle2B1")}</h1>
                             
                         </div>
-                        <div className=" rounded-xl w-full h-full bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
+                        <div className=" rounded-xl w-full h-auto bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
                             
                             <h1 className="font-semibold m-auto text-4xl text-center text-bg2">{t("form_igp_tit2sem")}</h1>
                             <svg className="m-auto pl-7" width="113" height="297" viewBox="0 0 263 447" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,9 +185,9 @@ export default function Igp() {
                                 <path d="M26.0004 209.819C62.0034 146.32 122.504 146.82 155 210.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                                 <path d="M27.0004 343.819C63.0034 280.32 123.504 280.82 156 344.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                             </svg>
-                            <h1 className="   font-normal m-auto text-center  text-base   ">{t("form_igp_tittle2B2")}</h1>
+                            <h1 className="   font-medium m-auto text-center  text-base  h-32 ">{t("form_igp_tittle2B2")}</h1>
                         </div>
-                        <div className=" rounded-xl w-full h-full bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
+                        <div className=" rounded-xl w-full h-auto bg-bgr  relative items-end align-bottom px-4 pt-4  m-auto border-bg2 border-2">
                             
                             <h1 className="font-semibold  m-auto text-4xl text-center text-bg2  ">{t("form_igp_tit3sem")}</h1>
                             <svg className="m-auto pl-7" width="113" height="297" viewBox="0 0 263 447" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,11 +199,10 @@ export default function Igp() {
                                 <path d="M26.0004 209.819C62.0034 146.32 122.504 146.82 155 210.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                                 <path d="M27.0004 343.819C63.0034 280.32 123.504 280.82 156 344.819" stroke="black" strokeWidth="4" strokeLinecap="round"/>
                             </svg>
-                            <h1 className="  font-normal m-auto text-center  text-base  ">{t("form_igp_tittle2B3")}</h1>
+                            <h1 className="  font-medium m-auto text-center  text-base h-32  ">{t("form_igp_tittle2B3")}</h1>
 
 
                         </div>
-               
                     </div>
                 </div>
             <div className="w-3/4 mt-10 md:w-full grid sm:grid-cols-2 md:grid-cols-3 m-auto gap-20 place-items-center">

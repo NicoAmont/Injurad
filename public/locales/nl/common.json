@@ -56,8 +56,8 @@
     "announce2":"Wees verstandig, bezuinig niet op controle.",
 
 
-    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other":"Control < 2 documentos y Control contrato: € 459,8 (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: € 514,25 (incl. iva)",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
@@ -68,7 +68,8 @@
     "pais":"Land",
     "pasaporte":"Paspoortnummer / NIE / DNI",
     "direccion_fac":"Factuuradres",
-    "calleynumero":"Straat en huisnummer",
+    "calleynumero":"Straat",
+    "calleynumero2":"Huisnummer",
     "telefono":"Mobiele nummer (+01-255-456-7890)",
 
 
@@ -348,9 +349,9 @@
     "form_igp_tit2sem":"Geel",
     "form_igp_tit3sem":"Groen",
 
-    "form_igp_tittle2B1":"Het onroerend goed is illegaal en niet te legaliseren en heeft serieuze beperkingen. U kunt zelf de risico’s afwegen.",
-    "form_igp_tittle2B2":"Er zijn zaken die nog moeten worden opgelost of onderzocht. Het rapport geeft aan welke professional u daarbij kan helpen.",
-    "form_igp_tittle2B3":"De IGP laat geen onrechtmatigheden zien. Neem contact op met een advocaat om u te begeleiden tot aan de notaris.",
+    "form_igp_tittle2B1":"Het onroerend goed is illegaal en niet te legaliseren en heeft serieuze beperkingen.",
+    "form_igp_tittle2B2":"Er zijn zaken die nog moeten worden opgelost of onderzocht.",
+    "form_igp_tittle2B3":"De IGP laat geen onrechtmatigheden zien.",
     "form_igp_infot2":"Waarom de documenten controleren met hulp van Injurad?",
     "form_igp_infot2P":"Er zijn zoveel documenten dat kopers betrekkelijk eenvoudig te misleiden zijn. Het is erg moeilijk om te onderscheiden welke documenten echt belangrijk zijn en welke belangrijk lijken, maar niet zijn. Degene die de woning verkoopt is niet onpartijdig en heeft een commercieel belang.",
     "form_igp_infot3":"Wanneer vraagt u een documenten check aan? ",
@@ -422,6 +423,7 @@
 
 
     "form_data":"Gegevens aanvrager",
+    "form_dataB":"Datos de facturación",
     "form_data2":"Gegevens woning",
     "form_data3":"Maak een keuze",
 
@@ -437,21 +439,21 @@
     "stepform1c":"Aanlevertijd: 1-2 werkdagen",
     "stepform2":"Paso 2",
     "stepform2b":"Prijs:",
-    "iva22b":"  121,00 € (incl. btw)",
+    "iva22b":"€ 121,00 (incl. btw)",
     "stepform2c":"Aanlevertijd: 1-2 werkdagen",
     "stepform3":"Paso 3",
-    "stepform3ba":"199,65 € (incl. btw)",
+    "stepform3ba":"€ 199,65 (incl. btw)",
     "stepform3b":"IGP urbano: ",
-    "stepform3b2":"544,50 € (incl. btw)",
-    "stepform3bb":"Prijs controle   199,65 € (incl. btw) ",
+    "stepform3b2":"€ 544,50 (incl. btw)",
+    "stepform3bb":"Prijs controle € 199,65 (incl. btw) ",
     "stepform3c":"IGP rústico: ",
-    "stepform3c2":"617,10 € (incl. btw)",
+    "stepform3c2":"€ 617,10 (incl. btw)",
     "stepform3d":"Aanlevertijd: 5-12 werkdagen",
-    "stepform4bb":"200 € IVA incluido",
+    "stepform4bb":"€ 200 btw incl",
     
     "stepformOp1":"Contract opmaken : ",
     "stepformOp2":"Contract controleren : ",
-    "stepformOp2_":"423,50 € incl. btw  ",
+    "stepformOp2_":"€ 423,50 incl. btw  ",
 
 
     "more":"Start controle",
@@ -497,8 +499,7 @@
     "About_tittle6_info":"Om veilig kopen in heel Spanje mogelijk te maken werken we landelijk. Daartoe houden we rekening met nationale wetten en regionale en lokale regelgeving.",
     "About_moreinfo":"Lees meer ...",
 
-    "url":"https://www.youtube.com/embed/5CgII6HIZm4",
-
+    "url":"https://www.youtube.com/embed/cmnmhgbXsuU",
 
     "footer_tittle1":"Over injurad",
     "footer_info1_1":"Wie zijn we",
@@ -545,6 +546,9 @@
 
     "mensaje_enviadotit":"Dank voor uw vertrouwen in Injurad",
     "mensaje_enviadotext":"En breve nos contactaremos",
-    "mensaje_enviado_btn":"Volver al inicio"
+    "mensaje_enviado_btn":"Volver al inicio",
+
+    "lang":"nl"
+
     
 }

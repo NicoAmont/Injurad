@@ -1,9 +1,25 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import nodemailer from 'nodemailer'
 
+
 export default async function handler(req, res) {
-  
-  const{name,email_direction, last_name, phone, step_process, message_outro} = req.body
+  const{name,email_direction, last_name, phone, step_process, message_outro, lang} = req.body
+
+  let textInfo = {}
+
+  if(lang=="es"){
+      textInfo = {
+      info: "https://res.cloudinary.com/lewt-copr/image/upload/v1656303100/contactes_bvxmrd.png"
+    }
+  }else if(lang=="en"){
+    textInfo = {
+    info: "https://res.cloudinary.com/lewt-copr/image/upload/v1656303100/contactes_bvxmrd.png"
+    }
+  }else if(lang=="nl"){
+    textInfo = {
+    info: "https://res.cloudinary.com/lewt-copr/image/upload/v1656431635/contactnl_giderv.png"
+    }
+  }
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -15,42 +31,232 @@ export default async function handler(req, res) {
     }, 
     secure: true,
   });
-
+  
+  
   try {
+    
     const emailRes = await transporter.sendMail({
       from: process.env.email,
-      to: email_direction,
-      subject: `Contact form submission from ${name}`,
-      html: `
-        <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1653643845/contactres_epp8ss.png" alt="">
-      `,
-    });
-    const emailRes2 = await transporter.sendMail({
-      from: process.env.email,
-      to: 'lewtcorp.web@gmail.com',
+      to: 'lewtcorp.web@gmail.com', 
       subject: `Contact form submission from ${name}`,
       html: `
       <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link href="/dist/output.css" rel="stylesheet">
-        <title>Document</title>
-    
-        
-    
-      </head>
-      <body>
-        <h1 class="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-          <h1>${name}</h1>
-          <p>{{text}}</p>
-      </body>
-    </html>
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+          <title>Document</title>
+
+          <style>
+          *{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+              }
+              body{
+                  font-family: Helvetica;
+                  -webkit-font-smoothing: antialiased;
+              }
+              h2{
+                  text-align: center;
+                  font-size: 18px;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  color: black;
+                  padding: 30px 0;
+              }
+              
+              /* Table Styles */
+              
+              .table-wrapper{
+                  margin: 10px 70px 70px;
+                  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+              }
+              
+              .fl-table {
+                  border-radius: 5px;
+                  font-size: 12px;
+                  font-weight: normal;
+                  border: none;
+                  border-collapse: collapse;
+                  width: 100%;
+                  max-width: 100%;
+                  white-space: nowrap;
+                  background-color: white;
+              }
+              
+              .fl-table td, .fl-table th {
+                  text-align: center;
+                  padding: 8px;
+              }
+              
+              .fl-table td {
+                  border-right: 1px solid #f8f8f8;
+                  font-size: 12px;
+              }
+              
+              .fl-table thead th {
+                  color: #fff;
+                  background: #4FC3A1;
+              }
+              
+              
+              .fl-table thead th:nth-child(odd) {
+                  color: #ffffff;
+                  background: #324960;
+              }
+              
+              .fl-table tr:nth-child(even) {
+                  background: #F8F8F8;
+              }
+              
+              /* Responsive */
+              
+              @media (max-width: 767px) {
+                  .fl-table {
+                      display: block;
+                      width: 100%;
+                  }
+                  .table-wrapper:before{
+                      content: "Scroll horizontally >";
+                      display: block;
+                      text-align: right;
+                      font-size: 11px;
+                      color: white;
+                      padding: 0 0 10px;
+                  }
+                  .fl-table thead, .fl-table tbody, .fl-table thead th {
+                      display: block;
+                  }
+                  .fl-table thead th:last-child{
+                      border-bottom: none;
+                  }
+                  .fl-table thead {
+                      float: left;
+                  }
+                  .fl-table tbody {
+                      width: auto;
+                      position: relative;
+                      overflow-x: auto;
+                  }
+                  .fl-table td, .fl-table th {
+                      padding: 20px .625em .625em .625em;
+                      height: 60px;
+                      vertical-align: middle;
+                      box-sizing: border-box;
+                      overflow-x: hidden;
+                      overflow-y: auto;
+                      width: 120px;
+                      font-size: 13px;
+                      text-overflow: ellipsis;
+                  }
+                  .fl-table thead th {
+                      text-align: left;
+                      border-bottom: 1px solid #f7f7f9;
+                  }
+                  .fl-table tbody tr {
+                      display: table-cell;
+                  }
+                  .fl-table tbody tr:nth-child(odd) {
+                      background: none;
+                  }
+                  .fl-table tr:nth-child(even) {
+                      background: transparent;
+                  }
+                  .fl-table tr td:nth-child(odd) {
+                      background: #F8F8F8;
+                      border-right: 1px solid #E6E4E4;
+                  }
+                  .fl-table tr td:nth-child(even) {
+                      border-right: 1px solid #E6E4E4;
+                  }
+                  .fl-table tbody td {
+                      display: block;
+                      text-align: center;
+                  }
+              }
+          </style>
+
+        </head>
+        <body>
+        <h2>Datos del solicitante</h2>
+        <div class="table-wrapper">
+            <table class="fl-table">
+                <thead>
+                <tr>
+                    <th>Datos</th>
+                    <th>Valores</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>${name}</td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td>${last_name}</td>
+                </tr>
+                <tr>
+                    <td>Telefono</td>
+                    <td>${phone}</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>${email_direction}</td>
+                </tr>
+                <tr>
+                    <td>Mensaje</td>
+                    <td>${message_outro}</td>
+                </tr>
+                <tr>
+                    <td>Idioma</td>
+                    <td>${lang}</td>
+                </tr>
+                <tbody>
+            </table>
+        </div>
+        </body>
+      </html>
       `,
     });
+    
+    const emailRes2 = await transporter.sendMail({
+      from: process.env.email,
+      to: email_direction, 
+      subject: `INJURAD`,
+      html: `
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+          <title>Document</title>
+
+          <style>
+            *{
+              font-family: Montserrat;
+            }
+            .container{
+              width: 100%;
+            }
+          </style>
+
+        </head>
+        <body>
+          <div class="container" >
+            <img src="${textInfo.info}" alt="">
+          <div class="container-img">
+          
+          </div>
+          </div>
+        </body>
+      </html>
+      `,
+    });
+   
     console.log('Mensaje enviado', emailRes.messageId);
     console.log('Mensaje enviado', emailRes2.messageId);
   } catch (err) {

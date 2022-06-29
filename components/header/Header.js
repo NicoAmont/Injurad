@@ -11,11 +11,12 @@ import React, { useState } from "react";
 function Header() {
     // Settings for change the lenguage
     const { t } = useTranslation('common');
-    
+    const router = useRouter();
+
     const {push, pathname, locale} = useRouter();
     const handleChange = e => {
         locale === e.target.value ? 0 : push(pathname, pathname, {locale: e.target.value}) 
-        
+        router.push(pathname)
     }
     //Media navbar
     const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,6 @@ function Header() {
     const addIdiom = () => {
         setIdiom([
             ...idiom,{
-
             }
         ])
     }
@@ -161,7 +161,6 @@ function Header() {
 							</button>
                 </div>
 
-
             </div>
             <Transition
 					show={isOpen}
@@ -192,7 +191,6 @@ function Header() {
                             <a onClick={() => setIsOpen(!isOpen)} className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')}</a>
                                     {/*<Popover className="relative  ">
                                         <Popover.Button className="flex-col flex  items-center text-center justify-center w-full 2xl:w-32 h-16 2xl:h-28 hover:bg-bgr2 ">{t('menu8')} </Popover.Button>
-
                                         <Popover.Panel className="absolute z-10 w-full bg-bgr2  ">
                                         {({ close }) => (
                                             <div className="bg-bgr flex flex-col w-auto mg:flex-row items-start py-4 px-10 2xl:w-max border-t-4 border-gl">
@@ -258,12 +256,10 @@ function Header() {
                         </defs>
                         </svg>
                     </div> */}
-
                     </div> 
                 </div>
 					)}
 				</Transition>
-
         </nav>
     )
 }

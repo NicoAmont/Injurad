@@ -333,9 +333,9 @@
 
 
     "form_igp_tittle2B":"Los resultados del IGP definen tres situaciones: luz verde, luz amarilla o luz roja.",
-    "form_igp_tittle2B1":"La propiedad es ilegal y no se puede legalizar, en consecuencia tendrá limitaciones importantes, usted mismo podrá analizar los riesgos.",
-    "form_igp_tittle2B2":"Hay cuestiones que aún no se han resuelto o deben ser investigadas. El informe indica cual profesional le puede ayudar.",
-    "form_igp_tittle2B3":"El IGP no revela que en la propiedad hay irregularidades. Póngase en contacto con un abogado para que lo oriente hasta el notario.",
+    "form_igp_tittle2B1":"La propiedad es ilegal y no se puede legalizar, en consecuencia tendrá limitaciones importantes.",
+    "form_igp_tittle2B2":"Hay cuestiones que aún no se han resuelto o deben ser investigadas.",
+    "form_igp_tittle2B3":"El IGP no revela que en la propiedad hay irregularidades.",
     "form_igp_infot2":"Porque controlar los documentos con ayuda de Injurad?",
     "form_igp_infot2P":"Hay tantos documentos que los compradores son relativamente fáciles de engañar. Es muy difícil distinguir qué documentos son realmente importantes y cuáles parecen importantes pero no lo son en realidad. La persona que vende la propiedad no es imparcial y tiene un interés comercial.",
     "form_igp_infot2Pb":"",
@@ -401,13 +401,21 @@
     "form_reserva_quest4":"Rellene el formulario. Recibirá un correo electrónico con las instrucciones",
 
     "form_data":"Datos del solicitante",
+    "form_dataB":"Datos de facturación",
     "form_data2":"Datos del inmueble",
     "form_data3":"Elige el servicio",
+    "form_data4":"Tipo de inmueble",
+    "form_data4a":"Casa",
+    "form_data4b":"Piso",
+    "form_data4c":"Finca",
+    "form_data4d":"Cortijo",
+    "form_data4e":"Terreno",
+    "form_data4f":"Local comercial",
 
     "form_reserva_tit4tit":"Contratos Modelo Injurad",
     "form_reserva_tit4cont":"Gracias al Centro de Conocimiento, Injurad ha podido desarrollar modelos de contrato estandarizados perfeccionados gracias a las multiples experiencias de los abogados que colaboran con Injurad. Los colaboradores al aceptar nuestro código ético así como al asumir nuestros protocolos permite a Injurad y sus supervisores el control.",
     "form_reserva_tit4cont2":"Puede pedirle a su propio abogado que utilice nuestro modelo, sin embargo tendrá que aceptar y cumplir las condiciones que establece Injurad necesarias para su seguridad (ver condiciones). También podrá elegir profesionales que ya han aceptado condiciones, conocen y practican nuestras normas. Son independientes, no forman parte de Injurad, no pagan comisión ni honorarios, pero están dispuestos a trabajar bajo supervisión de acuerdo con nuestras reglas. Injurad quiere garantizar total discreción e independencia ejerciendo el control en función conseguir contratos más seguros.",
-    "form_reserva_tit4cont3":"Los costes para la redacción de un contrato con colaboradores y la respectiva supervisión de Injurad se han fijado en 423,50 € incluido IVA    ",
+    "form_reserva_tit4cont3":"Los costes para la redacción de un contrato con colaboradores y la respectiva supervisión de Injurad se han fijado en € 423,50  incluido IVA    ",
     "form_reserva_tit4_2":"Condiciones de participacion de profesionales",
 
 
@@ -415,31 +423,31 @@
     "stepform1b1":"Control desde:",
     "stepform1b1b":"Control :",
     "stepform1b":"Control hasta 2 documentos :",
-    "iva1b":" 48,40 €  (incl. iva)",
+    "iva1b":" € 48,40 (incl. iva)",
     "stepform1b2":"Control mas de 2 documentos:",
-    "iva2b":"90,75 € (incl. iva)",
+    "iva2b":"€ 90,75  (incl. iva)",
     "stepform1c":"Duración:  1-2 dias hábiles",
     "stepform2":"Paso 2",
     "stepform2b":"Precio:",
-    "iva22b":" 121,00 € incl. iva ",
+    "iva22b":"€ 121,00 incl. iva ",
     "stepform2c":"Duración: 1-2 dias hábiles",
     "stepform3":"Paso 3",
-    "stepform3ba":"199,65 € (incl. iva)",
+    "stepform3ba":"€ 199,65 (incl. iva)",
     "stepform3b":"IGP urbano: ",
-    "stepform3b2":"544,50 € (incl. iva)",
+    "stepform3b2":"€ 544,50  (incl. iva)",
     "stepform3bb":"Precio desde  € 199,65 (incl. iva) ",
     "stepform3c":"IGP rústico:",
-    "stepform3c2":"617,10 € (incl. iva)",
+    "stepform3c2":"€ 617,10 (incl. iva)",
     "stepform3d":"Duración: 5-12 diás hábiles",
-    "stepform4bb":"200 € (incl. iva)",
+    "stepform4bb":"€ 200 (incl. iva)",
     
     "stepformOp1":"Redactar contrato : ",
     "stepformOp2":"Controlar contrato : ",
-    "stepformOp2_":"423,50 € incl. iva  ",
+    "stepformOp2_":"€ 423,50 incl. iva  ",
 
 
-    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other":"Control < 2 documentos y Control contrato: € 459,8 (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: € 514,25 (incl. iva)",
     "otherc":"Contratos",
     "otheri":"",
     "email":"E-mail",
@@ -450,7 +458,8 @@
     "pais":"Nacionalidad",
     "pasaporte":"Pasaporte / DNI / NIE",
     "direccion_fac":"Dirección de facturación",
-    "calleynumero":"Pais y ciudad",
+    "calleynumero":"Pais",
+    "calleynumero2":"Ciudad",
     "telefono":"Telefono móvil (+01-255-456-7890)",
 
     "audioabout":"./audios/R1.mp3",
@@ -709,6 +718,11 @@
 
     "mensaje_enviadotit":"GRACIAS POR CONFIAR EN INJURAD",
     "mensaje_enviadotext":"En breve nos contactaremos",
-    "mensaje_enviado_btn":"Volver al inicio"
+    "mensaje_enviado_btn":"Volver al inicio",
+
+    "lang":"es"
+
+
+
     
 }

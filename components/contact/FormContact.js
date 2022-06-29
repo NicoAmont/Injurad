@@ -8,9 +8,14 @@ import {useRouter} from 'next/router'
 export default function FormContact() {
 
     const { t } = useTranslation('common');
+     const { register, handleSubmit, formState: {errors}, reset } = useForm();
+    const {push, pathname, locale} = useRouter();
     const router = useRouter();
-    const { register, handleSubmit, formState: {errors}, reset } = useForm();
 
+    const handleChange = e => {
+        locale === e.target.value ? 0 : push(pathname, pathname, {locale: e.target.value}) 
+        
+    }
     async function onSubmitForm(values) {
         let config = {
             method:'POST',
@@ -20,11 +25,14 @@ export default function FormContact() {
             },
             data:values,
         }
+        
+        console.log(values);
 
         router.push('/emailsended');
         try {
             const response = await axios(config)
-            if(response.status == 200){
+            
+            if(response.status == 200 && response2.status == 200){
                 reset();
             }
         } catch (err) {
@@ -36,7 +44,24 @@ export default function FormContact() {
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
         <div className="grid xl:grid-cols-2 xl:gap-6">
-
+        <div className="relative z-0 mb-6 w-full group hidden">
+            <select 
+                name="lang"
+                {...register('lang', { required: true })}
+                id="lang" 
+                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                placeholder=" " 
+                required
+            >
+                <option selected disabled>{t("lang")}</option>
+            </select>
+            <label 
+                htmlhtmlfor="lang" 
+                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >
+                
+            </label>
+        </div>
         <div className="relative z-0 mb-6 w-full group">
             <input 
                 type="email" 

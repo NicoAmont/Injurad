@@ -305,9 +305,9 @@
     "form_doc_info2b":"The chance that a house might burn down is small. However, an insurance company has the right not to pay out or the town hall not to grant a permit to repair the damage or rebuild the property if necessary. Is that an acceptable risk for you or not?    ",
     "form_igp_tittle2":"Results IGP",
     "form_igp_tittle2B":"IGP results are shown in three colours:",
-    "form_igp_tittle2B1":"The property is illegal and cannot be made legal. It will therefore have important limitations, so you will be able analyse the risks yourself.",
-    "form_igp_tittle2B2":"here are issues that have yet to be resolved or investigated. The report will indicate which expert can help you.",
-    "form_igp_tittle2B3":"The IGP shows no irregularities. Contact a lawyer to accompany you to the notary’s office.",
+    "form_igp_tittle2B1":"The property is illegal and cannot be made legal. It will therefore have important limitations. ",
+    "form_igp_tittle2B2":"There are issues that have yet to be resolved or investigated. The report will indicate which expert can help you.",
+    "form_igp_tittle2B3":"The IGP shows no irregularities.",
     "form_igp_infot2P":"With so many documents to hand, buyers can relatively easily be misled. It is very difficult to distinguish the documents that are really important from those which seem to be but are actually not. The person selling the property is not impartial and they are only interested in selling the property. This is why it is so important that you take control yourself with the help of Injurad.",
     "form_igp_infot2Pb":"You will receive a report signed by the lawyer who checked the documentation.",
     "form_igp_infot3":"When should you ask for the documentation to be checked? ",
@@ -401,6 +401,7 @@
     "form_reserva_quest4":"Fill the form. You will receive an email with the instructions",
 
     "form_data":"Applicant Information",
+    "form_dataB":"Datos de facturación",
     "form_data2":"Information property",
     "form_data3":"Select service",
 
@@ -410,8 +411,8 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control < 2 documentos y Control contrato: 459,8 € (incl. iva)",
-    "other2":"Control > 2 documentos y Control contrato: 514,25 € (incl. iva)",
+    "other":"Control < 2 documentos y Control contrato: € 459,8  (incl. iva)",
+    "other2":"Control > 2 documentos y Control contrato: € 514,25  (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
     "email":"E-mail",
@@ -422,7 +423,8 @@
     "pais":"Nationality",
     "pasaporte":"Passport / DNI / NIE",
     "direccion_fac":"Billing address",
-    "calleynumero":"Country and city",
+    "calleynumero":"Country",
+    "calleynumero2":"City",
     "telefono":"Mobile number (+01-255-456-7890)",
 
 
@@ -431,28 +433,28 @@
     "stepform1b1":"Control desde:",
     "stepform1b1b":"Control :",
     "stepform1b":"Control up to 2 documents: ",
-    "iva1b":" 48,40 €  (incl. VAT)",
+    "iva1b":" € 48,40   (incl. VAT)",
     "stepform1b2":"Control more than 2 documents:",
-    "iva2b":"90,75 € (incl. VAT)",
+    "iva2b":"€ 90,75  (incl. VAT)",
     "stepform1c":"Duration:  1-2 working days",
     "stepform2":"Paso 2",
     "stepform2b":"Price:",
-    "iva22b":" 121,00 € incl. VAT ",
+    "iva22b":" € 121,00  incl. VAT ",
     "stepform2c":"Duration: 1-2 working days",
     "stepform3":"Paso 3",
-    "stepform3ba":"199,65 € (incl. VAT)",
+    "stepform3ba":"€ 199,65 (incl. VAT)",
     "stepform3b":"IGP urbano: ",
-    "stepform3b2":"544,50 € (incl. VAT)",
+    "stepform3b2":"€ 544,50  (incl. VAT)",
     "stepform3bb":"Price from  € 199,65 (incl. VAT) ",
     "stepform3c":"IGP rústico:",
-    "stepform3c2":"617,10 € (incl. VAT)",
+    "stepform3c2":"€ 617,10  (incl. VAT)",
     "stepform3d":"Duration: 5-12 working days",
-    "stepform4bb":"200 € (incl. VAT)",
+    "stepform4bb":"€ 200  (incl. VAT)",
     "form_reserva_info1pb":"Why check a contract with Injurad?",
 
     "stepformOp1":"Redactar contrato : ",
     "stepformOp2":"Controlar contrato : ",
-    "stepformOp2_":"423,50 € (incl. btw)  ",
+    "stepformOp2_":"€ 423,50  (incl. btw)  ",
     "audioabout":"./audios/R1.mp3",
     "audiotitle":"The story behind...",
     "About_tittle1":"Glad we can contribute to the realization of your dream.  ",
@@ -543,7 +545,9 @@
     
     "mensaje_enviadotit":"Thank you for your confidence in Injurad",
     "mensaje_enviadotext":"En breve nos contactaremos",
-    "mensaje_enviado_btn":"Volver al inicio"
+    "mensaje_enviado_btn":"Volver al inicio",
+
+    "lang":"en"
 
     
 }
