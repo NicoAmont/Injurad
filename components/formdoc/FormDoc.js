@@ -29,12 +29,11 @@ export default function FormDoc() {
             },
             data:values,
         }
-        console.log(values)
+        router.push('/emailsended');
         try {
             const response1 = await axios(config)
             const response = await axios(config2)
             if(response.status == 200 && response1.status == 200 ){
-                router.push('/emailsended');
                 reset();
             }
         } catch (err) {

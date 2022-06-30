@@ -3,7 +3,67 @@ import nodemailer from 'nodemailer'
 
 export default async function handler(req, res) {
   
-  const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process} = req.body
+  const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process, lang} = req.body
+  let text ={}
+  if(lang == 'es') {
+    text = {
+      "text1": "Estimado/a Usuario/a",
+      "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
+      "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
+      "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
+      "text6": "Datos de la Transferencia Bancaria",
+      "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
+      "text7": "BIC / SWIFT : CAIXESBBXXX",
+      "text8": "Concepto:",
+      "text9": "Importe:",
+      "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+      "text12": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
+      "text13": "CARGAR DOCUMENTOS",
+      "text14": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
+      "text15": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
+    }
+  }else if(lang == 'en') {
+    text = {
+      "text1": "Estimado/a Usuario/a",
+      "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
+      "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
+      "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
+      "text6": "Datos de la Transferencia Bancaria",
+      "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
+      "text7": "BIC / SWIFT : CAIXESBBXXX",
+      "text8": "Concepto:",
+      "text9": "Importe:",
+      "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+      "text12": "Comprobante",
+      "text13": "Documentos",
+      "text14": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
+      "text15": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
+    }
+  }else if(lang == 'nl'){
+    text = {
+      "text1": "Beste client,",
+      "text2": "Dank voor uw aanvraag. ",
+      "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
+      "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
+      "text5": "Gegevens voor de overschrijving:",
+      "text6": "Datos de la Transferencia Bancaria",
+      "text6": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
+      "text7": "BIC / SWIFT: CAIXESBBXXX",
+      "text8": "Vergeet niet het betalingskenmerk te vermelden:",
+      "text9": "Bedrag:",
+      "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+      "text12": "BETALINGSBEWIJS STUREN",
+      "text13": "DOCUMENTEN VERSTUREN",
+      "text14": "Deze e-mail en, in voorkomend geval, elk eraan toegevoegd bestand is uitsluitend gericht aan de ontvanger en kan persoonlijke en/of vertrouwelijke informatie bevatten. Indien deze mail niet voor u bestemd is, delen wij u mede dat ongeoorloofd gebruik, openbaarmaking en/of kopiëren wettelijk verboden is. Als u dit bericht abusievelijk heeft ontvangen, gelieve ons daarvan per ommegaande op de hoogte te brengen en dit bericht te vernietigen. ",
+      "text15": "Print deze mail niet uit als dat niet nodig is, denk aan het milieu.",
+    }
+  }
+
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -150,7 +210,7 @@ export default async function handler(req, res) {
             <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
             <div class="container-text" >
               <h1 class="titles ">
-                Estimado/a Usuario/aa
+                ${text.text1}
               </h1>
               <div class="container_subtext">
       
@@ -222,9 +282,7 @@ export default async function handler(req, res) {
         </body>
       </html>
         `,
-      });
-    
-    
+    });
     
     console.log('Mensaje enviado', emailRes.messageId);
   } catch (err) {

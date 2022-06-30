@@ -48,91 +48,87 @@ export default function Reserva() {
                     </div>
                 
                     
-                    <div className="">
-                        <div className="w-full m-auto ">
-                            <h2 className="  font-base text-left text-lg italic mt-2">{t("form_reserva_quest1")} <span className="text-sl">{t("form_reserva_quest1b")}</span> {t("form_reserva_quest1c")}</h2>
-                            
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3  ">
-                    <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
-                    {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
-                    <div className="flex flex-col  relative w-full md:w-3/4 py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
-
-                    <div className="w-11/12 md:w-3/4  m-auto mb-8">
-                    <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_reserva_tit4tit")}</h2>
-                    <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont")} </p>
-                    <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont2")}</p>
-                    <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_reserva_tit4cont3")}</p>
-                    {/*
-                    <h2 className=" text-sl font-semibold text-left text-xl pt-5  md:px-0  ">{t("form_reserva_tit4_2")}</h2>
-                     <div className="item2 m-auto w-8/12">
-                        <div className="title  " onClick={ () => toggle(1)}>
-                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q1")}</h2>
-                            <span className=" text-bgr font-normal">{selected === 1 ? "-" : "+"}</span>
-                        </div>
-                        <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 1 ? "content show" : "content"} > {t("form_igp_tit4q1answ")} </h2>
-                        </div>
-                    </div>
-                    <div className="item2  m-auto w-8/12">
-                        <div className="title  " onClick={ () => toggle(2)}>
-                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q2")}</h2>
-                            <span className=" text-bgr font-normal">{selected === 2 ? "-" : "+"}</span>
-                        </div>
-                        <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 2 ? "content show" : "content"} > {t("form_igp_tit4q2answ")} </h2>
-                        </div>
-                    </div>
-                    <div className="item2  m-auto w-8/12">
-                        <div className="title  " onClick={ () => toggle(3)}>
-                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q3")}</h2>
-                            <span className=" text-bgr font-normal">{selected === 3 ? "-" : "+"}</span>
-                        </div>
-                        <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 3 ? "content show" : "content"} > {t("form_igp_tit4q3answ")} </h2>
-                        </div>
-                    </div>
-                    <div className="item2  m-auto w-8/12">
-                        <div className="title  " onClick={ () => toggle(4)}>
-                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q4")}</h2>
-                            <span className=" text-bgr font-normal">{selected === 4 ? "-" : "+"}</span>
-                        </div>
-                        <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 4 ? "content show" : "content"} > {t("form_igp_tit4q4answ")} </h2>
-                        </div>
-                    </div>
-                    <div className="item2  m-auto w-8/12 border-b border-bgr">
-                        <div className="title  " onClick={ () => toggle(5)}>
-                            <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q5")}</h2>
-                            <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
-                        </div>
-                        <div className=" border-l-2 border-sl pl-2 ">
-                            <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
-                        </div>
-                    </div> */}
-                
-                </div>
-                        
-                    </div>
+                    <h2 className=" w-11/12  font-base text-left text-lg italic mt-2">{t("form_reserva_quest1")} <span className="text-sl">{t("form_reserva_quest1b")}</span> {t("form_reserva_quest1c")}</h2>
                     
-            </div>
+                </div>
 
-            <div className=" mt-16 mx-auto ">
-                <h2 className="mb-10 text-4xl text-bg2 font-medium ">{t("form_reserva_quest3")}</h2>
-                <p className="mb-10 leading-8 text-lg  font-normal ">{t("form_reserva_quest4")} :</p>
-                
-                <FormRes />
-
-
-                
             </div>
         </div>
+        <div className="w-full m-auto mt-24  h-auto relative text-bgr segments segment-3  ">
+                <div className="w-full h-full md:bg-gradient-to-r md:from-bgr2 md:via-bgr2 bg-opacity-10 "></div>                     
+                {/* <Image className='absolute h-full  bottom-0 '  src="/ronda-foto-300x190.jpg" layout='fill' objectFit='cover' objectPosition='center' alt="" /> */}
+                <div className="flex flex-col  relative w-full py-10 bg-gradient-to-b md:bg-gradient-to-r from-bg2 via-bg2  bg-opacity-25" >
+
+                <div className="w-3/4 md:w-9/12 md:pl-20  m-auto mb-8">
+                <h2 className=" text-sl font-semibold text-left text-4xl pt-5  md:px-0  ">{t("form_reserva_tit4tit")}</h2>
+                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont")} </p>
+                <p className="  font-normal text-left leading-8 text-lg pt-5  md:px-0">{t("form_reserva_tit4cont2")}</p>
+                <p className="  font-normal text-left leading-8 text-lg pt-5 mb-10 md:px-0">{t("form_reserva_tit4cont3")}</p>
+                {/*
+                <h2 className=" text-sl font-semibold text-left text-xl pt-5  md:px-0  ">{t("form_reserva_tit4_2")}</h2>
+                    <div className="item2 m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(1)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q1")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 1 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 1 ? "content show" : "content"} > {t("form_igp_tit4q1answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(2)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q2")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 2 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 2 ? "content show" : "content"} > {t("form_igp_tit4q2answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(3)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q3")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 3 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 3 ? "content show" : "content"} > {t("form_igp_tit4q3answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12">
+                    <div className="title  " onClick={ () => toggle(4)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q4")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 4 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 4 ? "content show" : "content"} > {t("form_igp_tit4q4answ")} </h2>
+                    </div>
+                </div>
+                <div className="item2  m-auto w-8/12 border-b border-bgr">
+                    <div className="title  " onClick={ () => toggle(5)}>
+                        <h2 className=" font-semibold text-bgr">{t("form_igp_tit4q5")}</h2>
+                        <span className=" text-bgr font-normal">{selected === 5 ? "-" : "+"}</span>
+                    </div>
+                    <div className=" border-l-2 border-sl pl-2 ">
+                        <h2 className={selected === 5 ? "content show" : "content"} > {t("form_igp_tit4q5answ")} </h2>
+                    </div>
+                </div> */}
             
+                </div>
+                    
+                </div> 
+        </div>
+
+        <div className="max-w-6xl m-auto px-8 mt-16 mx-auto ">
+        <div className="w-11/12 m-auto">
+
+            <h2 className="mb-10 text-4xl text-bg2 font-medium ">{t("form_reserva_quest3")}</h2>
+            <p className="mb-10 leading-8 text-lg  font-normal ">{t("form_reserva_quest4")} :</p>
+            
+            <FormRes />
+        </div>
+
+
+            
+        </div>
     </div>
-  )
+    )
 }

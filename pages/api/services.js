@@ -173,6 +173,10 @@ export default async function handler(req, res) {
                   </thead>
                   <tbody>
                   <tr>
+                      <td>Idioma</td>
+                      <td>${lang}</td>
+                  </tr>
+                  <tr>
                       <td>Nombre</td>
                       <td>${name}</td>
                   </tr>
