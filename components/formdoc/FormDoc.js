@@ -5,6 +5,7 @@ import axios from 'axios';
 import {useRouter} from 'next/router'
 
 
+
 export default function FormDoc() {
 
     const { t } = useTranslation('common');
@@ -32,7 +33,6 @@ export default function FormDoc() {
         router.push('/emailsended');
         try {
             const response1 = await axios(config)
-            const response = await axios(config2)
             if(response.status == 200 && response1.status == 200 ){
                 reset();
             }

@@ -37,7 +37,7 @@ function Footer() {
                         <rect x="132" y="34" width="7" height="49" fill="#072317"/>
                     </svg>
 
-                    <div className="w-full h-full  grid grid-cols-1 md:grid-cols-4 place-items-center m-auto gap-10 md:pl-10">
+                    <div className="w-full h-full  grid grid-cols-1 md:grid-cols-4 place-items-center m-auto gap-10 ">
                         <div className="w-full h-full flex flex-col text-left sm:text-left ">
                             <h1 className="font-medium text-xl mb-4  uppercase  text-sl ">{t("footer_tittle1")}</h1>
                             <Link href="/about" passHref><a className="font-light  pb-2  text-base   text-bgr ">{t("footer_info1_1")}</a></Link>

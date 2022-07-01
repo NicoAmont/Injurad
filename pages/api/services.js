@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer'
 
 export default async function handler(req, res) {
   
-  const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process} = req.body
+  const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process,lang} = req.body
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -14,13 +14,14 @@ export default async function handler(req, res) {
       pass: process.env.password,
     }, 
     secure: true,
+    
   });
 
   try {
     const emailRes2 = await transporter.sendMail({
       from: process.env.email,
       to: 'lewtcorp.web@gmail.com', 
-      subject: `Contact form submission from ${name}`,
+      subject: `Servicio de Documentos de ${name}`,
       html: `
       <html lang="en">
           <head>
@@ -236,7 +237,7 @@ export default async function handler(req, res) {
       `,
       });
     
-    console.log('Mensaje enviado', emailRes2.messageId);
+   
   } catch (err) {
     console.log(err)
   }

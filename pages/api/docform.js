@@ -4,6 +4,8 @@ import nodemailer from 'nodemailer'
 export default async function handler(req, res) {
   
   const{name,email_direction, last_name,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process, lang} = req.body
+  
+  
   let text ={}
   if(lang == 'es') {
     text = {
@@ -65,7 +67,13 @@ export default async function handler(req, res) {
       "text17": "Print deze mail niet uit als dat niet nodig is, denk aan het milieu.",
     }
   }
+  
+  const fecha = new Date()
+  const codigo = last_name+fecha.getDate()+fecha.getHours()+fecha.getMinutes()+fecha.getSeconds();
 
+  let servicio = step_process;
+  let regex = 	servicio.split(/[€]/);
+  let valor = regex[regex.length-1];
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -234,8 +242,8 @@ export default async function handler(req, res) {
       
                     <div class="linea_blanca"></div>
                     <div class="text_numero_activacion">
-                      <h2 class="text_numero_activacion">${text.text15}</h2>
-                      <h2 class="text_numero_activacion">AlavarezAlcorcón842022</h2>
+                      <h2 class="text_numero_activacion">${text.text6}</h2>
+                      <h2 class="text_numero_activacion">${codigo}</h2>
                     </div>
                   </div>
                 </div>
@@ -243,17 +251,16 @@ export default async function handler(req, res) {
                 <div class="container_codigo">
                   <div class="container_factura_text">
                     
-                    <h2 class="titulo_factura">${text.text6} </h2>
+                    <h2 class="titulo_factura">${text.text7} </h2>
                     <div class="container2-text_factura">
-                      <h2 class="texto_factura">${text.text7}</h2>
                       <h2 class="texto_factura">${text.text8}</h2>
-                      <h2 class="texto_factura">${text.text9}    AlavarezAlcorcón842022 </h2>
-                      <h2 class="texto_factura">${text.text10}    48,40€ </h2>
+                      <h2 class="texto_factura">${text.text9}</h2>
+                      <h2 class="texto_factura">${text.text10}    ${codigo} </h2>
+                      <h2 class="texto_factura">${text.text11} € ${precio}</h2>
                       <img  url="https://res.cloudinary.com/lewt-copr/image/upload/v1656436556/Logo_blanco_oppmzx.png">
                     </div>
-                    <p>En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.</p>
-                    <p style="width: 100%; height:auto;">El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el
-                      siguiente link. Este envío será requisito para el inicio de los trabajos.
+                    <p>${text.text12}</p>
+                    <p style="width: 100%; height:auto;"${text.text13}
                     </p>
                   </div>
                 </div>
@@ -262,18 +269,18 @@ export default async function handler(req, res) {
                     
                     <a class="container_codigo_text center_text" href="http://injurad.com">
                         <div class="linea_blanca"></div>
-                        <h2 class="text_numero_activacion ">Comprobante</h2>
+                        <h2 class="text_numero_activacion ">${text.text14}</h2>
                     </a>
                     <a class="container_codigo_text center_text" style="margin-top:20px" href="http://injurad.com">
                         <div class="linea_blanca"></div>
-                        <h2 class="text_numero_activacion ">Documentos</h2>
+                        <h2 class="text_numero_activacion ">${text.text15}</h2>
                     </a>
                   </div>
                   
                   
-                  <p style="font-size: 12px; font-weight:normal;">Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.</p>
+                  <p style="font-size: 12px; font-weight:normal;">${text.text16}</p>
                   
-                  <p style="font-size: 12px; font-weight:normal; color:#509C22;">Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.</p>
+                  <p style="font-size: 12px; font-weight:normal; color:#509C22;">${text.text17}</p>
                 </div>
                 
                 
@@ -286,7 +293,7 @@ export default async function handler(req, res) {
         `,
     });
     
-    console.log('Mensaje enviado', emailRes.messageId);
+   
   } catch (err) {
     console.log(err)
   }
