@@ -12,17 +12,18 @@ export default async function handler(req, res) {
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-      "text6": "Datos de la Transferencia Bancaria",
-      "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
-      "text7": "BIC / SWIFT : CAIXESBBXXX",
-      "text8": "Concepto:",
-      "text9": "Importe:",
-      "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
-      "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
-      "text12": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-      "text13": "CARGAR DOCUMENTOS",
-      "text14": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
-      "text15": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
+      "text6": "Tu numero de solicitúd:",
+      "text7": "Datos de la Transferencia Bancaria",
+      "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
+      "text9": "BIC / SWIFT : CAIXESBBXXX",
+      "text10": "Concepto:",
+      "text11": "Importe:",
+      "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+      "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
+      "text15": "CARGAR DOCUMENTOS",
+      "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
+      "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
     }
   }else if(lang == 'en') {
     text = {
@@ -50,17 +51,18 @@ export default async function handler(req, res) {
       "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
       "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
       "text5": "Gegevens voor de overschrijving:",
-      "text6": "Datos de la Transferencia Bancaria",
-      "text6": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
-      "text7": "BIC / SWIFT: CAIXESBBXXX",
-      "text8": "Vergeet niet het betalingskenmerk te vermelden:",
-      "text9": "Bedrag:",
-      "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
-      "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
-      "text12": "BETALINGSBEWIJS STUREN",
-      "text13": "DOCUMENTEN VERSTUREN",
-      "text14": "Deze e-mail en, in voorkomend geval, elk eraan toegevoegd bestand is uitsluitend gericht aan de ontvanger en kan persoonlijke en/of vertrouwelijke informatie bevatten. Indien deze mail niet voor u bestemd is, delen wij u mede dat ongeoorloofd gebruik, openbaarmaking en/of kopiëren wettelijk verboden is. Als u dit bericht abusievelijk heeft ontvangen, gelieve ons daarvan per ommegaande op de hoogte te brengen en dit bericht te vernietigen. ",
-      "text15": "Print deze mail niet uit als dat niet nodig is, denk aan het milieu.",
+      "text6": "Tu numero de solicitúd:",
+      "text7": "Datos de la Transferencia Bancaria",
+      "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
+      "text9": "BIC / SWIFT: CAIXESBBXXX",
+      "text10": "Vergeet niet het betalingskenmerk te vermelden:",
+      "text11": "Bedrag:",
+      "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+      "text14": "BETALINGSBEWIJS STUREN",
+      "text15": "DOCUMENTEN VERSTUREN",
+      "text16": "Deze e-mail en, in voorkomend geval, elk eraan toegevoegd bestand is uitsluitend gericht aan de ontvanger en kan persoonlijke en/of vertrouwelijke informatie bevatten. Indien deze mail niet voor u bestemd is, delen wij u mede dat ongeoorloofd gebruik, openbaarmaking en/of kopiëren wettelijk verboden is. Als u dit bericht abusievelijk heeft ontvangen, gelieve ons daarvan per ommegaande op de hoogte te brengen en dit bericht te vernietigen. ",
+      "text17": "Print deze mail niet uit als dat niet nodig is, denk aan het milieu.",
     }
   }
 
@@ -215,16 +217,16 @@ export default async function handler(req, res) {
               <div class="container_subtext">
       
                 <p>
-                  Agradecemos su correo. Hemos recibido su solicitud correctamente. 
+                ${text.text2} 
                 </p>
                 <p>
-                  Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas aveces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.
+                ${text.text3}
                 </p>
                 <p>
-                  Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.
+                ${text.text4}
                 </p>
                 <p>
-                  Debe realizar transferencia bancaria con los siguientes datos:
+                ${text.text5}
                 </p>
       
                 <div class="container_codigo">
@@ -232,7 +234,7 @@ export default async function handler(req, res) {
       
                     <div class="linea_blanca"></div>
                     <div class="text_numero_activacion">
-                      <h2 class="text_numero_activacion">Tu numero de solicitúd:</h2>
+                      <h2 class="text_numero_activacion">${text.text15}</h2>
                       <h2 class="text_numero_activacion">AlavarezAlcorcón842022</h2>
                     </div>
                   </div>
@@ -241,12 +243,12 @@ export default async function handler(req, res) {
                 <div class="container_codigo">
                   <div class="container_factura_text">
                     
-                    <h2 class="titulo_factura">Datos de la Transferencia Bancaria </h2>
+                    <h2 class="titulo_factura">${text.text6} </h2>
                     <div class="container2-text_factura">
-                      <h2 class="texto_factura">No de Cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515 </h2>
-                      <h2 class="texto_factura">BIC / SWIFT :    CAIXESBBXXX </h2>
-                      <h2 class="texto_factura">Concepto:    AlavarezAlcorcón842022 </h2>
-                      <h2 class="texto_factura">Importe:    48,40€ </h2>
+                      <h2 class="texto_factura">${text.text7}</h2>
+                      <h2 class="texto_factura">${text.text8}</h2>
+                      <h2 class="texto_factura">${text.text9}    AlavarezAlcorcón842022 </h2>
+                      <h2 class="texto_factura">${text.text10}    48,40€ </h2>
                       <img  url="https://res.cloudinary.com/lewt-copr/image/upload/v1656436556/Logo_blanco_oppmzx.png">
                     </div>
                     <p>En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.</p>
