@@ -73,7 +73,7 @@ export default async function handler(req, res) {
 
   let servicio = step_process;
   let regex = 	servicio.split(/[€]/);
-  let valor = regex[regex.length-1];
+  let precio = regex[regex.length-1];
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
