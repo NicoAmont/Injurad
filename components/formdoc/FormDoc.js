@@ -45,7 +45,7 @@ export default function FormDoc() {
 
   return (
     <form method="POST" onSubmit={handleSubmit(onSubmitForm)} className="max-w-3xl m-auto">
-    <div className="relative z-0 mb-6 w-full group hidden">
+            <div className="relative z-0 mb-6 w-full group hidden">
                 <select 
                     name="lang"
                     {...register('lang', { required: true })}
