@@ -121,7 +121,7 @@ export default async function handler(req, res) {
             }
             .container_subtext{
               display: grid;
-              width: 50%;
+              width: 100%;
               height: 100%;
             }
             .titles{
