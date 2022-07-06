@@ -124,6 +124,11 @@ export default async function handler(req, res) {
               width: 100%;
               height: 100%;
             }
+            @media (min-width:365px ){    
+              .container_subtext{
+                width: 50%;
+              }
+            }
             .titles{
               color:#326754;
               letter-spacing:1px;
