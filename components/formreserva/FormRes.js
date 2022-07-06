@@ -20,11 +20,20 @@ export default function FormRes() {
             },
             data:values,
         }
+        let config2 = {
+            method:'POST',
+            url:"/api/services",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            data:values,
+        }
 
         router.push('/emailsended');
         try {
             const response = await axios(config)
-            if(response.status == 200){
+            const response2 = await axios(config2)
+            if(response.status == 200 && response2.status == 200){
                 reset();
             }
         } catch (err) {

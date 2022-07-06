@@ -11,9 +11,15 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
-      "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
-      "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
-      "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
+      "text3": "Un informe IGP es el procedimiento mediante el cual un Arquitecto y un Abogado, juntos especializados en urbanismo, examinarán los documentos del inmueble, los Planes Urbanísticos de la localidad donde esta ubicado y otros medios de información como bancos de históricos de fotos aéreas, etc. Todo ello al ser contrastado proporciona la información necesaria para saber si el inmueble aun cuando no tenga los documentos cumple las condiciones urbanística y por tanto cumple la ley o puede cumplirla en caso de haberse construido sin los permisos reglamentarios.",
+      "text4": "El informe IGP viene a cumplir un papel fundamental a la hora de conseguir un due diligence completo, imparcial y confiable, principal objetivo que se debe trazar todo comprador que quiere comprar con seguridad, así como responder a las preguntas para las que todo comprador quiere respuestas:",
+      "textop1": "La propiedad es legal, legalizable o ilegal?",
+      "textop2": "Hay riesgo de demolición?",
+      "textop3": "Hay riesgos de multas?",
+      "textop4": "Podría reformar?",
+      "textop5": "Podría reconstruir en caso de un siniestro?",
+      "textop6": "Tengo cobertura del seguro en caso de un incendio, inundación, etc?",
+      "text5": "Debe enviarnos los documentos que le han entregado, así como realizar transferencia bancaria con los siguientes datos:",
       "text6": "Tu numero de solicitúd:",
       "text7": "Datos de la Transferencia Bancaria",
       "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
@@ -244,6 +250,7 @@ export default async function handler(req, res) {
       
                 <div class="container_codigo">
                   <div class="container_codigo_text">
+                  
                     <div class="linea_blanca"></div>
                     <div class="text_numero_activacion">
                       <h2 class="text_numero_activacion">${text.text6}</h2>

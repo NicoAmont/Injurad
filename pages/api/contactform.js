@@ -11,8 +11,8 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
-      "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
-      "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
+      "text3": "Un chequeo de contrato es la manera más rápida, segura y discreta de controlar que efectivamente el documento corresponde al acuerdo que tiene con el vendedor y que el pacto que se formalizará es equilibrado y justo para las partes, así como que contenga las cláusulas que dejan claro las condiciones en las que se consumará el acuerdo.",
+      "text4": "Tanto el análisis como el informe lo elabora un abogado, a partir de contrastar el contrato propuesto con nuestro modelo básico que contiene todas las cláusulas que son necesarias para dar la mayor seguridad jurídica a las partes, le servirá para exigir las correcciones y también para asegurarse de que esta bien asesorado.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
       "text6": "Tu numero de solicitúd:",
       "text7": "Datos de la Transferencia Bancaria",
@@ -244,6 +244,7 @@ export default async function handler(req, res) {
       
                 <div class="container_codigo">
                   <div class="container_codigo_text">
+                  
                     <div class="linea_blanca"></div>
                     <div class="text_numero_activacion">
                       <h2 class="text_numero_activacion">${text.text6}</h2>
