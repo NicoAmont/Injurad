@@ -245,6 +245,24 @@ export default async function handler(req, res) {
                 ${text.text4}
                 </p>
                 <p>
+                ${text.textop1}
+                </p>
+                <p>
+                ${text.textop2}
+                </p>
+                <p>
+                ${text.textop3}
+                </p>
+                <p>
+                ${text.textop4}
+                </p>
+                <p>
+                ${text.textop5}
+                </p>
+                <p>
+                ${text.textop6}
+                </p>
+                <p>
                 ${text.text5}
                 </p>
       
