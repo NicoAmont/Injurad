@@ -11,14 +11,12 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
-      "text3": "Un informe IGP es el procedimiento mediante el cual un Arquitecto y un Abogado, juntos especializados en urbanismo, examinarán los documentos del inmueble, los Planes Urbanísticos de la localidad donde esta ubicado y otros medios de información como bancos de históricos de fotos aéreas, etc. Todo ello al ser contrastado proporciona la información necesaria para saber si el inmueble aun cuando no tenga los documentos cumple las condiciones urbanística y por tanto cumple la ley o puede cumplirla en caso de haberse construido sin los permisos reglamentarios.",
-      "text4": "El informe IGP viene a cumplir un papel fundamental a la hora de conseguir un due diligence completo, imparcial y confiable, principal objetivo que se debe trazar todo comprador que quiere comprar con seguridad, así como responder a las preguntas para las que todo comprador quiere respuestas:",
-      "textop1": "La propiedad es legal, legalizable o ilegal?",
-      "textop2": "Hay riesgo de demolición?",
-      "textop3": "Hay riesgos de multas?",
-      "textop4": "Podría reformar?",
-      "textop5": "Podría reconstruir en caso de un siniestro?",
-      "textop6": "Tengo cobertura del seguro en caso de un incendio, inundación, etc?",
+      "text3": "Probablemente este muy cerca de cumplir su sueño de tener una vivienda en España.",
+      "text4": "Con el objetivo de no perder la oportunidad de comprar la casa que ha elegido firmar un contrato puede ser una buena alternativa. Y para realizar una compraventa segura es imprescindible conocer la situación legal y urbanística del inmueble, así como firmar un contrato muy bien redactado.",
+      "textop1": "Injurad esta aquí para ayudarle, el chequeo de documentos y de contrato, le dará la tranquilidad que busca, nuestros profesionales analizarán la información que hay disponible y a través de sus recomendaciones usted sabrá cómo seguir.",
+      "textop2": "Igualmente si es usted quién quiere proponer un contrato es muy sensato pedir ayuda a Injurad, delegar esta tarea a un experto que se mantenga independiente es la mejor opción. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. ",
+      "textop3": "Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
+      "textop4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe enviarnos los documentos que le han entregado, así como realizar transferencia bancaria con los siguientes datos:",
       "text6": "Tu numero de solicitúd:",
       "text7": "Datos de la Transferencia Bancaria",
@@ -26,8 +24,8 @@ export default async function handler(req, res) {
       "text9": "BIC / SWIFT : CAIXESBBXXX",
       "text10": "Concepto:",
       "text11": "Importe:",
-      "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. ",
-      "text13": "Enviaremos comunicación del encargo a los profesionales que resulten asignados. En un plazo no mayor a doce días laborables le enviaremos el informe vía correo electrónico. Este informe además de aclararle cual es la situación del inmueble le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
+      "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos el informe vía correo electrónico.",
+      "text13": "",
       "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
       "text15": "CARGAR DOCUMENTOS",
       "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
@@ -130,7 +128,7 @@ export default async function handler(req, res) {
               width: 100%;
               height: 100%;
             }
-            @media (min-width:365px ){    
+            @media (min-width:720px ){    
               .container_subtext{
                 width: 50%;
               }
@@ -255,12 +253,6 @@ export default async function handler(req, res) {
                 </p>
                 <p>
                 ${text.textop4}
-                </p>
-                <p>
-                ${text.textop5}
-                </p>
-                <p>
-                ${text.textop6}
                 </p>
                 <p>
                 ${text.text5}

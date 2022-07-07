@@ -12,6 +12,35 @@ export default function FormRes() {
     const { register, handleSubmit, formState: {errors}, reset } = useForm();
 
     async function onSubmitForm(values) {
+
+        let config2 = {}
+        let conditionPriceCCyCD = values.step_process.includes("459,8")
+        let conditionPriceCCyCD2 = values.step_process.includes("514,25")
+        let conditionPriceRedaction = values.step_process.includes("121,00")
+        
+        if(conditionPriceCCyCD || conditionPriceCCyCD2){
+            
+            config2 = {
+                method:'POST',
+                url:"/api/contactform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
+            
+        }else if(conditionPriceRedaction){
+            config2 = {
+                method:'POST',
+                url:"/api/redactform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
+            
+        }
+        
         let config = {
             method:'POST',
             url:"/api/services",
@@ -20,15 +49,7 @@ export default function FormRes() {
             },
             data:values,
         }
-        let config2 = {
-            method:'POST',
-            url:"/api/contactform",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            data:values,
-        }
-
+        
         router.push('/emailsended');
         try {
             const response = await axios(config)
@@ -321,6 +342,28 @@ export default function FormRes() {
                 </label>
             </div>
         </div>
+        <div className="grid xl:grid-cols-2 xl:gap-6">
+            
+            <div className="relative z-0 mb-6 w-full group">
+                <select 
+                    name="res_amount"
+                    {...register('res_amount', { required: true })}
+                    id="floating_last_name3" 
+                    className="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                    placeholder=" " 
+                    required
+                >
+                    <option selected disabled>Valor del inmueble</option>
+                    <option>Menor o igual a € 300.000  </option>
+                    <option>Mayor a € 300.000  </option>
+                </select>
+                <label 
+                    htmlhtmlfor="floating_last_name3" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    
+                </label>
+            </div>
             <div className="relative z-0 mb-6 w-full group">
                 <select 
                     name="step_process"
@@ -343,6 +386,8 @@ export default function FormRes() {
                     
                 </label>
             </div>
+        </div>
+            
         
 
         <button 

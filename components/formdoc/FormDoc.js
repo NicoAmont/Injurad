@@ -14,13 +14,31 @@ export default function FormDoc() {
 
     async function onSubmitForm(values) {
         
-        let config2 = {
-            method:'POST',
-            url:"/api/docform",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            data:values,
+        let config2 = {}
+        let conditionPriceCCyCD = values.step_process.includes("459,8")
+        let conditionPriceCCyCD2 = values.step_process.includes("514,25")
+
+        if(conditionPriceCCyCD || conditionPriceCCyCD2){
+
+            config2 = {
+                method:'POST',
+                url:"/api/cdyccform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
+
+        }else{
+
+            config2 = {
+                method:'POST',
+                url:"/api/docform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
         }
         let config = {
             method:'POST',
