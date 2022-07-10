@@ -5,6 +5,7 @@ import axios from 'axios';
 import {useRouter} from 'next/router'
 
 
+
 export default function FormRes() {
 
     const { t } = useTranslation('common');
@@ -14,22 +15,11 @@ export default function FormRes() {
     async function onSubmitForm(values) {
 
         let config2 = {}
-        let conditionPriceCCyCD = values.step_process.includes("459,8")
-        let conditionPriceCCyCD2 = values.step_process.includes("514,25")
-        let conditionPriceRedaction = values.step_process.includes("121,00")
+        let conditionPriceRedactar = values.step_process.includes("423,50")
+        let conditionPriceControl = values.step_process.includes("121,00")
         
-        if(conditionPriceCCyCD || conditionPriceCCyCD2){
+        if(conditionPriceRedactar){
             
-            config2 = {
-                method:'POST',
-                url:"/api/contactform",
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                data:values,
-            }
-            
-        }else if(conditionPriceRedaction){
             config2 = {
                 method:'POST',
                 url:"/api/redactform",
@@ -39,6 +29,25 @@ export default function FormRes() {
                 data:values,
             }
             
+        }else if(conditionPriceControl){
+            config2 = {
+                method:'POST',
+                url:"/api/contactform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
+            
+        }else{
+            config2 = {
+                method:'POST',
+                url:"/api/cdyccform",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                data:values,
+            }
         }
         
         let config = {
@@ -317,12 +326,13 @@ export default function FormRes() {
                     {t("municipio")}
                 </label>
             </div>
+            
             <div className="relative z-0 mb-6 w-full group">
                 <select 
                     name="type_process"
                     {...register('type_process', { required: true })}
                     id="floating_last_name2" 
-                    className="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
                     placeholder=" " 
                     required
                 >
@@ -345,23 +355,24 @@ export default function FormRes() {
         <div className="grid xl:grid-cols-2 xl:gap-6">
             
             <div className="relative z-0 mb-6 w-full group">
-                <select 
-                    name="res_amount"
-                    {...register('res_amount', { required: true })}
-                    id="floating_last_name3" 
-                    className="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10"
+                <input 
+                    type="number" 
+                    name="valor_inm" 
+                    {...register('valor_inm', { 
+                        required: true,
+                        maxLength: 40,
+                        message: 'Escribe no más de 11 caracteres'
+                        })}
+                    id="valor_inm" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
                     placeholder=" " 
-                    required
-                >
-                    <option selected disabled>Valor del inmueble</option>
-                    <option>Menor o igual a € 300.000  </option>
-                    <option>Mayor a € 300.000  </option>
-                </select>
+                    required 
+                />
                 <label 
-                    htmlhtmlfor="floating_last_name3" 
+                    htmlFor="valor_inm" 
                     className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                    
+                    Valor del inmueble (ej : 250.000)
                 </label>
             </div>
             <div className="relative z-0 mb-6 w-full group">
@@ -373,17 +384,19 @@ export default function FormRes() {
                     placeholder=" " 
                     required
                 >
-                    <option selected disabled>{t("form_data3")}</option>
-                    <option>{t("stepformOp1")} {t("iva22b")}</option>
-                    <option>{t("stepformOp2")} {t("stepformOp2_")}</option>
+                    
+                    <option>{t("stepformOp2")} {t("iva22b")}</option>
+                    <option>{t("stepformOp1")} {t("stepformOp2_")}</option>
                     <option>{t("other")}</option>
                     <option>{t("other2")}</option>
+                    <option>{t("other3")}</option>
+                    <option>{t("other4")}</option>
                 </select>
                 <label 
                     htmlhtmlfor="floating_last_name" 
                     className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                    
+                    {t("form_data3")}
                 </label>
             </div>
         </div>

@@ -3,24 +3,26 @@ import nodemailer from 'nodemailer'
 
 export default async function handler(req, res) {
     
-    const{name,email_direction, last_name,res_amount,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process, lang} = req.body
+    const{name,email_direction, last_name,res_amount,municipio,postal,pais,pasaporte,facturacion,calle_numero,calle_numero2,type_process, phone, step_process, lang,valor_inm} = req.body
 
     let text ={}
     if(lang == 'es') {
         text = {
         "text1": "Estimado/a Usuario/a",
         "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
-        "text3": "Un chequeo de contrato es la manera más rápida, segura y discreta de controlar que efectivamente el documento corresponde al acuerdo que tiene con el vendedor y que el pacto que se formalizará es equilibrado y justo para las partes, así como que contenga las cláusulas que dejan claro las condiciones en las que se consumará el acuerdo.",
-        "text4": "Tanto el análisis como el informe lo elabora un abogado, a partir de contrastar el contrato propuesto con nuestro modelo básico que contiene todas las cláusulas que son necesarias para dar la mayor seguridad jurídica a las partes, le servirá para exigir las correcciones y también para asegurarse de que esta bien asesorado.",
-        "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
+        "text3": "Firmar un contrato sea de Reserva o de Opción es un paso que aun cuando es muy delicado se suele tomar con bastante ligereza, sobre todo por parte de las inmobiliarias que tienen el mayor interés en cerrar la venta lo antes posible.",
+        "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
+        "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
+        "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
         "text6": "Tu numero de solicitúd:",
         "text7": "Datos de la Transferencia Bancaria",
         "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT : CAIXESBBXXX",
         "text10": "Concepto:",
         "text11": "Importe:",
-        "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
-        "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+        "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. ",
+        "text13": "Enviaremos comunicación del encargo al abogado que resulte asignado. En un plazo no mayor a dos días laborables le enviaremos la propuesta vía correo electrónico para su aprobación. Esta propuesta será la que el abogado presente al vendedor e intentará que se firme tal como está. Una vez finalizada la negociación le informará la fecha de firma y los demás pasos a seguir.",
+        "text132": "En caso de que no sea aceptada o se soliciten cambios siempre su abogado mantendrá comunicación con usted por escrito, hasta donde sea posible conseguir un acuerdo.",
         "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
         "text15": "CARGAR DOCUMENTOS",
         "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
@@ -28,23 +30,26 @@ export default async function handler(req, res) {
         }
     }else if(lang == 'en') {
         text = {
-        "text1": "Estimado/a Usuario/a",
-        "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
-        "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
-        "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
-        "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Datos de la Transferencia Bancaria",
-        "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
-        "text7": "BIC / SWIFT : CAIXESBBXXX",
-        "text8": "Concepto:",
-        "text9": "Importe:",
-        "text10": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
-        "text11": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
-        "text12": "Comprobante",
-        "text13": "Documentos",
-        "text14": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
-        "text15": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
-        }
+            "text1": "Estimado/a Usuario/a",
+            "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+            "text3": "Firmar un contrato sea de Reserva o de Opción es un paso que aun cuando es muy delicado se suele tomar con bastante ligereza, sobre todo por parte de las inmobiliarias que tienen el mayor interés en cerrar la venta lo antes posible.",
+            "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
+            "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
+            "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
+            "text6": "Tu numero de solicitúd:",
+            "text7": "Datos de la Transferencia Bancaria",
+            "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
+            "text9": "BIC / SWIFT : CAIXESBBXXX",
+            "text10": "Concepto:",
+            "text11": "Importe:",
+            "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. ",
+            "text13": "Enviaremos comunicación del encargo al abogado que resulte asignado. En un plazo no mayor a dos días laborables le enviaremos la propuesta vía correo electrónico para su aprobación. Esta propuesta será la que el abogado presente al vendedor e intentará que se firme tal como está. Una vez finalizada la negociación le informará la fecha de firma y los demás pasos a seguir.",
+            "text132": "En caso de que no sea aceptada o se soliciten cambios siempre su abogado mantendrá comunicación con usted por escrito, hasta donde sea posible conseguir un acuerdo.",
+            "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
+            "text15": "CARGAR DOCUMENTOS",
+            "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
+            "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
+            }
     }else if(lang == 'nl'){
         text = {
         "text1": "Beste client,",
@@ -52,6 +57,7 @@ export default async function handler(req, res) {
         "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
         "text5": "Gegevens voor de overschrijving:",
+        "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
         "text6": "Tu numero de solicitúd:",
         "text7": "Datos de la Transferencia Bancaria",
         "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
@@ -60,6 +66,7 @@ export default async function handler(req, res) {
         "text11": "Bedrag:",
         "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
         "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
+        "text132": "En caso de que no sea aceptada o se soliciten cambios siempre su abogado mantendrá comunicación con usted por escrito, hasta donde sea posible conseguir un acuerdo.",
         "text14": "BETALINGSBEWIJS STUREN",
         "text15": "DOCUMENTEN VERSTUREN",
         "text16": "Deze e-mail en, in voorkomend geval, elk eraan toegevoegd bestand is uitsluitend gericht aan de ontvanger en kan persoonlijke en/of vertrouwelijke informatie bevatten. Indien deze mail niet voor u bestemd is, delen wij u mede dat ongeoorloofd gebruik, openbaarmaking en/of kopiëren wettelijk verboden is. Als u dit bericht abusievelijk heeft ontvangen, gelieve ons daarvan per ommegaande op de hoogte te brengen en dit bericht te vernietigen. ",
@@ -72,11 +79,17 @@ export default async function handler(req, res) {
 
     let servicio = step_process;
     let regex = servicio.split(/[€]/);
-    let precio = regex[regex.length-1];
+    let precio
 
 
     //   Calculo de valor de redaccion de contrato
-    let ayudaJuridica = 350
+
+    let valorInmueble = valor_inm
+    let regex2 = valorInmueble.split(/[.]/);
+    let ValorInmuNumber = Number(regex2.join(''))
+    
+    let valorClave = 350000
+    let ayudaJuridica = 350 + (ValorInmuNumber-valorClave)*0.0005
     let injurad = 65
     let profesionales = ayudaJuridica - injurad
     let ivaServicios = profesionales*21/100;
@@ -84,14 +97,15 @@ export default async function handler(req, res) {
     let ivaServiciosInjurad = injurad*21/100
     let subtotal2 = injurad + ivaServiciosInjurad
     let preciototal = subtotal1 + subtotal2
-    let amountCondition = res_amount.includes("menor");
-    let amountCondition2 = res_amount.includes("mayor");
+    let preciototal2 = 423.50 
 
-    if(amountCondition){
-        precio = ""
-    }else if(amountCondition2){
-
+    if(ValorInmuNumber <= 350000){
+        precio = preciototal2
+        console.log(ValorInmuNumber)
+    }else if(ValorInmuNumber > 350000) {
+        precio = preciototal.toFixed(2).toLocaleString()
     }
+    console.log(precio)
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         port: 465,
@@ -258,6 +272,9 @@ export default async function handler(req, res) {
                     <p>
                     ${text.text5}
                     </p>
+                    <p>
+                    ${text.text52}
+                    </p>
         
                     <div class="container_codigo">
                     <div class="container_codigo_text">
@@ -283,6 +300,8 @@ export default async function handler(req, res) {
                         </div>
                         <p>${text.text12}</p>
                         <p style="width: 100%; height:auto;"${text.text13}
+                        </p>
+                        <p style="width: 100%; height:auto;"${text.text132}
                         </p>
                     </div>
                     </div>
