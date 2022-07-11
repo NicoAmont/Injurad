@@ -161,7 +161,8 @@ export default async function handler(req, res) {
                 width:100%;
                 }        
                 .container-text {
-                
+                display:grid;
+                justify-items: center;
                 width: 100%;
                 height: 100%;
                 padding-left:0.2rem;
@@ -334,11 +335,11 @@ export default async function handler(req, res) {
                     <div class="container_codigo">
                     <div class="container_botones">
                         
-                        <a class="container_codigo_text center_text" href="http://injurad.com">
+                        <a class="container_codigo_text center_text" href = "mailto:fianzas@injurad.com">
                             <div class="linea_blanca"></div>
                             <h2 class="text_numero_activacion ">${text.text14}</h2>
                         </a>
-                        <a class="container_codigo_text center_text" style="margin-top:20px" href="http://injurad.com">
+                        <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
                             <div class="linea_blanca"></div>
                             <h2 class="text_numero_activacion ">${text.text15}</h2>
                         </a>

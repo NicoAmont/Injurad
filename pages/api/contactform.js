@@ -50,8 +50,8 @@ export default async function handler(req, res) {
     text = {
       "text1": "Beste client,",
       "text2": "Dank voor uw aanvraag. ",
-      "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
-      "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
+      "text3": "De controle van het contract is een snelle en discrete manier om te controleren of de afspraken die u met de verkoper heeft gemaakt juist zijn geformuleerd. Bevat de overeenkomst alle belangrijke clausules die voor u van belang zijn en zijn er geen clausules opgenomen die uw belangen schaden. ",
+      "text4": "De analyse en het rapport worden uitgevoerd door een advocaat. Deze zal het voorgestelde contract toetsten aan de modelovereenkomst van Injurad, welke is ontwikkeld om maximale zekerheid te bieden. Het rapport kunt u gebruiken om indien nodig aanpassingen te laten doen aan het contract.",
       "text5": "Gegevens voor de overschrijving:",
       "text6": "Tu numero de solicitúd:",
       "text7": "Datos de la Transferencia Bancaria",
@@ -111,7 +111,8 @@ export default async function handler(req, res) {
               width:100%;
             }        
             .container-text {
-              
+              display:grid;
+              justify-items: center;
               width: 100%;
               height: 100%;
               padding-left:0.2rem;
@@ -272,11 +273,11 @@ export default async function handler(req, res) {
                 <div class="container_codigo">
                   <div class="container_botones">
                     
-                    <a class="container_codigo_text center_text" href="http://injurad.com">
+                    <a class="container_codigo_text center_text" href = "mailto:fianzas@injurad.com">
                         <div class="linea_blanca"></div>
                         <h2 class="text_numero_activacion ">${text.text14}</h2>
                     </a>
-                    <a class="container_codigo_text center_text" style="margin-top:20px" href="http://injurad.com">
+                    <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
                         <div class="linea_blanca"></div>
                         <h2 class="text_numero_activacion ">${text.text15}</h2>
                     </a>

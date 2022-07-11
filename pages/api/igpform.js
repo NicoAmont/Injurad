@@ -54,11 +54,18 @@ export default async function handler(req, res) {
     }
   }else if(lang == 'nl'){
     text = {
-      "text1": "Beste client,",
-      "text2": "Dank voor uw aanvraag. ",
-      "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
-      "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
-      "text5": "Gegevens voor de overschrijving:",
+      "text1": "Geachte cliënt,",
+      "text2": "We hebben uw aanvraag in goede orde ontvangen. ",
+      "text3": "Een IGP is een studie op basis van de aangeleverde documenten, waarbij een architect en een advocaat beiden gespecialiseerd in urbanismo onderzoek doen naar het plan ruimtelijke ordening dat op de woning van toepassing is, de databank met historische luchtfoto's raadplegen, de geldende wet- en regelgeving toetsen etc.",
+      "text4": "Ook als een woning niet over de alle documenten beschikt, kan een antwoord worden gegeven of de woning voldoet aan het plan ruimtelijke ordening of daaraan kan voldoen ook als er gebouwd is zonder de benodigde vergunningen.",
+      "textop1": "Is de woning legaal, illegaal of legaliseerbaar?",
+      "textop2": "Kan er vergunning worden verkregen voor verbouw of aanbouw?",
+      "textop3": "Kan de woning worden herbouwd als dat nodig is in geval van schade?",
+      "textop4": "Heeft de woning dekking van de verzekering?",
+      "textop5": "Is er risico op sloop?",
+      "textop6": "Is er risico op boetes?",
+
+      "text5": "Deze informatie resulteert in een rapport met aanbevelingen en conclusies, waaronder ook antwoord op de vragen die voor elke koper relevant zijn:",
       "text6": "Tu numero de solicitúd:",
       "text7": "Datos de la Transferencia Bancaria",
       "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
@@ -117,7 +124,8 @@ export default async function handler(req, res) {
               width:100%;
             }        
             .container-text {
-              
+              display:grid;
+              justify-items: center;
               width: 100%;
               height: 100%;
               padding-left:0.2rem;
@@ -296,11 +304,11 @@ export default async function handler(req, res) {
                 <div class="container_codigo">
                   <div class="container_botones">
                     
-                    <a class="container_codigo_text center_text" href="http://injurad.com">
+                    <a class="container_codigo_text center_text" href = "mailto:fianzas@injurad.com">
                         <div class="linea_blanca"></div>
                         <h2 class="text_numero_activacion ">${text.text14}</h2>
                     </a>
-                    <a class="container_codigo_text center_text" style="margin-top:20px" href="http://injurad.com">
+                    <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
                         <div class="linea_blanca"></div>
                         <h2 class="text_numero_activacion ">${text.text15}</h2>
                     </a>
