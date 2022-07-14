@@ -259,7 +259,7 @@ export default async function handler(req, res) {
             
         
                 <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
-                <div class="titles " style="margin-top:20px;">
+                <div class="titles " >
                 <h1 class="titles ">
                     ${text.text1}
                 </h1>

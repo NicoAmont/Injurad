@@ -423,7 +423,7 @@
     "municipio":"Town",
     "codigo":"Zip code",
     "pais":"Nationality",
-    "pasaporte":"Passport / DNI / NIE",
+    "pasaporte":"Numero de identificación para facturación (Passport / DNI / NIE)",
     "direccion_fac":"Billing address",
     "calleynumero":"Country",
     "calleynumero2":"City",

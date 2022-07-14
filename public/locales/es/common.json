@@ -458,7 +458,7 @@
     "municipio":"Municipio",
     "codigo":"Codigo Postal",
     "pais":"Nacionalidad",
-    "pasaporte":"Pasaporte / DNI / NIE",
+    "pasaporte":"Numero de identificación para facturación (Pasaporte, DNI, NIE)",
     "direccion_fac":"Dirección de facturación",
     "calleynumero":"Pais",
     "calleynumero2":"Ciudad",

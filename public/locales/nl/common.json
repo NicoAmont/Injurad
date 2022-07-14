@@ -67,7 +67,7 @@
     "municipio":"Plaats",
     "codigo":"Postcode",
     "pais":"Land",
-    "pasaporte":"Paspoortnummer / NIE / DNI",
+    "pasaporte":"Numero de identificación para facturación (Paspoortnummer / NIE / DNI)",
     "direccion_fac":"Factuuradres",
     "calleynumero":"Straat",
     "calleynumero2":"Huisnummer",
