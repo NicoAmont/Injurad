@@ -17,8 +17,8 @@ export default async function handler(req, res) {
         "textop3": "Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
         "textop4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
         "text5": "Debe enviarnos los documentos que le han entregado, así como realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Tu numero de solicitúd:",
-        "text7": "Datos de la Transferencia Bancaria",
+        "text6": "Código del cliente:",
+        "text7": "Datos para la transferencia bancaria",
         "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT : CAIXESBBXXX",
         "text10": "Concepto:",
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
         "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
         "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
         "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Datos de la Transferencia Bancaria",
+        "text6": "Datos para la transferencia bancaria",
         "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text7": "BIC / SWIFT : CAIXESBBXXX",
         "text8": "Concepto:",
@@ -56,8 +56,8 @@ export default async function handler(req, res) {
         "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
         "text5": "Gegevens voor de overschrijving:",
-        "text6": "Tu numero de solicitúd:",
-        "text7": "Datos de la Transferencia Bancaria",
+        "text6": "Código del cliente:",
+        "text7": "Datos para la transferencia bancaria",
         "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT: CAIXESBBXXX",
         "text10": "Vergeet niet het betalingskenmerk te vermelden:",
@@ -140,7 +140,7 @@ export default async function handler(req, res) {
         const emailRes = await transporter.sendMail({
             from: process.env.email,
             to: email_direction,
-            subject: `Contact form submission from ${name}`,
+            subject: `cd&cc || cd$rc form submission from ${name}`,
             html: `
             <html lang="en">
             <head>

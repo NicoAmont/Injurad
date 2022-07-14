@@ -14,8 +14,8 @@ export default async function handler(req, res) {
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-      "text6": "Tu numero de solicitúd:",
-      "text7": "Datos de la Transferencia Bancaria",
+      "text6": "Código del cliente:",
+      "text7": "Datos para la transferencia bancaria",
       "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text9": "BIC / SWIFT : CAIXESBBXXX",
       "text10": "Concepto:",
@@ -34,7 +34,7 @@ export default async function handler(req, res) {
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-      "text6": "Datos de la Transferencia Bancaria",
+      "text6": "Datos para la transferencia bancaria",
       "text6": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text7": "BIC / SWIFT : CAIXESBBXXX",
       "text8": "Concepto:",
@@ -53,8 +53,8 @@ export default async function handler(req, res) {
       "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
       "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
       "text5": "Gegevens voor de overschrijving:",
-      "text6": "Tu numero de solicitúd:",
-      "text7": "Datos de la Transferencia Bancaria",
+      "text6": "Código del cliente:",
+      "text7": "Datos para la transferencia bancaria",
       "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text9": "BIC / SWIFT: CAIXESBBXXX",
       "text10": "Vergeet niet het betalingskenmerk te vermelden:",
@@ -103,17 +103,23 @@ export default async function handler(req, res) {
             *{
               font-family: Helvetica;
               -webkit-font-smoothing: antialiased;
+              font-size: 16px ;
               box-sizing: border-box;
+              justify-items: center;
             }
             .container{
               display:grid;
+              justify-items: center;
               height:100%;
               width:100%;
+              background-color:#EBEBEB;
             }        
+            
             .container-text {
               display:grid;
               justify-items: center;
-              width: 100%;
+              background-color:#fff;
+              width: auto;
               height: 100%;
               padding-left:0.2rem;
               
@@ -122,7 +128,7 @@ export default async function handler(req, res) {
             }
             .container_subtext{
               display: grid;
-              width: 100%;
+              width: auto;
               height: 100%;
             }
             @media (min-width:365px ){    
@@ -145,7 +151,7 @@ export default async function handler(req, res) {
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              width: 100%;
+              width: auto;
               height: 100%;
               color: #fff;
               margin-top:10px;
@@ -221,78 +227,81 @@ export default async function handler(req, res) {
       
         </head>
         <body>
-          
-      
-            <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
-            <div class="container-text" >
-              <h1 class="titles ">
-                ${text.text1}
-              </h1>
-              <div class="container_subtext">
-      
-                <p>
-                ${text.text2} 
+          <div class="container">
+          <div class="container-text" >
+          <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
+          <div class="container_subtext">
+
+            <h1 class="titles ">
+              ${text.text1}
+            </h1>
+  
+            <p>
+            ${text.text2} 
+            </p>
+            <p>
+            ${text.text3}
+            </p>
+            <p>
+            ${text.text4}
+            </p>
+            <p>
+            ${text.text5}
+            </p>
+  
+            <div class="container_codigo">
+              <div class="container_codigo_text">
+                <div class="linea_blanca"></div>
+                <div class="text_numero_activacion">
+                  <h2 class="text_numero_activacion">${text.text6}</h2>
+                  <h2 class="text_numero_activacion">${codigo}</h2>
+                </div>
+              </div>
+            </div>
+  
+            <div class="container_codigo">
+              <div class="container_factura_text">
+                
+                <h2 class="titulo_factura">${text.text7} </h2>
+                <div class="container2-text_factura">
+                  <h2 class="texto_factura">${text.text8}</h2>
+                  <h2 class="texto_factura">${text.text9}</h2>
+                  <h2 class="texto_factura">${text.text10}    ${codigo} </h2>
+                  <h2 class="texto_factura">${text.text11} € ${precio}</h2>
+                  <img  url="https://res.cloudinary.com/lewt-copr/image/upload/v1656436556/Logo_blanco_oppmzx.png">
+                </div>
+                <p>${text.text12}</p>
+                <p style="width: 100%; height:auto;"${text.text13}
                 </p>
-                <p>
-                ${text.text3}
-                </p>
-                <p>
-                ${text.text4}
-                </p>
-                <p>
-                ${text.text5}
-                </p>
-      
-                <div class="container_codigo">
-                  <div class="container_codigo_text">
+              </div>
+            </div>
+            <div class="container_codigo">
+              <div class="container_botones">
+                
+                <a class="container_codigo_text center_text" href = "mailto:finanzas@injurad.com">
                     <div class="linea_blanca"></div>
-                    <div class="text_numero_activacion">
-                      <h2 class="text_numero_activacion">${text.text6}</h2>
-                      <h2 class="text_numero_activacion">${codigo}</h2>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="container_codigo">
-                  <div class="container_factura_text">
-                    
-                    <h2 class="titulo_factura">${text.text7} </h2>
-                    <div class="container2-text_factura">
-                      <h2 class="texto_factura">${text.text8}</h2>
-                      <h2 class="texto_factura">${text.text9}</h2>
-                      <h2 class="texto_factura">${text.text10}    ${codigo} </h2>
-                      <h2 class="texto_factura">${text.text11} € ${precio}</h2>
-                      <img  url="https://res.cloudinary.com/lewt-copr/image/upload/v1656436556/Logo_blanco_oppmzx.png">
-                    </div>
-                    <p>${text.text12}</p>
-                    <p style="width: 100%; height:auto;"${text.text13}
-                    </p>
-                  </div>
-                </div>
-                <div class="container_codigo">
-                  <div class="container_botones">
-                    
-                    <a class="container_codigo_text center_text" href = "mailto:fianzas@injurad.com">
-                        <div class="linea_blanca"></div>
-                        <h2 class="text_numero_activacion ">${text.text14}</h2>
-                    </a>
-                    <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
-                        <div class="linea_blanca"></div>
-                        <h2 class="text_numero_activacion ">${text.text15}</h2>
-                    </a>
-                  </div>
-                  
-                  
-                  <p style="font-size: 12px; font-weight:normal;">${text.text16}</p>
-                  
-                  <p style="font-size: 12px; font-weight:normal; color:#509C22;">${text.text17}</p>
-                </div>
-                
-                
+                    <h2 class="text_numero_activacion ">${text.text14}</h2>
+                </a>
+                <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
+                    <div class="linea_blanca"></div>
+                    <h2 class="text_numero_activacion ">${text.text15}</h2>
+                </a>
               </div>
               
+              
+              <p style="font-size: 12px; font-weight:normal;">${text.text16}</p>
+              
+              <p style="font-size: 12px; font-weight:normal; color:#509C22;">${text.text17}</p>
             </div>
+            
+            
+          </div>
           
+        </div>
+      
+          </div>
+
+            
         </body>
       </html>
         `,
