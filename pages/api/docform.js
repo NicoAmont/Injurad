@@ -226,11 +226,11 @@ export default async function handler(req, res) {
         </head>
         <body>
           <div class="container">
-          <div class="titles " >
+          <div class="container_text " >
           <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
           <div class="container_subtext">
 
-            <h1 class="titles " >
+            <h1 class="container_text " >
               ${text.text1}
             </h1>
   
