@@ -226,7 +226,7 @@ export default async function handler(req, res) {
         </head>
         <body>
           <div class="container">
-          <div class="container_text " >
+          <div class="container-text " >
           <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
           <div class="container_subtext">
 
