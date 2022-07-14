@@ -119,7 +119,7 @@ export default async function handler(req, res) {
               display:grid;
               justify-items: center;
               background-color:#fff;
-              width: auto;
+              width: 50%;
               height: 100%;
               padding-left:0.2rem;
               
@@ -131,11 +131,7 @@ export default async function handler(req, res) {
               width: auto;
               height: 100%;
             }
-            @media (min-width:365px ){    
-              .container_subtext{
-                width: 50%;
-              }
-            }
+            
             .titles{
               color:#326754;
               letter-spacing:1px;
