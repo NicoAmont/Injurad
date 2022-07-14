@@ -128,6 +128,11 @@ export default async function handler(req, res) {
               margin-top: 20px;
               margin:auto;
             }
+            @media (min-width:365px ){    
+              .container-text{
+                width: 90%;
+              }
+            }
             .container_subtext{
               display: grid;
               width: auto;
