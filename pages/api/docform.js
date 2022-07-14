@@ -116,7 +116,7 @@ export default async function handler(req, res) {
               background-color:#EBEBEB;
             }        
             
-            .container-text {
+            .container-text{
               display:grid;
               justify-items: center;
               background-color:#fff;
@@ -226,11 +226,11 @@ export default async function handler(req, res) {
         </head>
         <body>
           <div class="container">
-          <div class="container_text " >
+          <div class="container-text " >
           <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
           <div class="container_subtext">
 
-            <h1 class="container_text " >
+            <h1 class="container_subtext " >
               ${text.text1}
             </h1>
   
