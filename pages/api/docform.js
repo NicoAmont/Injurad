@@ -120,7 +120,7 @@ export default async function handler(req, res) {
               display:grid;
               justify-items: center;
               background-color:#fff;
-              width: 50%;
+              width: 90%;
               height: 100%;
               padding-left:0.2rem;
               font-size: 16px ;
@@ -130,7 +130,7 @@ export default async function handler(req, res) {
             }
             @media (min-width:365px ){    
               .container-text{
-                width: 90%;
+                width: 50%;
               }
             }
             .container_subtext{
