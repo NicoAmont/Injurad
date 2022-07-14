@@ -112,6 +112,7 @@ export default async function handler(req, res) {
               align-items: center;
               height:100%;
               width:100%;
+              padding: 20px 0px;
               background-color:#EBEBEB;
             }        
             
@@ -125,6 +126,7 @@ export default async function handler(req, res) {
               font-size: 16px ;
               padding: 40px;
               margin-top: 20px;
+              margin:auto;
             }
             .container_subtext{
               display: grid;
