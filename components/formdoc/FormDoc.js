@@ -339,30 +339,53 @@ export default function FormDoc() {
                 </label>
             </div>
         </div>
+        <div className="grid xl:grid-cols-2 xl:gap-6">
             
-        <div className="relative z-0 mb-6 w-full group">
-            <select 
-                name="step_process"
-                {...register('step_process', { required: true })}
-                id="floating_last_name" 
-                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
-                placeholder=" " 
-                required
-            >
-                <option selected disabled>{t("form_data3")}</option>
-                <option>{t("stepform1b")} {t("iva1b")}</option>
-                <option>{t("stepform1b2")} {t("iva2b")}</option>
-                <option>{t("other")} </option>
-                <option>{t("other2")} </option>
-            </select>
-            <label 
-                htmlhtmlfor="floating_last_name" 
-                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
-                
-            </label>
-        
+            <div className="relative z-0 mb-6 w-full group">
+                <input 
+                    type="number" 
+                    name="valor_inm" 
+                    {...register('valor_inm', { 
+                        required: true,
+                        maxLength: 40,
+                        message: 'Escribe no más de 11 caracteres'
+                        })}
+                    id="valor_inm" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required 
+                />
+                <label 
+                    htmlFor="valor_inm" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    Valor del inmueble (ej : 250000)
+                </label>
+            </div>
+            <div className="relative z-0 mb-6 w-full group">
+                <select 
+                    name="step_process"
+                    {...register('step_process', { required: true })}
+                    id="floating_last_name" 
+                    className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-bg2 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer bg-bgrS2 bg-opacity-10" 
+                    placeholder=" " 
+                    required
+                >
+                    <option selected disabled>{t("form_data3")}</option>
+                    <option>{t("stepform1b")} {t("iva1b")}</option>
+                    <option>{t("stepform1b2")} {t("iva2b")}</option>
+                    <option>{t("other")} </option>
+                    <option>{t("other2")} </option>
+                </select>
+                <label 
+                    htmlhtmlfor="floating_last_name" 
+                    className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                    
+                </label>
+            </div>
         </div>
+        
         
         <button 
             className="m-auto  bg-bg2 text-bgr w-48 py-2 flex items-center justify-center mt-10 hover:bg-sl transition-all duration-150 relative z-10 "
