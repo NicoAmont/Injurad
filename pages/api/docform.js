@@ -109,7 +109,7 @@ export default async function handler(req, res) {
             }
             .container{
               display:grid;
-              justify-items: center;
+              align-items: center;
               height:100%;
               width:100%;
               background-color:#EBEBEB;
@@ -122,8 +122,8 @@ export default async function handler(req, res) {
               width: 50%;
               height: 100%;
               padding-left:0.2rem;
-              
-              padding-left: 25px;
+              font-size: 16px ;
+              padding: 40px;
               margin-top: 20px;
             }
             .container_subtext{
@@ -140,7 +140,7 @@ export default async function handler(req, res) {
             }
             p,.text_contain{
               color:#326754;
-              font-size:18px;
+              font-size:16px;
             }
             .container_codigo{
               display: grid;
