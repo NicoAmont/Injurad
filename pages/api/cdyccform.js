@@ -150,124 +150,128 @@ export default async function handler(req, res) {
             <title>Document</title>
         
             <style>
-                *{
-                font-family: Helvetica;
-                -webkit-font-smoothing: antialiased;
-                box-sizing: border-box;
-                }
-                .container{
-                display:grid;
-                height:100%;
-                width:100%;
-                }        
-                .container-text {
-                display:grid;
-                justify-items: center;
-                width: 100%;
-                height: 100%;
-                padding-left:0.2rem;
-                
-                padding-left: 25px;
-                margin-top: 20px;
-                }
-                .container_subtext{
-                display: grid;
-                width: 100%;
-                height: 100%;
-                }
-                @media (min-width:720px ){    
-                .container_subtext{
-                    width: 50%;
-                }
-                }
-                .titles{
-                color:#326754;
-                letter-spacing:1px;
-                font-size: 24px;
-                
-                }
-                p,.text_contain{
-                color:#326754;
-                font-size:18px;
-                }
-                .container_codigo{
-                display: grid;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: 100%;
-                color: #fff;
-                margin-top:10px;
-                }
-                .container_codigo_text{
-                display: grid;
-                place-content:center;
-                place-items:center;
-                margin: auto;
-                width: auto;
-                height: auto;
-                padding: 5px 35px;
-                border-radius: 15px ;
-                position: relative;
-                background-color:#264F3F;
-                color: #fff;
-                }
-                .container_botones{
-                width: 60%;
-                padding-bottom: 16px;
-                margin:auto;
-                justify-content: space-evenly;
-                text-align: center;
-                align-items: center;
-                }
-                .container_factura_text{
-                width: auto;
-                color: #17533c3a;
-                }
-                .container2-text_factura{
-                width: 100%;
-                background-color: #17533c3a;
-                padding: 5px 25px;
-                }
-                .linea_blanca{
-                background-color:#fff;
-                width: 5px;
-                height: 80%;
-                position: absolute;
-                left: 10px;
-                top:  15px;
-                border-radius: 15px;
-                }
-                .text_numero_activacion{
-                width:auto;
-                font-size: 16px;
-                font-weight: normal;
-                color:white;
-                }
-                .titulo_factura{
-                width: 100%;
-                background-color: rgba(3, 15, 4, 0.678);
-                color: #E5AE35;
-                padding: 20px 25px;
-                font-size: 16px;
-                font-weight: bold;
-                }
-                .texto_factura{
-                width: 100%;
-                color: #17533ce1;
-                font-size: 16px;
-                font-weight: normal;
-                
-                }
-                .center_text{
-                margin: auto;
-                justify-content: center;
-                text-align: center;
-                align-items: center;
-                text-decoration: none;
-                }
-            </style>
+            *{
+              font-family: Helvetica;
+              -webkit-font-smoothing: antialiased;
+              font-size: 16px ;
+              box-sizing: border-box;
+              justify-items: center;
+            }
+            .container{
+              display:grid;
+              align-items: center;
+              height:100%;
+              width:100%;
+              padding: 20px 0px;
+              background-color:#EBEBEB;
+            }        
+            
+            .container-text {
+              display:grid;
+              justify-items: center;
+              background-color:#fff;
+              width: 50%;
+              height: 100%;
+              padding-left:0.2rem;
+              font-size: 16px ;
+              padding: 40px;
+              margin-top: 20px;
+              margin:auto;
+            }
+            .container_subtext{
+              display: grid;
+              width: auto;
+              height: 100%;
+            }
+            
+            .titles{
+              color:#326754;
+              letter-spacing:1px;
+              font-size: 24px;
+              
+            }
+            p,.text_contain{
+              color:#326754;
+              font-size:16px;
+            }
+            .container_codigo{
+              display: grid;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: auto;
+              height: 100%;
+              color: #fff;
+              margin-top:10px;
+            }
+            .container_codigo_text{
+              display: grid;
+              place-content:center;
+              place-items:center;
+              margin: auto;
+              width: auto;
+              height: auto;
+              padding: 5px 35px;
+              border-radius: 15px ;
+              position: relative;
+              background-color:#264F3F;
+              color: #fff;
+            }
+            .container_botones{
+              width: 60%;
+              padding-bottom: 16px;
+              margin:auto;
+              justify-content: space-evenly;
+              text-align: center;
+              align-items: center;
+            }
+            .container_factura_text{
+              width: auto;
+              color: #17533c3a;
+            }
+            .container2-text_factura{
+              width: 100%;
+              background-color: #17533c3a;
+              padding: 5px 25px;
+            }
+            .linea_blanca{
+              background-color:#fff;
+              width: 5px;
+              height: 80%;
+              position: absolute;
+              left: 10px;
+              top:  15px;
+              border-radius: 15px;
+            }
+            .text_numero_activacion{
+              width:auto;
+              font-size: 16px;
+              font-weight: normal;
+              color:white;
+            }
+            .titulo_factura{
+              width: 100%;
+              background-color: rgba(3, 15, 4, 0.678);
+              color: #E5AE35;
+              padding: 20px 25px;
+              font-size: 16px;
+              font-weight: bold;
+            }
+            .texto_factura{
+              width: 100%;
+              color: #17533ce1;
+              font-size: 16px;
+              font-weight: normal;
+              
+            }
+            .center_text{
+              margin: auto;
+              justify-content: center;
+              text-align: center;
+              align-items: center;
+              text-decoration: none;
+            }
+          </style>
         
             </head>
             <body>

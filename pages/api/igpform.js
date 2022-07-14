@@ -116,33 +116,37 @@ export default async function handler(req, res) {
             *{
               font-family: Helvetica;
               -webkit-font-smoothing: antialiased;
+              font-size: 16px ;
               box-sizing: border-box;
+              justify-items: center;
             }
             .container{
               display:grid;
+              align-items: center;
               height:100%;
               width:100%;
+              padding: 20px 0px;
+              background-color:#EBEBEB;
             }        
+            
             .container-text {
               display:grid;
               justify-items: center;
-              width: 100%;
+              background-color:#fff;
+              width: 50%;
               height: 100%;
               padding-left:0.2rem;
-              
-              padding-left: 25px;
+              font-size: 16px ;
+              padding: 40px;
               margin-top: 20px;
+              margin:auto;
             }
             .container_subtext{
               display: grid;
-              width: 100%;
+              width: auto;
               height: 100%;
             }
-            @media (min-width:365px ){    
-              .container_subtext{
-                width: 50%;
-              }
-            }
+            
             .titles{
               color:#326754;
               letter-spacing:1px;
@@ -151,14 +155,14 @@ export default async function handler(req, res) {
             }
             p,.text_contain{
               color:#326754;
-              font-size:18px;
+              font-size:16px;
             }
             .container_codigo{
               display: grid;
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              width: 100%;
+              width: auto;
               height: 100%;
               color: #fff;
               margin-top:10px;
