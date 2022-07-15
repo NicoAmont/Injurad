@@ -411,10 +411,10 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control < 2 documentos y Control contrato: € 169,40  (incl. iva)",
-    "other2":"Control > 2 documentos y Control contrato: € 211,75  (incl. iva)",
-    "other3":"Control < 2 documentos y Redaccion de contrato: desde € 472,00 (incl. iva)",
-    "other4":"Control > 2 documentos y Redaccion de contrato: desde € 514,25 (incl. iva)",
+    "other":"Control hasta 2 documentos + Control contrato: € 169,40  (incl. iva)",
+    "other2":"Control más de 2 documentos + Control contrato: € 211,75  (incl. iva)",
+    "other3":"Control hasta 2 documentos + Redaccion de contrato: desde € 472,00 (incl. iva)",
+    "other4":"Control más de 2 documentos + Redaccion de contrato: desde € 514,25 (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
     "email":"E-mail",
@@ -546,7 +546,7 @@
     "card_infobtn":"learn more ...",
     
     "mensaje_enviadotit":"Thank you for your confidence in Injurad",
-    "mensaje_enviadotext":"En breve nos contactaremos",
+    "mensaje_enviadotext":"",
     "mensaje_enviado_btn":"Volver al inicio",
 
     "lang":"en"
