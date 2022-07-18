@@ -129,17 +129,22 @@ export default async function handler(req, res) {
               background-color:#EBEBEB;
             }        
             
-            .container-text {
+            .container-text{
               display:grid;
               justify-items: center;
               background-color:#fff;
-              width: 50%;
+              width: 90%;
               height: 100%;
               padding-left:0.2rem;
               font-size: 16px ;
               padding: 40px;
               margin-top: 20px;
               margin:auto;
+            }
+            @media (min-width:365px ){    
+              .container-text{
+                width: 50%;
+              }
             }
             .container_subtext{
               display: grid;
@@ -238,13 +243,14 @@ export default async function handler(req, res) {
       
         </head>
         <body>
-          
-      
-            <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
-            <div class="container_text " >
-              <h1 class="container_text ">
-                ${text.text1}
-              </h1>
+          <div class="container">
+          <div class="container-text " >
+          <img src="https://res.cloudinary.com/lewt-copr/image/upload/v1656302423/injurad_sflh0t.png" alt="">
+          <div class="container_subtext">
+
+            <h1 class="titles " >
+              ${text.text1}
+            </h1>
               <div class="container_subtext">
       
                 <p>
