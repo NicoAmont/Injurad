@@ -238,7 +238,7 @@ export default async function handler(req, res) {
             <h1 class="titles " >
               ${text.text1}
             </h1>
-  
+            
             <p>
             ${text.text2} 
             </p>
@@ -251,7 +251,7 @@ export default async function handler(req, res) {
             <p>
             ${text.text5}
             </p>
-  
+
             <div class="container_codigo">
               <div class="container_codigo_text">
                 <div class="linea_blanca"></div>

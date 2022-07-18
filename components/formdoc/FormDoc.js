@@ -244,7 +244,6 @@ export default function FormDoc() {
                 </label>
             </div>
             
-            
         </div>   
         <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
