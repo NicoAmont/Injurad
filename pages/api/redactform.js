@@ -10,6 +10,7 @@ export default async function handler(req, res) {
         text = {
         "text1": "Estimado/a Usuario/a",
         "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+        "text2a": "Usted ha solicitado",
         "text3": "Firmar un contrato sea de Reserva o de Opción es un paso que aun cuando es muy delicado se suele tomar con bastante ligereza, sobre todo por parte de las inmobiliarias que tienen el mayor interés en cerrar la venta lo antes posible.",
         "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
         "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
@@ -32,6 +33,7 @@ export default async function handler(req, res) {
         text = {
             "text1": "Estimado/a Usuario/a",
             "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+            "text2a": "Usted ha solicitado",
             "text3": "Firmar un contrato sea de Reserva o de Opción es un paso que aun cuando es muy delicado se suele tomar con bastante ligereza, sobre todo por parte de las inmobiliarias que tienen el mayor interés en cerrar la venta lo antes posible.",
             "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
             "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
@@ -54,6 +56,7 @@ export default async function handler(req, res) {
         text = {
         "text1": "Beste client,",
         "text2": "Dank voor uw aanvraag. ",
+        "text2a": "Usted ha solicitado",
         "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
         "text5": "Gegevens voor de overschrijving:",
@@ -273,6 +276,9 @@ export default async function handler(req, res) {
         
                     <p>
                     ${text.text2} 
+                    </p>
+                    <p>
+                    ${text.text2a} ${step_process} 
                     </p>
                     <p>
                     ${text.text3}

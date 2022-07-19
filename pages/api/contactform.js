@@ -11,6 +11,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Un chequeo de contrato es la manera más rápida, segura y discreta de controlar que efectivamente el documento corresponde al acuerdo que tiene con el vendedor y que el pacto que se formalizará es equilibrado y justo para las partes, así como que contenga las cláusulas que dejan claro las condiciones en las que se consumará el acuerdo.",
       "text4": "Tanto el análisis como el informe lo elabora un abogado, a partir de contrastar el contrato propuesto con nuestro modelo básico que contiene todas las cláusulas que son necesarias para dar la mayor seguridad jurídica a las partes, le servirá para exigir las correcciones y también para asegurarse de que esta bien asesorado.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
@@ -31,6 +32,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
@@ -50,6 +52,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Beste client,",
       "text2": "Dank voor uw aanvraag. ",
+      "text2a": "Usted ha solicitado",
       "text3": "De controle van het contract is een snelle en discrete manier om te controleren of de afspraken die u met de verkoper heeft gemaakt juist zijn geformuleerd. Bevat de overeenkomst alle belangrijke clausules die voor u van belang zijn en zijn er geen clausules opgenomen die uw belangen schaden. ",
       "text4": "De analyse en het rapport worden uitgevoerd door een advocaat. Deze zal het voorgestelde contract toetsten aan de modelovereenkomst van Injurad, welke is ontwikkeld om maximale zekerheid te bieden. Het rapport kunt u gebruiken om indien nodig aanpassingen te laten doen aan het contract.",
       "text5": "Gegevens voor de overschrijving:",
@@ -242,6 +245,9 @@ export default async function handler(req, res) {
       
                 <p>
                 ${text.text2} 
+                </p>
+                <p>
+                ${text.text2a} ${step_process} 
                 </p>
                 <p>
                 ${text.text3}

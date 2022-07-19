@@ -10,6 +10,7 @@ export default async function handler(req, res) {
         text = {
         "text1": "Estimado/a Usuario/a",
         "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+        "text2a": "Usted ha solicitado",
         "text3": "Probablemente este muy cerca de cumplir su sueño de tener una vivienda en España.",
         "text4": "Con el objetivo de no perder la oportunidad de comprar la casa que ha elegido firmar un contrato puede ser una buena alternativa. Y para realizar una compraventa segura es imprescindible conocer la situación legal y urbanística del inmueble, así como firmar un contrato muy bien redactado.",
         "textop1": "Injurad esta aquí para ayudarle, el chequeo de documentos y de contrato, le dará la tranquilidad que busca, nuestros profesionales analizarán la información que hay disponible y a través de sus recomendaciones usted sabrá cómo seguir.",
@@ -34,6 +35,7 @@ export default async function handler(req, res) {
         text = {
         "text1": "Estimado/a Usuario/a",
         "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+        "text2a": "Usted ha solicitado",
         "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
         "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
         "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
@@ -53,6 +55,7 @@ export default async function handler(req, res) {
         text = {
         "text1": "Beste client,",
         "text2": "Dank voor uw aanvraag. ",
+        "text2a": "Usted ha solicitado",
         "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
         "text5": "Gegevens voor de overschrijving:",
@@ -291,6 +294,9 @@ export default async function handler(req, res) {
         
                     <p>
                     ${text.text2} 
+                    </p>
+                    <p>
+                    ${text.text2a} ${step_process} 
                     </p>
                     <p>
                     ${text.text3}

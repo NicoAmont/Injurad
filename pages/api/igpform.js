@@ -11,6 +11,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Un informe IGP es el procedimiento mediante el cual un Arquitecto y un Abogado, juntos especializados en urbanismo, examinarán los documentos del inmueble, los Planes Urbanísticos de la localidad donde esta ubicado y otros medios de información como bancos de históricos de fotos aéreas, etc. Todo ello al ser contrastado proporciona la información necesaria para saber si el inmueble aun cuando no tenga los documentos cumple las condiciones urbanística y por tanto cumple la ley o puede cumplirla en caso de haberse construido sin los permisos reglamentarios.",
       "text4": "El informe IGP viene a cumplir un papel fundamental a la hora de conseguir un due diligence completo, imparcial y confiable, principal objetivo que se debe trazar todo comprador que quiere comprar con seguridad, así como responder a las preguntas para las que todo comprador quiere respuestas:",
       "textop1": "La propiedad es legal, legalizable o ilegal?",
@@ -37,6 +38,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
@@ -56,6 +58,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Geachte cliënt,",
       "text2": "We hebben uw aanvraag in goede orde ontvangen. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Een IGP is een studie op basis van de aangeleverde documenten, waarbij een architect en een advocaat beiden gespecialiseerd in urbanismo onderzoek doen naar het plan ruimtelijke ordening dat op de woning van toepassing is, de databank met historische luchtfoto's raadplegen, de geldende wet- en regelgeving toetsen etc.",
       "text4": "Ook als een woning niet over de alle documenten beschikt, kan een antwoord worden gegeven of de woning voldoet aan het plan ruimtelijke ordening of daaraan kan voldoen ook als er gebouwd is zonder de benodigde vergunningen.",
       "textop1": "Is de woning legaal, illegaal of legaliseerbaar?",
@@ -255,6 +258,9 @@ export default async function handler(req, res) {
       
                 <p>
                 ${text.text2} 
+                </p>
+                <p>
+                ${text.text2a} ${step_process} 
                 </p>
                 <p>
                 ${text.text3}
