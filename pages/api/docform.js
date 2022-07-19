@@ -11,6 +11,7 @@ export default async function handler(req, res) {
     text = {
       "text1": "Estimado/a Usuario/a",
       "text2": "Agradecemos su correo. Hemos recibido su solicitud correctamente. ",
+      "text2a": "Usted ha solicitado",
       "text3": "Es muy sensato pedir chequear los documentos que ha recibido. La complejidad de las compraventas a veces esta en lo más simple. Los documentos pueden dar una primera vista del inmueble por el que se ha interesado. Aun cuando no podrá tener certeza de la situación legal del mismo solo con los documentos el chequeo es un paso preliminar para marcar el camino a seguir hacia una compraventa segura, sea que le han entregado todos los documentos importantes o no.",
       "text4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
@@ -238,7 +239,7 @@ export default async function handler(req, res) {
             <h1 class="titles " >
               ${text.text1}
             </h1>
-            
+
             <p>
             ${text.text2} 
             </p>

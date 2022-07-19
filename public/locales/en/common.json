@@ -401,9 +401,17 @@
     "form_reserva_quest4":"Fill the form. You will receive an email with the instructions",
 
     "form_data":"Applicant Information",
-    "form_dataB":"Datos de facturación",
+    "form_dataB":"Billing information",
     "form_data2":"Information property",
     "form_data3":"Select service",
+    "form_datavalue":"Property value (ex : 250000)",
+    "form_data4":"Property type",
+    "form_data4a":"House",
+    "form_data4b":"Apartment",
+    "form_data4c":"Finca",
+    "form_data4d":"Cortijo",
+    "form_data4e":"Plot",
+    "form_data4f":"Commercial",
 
     "form_igp_infot2":"Why check a contract with Injurad?",
     "form_reserva_info3t":"Being unable to discuss any topics",
@@ -411,10 +419,10 @@
     "form_reserva_info4t":"Accepting responsibility for fines or obligations ",
     "form_reserva_info4tinfo":"which the seller is normally responsible for.",
 
-    "other":"Control hasta 2 documentos + Control contrato: € 169,40  (incl. iva)",
-    "other2":"Control más de 2 documentos + Control contrato: € 211,75  (incl. iva)",
-    "other3":"Control hasta 2 documentos + Redaccion de contrato: desde € 472,00 (incl. iva)",
-    "other4":"Control más de 2 documentos + Redaccion de contrato: desde € 514,25 (incl. iva)",
+    "other":"Control up to 2 documents + control contract: € 169,40  (incl. iva)",
+    "other2":"Control more than 2 documents + control contract: € 211,75  (incl. iva)",
+    "other3":"Control up to 2 documents + Contract drafting: since € 472,00 (incl. iva)",
+    "other4":"Control more than 2 documents + Contract drafting: since € 514,25 (incl. iva)",
     "otherc":"Contracts",
     "otheri":"",
     "email":"E-mail",
@@ -547,8 +555,8 @@
     
     "mensaje_enviadotit":"Thank you for your confidence in Injurad",
     "mensaje_enviadotext":"",
-    "mensaje_enviado_btn":"Volver al inicio",
-
+    "mensaje_enviado_btn":"Home",
+    "btn_send":"Send",
     "lang":"en"
 
     

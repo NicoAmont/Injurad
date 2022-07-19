@@ -77,7 +77,6 @@ export default async function handler(req, res) {
     let servicio = step_process;
     let regex = servicio.split(/[€]/);
     let precio
-
     //   Calculo de valor de redaccion de contrato
     let valorInmueble
 

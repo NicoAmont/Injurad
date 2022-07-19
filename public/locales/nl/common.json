@@ -66,11 +66,11 @@
     "apellidos":"Achternaam",
     "municipio":"Plaats",
     "codigo":"Postcode",
-    "pais":"Land",
-    "pasaporte":"Numero de identificación para facturación (Paspoortnummer / NIE / DNI)",
+    "pais":"Nationaliteit",
+    "pasaporte":"Identification number for invoice ( Passport, NIE, DNI)",
     "direccion_fac":"Factuuradres",
-    "calleynumero":"Straat",
-    "calleynumero2":"Huisnummer",
+    "calleynumero":"Plaats",
+    "calleynumero2":"Land",
     "telefono":"Mobiele nummer (+01-255-456-7890)",
 
     "info_title":"Hou zelf de controle ",
@@ -423,9 +423,17 @@
 
 
     "form_data":"Gegevens aanvrager",
-    "form_dataB":"Datos de facturación",
+    "form_dataB":"Factuurgegevens",
     "form_data2":"Gegevens woning",
     "form_data3":"Maak een keuze",
+    "form_datavalue":"Eigendoms-waarde (ex : 250000)",
+    "form_data4":"Soort onroerend goed",
+    "form_data4a":"Huis",
+    "form_data4b":"Appartement",
+    "form_data4c":"Finca",
+    "form_data4d":"Cortijo",
+    "form_data4e":"Grondstuk",
+    "form_data4f":"Commercieel",
 
     "form_reserva_quest4":"Vul het formulier in. U ontvangt een mail met instructies",
     
@@ -546,7 +554,9 @@
 
     "mensaje_enviadotit":"Dank voor uw vertrouwen in Injurad",
     "mensaje_enviadotext":"",
-    "mensaje_enviado_btn":"Volver al inicio",
+    "mensaje_enviado_btn":"Terug naar de website",
+    "btn_send":"Verstuur",
+
 
     "lang":"nl"
 
