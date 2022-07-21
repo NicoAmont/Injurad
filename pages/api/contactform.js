@@ -15,7 +15,7 @@ export default async function handler(req, res) {
       "text3": "Un chequeo de contrato es la manera más rápida, segura y discreta de controlar que efectivamente el documento corresponde al acuerdo que tiene con el vendedor y que el pacto que se formalizará es equilibrado y justo para las partes, así como que contenga las cláusulas que dejan claro las condiciones en las que se consumará el acuerdo.",
       "text4": "Tanto el análisis como el informe lo elabora un abogado, a partir de contrastar el contrato propuesto con nuestro modelo básico que contiene todas las cláusulas que son necesarias para dar la mayor seguridad jurídica a las partes, le servirá para exigir las correcciones y también para asegurarse de que esta bien asesorado.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-      "text6": "Código del cliente:",
+      "text6": "Número de solicitud:",
       "text7": "Datos para la transferencia bancaria",
       "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -23,8 +23,8 @@ export default async function handler(req, res) {
       "text11": "Importe:",
       "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
       "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
-      "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-      "text15": "CARGAR DOCUMENTOS",
+      "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+      "text15": "ENVIAR DOCUMENTOS",
       "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
       "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
     }
@@ -36,7 +36,7 @@ export default async function handler(req, res) {
       "text3": "Un chequeo de contrato es la manera más rápida, segura y discreta de controlar que efectivamente el documento corresponde al acuerdo que tiene con el vendedor y que el pacto que se formalizará es equilibrado y justo para las partes, así como que contenga las cláusulas que dejan claro las condiciones en las que se consumará el acuerdo.",
       "text4": "Tanto el análisis como el informe lo elabora un abogado, a partir de contrastar el contrato propuesto con nuestro modelo básico que contiene todas las cláusulas que son necesarias para dar la mayor seguridad jurídica a las partes, le servirá para exigir las correcciones y también para asegurarse de que esta bien asesorado.",
       "text5": "Debe realizar transferencia bancaria con los siguientes datos:",
-      "text6": "Código del cliente:",
+      "text6": "Número de solicitud:",
       "text7": "Datos para la transferencia bancaria",
       "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -44,8 +44,8 @@ export default async function handler(req, res) {
       "text11": "Importe:",
       "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos vía correo electrónico el informe. Este informe además de aclararle a que corresponden los documentos le ofrece unas conclusiones y recomendaciones con las cuales podrá saber como seguir.",
       "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
-      "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-      "text15": "CARGAR DOCUMENTOS",
+      "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+      "text15": "ENVIAR DOCUMENTOS",
       "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
       "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
 
@@ -58,7 +58,7 @@ export default async function handler(req, res) {
       "text3": "De controle van het contract is een snelle en discrete manier om te controleren of de afspraken die u met de verkoper heeft gemaakt juist zijn geformuleerd. Bevat de overeenkomst alle belangrijke clausules die voor u van belang zijn en zijn er geen clausules opgenomen die uw belangen schaden. ",
       "text4": "De analyse en het rapport worden uitgevoerd door een advocaat. Deze zal het voorgestelde contract toetsten aan de modelovereenkomst van Injurad, welke is ontwikkeld om maximale zekerheid te bieden. Het rapport kunt u gebruiken om indien nodig aanpassingen te laten doen aan het contract.",
       "text5": "Gegevens voor de overschrijving:",
-      "text6": "Código del cliente:",
+      "text6": "Número de solicitud:",
       "text7": "Datos para la transferencia bancaria",
       "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
       "text9": "BIC / SWIFT: CAIXESBBXXX",
@@ -212,7 +212,7 @@ export default async function handler(req, res) {
             .titulo_factura{
               width: 100%;
               background-color: rgba(3, 15, 4, 0.678);
-              color: #E5AE35;
+              color: #fff;
               padding: 20px 25px;
               font-size: 16px;
               font-weight: bold;

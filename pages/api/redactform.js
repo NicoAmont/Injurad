@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
         "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
         "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Código del cliente:",
+        "text6": "Número de solicitud:",
         "text7": "Datos para la transferencia bancaria",
         "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -24,8 +24,8 @@ export default async function handler(req, res) {
         "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. ",
         "text13": "Enviaremos comunicación del encargo al abogado que resulte asignado. En un plazo no mayor a dos días laborables le enviaremos la propuesta vía correo electrónico para su aprobación. Esta propuesta será la que el abogado presente al vendedor e intentará que se firme tal como está. Una vez finalizada la negociación le informará la fecha de firma y los demás pasos a seguir.",
         "text132": "En caso de que no sea aceptada o se soliciten cambios siempre su abogado mantendrá comunicación con usted por escrito, hasta donde sea posible conseguir un acuerdo.",
-        "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-        "text15": "CARGAR DOCUMENTOS",
+        "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+        "text15": "ENVIAR DOCUMENTOS",
         "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
         "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
         }
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
             "text4": "Delegar esta tarea a un experto que se mantenga independiente es la mejor opción.",
             "text5": "Es sabio que haya elegido Injurad. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
             "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
-            "text6": "Código del cliente:",
+            "text6": "Número de solicitud:",
             "text7": "Datos para la transferencia bancaria",
             "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
             "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -47,8 +47,8 @@ export default async function handler(req, res) {
             "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. ",
             "text13": "Enviaremos comunicación del encargo al abogado que resulte asignado. En un plazo no mayor a dos días laborables le enviaremos la propuesta vía correo electrónico para su aprobación. Esta propuesta será la que el abogado presente al vendedor e intentará que se firme tal como está. Una vez finalizada la negociación le informará la fecha de firma y los demás pasos a seguir.",
             "text132": "En caso de que no sea aceptada o se soliciten cambios siempre su abogado mantendrá comunicación con usted por escrito, hasta donde sea posible conseguir un acuerdo.",
-            "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-            "text15": "CARGAR DOCUMENTOS",
+            "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+            "text15": "ENVIAR DOCUMENTOS",
             "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
             "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
             }
@@ -61,7 +61,7 @@ export default async function handler(req, res) {
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
         "text5": "Gegevens voor de overschrijving:",
         "text52": "Debe enviarnos los documentos que le han entregado y realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Código del cliente:",
+        "text6": "Número de solicitud:",
         "text7": "Datos para la transferencia bancaria",
         "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT: CAIXESBBXXX",
@@ -241,7 +241,7 @@ export default async function handler(req, res) {
             .titulo_factura{
               width: 100%;
               background-color: rgba(3, 15, 4, 0.678);
-              color: #E5AE35;
+              color: #fff;
               padding: 20px 25px;
               font-size: 16px;
               font-weight: bold;

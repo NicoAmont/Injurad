@@ -18,7 +18,7 @@ export default async function handler(req, res) {
         "textop3": "Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
         "textop4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
         "text5": "Debe enviarnos los documentos que le han entregado, así como realizar transferencia bancaria con los siguientes datos:",
-        "text6": "Código del cliente:",
+        "text6": "Número de solicitud:",
         "text7": "Datos para la transferencia bancaria",
         "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -26,8 +26,8 @@ export default async function handler(req, res) {
         "text11": "Importe:",
         "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos el informe vía correo electrónico.",
         "text13": "",
-        "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-        "text15": "CARGAR DOCUMENTOS",
+        "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+        "text15": "ENVIAR DOCUMENTOS",
         "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
         "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
         }
@@ -43,7 +43,7 @@ export default async function handler(req, res) {
           "textop3": "Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
           "textop4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
           "text5": "Debe enviarnos los documentos que le han entregado, así como realizar transferencia bancaria con los siguientes datos:",
-          "text6": "Código del cliente:",
+          "text6": "Número de solicitud:",
           "text7": "Datos para la transferencia bancaria",
           "text8": "No. De cuenta:  LA CAIXA ES96 2100 4776 7401 0013 5515",
           "text9": "BIC / SWIFT : CAIXESBBXXX",
@@ -51,8 +51,8 @@ export default async function handler(req, res) {
           "text11": "Importe:",
           "text12": "En cuanto hayamos recibido los documentos y el justificante de pago, procederemos a poner en marcha el trabajo. En un plazo no mayor a dos días le enviaremos el informe vía correo electrónico.",
           "text13": "",
-          "text14": "CARGAR JUSTIFICANTE TRANSFERENCIA ",
-          "text15": "CARGAR DOCUMENTOS",
+          "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
+          "text15": "ENVIAR DOCUMENTOS",
           "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
           "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
         }
@@ -63,8 +63,12 @@ export default async function handler(req, res) {
         "text2a": "Usted ha solicitado",
         "text3": "Verstandig dat u de documenten laat controleren. De documenten geven een eerste indruk van de woning. In Spanje zijn documenten echter niet voldoende om zekerheid te krijgen, maar deze controle is een eerste stap naar een veilige aankoop. Zijn alle belangrijke documenten aangeleverd of niet? ",
         "text4": "Zorg ervoor dat de verkoper of tussenpersoon u alle documenten heeft gegeven die ze hebben. Kies op basis van het aantal documenten de juiste service.",
+        "textop1": "Injurad esta aquí para ayudarle, el chequeo de documentos y de contrato, le dará la tranquilidad que busca, nuestros profesionales analizarán la información que hay disponible y a través de sus recomendaciones usted sabrá cómo seguir.",
+        "textop2": "Igualmente si es usted quién quiere proponer un contrato es muy sensato pedir ayuda a Injurad, delegar esta tarea a un experto que se mantenga independiente es la mejor opción. Después de todo, nuestros contratos fueron establecidos por el centro de conocimiento de Injurad, en el que abogados y arquitectos trabajan juntos. ",
+        "textop3": "Con nuestros contratos está garantizado que contendrá todas las cláusulas que son importantes para usted como comprador, así como ninguna cláusula que perjudique sus intereses. Su contrato está en buenas manos con nosotros.",
+        "textop4": "Rogamos se aseguré con el vendedor o el intermediario que le han dado todos los documentos que poseen y que ha elegido el servicio según la cantidad de documentos que tiene.",
         "text5": "Gegevens voor de overschrijving:",
-        "text6": "Código del cliente:",
+        "text6": "Número de solicitud:",
         "text7": "Datos para la transferencia bancaria",
         "text8": "Rekeningnummer begunstigde: LA CAIXA ES96 2100 4776 7401 0013 5515",
         "text9": "BIC / SWIFT: CAIXESBBXXX",
@@ -264,7 +268,7 @@ export default async function handler(req, res) {
             .titulo_factura{
               width: 100%;
               background-color: rgba(3, 15, 4, 0.678);
-              color: #E5AE35;
+              color: #fff;
               padding: 20px 25px;
               font-size: 16px;
               font-weight: bold;
