@@ -264,6 +264,7 @@ export default async function handler(req, res) {
               font-size: 16px;
               font-weight: normal;
               color:white;
+              margin:auto;
             }
             .titulo_factura{
               width: 100%;
