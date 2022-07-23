@@ -28,6 +28,8 @@ export default async function handler(req, res) {
         "text13": "",
         "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
         "text15": "ENVIAR DOCUMENTOS",
+        "text15a": "Cordial saludo,",
+        "text15b": "Equipo Injurad",
         "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
         "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
         }
@@ -53,6 +55,8 @@ export default async function handler(req, res) {
           "text13": "",
           "text14": "ENVIAR JUSTIFICANTE TRANSFERENCIA ",
           "text15": "ENVIAR DOCUMENTOS",
+          "text15a": "Cordial saludo,",
+          "text15b": "Equipo Injurad",
           "text16": "Este correo electrónico y, en su caso, cualquier fichero anexo al mismo se dirige exclusivamente a su destinatario y puede contener información privilegiada o confidencial. Si no es Ud. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Si ha recibido este mensaje por error, le rogamos que nos lo comunique inmediatamente por esta misma vía y proceda a su destrucción.",
           "text17": "Antes de imprimir este mensaje, asegúrese de que es necesario. Piense en su compromiso con el MEDIO AMBIENTE. Si necesita imprimirlo, hágalo por las dos caras siempre que sea posible. INJURAD apuesta por un uso eficiente de los recursos.",
         }
@@ -78,6 +82,8 @@ export default async function handler(req, res) {
         "text13": "El comprobante del deposito debe enviarlo junto con los documentos que le han entregado en el siguiente link. Este envío será requisito para el inicio de los trabajos.",
         "text14": "BETALINGSBEWIJS STUREN",
         "text15": "DOCUMENTEN VERSTUREN",
+        "text15a": "Cordial saludo,",
+        "text15b": "Equipo Injurad",
         "text16": "Deze e-mail en, in voorkomend geval, elk eraan toegevoegd bestand is uitsluitend gericht aan de ontvanger en kan persoonlijke en/of vertrouwelijke informatie bevatten. Indien deze mail niet voor u bestemd is, delen wij u mede dat ongeoorloofd gebruik, openbaarmaking en/of kopiëren wettelijk verboden is. Als u dit bericht abusievelijk heeft ontvangen, gelieve ons daarvan per ommegaande op de hoogte te brengen en dit bericht te vernietigen. ",
         "text17": "Print deze mail niet uit als dat niet nodig is, denk aan het milieu.",
         }
@@ -98,6 +104,7 @@ export default async function handler(req, res) {
         let regex2 = valorInmueble.split(/[.]/);
         let ValorInmuNumber = Number(regex2.join(''))
         
+        console.log(ValorInmuNumber+"A")
         let menosDeDosContratos = 48.50
         let masDeDosContratos = 90.75
 
@@ -113,23 +120,28 @@ export default async function handler(req, res) {
         let preciototalCDyRC = preciosubtotal + menosDeDosContratos
         let preciototal2CDyRC = preciosubtotal + masDeDosContratos
         let preciototal2 = 423.50 
-        let documentCondition = step_process.includes("471,90");
-        let documentCondition2 = step_process.includes("514,25");
+        let documentCondition = step_process.includes("169,40");
+        let documentCondition2 = step_process.includes("211,75");
+        
         if(documentCondition){
-            if(ValorInmuNumber <= 350000){
-                precio = preciototal2 + menosDeDosContratos
-            }else{
-                precio = preciototalCDyRC.toFixed(2).toLocaleString()
-            }
+          if(ValorInmuNumber <= 350000){
+            precio = preciototal2 + menosDeDosContratos
+          }else{
+            precio = preciototalCDyRC.toFixed(2).toLocaleString()
+          }
+          console.log(precio+"1a")
         }else if(documentCondition2){
             if(ValorInmuNumber <= 350000){
                 precio = preciototal2 + masDeDosContratos
             }else{
-                precio = preciototal2CDyRC.toFixed(2).toLocaleString()
+              precio = preciototal2CDyRC.toFixed(2).toLocaleString()
             }
+            console.log(precio+"1b")
 
         }
-    }else{
+        
+      }else{
+        console.log(precio+"2")
         precio = regex[regex.length-1];
     }
         
@@ -367,9 +379,11 @@ export default async function handler(req, res) {
                         <a class="container_codigo_text center_text" style="margin-top:20px" href = "mailto:office@injurad.com">
                             <div class="linea_blanca"></div>
                             <h2 class="text_numero_activacion ">${text.text15}</h2>
-                        </a>
+                          </a>
                     </div>
                     
+                    <p>${text.text15a}</p>
+                    <p>${text.text15b}</p>
                     
                     <p style="font-size: 12px; font-weight:normal;">${text.text16}</p>
                     
